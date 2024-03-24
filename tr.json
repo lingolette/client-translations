@@ -1,0 +1,304 @@
+{
+  "translation": {
+    "offerLocalized": "Tarayıcınız {{lngName}} versiyonuna uygun ancak siz {{lngName2}} sürümünü kullanıyorsunuz. {{lngName}}'a geçmek ister misiniz?",
+    "buttons": {
+      "yes": "Evet",
+      "no": "Hayır",
+      "ok": "Tamam",
+      "cancel": "İptal",
+      "save": "Kaydet",
+      "delete": "Sil",
+      "preview": "Önizleme",
+      "subscribe": "Abone Ol",
+      "unsubscribe": "Abonelikten Çık",
+      "signUp": "Kaydol",
+      "signIn": "Giriş Yap",
+      "mute": "Sessizleştir",
+      "unmute": "Sessizi Kaldır",
+      "restart": "Yeniden Başlat",
+      "complete": "Tamamla",
+      "back": "Geri",
+      "send": "Gönder",
+      "next": "İleri",
+      "done": "Tamamlandı",
+      "close": "Kapat"
+    },
+    "UI": {
+      "messageBox": {
+        "oops": "Hata!",
+        "alertTitle": "Lingolette",
+        "confirmTitle": "Emin misiniz?"
+      }
+    },
+    "header": {
+      "btnCTA": "Panel",
+      "freeStuff": "Günlük Makaleler"
+    },
+    "footer": {
+      "copyright": "Tüm hakları saklıdır.",
+      "links1Header": "Şirketler İçin",
+      "links2Header": "Bireyler İçin",
+      "terms": "Kullanım Şartları",
+      "privacy": "Gizlilik Politikası",
+      "freeStuff": "Günlük Makaleler",
+      "apiManual": "API Kılavuzu"
+    },
+    "home": {
+      "heroHead": [
+        "Dil<span> </span>",
+        "<span>öğreten</span> makine"
+      ],
+      "heroSubhead": "Yapay zeka ile sohbet ederek dilinizi daha hızlı öğrenin. Kişiselleştirilmiş sinir ağı tabanlı sohbet araçları ile dil öğrenme deneyiminizi dönüştürün.",
+      "btnStart": "Şimdi Deneyin!",
+      "btnEmail": "Bize Ulaşın",
+      "explain": [
+        [
+          "Lingolette <span>konuşur</span>",
+          "Sizi gerçek bir öğretmen gibi dinler ve konuşma becerilerinizi ve telaffuzunuzu geliştirmeyi amaçlar."
+        ],
+        [
+          "Lingolette <span>motive eder</span>",
+          "Kişiselleştirilmiş ilerleme için yoğun öğrenme ile yolculuğunuzda sizi motive eder."
+        ],
+        [
+          "Lingolette <span>uyarlar</span>",
+          "Öğrenmenize uyum sağlar, ilgi alanlarınıza ve bilgi düzeyinize bağlı olarak hızla yeni kelimeler kullanır."
+        ],
+        [
+          "Lingolette <span>açıklar</span>",
+          "Her adımda her şeyi açıklayarak, yeni bilginin bir tık uzağınızda olduğundan emin olur."
+        ]
+      ]
+    },
+    "dashboard": {
+      "sources": {
+        "add": "Kaynak Ekle",
+        "addHint": "Bu özellik yakında gelecek",
+        "deleteConfirm": "{{sourceName}}'ı silmek istediğinizden emin misiniz?",
+        "unsubscribeConfirm": "{{sourceName}}'dan aboneliği iptal etmek istediğinizden emin misiniz?",
+        "toastSubscribed": "Başarıyla abone olundu",
+        "toastUnsubscribed": "Başarıyla abonelik iptal edildi"
+      },
+      "dlgAddSource": {
+        "header": "Yeni kaynak ekle"
+      }
+    },
+    "article": {
+      "disclaimer": "Tüm içerik ve görevler gerçek bir yayını esinlenerek yapay zeka tarafından üretilmiştir."
+    },
+    "sourceInfo": {
+      "readArticles": "Kaynak Makaleleri",
+      "nextPage": "Sonraki Sayfa",
+      "prevPage": "Önceki Sayfa"
+    },
+    "freeStuff": {
+      "header": "Ücretsiz İçerik",
+      "p": [
+        "Herkes için varsayılan ayarlarla ücretsiz olarak oluşturulan bir içerik kategorimiz var (B1 dil seviyesi, özel kelime dağarcığı olmadan, haber görüntüleme stili, standart sesler).\n        Bu içeriği daima ücretsiz olarak kullanabilirsiniz, ancak özelleştirmek isterseniz, ihtiyaç duyduğunuz özelleştirme düzeyine bağlı olarak ücretsiz veya ücretli bir hesap oluşturmanız gerekecektir.",
+        "Ücretsiz içerik her gün otomatik olarak oluşturulur, bu nedenle her zaman günceldir."
+      ]
+    },
+    "login": {
+      "hint": "Kimlik doğrulama yönteminizi seçin.\nBir hesap oluşturmak ücretsiz ve hızlıdır!",
+      "btnGoogle": "Google ile Devam Et",
+      "btnLinkedIn": "LinkedIn ile Devam Et",
+      "btnTelegram": "Telegram ile Devam Et",
+      "btnSchools": "Okullar İçin Oturum Aç",
+      "disclaimer": "Devam ederek, <a target='blank' href='/docs/terms-and-conditions'>kullanım şartlarımızı</a> ve <a target='blank' href='/docs/privacy-policy'>gizlilik politikamızı</a> kabul etmiş olursunuz.",
+      "receiveOffers": "iş ortaklarımızdan özel teklifler al"
+    },
+    "onboarding": {
+      "steps": [
+        "Ad",
+        "Dil",
+        "İlgiler",
+        "Ses"
+      ],
+      "nextStep": "Sonraki",
+      "prevStep": "Önceki adım",
+      "s1Header": "Sizi nasıl çağıralım?",
+      "s1Placeholder": "adınız",
+      "s2Header": "Şu anda, ekibimizin ve testçilerimizin doğrulayabileceği ve test edebileceği sınırlı sayıda dil desteklenmektedir. Daha fazlasını ekleyeceğiz!",
+      "s2NativeLng": "Ana diliniz",
+      "s2TargetLng": "Öğrendiğiniz dil",
+      "s2LngLevel": "Şu anda hangi seviyedesiniz?",
+      "s3Header": "Sizi <strong>en çok</strong> ilgilendiren nedir?",
+      "s4Header": "Mikrofonunuzu ve kulaklığınızı test edelim",
+      "btnPlaySound": "Test sesini çal",
+      "btnSpeak": "Bas ve \"test\" de",
+      "btnFinish": "Bitir",
+      "msgPlayback": "Eğer sesi duymadıysanız, lütfen kulaklıklarınızı ve mikrofonunuzu kontrol edin ve tekrar deneyin.",
+      "msgTestMic": "Lütfen \"test\" deyin ve Tamam'a tıklayın",
+      "msgMicError": "Mikrofonunuzda sorun olabilir"
+    },
+    "feed": {
+      "emptyHeader": "Akışınız boş",
+      "emptyText": "Başlamak için bazı kaynakları takip edin.",
+      "emptyText2": "Eğer bir kaynağa yeni abone olduysanız, yeni makaleler 24 saat içinde burada görünecektir.",
+      "notOnboarded": "Lütfen onboarding'i tamamlayın!",
+      "intro": [
+        "Ana gezinti çubuğundan başlıyoruz. İşte akış. Tüm yeni makaleler orada görünecektir.",
+        "İşte bir sözlük. Bellek ilerlemenizi takip eder ve zaten öğrendiğiniz kelimeleri tazelemenize yardımcı olur.",
+        "Burada bir AI öğretmeniyle konuşursunuz. Her makalenin sonunda, onunla tartışmak için bir düğme bulunmaktadır.",
+        "Kaynaklar, akışta gördüğünüz makaleleri tanımlar.",
+        "Bu hesap yapılandırmanız: dil ayarlarını değiştirme, verilerinizi dışa aktarma ve benzeri işlemler.",
+        "Demek ki burası gelecekteki akışınız, ama şu anda boş. Haydi bu girişi bitirelim ve bazı kaynaklar ekleyelim!",
+        "Demek ki burası gelecekteki akışınız. Zaten burada bir şeyiniz var. Haydi bu girişi bitirelim ve okumaya başlayalım!"
+      ]
+    },
+    "account": {
+      "confirmLogout": "Çıkış yapmak istediğinizden emin misiniz?",
+      "confirmDelete": "Hesabınızı silmek istediğinizden emin misiniz?",
+      "deleteConfirmation": "Hesabınız 30 gün içinde silinecek.",
+      "toastSaved": "Ayarlar kaydedildi",
+      "phName": "Sizi nasıl çağıralım",
+      "lblName": "Adınız",
+      "lblNativeLng": "Ana diliniz",
+      "lblTargetLng": "Öğrendiğiniz dil",
+      "lblLevel": "Şu anda hangi seviyedesiniz",
+      "btnLogout": "Çıkış yap",
+      "btnDeleteAccount": "Hesabı sil",
+      "btnExport": "Verileri dışa aktar",
+      "coins": "Jetonlar",
+      "coinsSpent": "Harcamış olduğunuz jetonlar",
+      "ttsRate": "Öğretmenin konuşma hızı",
+      "gender": "Sizin dilbilgisel cinsiyetiniz",
+      "teacherGender": "Öğretmenin dilbilgisel cinsiyeti",
+      "notAvailable": "(sadece okullar için)",
+      "hideCard": "Benim <a target='_blank' href='{{URL}}'>genel profilimi</a> gizle",
+      "showGoals": "Günlük hedeflerimi göster"
+    },
+    "vocabulary": {
+      "confirmRemove": "Bu kelimeyi kaldırmak istediğinizden emin misiniz?",
+      "lblIntensiveOnly": "Sadece yoğun çalışma kelimeleri",
+      "switchToNormal": "Normal öğrenme moduna geç",
+      "switchToIntensive": "Yoğun öğrenme moduna geç",
+      "removeWord": "Kelimeleri sözlükten kaldır",
+      "colLemma": "Kelime",
+      "colIntensive": "Yoğun",
+      "colUseCount": "Kullanım örneği",
+      "colUsedTimes": "Yeterlilik",
+      "colLastUsed": "Son kullanım",
+      "emptyPlaceholderHeader": "Sözlüğünüz boş",
+      "emptyPlaceholderHint": "Sözlüğü doldurmak için bir <a href='/talk'>AI-öğretmeni</a> ile konuşun veya <a href='/feed'>makalelerde</a> kelimeler ekleyin."
+    },
+    "talk": {
+      "confirmDrop": "Daha önce ilgisiz bir tartışma bulduk. Onu bırakalım mı?",
+      "phInputMobile": "Buraya yazın veya konuşmak için dokunun ve basılı tutun...",
+      "phInputDesktop": "Buraya yazın veya klavyenizde 'boşluk' tuşuna basılı tutun ve konuşun...",
+      "btnToArticle": "Metne git",
+      "btnTranslitInOn": "Transliterasyon açık",
+      "btnTranslitInOff": "Transliterasyon kapalı",
+      "btnTranslitOutOn": "Transliterasyon açık",
+      "btnTranslitOutOff": "Transliterasyon kapalı",
+      "pttHint": "Hayır hayır, gerçek klavyenizde 'boşluk' tuşunu basılı tutmanız gerekiyor, parmaklarınızla yazdığınız klavyede. \uD83D\uDE09",
+      "lngMismatch": "Uyarı: Sohbet diliniz '{{CHAT_LNG}}' iken öğrendiğiniz dil '{{TARGET_LNG}}'. Onları hizalamak için sohbeti yeniden başlatın."
+    },
+    "userCard": {
+      "streak": "Serüven",
+      "gems": "Mücevherler",
+      "energy": "Enerji",
+      "language": "diller × {{count}}",
+      "wordStatsHeader": "Sözcük dağarcığım",
+      "wordStatsHint": "Bildiğim kelimeler",
+      "streakInfo": "Serüveniniz, Lingolette ile öğrenmeye başladığınız ardışık günlerin sayısıdır. Devam edin!",
+      "gemsInfo": "Mücevherler, premium özellikler ve içerik satın almak için kullanabileceğiniz sanal bir para birimidir. Mücevherler kazanarak öğrenir ve görevleri tamamlarsınız.",
+      "energyInfo": "Enerji, yapay zeka öğretmeniyle konuşmak, makale okumak ve diğer etkinlikler için kullanılır."
+    },
+    "dialogs": {
+      "feedback": {
+        "header": "Geribildirim",
+        "placeholder": "Nasıl geliştirebiliriz veya düzeltebiliriz?",
+        "thankYou": "Teşekkürler! Mesajınız ürünü daha iyi yapmamıza yardımcı olacak."
+      },
+      "audioPermissions": {
+        "inRequired": "Sesli sohbet mikrofon izni gerektirir. Lütfen izin verin.",
+        "outRequired": "Sesli sohbet oynatma izni gerektirir. Vermek için Tamam'a basın."
+      },
+      "offerPWA": {
+        "text": "Hızlı erişim için Lingolette web uygulamasını ana ekranınıza eklemek ister misiniz?",
+        "btnInstall": "Yükle"
+      },
+      "chatResults": {
+        "btnGoBack": "Geri git",
+        "header": "Harika iş çıkardınız, {{NAME}}!",
+        "mainText": "Bugün hedefinize biraz daha yaklaştınız. Sohbete geri dönebilir veya oturumu yeniden başlatabilir ve yeniden başlayabilirsiniz."
+      },
+      "pa": {
+        "scoreGreen": "Harika iş!",
+        "scoreYellow": "İyi",
+        "scoreRed": "Pratik yapmaya devam!",
+        "btnHearExample": "Örneği dinle",
+        "btnStop": "Durdur",
+        "btnPractice": "Pratik yap",
+        "thWord": "Kelime",
+        "thSound": "Ses",
+        "thFeedback": "Geribildirim",
+        "fbGood": "İyi",
+        "fbABitOff": "Biraz yanlış",
+        "offTowards": "[{{sound}}] yönünde yanlış",
+        "soundsLike": "[{{sound}}] gibi sesler",
+        "inProgress": "Analiz ediliyor..."
+      }
+    },
+    "components": {
+      "noArticles": {
+        "info": [
+          "Hata! Dilbilimsel kaşiflerimiz henüz ortaya çıkarılmamış bir dilde makaleler için heyecan verici bir arayış içindeler. Onlar hala sözlüklerini paketliyor gibi görünüyorlar ve dilbilgisi tuzakları kuruyorlar!",
+          "Endişelenmeyin, sevgili bekleyen çok dilli! Bu ilginç dilin sırlarını çözerken, neden mevcut dillerimizle dil kaslarınızı çalıştırmıyorsunuz? Fransızca'nızı tozdan arındırın, İspanyolca'nızı germeyi deneyin ve Klingon'unuzu (şaka yapıyorum, Klingonumuz yok... henüz) cilalayın."
+        ],
+        "ctaHint": "Çünkü kelimelerle dünyayı fethederken makalelere ihtiyacınız yok!"
+      },
+      "contextTools": {
+        "logInForContext": "Çeviriler, bağlam araçları, telaffuz ve daha fazlası için giriş yapın.",
+        "btnYesPlease": "Haydi!",
+        "btnPronounce": "Telaffuz et",
+        "btnAdd": "Sözlüğe ekle"
+      },
+      "publicFeed": {
+        "readMore": "Makaleyi oku →",
+        "tasksCount": "görevler"
+      },
+      "articleView": {
+        "logInForAssessment": "Yanıtlarınızı yapay zeka tarafından değerlendirmek için giriş yapın.",
+        "readingHead": "Okuma",
+        "readingSubhead": "Metni okurken aynı zamanda dinleyin. Bilmediğiniz bir kelimeye tıklayarak açıklamasını görün.",
+        "questionsHead": "Sorular",
+        "questionsSubhead": "Metne yöneltilen soruları cevaplayın. Konuşarak veya yazarak cevap verebilirsiniz. Yapay zeka cevaplarınızı değerlendirecektir.",
+        "discussHead": "Tartış",
+        "discussSubhead": "Metni yapay zeka öğretmeniyle tartışın. Öğretmen, kelime dağarcığı ve dilbilgisi konularında size yardımcı olacaktır.",
+        "btnDiscuss": "Yapay Zeka ile Tartış",
+        "discussP": "Yapay zeka öğretmeninin birçok faydası var. Herhangi bir zaman dilimi ayırtmanıza gerek yok. Öğretmenin sınıfa gelmesini beklemenize gerek yok. Her zaman öğrenebilirsiniz. Öğretmen asla sıkılmaz ve ilgili herhangi bir konuda konuşabilir.",
+        "logInForDiscussion": "Tartışmayı başlatmak için giriş yapın.",
+        "btnPA": "Telaffuzu Kontrol Et"
+      },
+      "desktopMenu": {
+        "feed": "Oku",
+        "talk": "Konuş",
+        "vocabulary": "Kelimeler",
+        "configure": "Kaynaklar",
+        "account": "Profil",
+        "more": "Daha Fazla",
+        "feedback": "Geribildirim",
+        "collapse": "Menüyü Daralt",
+        "expand": "Menüyü Genişlet"
+      },
+      "speakTextInput": {
+        "hint": "Yazmak için tıklayın veya mikrofon simgesini basılı tutun"
+      },
+      "voiceoverPlayer": {
+        "play": "Oynat",
+        "stop": "Dur",
+        "translit": "Transliterasyon"
+      },
+      "dailyGoals": {
+        "goalTypes": [
+          "konuşma cümleleri",
+          "metin egzersizleri"
+        ],
+        "header": "Günlük Hedefleriniz",
+        "btnGo": "Anladım!"
+      }
+    }
+  }
+}
