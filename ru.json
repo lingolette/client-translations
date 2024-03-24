@@ -1,5 +1,6 @@
 {
   "translation": {
+    "offerLocalized": "Ваш браузер предпочитает «{{lngName}}», но вы используете версию на «{{lngName2}}». Хотите переключиться на «{{lngName}}»?",
     "buttons": {
       "yes": "Да",
       "no": "Нет",
@@ -61,7 +62,7 @@
         ],
         [
           "Lingolette <span>адаптируется</span>",
-          "Адаптируется для вас, используя новые слова в зависимости от вашего уровня знаний."
+          "Адаптируется под вас, исполь-​зуя новые слова в зависимости от вашего уровня знаний."
         ],
         [
           "Lingolette <span>объясняет</span>",
@@ -103,7 +104,8 @@
       "btnLinkedIn": "Войти с помощью LinkedIn",
       "btnTelegram": "Войти с помощью Telegram",
       "btnSchools": "Вход для школ",
-      "disclaimer": "Входя в систему, вы соглашаетесь с нашими <a target='blank' href='/docs/terms-and-conditions'>условиями</a> и <a target='blank' href='/docs/privacy-policy'>политикой конфиденциальности</a>."
+      "disclaimer": "Входя в систему, вы соглашаетесь с нашими <a target='blank' href='/docs/terms-and-conditions'>условиями</a> и <a target='blank' href='/docs/privacy-policy'>политикой конфиденциальности</a>.",
+      "receiveOffers": "получать информационные рассылки от партнеров"
     },
     "onboarding": {
       "steps": [
@@ -163,7 +165,8 @@
       "gender": "Ваш грамм. род",
       "teacherGender": "Грамм. род учителя",
       "notAvailable": "(только для школ)",
-      "hideCard": "Скрыть мой <a target='_blank' href='{{URL}}'>публичный профиль</a>"
+      "hideCard": "Скрыть мой <a target='_blank' href='{{URL}}'>публичный профиль</a>",
+      "showGoals": "Посмотреть цели на сегодня"
     },
     "vocabulary": {
       "confirmRemove": "Вы уверены, что хотите удалить это слово?",

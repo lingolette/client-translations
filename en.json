@@ -1,5 +1,6 @@
 {
   "translation": {
+    "offerLocalized": "Your browser prefers «{{lngName}}», but you use «{{lngName2}}» version. Would you like to switch to «{{lngName}}»?",
     "buttons": {
       "yes": "Yes",
       "no": "No",
@@ -103,7 +104,8 @@
       "btnLinkedIn": "Continue with LinkedIn",
       "btnTelegram": "Continue with Telegram",
       "btnSchools": "Sign in for schools",
-      "disclaimer": "By proceeding, you agree to our <a target='blank' href='/docs/terms-and-conditions'>terms</a> and <a target='blank' href='/docs/privacy-policy'>privacy policy</a>."
+      "disclaimer": "By proceeding, you agree to our <a target='blank' href='/docs/terms-and-conditions'>terms</a> and <a target='blank' href='/docs/privacy-policy'>privacy policy</a>.",
+      "receiveOffers": "receive special offers from our partners"
     },
     "onboarding": {
       "steps": [
@@ -163,7 +165,8 @@
       "gender": "Your gramm. gender",
       "teacherGender": "Teacher's gramm. gender",
       "notAvailable": "(for schools only)",
-      "hideCard": "hide my <a target='_blank' href='{{URL}}'>public profile</a>"
+      "hideCard": "hide my <a target='_blank' href='{{URL}}'>public profile</a>",
+      "showGoals": "Show my daily goals"
     },
     "vocabulary": {
       "confirmRemove": "Are you sure you want to remove this word?",
