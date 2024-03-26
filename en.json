@@ -28,6 +28,38 @@
         "oops": "Oops!",
         "alertTitle": "Lingolette",
         "confirmTitle": "Are you sure?"
+      },
+      "placeholders": {
+        "select": "Select an option..."
+      },
+      "options": {
+        "ttsRate": [
+          "Normal",
+          "Slow",
+          "Very slow"
+        ],
+        "languageLevel": [
+          "I do not know",
+          "A0 — Absolute beginner",
+          "A1 — Beginner",
+          "A2 — Elementary",
+          "B1 — Intermediate",
+          "B2 — Intermediate+",
+          "C1 — Advanced",
+          "C2 — Fluent"
+        ],
+        "interest": [
+          "Politics",
+          "Business",
+          "Technology",
+          "Entertainment",
+          "Sports",
+          "World",
+          "Lifestyle",
+          "Health",
+          "Science",
+          "Other"
+        ]
       }
     },
     "header": {

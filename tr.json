@@ -13,7 +13,7 @@
       "unsubscribe": "Abonelikten Çık",
       "signUp": "Kaydol",
       "signIn": "Giriş Yap",
-      "mute": "Sessizleştir",
+      "mute": "Sessize al",
       "unmute": "Sessizi Kaldır",
       "restart": "Yeniden Başlat",
       "complete": "Tamamla",
@@ -28,10 +28,42 @@
         "oops": "Hata!",
         "alertTitle": "Lingolette",
         "confirmTitle": "Emin misiniz?"
+      },
+      "placeholders": {
+        "select": "Bir seçenek seçin..."
+      },
+      "options": {
+        "ttsRate": [
+          "normal",
+          "yavaş",
+          "çok yavaş"
+        ],
+        "languageLevel": [
+          "Seviyemi bilmiyorum",
+          "A0 — Absolute beginner",
+          "A1 — Beginner",
+          "A2 — Elementary",
+          "B1 — Intermediate",
+          "B2 — Intermediate+",
+          "C1 — Advanced",
+          "C2 — Fluent"
+        ],
+        "interest": [
+          "Politika",
+          "İş Dünyası",
+          "Teknoloji",
+          "Eğlence",
+          "Spor",
+          "Dünya",
+          "Yaşam Tarzı",
+          "Sağlık",
+          "Bilim",
+          "Diğer"
+        ]
       }
     },
     "header": {
-      "btnCTA": "Panel",
+      "btnCTA": "Giriş",
       "freeStuff": "Günlük Makaleler"
     },
     "footer": {
@@ -111,7 +143,7 @@
       "steps": [
         "Ad",
         "Dil",
-        "İlgiler",
+        "İlgi alanları",
         "Ses"
       ],
       "nextStep": "Sonraki",
@@ -162,8 +194,8 @@
       "coins": "Jetonlar",
       "coinsSpent": "Harcamış olduğunuz jetonlar",
       "ttsRate": "Öğretmenin konuşma hızı",
-      "gender": "Sizin dilbilgisel cinsiyetiniz",
-      "teacherGender": "Öğretmenin dilbilgisel cinsiyeti",
+      "gender": "Cinsiyetiniz",
+      "teacherGender": "Öğretmenin cinsiyeti",
       "notAvailable": "(sadece okullar için)",
       "hideCard": "Benim <a target='_blank' href='{{URL}}'>genel profilimi</a> gizle",
       "showGoals": "Günlük hedeflerimi göster"
@@ -191,7 +223,7 @@
       "btnTranslitInOff": "Transliterasyon kapalı",
       "btnTranslitOutOn": "Transliterasyon açık",
       "btnTranslitOutOff": "Transliterasyon kapalı",
-      "pttHint": "Hayır hayır, gerçek klavyenizde 'boşluk' tuşunu basılı tutmanız gerekiyor, parmaklarınızla yazdığınız klavyede. \uD83D\uDE09",
+      "pttHint": "Hayır hayır, gerçek klavyenizde 'boşluk' tuşunu basılı tutmanız gerekiyor, parmaklarınızla yazdığınız klavyede. 😉",
       "lngMismatch": "Uyarı: Sohbet diliniz '{{CHAT_LNG}}' iken öğrendiğiniz dil '{{TARGET_LNG}}'. Onları hizalamak için sohbeti yeniden başlatın."
     },
     "userCard": {
@@ -261,7 +293,7 @@
       },
       "articleView": {
         "logInForAssessment": "Yanıtlarınızı yapay zeka tarafından değerlendirmek için giriş yapın.",
-        "readingHead": "Okuma",
+        "readingHead": "Okuma Metni",
         "readingSubhead": "Metni okurken aynı zamanda dinleyin. Bilmediğiniz bir kelimeye tıklayarak açıklamasını görün.",
         "questionsHead": "Sorular",
         "questionsSubhead": "Metne yöneltilen soruları cevaplayın. Konuşarak veya yazarak cevap verebilirsiniz. Yapay zeka cevaplarınızı değerlendirecektir.",
