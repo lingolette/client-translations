@@ -132,6 +132,7 @@
     },
     "login": {
       "hint": "Kimlik doğrulama yönteminizi seçin.\nBir hesap oluşturmak ücretsiz ve hızlıdır!",
+      "schoolHint": "Okullar için Lingolette'e hoş geldiniz!",
       "btnGoogle": "Google ile Devam Et",
       "btnLinkedIn": "LinkedIn ile Devam Et",
       "btnTelegram": "Telegram ile Devam Et",
@@ -212,7 +213,10 @@
       "colUsedTimes": "Yeterlilik",
       "colLastUsed": "Son kullanım",
       "emptyPlaceholderHeader": "Sözlüğünüz boş",
-      "emptyPlaceholderHint": "Sözlüğü doldurmak için bir <a href='/talk'>AI-öğretmeni</a> ile konuşun veya <a href='/feed'>makalelerde</a> kelimeler ekleyin."
+      "emptyPlaceholderHint": "Sözlüğü doldurmak için bir <a href='/talk'>AI-öğretmeni</a> ile konuşun veya <a href='/feed'>makalelerde</a> kelimeler ekleyin.",
+      "more": {
+        "addWords": "Kendi kelime ekle..."
+      }
     },
     "talk": {
       "confirmDrop": "Daha önce ilgisiz bir tartışma bulduk. Onu bırakalım mı?",
@@ -271,6 +275,13 @@
         "offTowards": "[{{sound}}] yönünde yanlış",
         "soundsLike": "[{{sound}}] gibi sesler",
         "inProgress": "Analiz ediliyor..."
+      },
+      "addWords": {
+        "header": "Öğrenmek istediğiniz herhangi bir kelime ekleyin",
+        "word": "Kelime",
+        "sentence": "Onunla bir örnek cümle",
+        "toastAdded": "Kelime '{{word}}' eklendi",
+        "toastAddFailed": "Kelime '{{word}}' eklenemedi. Gerçekten var mı?"
       }
     },
     "components": {

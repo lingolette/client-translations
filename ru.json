@@ -132,6 +132,7 @@
     },
     "login": {
       "hint": "Выберите способ входа.\nЭто займет всего пару кликов!",
+      "schoolHint": "Добро пожаловать в Lingolette для школ!",
       "btnGoogle": "Войти с помощью Google",
       "btnLinkedIn": "Войти с помощью LinkedIn",
       "btnTelegram": "Войти с помощью Telegram",
@@ -212,7 +213,10 @@
       "colUsedTimes": "Владение",
       "colLastUsed": "Использовано",
       "emptyPlaceholderHeader": "Словарь пока пуст",
-      "emptyPlaceholderHint": "Общайтесь с <a href='/talk'>AI-учителем</a> или добавляйте слова из <a href='/feed'>статей</a>, чтобы наполнить его"
+      "emptyPlaceholderHint": "Общайтесь с <a href='/talk'>AI-учителем</a> или добавляйте слова из <a href='/feed'>статей</a>, чтобы наполнить его",
+      "more": {
+        "addWords": "Добавить свои слова..."
+      }
     },
     "talk": {
       "confirmDrop": "Мы обнаружили предыдущую несвязанную дискуссию. Завершить её?",
@@ -271,6 +275,13 @@
         "offTowards": "Смещено к [{{sound}}]",
         "soundsLike": "Звучит как [{{sound}}]",
         "inProgress": "Анализируем..."
+      },
+      "addWords": {
+        "header": "Добавьте любые слова, которые хотите выучить",
+        "word": "Слово",
+        "sentence": "Пример предложения с ним",
+        "toastAdded": "Слово '{{word}}' добавлено",
+        "toastAddFailed": "Не удалось добавить слово '{{word}}'. Существует ли оно вообще?"
       }
     },
     "components": {
