@@ -73,7 +73,8 @@
       "terms": "Kullanım Şartları",
       "privacy": "Gizlilik Politikası",
       "freeStuff": "Günlük Makaleler",
-      "apiManual": "API Kılavuzu"
+      "apiManual": "API Kılavuzu",
+      "businessInquiry": "Bize ulaşın"
     },
     "home": {
       "heroHead": [
@@ -129,6 +130,16 @@
         "Herkes için varsayılan ayarlarla ücretsiz olarak oluşturulan bir içerik kategorimiz var (B1 dil seviyesi, özel kelime dağarcığı olmadan, haber görüntüleme stili, standart sesler).\n        Bu içeriği daima ücretsiz olarak kullanabilirsiniz, ancak özelleştirmek isterseniz, ihtiyaç duyduğunuz özelleştirme düzeyine bağlı olarak ücretsiz veya ücretli bir hesap oluşturmanız gerekecektir.",
         "Ücretsiz içerik her gün otomatik olarak oluşturulur, bu nedenle her zaman günceldir."
       ]
+    },
+    "inquiry": {
+      "header": "Lingolette ile ilgileniyor musunuz?",
+      "subHeader": "Bize bazı iletişim bilgilerinizi bırakın, size geri döneceğiz",
+      "header2": "İlgilendiğiniz için teşekkür ederiz!",
+      "subHeader2": "Size bir iş günü içinde geri döneceğiz.",
+      "plhName": "İsim",
+      "plhEmail": "E-posta adresi",
+      "plhCompany": "Şirket",
+      "plhMessage": "Bilmemiz gereken başka bir şey var mı?"
     },
     "login": {
       "hint": "Kimlik doğrulama yönteminizi seçin.\nBir hesap oluşturmak ücretsiz ve hızlıdır!",

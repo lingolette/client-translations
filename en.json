@@ -73,7 +73,8 @@
       "terms": "Terms & Conditions",
       "privacy": "Privacy policy",
       "freeStuff": "Daily articles",
-      "apiManual": "API manual"
+      "apiManual": "API manual",
+      "businessInquiry": "Contact us"
     },
     "home": {
       "heroHead": [
@@ -129,6 +130,16 @@
         "We have a category of content generated for free for everyone with default settings (B1 language level, no custom vocabulary, news image style, standard voices).\n        You are welcome to use it for free forever, but if you want to customize it, you will need to create a free or paid account, depending on the level of customization you need.",
         "The free content is generated automatically every day, so it is always up to date."
       ]
+    },
+    "inquiry": {
+      "header": "Interested in Lingolette?",
+      "subHeader": "Leave us some contact details and we will get back to you",
+      "header2": "Thank you for your inquiry!",
+      "subHeader2": "We will get back to you within one business day.",
+      "plhName": "Name",
+      "plhEmail": "Email address",
+      "plhCompany": "Company",
+      "plhMessage": "Anything else we need to know?"
     },
     "login": {
       "hint": "Select your authentication method.\nCreating an account is free and quick!",
