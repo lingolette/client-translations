@@ -269,7 +269,11 @@
       "chatResults": {
         "btnGoBack": "Go back",
         "header": "Well done, {{NAME}}!",
-        "mainText": "Today you got a bit closer to your goal. You can either go back to the chat or restart the session and start anew."
+        "mainText": "Today you got a bit closer to your goal. You can either go back to the chat or restart the session and start anew.",
+        "headerProgress": "Your words progress",
+        "word": "Word",
+        "before": "Before",
+        "after": "After"
       },
       "pa": {
         "scoreGreen": "Great job!",
@@ -289,10 +293,11 @@
       },
       "addWords": {
         "header": "Add any words you want to learn",
-        "word": "Word",
+        "word": "A word",
         "sentence": "A sample sentence with it",
         "toastAdded": "Word '{{word}}' added",
-        "toastAddFailed": "Failed to add word '{{word}}'. Does it even exist?"
+        "toastAddFailed": "Failed to add word '{{word}}': ",
+        "inputLng": "Language of your input"
       }
     },
     "components": {

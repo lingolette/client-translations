@@ -269,7 +269,11 @@
       "chatResults": {
         "btnGoBack": "Geri git",
         "header": "Harika iş çıkardınız, {{NAME}}!",
-        "mainText": "Bugün hedefinize biraz daha yaklaştınız. Sohbete geri dönebilir veya oturumu yeniden başlatabilir ve yeniden başlayabilirsiniz."
+        "mainText": "Bugün hedefinize biraz daha yaklaştınız. Sohbete geri dönebilir veya oturumu yeniden başlatabilir ve yeniden başlayabilirsiniz.",
+        "headerProgress": "Sözcük ilerlemeniz",
+        "word": "Kelime",
+        "before": "Önce",
+        "after": "Sonra"
       },
       "pa": {
         "scoreGreen": "Harika iş!",
@@ -292,7 +296,8 @@
         "word": "Kelime",
         "sentence": "Onunla bir örnek cümle",
         "toastAdded": "Kelime '{{word}}' eklendi",
-        "toastAddFailed": "Kelime '{{word}}' eklenemedi. Gerçekten var mı?"
+        "toastAddFailed": "Kelime '{{word}}' eklenemedi: ",
+        "inputLng": "Kelime giriş dili"
       }
     },
     "components": {
