@@ -21,7 +21,8 @@
       "send": "Send",
       "next": "Next",
       "done": "Done",
-      "close": "Close"
+      "close": "Close",
+      "retry": "Retry"
     },
     "UI": {
       "messageBox": {
@@ -217,6 +218,7 @@
       "lblIntensiveOnly": "Intensive study words only",
       "switchToNormal": "Switch to normal learning mode",
       "switchToIntensive": "Switch to intensive learning mode",
+      "intensiveToast": "Intensive learning is on. The AI teacher will now focus on this word more during the lessons.",
       "removeWord": "Remove word from vocabulary",
       "colLemma": "Word",
       "colIntensive": "Intensive",
@@ -298,6 +300,12 @@
         "toastAdded": "Word '{{word}}' added",
         "toastAddFailed": "Failed to add word '{{word}}': ",
         "inputLng": "Language of your input"
+      },
+      "mediaError": {
+        "errNotAllowed": "Cannot acquire permissions from your browser. Please ensure that they are not blocked.",
+        "errAbort": "Camera access is blocked. Please ensure that you are not using it in another browser or program.",
+        "errFallback": "You provided access to your hardware devices, but a local problem in your system prevented your device from being used. Please try another browser or another device.",
+        "retryError": "Nope, it didn't work. Check your hardware settings."
       }
     },
     "components": {

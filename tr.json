@@ -21,7 +21,8 @@
       "send": "Gönder",
       "next": "İleri",
       "done": "Tamamlandı",
-      "close": "Kapat"
+      "close": "Kapat",
+      "retry": "Yeniden"
     },
     "UI": {
       "messageBox": {
@@ -217,6 +218,7 @@
       "lblIntensiveOnly": "Sadece yoğun çalışma kelimeleri",
       "switchToNormal": "Normal öğrenme moduna geç",
       "switchToIntensive": "Yoğun öğrenme moduna geç",
+      "intensiveToast": "Yoğun öğrenme etkinleştirildi. Yapay zeka öğretmeni artık dersler sırasında bu kelimeye daha fazla odaklanacak.",
       "removeWord": "Kelimeleri sözlükten kaldır",
       "colLemma": "Kelime",
       "colIntensive": "Yoğun",
@@ -298,6 +300,12 @@
         "toastAdded": "Kelime '{{word}}' eklendi",
         "toastAddFailed": "Kelime '{{word}}' eklenemedi: ",
         "inputLng": "Kelime giriş dili"
+      },
+      "mediaError": {
+        "errNotAllowed": "Tarayıcınızdan izin alınamıyor. Lütfen engellenmediklerinden emin olun.",
+        "errAbort": "Kamera erişimi engellendi. Lütfen başka bir tarayıcıda veya programda kullanmadığınızdan emin olun.",
+        "errFallback": "Donanım cihazlarına erişim sağladınız, ancak sistemdeki yerel bir sorun, cihazınızın kullanılmasını engelledi. Lütfen başka bir tarayıcı veya başka bir cihaz deneyin.",
+        "retryError": "Hayır, işe yaramadı. Donanım ayarlarınızı kontrol edin."
       }
     },
     "components": {
