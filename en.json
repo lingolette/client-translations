@@ -306,6 +306,15 @@
         "errAbort": "Camera access is blocked. Please ensure that you are not using it in another browser or program.",
         "errFallback": "You provided access to your hardware devices, but a local problem in your system prevented your device from being used. Please try another browser or another device.",
         "retryError": "Nope, it didn't work. Check your hardware settings."
+      },
+      "paywall": {
+        "walls": {
+          "chatPA": "Pronunciation analysis in the voice chat is available for premium users only.",
+          "chatLength": "Lesson is limited to 20 replies for free users."
+        },
+        "suffix": "Would you like to upgrade?",
+        "btnYes": "Yes, please",
+        "btnNo": "Maybe later"
       }
     },
     "components": {

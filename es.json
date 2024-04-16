@@ -307,6 +307,15 @@
         "errAbort": "Se bloqueó el acceso a la cámara. Por favor, asegúrese de que no la esté utilizando en otro navegador o programa.",
         "errFallback": "Usted proporcionó acceso a sus dispositivos de hardware, pero un problema local en su sistema impidió que su dispositivo se utilizara. Por favor, pruebe otro navegador o otro dispositivo.",
         "retryError": "No, no funcionó. Verifique la configuración de su hardware."
+      },
+      "paywall": {
+        "walls": {
+          "chatPA": "El análisis de pronunciación en el chat de voz está disponible solo para usuarios premium.",
+          "chatLength": "La lección está limitada a 20 respuestas para usuarios gratuitos."
+        },
+        "suffix": "¿Te gustaría mejorar tu cuenta?",
+        "btnYes": "Sí, por favor",
+        "btnNo": "Tal vez más tarde"
       }
     },
     "components": {
