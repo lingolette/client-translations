@@ -24,6 +24,22 @@
       "close": "Cerrar",
       "retry": "Reintentar"
     },
+    "pos": [
+      "otro",
+      "sustantivo",
+      "verbo",
+      "adjetivo",
+      "adverbio",
+      "pronombre",
+      "preposición",
+      "conjunción",
+      "interjección",
+      "determinante",
+      "numeral",
+      "puntuación",
+      "partícula",
+      "artículo"
+    ],
     "UI": {
       "messageBox": {
         "oops": "¡Vaya!",
@@ -111,7 +127,8 @@
         "deleteConfirm": "¿Estás seguro de que quieres eliminar {{sourceName}}?",
         "unsubscribeConfirm": "¿Estás seguro de que quieres cancelar tu suscripción a {{sourceName}}?",
         "toastSubscribed": "Suscripción realizada correctamente",
-        "toastUnsubscribed": "Suscripción cancelada correctamente"
+        "toastUnsubscribed": "Suscripción cancelada correctamente",
+        "maxSources": "No es efectivo seguir más de 5 fuentes a la vez. Por favor, desubscríbete de algunas fuentes para añadir nuevas."
       },
       "dlgAddSource": {
         "header": "Agregar nueva fuente"
@@ -152,6 +169,11 @@
       "btnSchools": "Iniciar sesión para escuelas",
       "disclaimer": "Al continuar, aceptas nuestros <a target='blank' href='/docs/terms-and-conditions'>términos y condiciones</a> y nuestra <a target='blank' href='/docs/privacy-policy'>política de privacidad</a>.",
       "receiveOffers": "recibir ofertas especiales de nuestros socios"
+    },
+    "paymentDone": {
+      "hdrComplete": "Pago completado",
+      "hdrError": "Error al procesar el pago",
+      "confirmation": "¡Gracias! Se enviará un correo de confirmación a {{email}}."
     },
     "onboarding": {
       "steps": [
@@ -212,7 +234,11 @@
       "teacherGender": "Género gramatical del profesor",
       "notAvailable": "(solo para escuelas)",
       "hideCard": "ocultar mi <a target='_blank' href='{{URL}}'>perfil público</a>",
-      "showGoals": "Mostrar mis metas diarias"
+      "showGoals": "Mostrar mis metas diarias",
+      "dangerZone": "Mostrar zona de peligro",
+      "startSubscription": "Cambiar a versión de pago",
+      "cancelSubscription": "Cancelar suscripción",
+      "subCancellationWarning": "¿Estás seguro de que quieres cancelar tu suscripción? Los pagos no serán reembolsados."
     },
     "vocabulary": {
       "confirmRemove": "¿Estás seguro de que quieres eliminar esta palabra?",
@@ -311,7 +337,7 @@
       "paywall": {
         "walls": {
           "chatPA": "El análisis de pronunciación en el chat de voz está disponible solo para usuarios premium.",
-          "chatLength": "La lección está limitada a 20 respuestas para usuarios gratuitos."
+          "chatLength": "Letty está cansada y necesita un descanso. ¡Compra Lingolette Premium para darle energía infinita!"
         },
         "suffix": "¿Te gustaría mejorar tu cuenta?",
         "btnYes": "Sí, por favor",
@@ -330,7 +356,8 @@
         "logInForContext": "Inicia sesión para obtener traducciones, herramientas de contexto, pronunciación y más.",
         "btnYesPlease": "¡Vamos allá!",
         "btnPronounce": "Pronunciar",
-        "btnAdd": "Agregar al diccionario"
+        "btnAdd": "Al diccionario",
+        "btnPA": "Pronunciación"
       },
       "publicFeed": {
         "readMore": "Leer artículo →",
@@ -366,7 +393,9 @@
       "voiceoverPlayer": {
         "play": "Reproducir",
         "stop": "Detener",
-        "translit": "Transliteración"
+        "translit": "Translit.",
+        "rate": "Velocidad",
+        "fontSize": "Tamaño de fuente"
       },
       "dailyGoals": {
         "goalTypes": [

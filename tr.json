@@ -24,6 +24,22 @@
       "close": "Kapat",
       "retry": "Yeniden"
     },
+    "pos": [
+      "diğer",
+      "isim",
+      "fiil",
+      "sıfat",
+      "zarf",
+      "zamir",
+      "edat",
+      "bağlaç",
+      "ünlem",
+      "belirleyici",
+      "sayı sıfatı",
+      "noktalama",
+      "parçacık",
+      "tanımlayıcı"
+    ],
     "UI": {
       "messageBox": {
         "oops": "Hata!",
@@ -111,7 +127,8 @@
         "deleteConfirm": "{{sourceName}}'ı silmek istediğinizden emin misiniz?",
         "unsubscribeConfirm": "{{sourceName}}'dan aboneliği iptal etmek istediğinizden emin misiniz?",
         "toastSubscribed": "Başarıyla abone olundu",
-        "toastUnsubscribed": "Başarıyla abonelik iptal edildi"
+        "toastUnsubscribed": "Başarıyla abonelik iptal edildi",
+        "maxSources": "Aynı anda 5'ten fazla kaynağı takip etmek etkili değildir. Lütfen yeni eklemek için bazı kaynaklardan aboneliği iptal edin."
       },
       "dlgAddSource": {
         "header": "Yeni kaynak ekle"
@@ -151,6 +168,11 @@
       "btnSchools": "Okullar İçin Oturum Aç",
       "disclaimer": "Devam ederek, <a target='blank' href='/docs/terms-and-conditions'>kullanım şartlarımızı</a> ve <a target='blank' href='/docs/privacy-policy'>gizlilik politikamızı</a> kabul etmiş olursunuz.",
       "receiveOffers": "iş ortaklarımızdan özel teklifler al"
+    },
+    "paymentDone": {
+      "hdrComplete": "Ödeme tamamlandı",
+      "hdrError": "Ödeme işlemi sırasında hata oluştu",
+      "confirmation": "Teşekkürler! Onay e-postası {{email}} adresine gönderilecek."
     },
     "onboarding": {
       "steps": [
@@ -211,7 +233,11 @@
       "teacherGender": "Öğretmenin cinsiyeti",
       "notAvailable": "(sadece okullar için)",
       "hideCard": "Benim <a target='_blank' href='{{URL}}'>genel profilimi</a> gizle",
-      "showGoals": "Günlük hedeflerimi göster"
+      "showGoals": "Günlük hedeflerimi göster",
+      "dangerZone": "Tehlike bölgesini göster",
+      "startSubscription": "Ücretli sürüme geç",
+      "cancelSubscription": "Aboneliği iptal et",
+      "subCancellationWarning": "Aboneliğinizi iptal etmek istediğinizden emin misiniz? Ödemeler geri ödenmeyecek."
     },
     "vocabulary": {
       "confirmRemove": "Bu kelimeyi kaldırmak istediğinizden emin misiniz?",
@@ -310,7 +336,7 @@
       "paywall": {
         "walls": {
           "chatPA": "Sesli sohbet analizi yalnızca premium kullanıcılar için mevcuttur.",
-          "chatLength": "Ders ücretsiz kullanıcılar için 20 yanıtla sınırlıdır."
+          "chatLength": "Letty yorgun ve mola istiyor. Ona sonsuz enerji vermek için Lingolette Premium satın alın!"
         },
         "suffix": "Hesabınızı yükseltmek ister misiniz?",
         "btnYes": "Evet, lütfen",
@@ -329,7 +355,8 @@
         "logInForContext": "Çeviriler, bağlam araçları, telaffuz ve daha fazlası için giriş yapın.",
         "btnYesPlease": "Haydi!",
         "btnPronounce": "Telaffuz et",
-        "btnAdd": "Sözlüğe ekle"
+        "btnAdd": "Sözlüğe",
+        "btnPA": "Telaffuz"
       },
       "publicFeed": {
         "readMore": "Makaleyi oku →",
@@ -365,7 +392,9 @@
       "voiceoverPlayer": {
         "play": "Oynat",
         "stop": "Dur",
-        "translit": "Transliterasyon"
+        "translit": "Transliterasyon",
+        "rate": "Hızı",
+        "fontSize": "Yazı boyutu"
       },
       "dailyGoals": {
         "goalTypes": [

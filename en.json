@@ -24,6 +24,22 @@
       "close": "Close",
       "retry": "Retry"
     },
+    "pos": [
+      "other",
+      "noun",
+      "verb",
+      "adjective",
+      "adverb",
+      "pronoun",
+      "preposition",
+      "conjunction",
+      "interjection",
+      "determiner",
+      "numeral",
+      "punctuation",
+      "particle",
+      "article"
+    ],
     "UI": {
       "messageBox": {
         "oops": "Oops!",
@@ -75,7 +91,7 @@
       "privacy": "Privacy policy",
       "freeStuff": "Daily articles",
       "apiManual": "API manual",
-      "businessInquiry": "Contact us"
+      "businessInquiry": "Business inquiry"
     },
     "home": {
       "heroHead": [
@@ -111,7 +127,8 @@
         "deleteConfirm": "Are you sure you want to delete {{sourceName}}?",
         "unsubscribeConfirm": "Are you sure you want to unsubscribe from {{sourceName}}?",
         "toastSubscribed": "Subscribed successfully",
-        "toastUnsubscribed": "Unsubscribed successfully"
+        "toastUnsubscribed": "Unsubscribed successfully",
+        "maxSources": "It is not effective to follow more than 5 sources at a time. Please unsubscribe from some sources to add new ones."
       },
       "dlgAddSource": {
         "header": "Add new source"
@@ -151,6 +168,11 @@
       "btnSchools": "Sign in for schools",
       "disclaimer": "By proceeding, you agree to our <a target='blank' href='/docs/terms-and-conditions'>terms</a> and <a target='blank' href='/docs/privacy-policy'>privacy policy</a>.",
       "receiveOffers": "receive special offers from our partners"
+    },
+    "paymentDone": {
+      "hdrComplete": "Payment complete",
+      "hdrError": "Error processing payment",
+      "confirmation": "Thank you! A confirmation email will be sent to {{email}}."
     },
     "onboarding": {
       "steps": [
@@ -211,7 +233,11 @@
       "teacherGender": "Teacher's gramm. gender",
       "notAvailable": "(for schools only)",
       "hideCard": "hide my <a target='_blank' href='{{URL}}'>public profile</a>",
-      "showGoals": "Show my daily goals"
+      "showGoals": "Show my daily goals",
+      "dangerZone": "Reveal danger zone",
+      "startSubscription": "Switch to paid version",
+      "cancelSubscription": "Cancel subscription",
+      "subCancellationWarning": "Are you sure you want to cancel your subscription? Payments will not be refunded."
     },
     "vocabulary": {
       "confirmRemove": "Are you sure you want to remove this word?",
@@ -233,7 +259,7 @@
     },
     "talk": {
       "confirmDrop": "We found a previous unrelated discussion. Shall we drop it?",
-      "phInputMobile": "Type here or touch and hold to speak...",
+      "phInputMobile": "Type or touch and hold here to speak...",
       "phInputDesktop": "Type here or hold 'space' on your keyboard and speak...",
       "btnToArticle": "To text",
       "btnTranslitInOn": "Translit on",
@@ -310,7 +336,7 @@
       "paywall": {
         "walls": {
           "chatPA": "Pronunciation analysis in the voice chat is available for premium users only.",
-          "chatLength": "Lesson is limited to 20 replies for free users."
+          "chatLength": "Letty is tired and needs a break. Buy Lingolette Premium to give her infinity energy!"
         },
         "suffix": "Would you like to upgrade?",
         "btnYes": "Yes, please",
@@ -329,7 +355,8 @@
         "logInForContext": "Log in to get translations, context tools, pronunciation and more.",
         "btnYesPlease": "Let's go!",
         "btnPronounce": "Pronounce",
-        "btnAdd": "Add to dictionary"
+        "btnAdd": "To dictionary",
+        "btnPA": "Pronunciation"
       },
       "publicFeed": {
         "readMore": "Read article →",
@@ -365,7 +392,9 @@
       "voiceoverPlayer": {
         "play": "Play",
         "stop": "Stop",
-        "translit": "Translit"
+        "translit": "Translit",
+        "rate": "Rate",
+        "fontSize": "Font size"
       },
       "dailyGoals": {
         "goalTypes": [
