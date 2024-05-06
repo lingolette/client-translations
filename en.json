@@ -47,7 +47,8 @@
         "confirmTitle": "Are you sure?"
       },
       "placeholders": {
-        "select": "Select an option..."
+        "select": "Select an option...",
+        "search": "Search..."
       },
       "options": {
         "ttsRate": [
@@ -233,6 +234,7 @@
       "teacherGender": "Teacher's gramm. gender",
       "notAvailable": "(for schools only)",
       "hideCard": "hide my <a target='_blank' href='{{URL}}'>public profile</a>",
+      "showGroups": "show <a target='_blank' href='/groups'>groups</a> in menu",
       "showGoals": "Show my daily goals",
       "dangerZone": "Reveal danger zone",
       "startSubscription": "Switch to paid version",
@@ -268,6 +270,41 @@
       "btnTranslitOutOff": "Translit off",
       "pttHint": "No-no, you need to hold 'space' on your real keyboard, where you type with fingers. \uD83D\uDE09",
       "lngMismatch": "Warning: your chat language is '{{CHAT_LNG}}' while you are learning '{{TARGET_LNG}}'. Restart the chat to align them."
+    },
+    "groups": {
+      "joinHint": "Do you want to join group «{{GROUP_NAME}}»?",
+      "joinRequestSent": "Request sent! Group admin will approve it soon.",
+      "plhNewGroupName": "group name",
+      "addNewTab": "Add new",
+      "addNewTitle": "Create a new group",
+      "confirmRemoveUser": "Are you sure you want to remove {{USERNAME}} from the group? There is no way back.",
+      "toastUserRemoved": "User {{USERNAME}} removed",
+      "noUsersFound": "No users found",
+      "btnInviteUser": "Invite",
+      "btnRemoveUser": "Remove user",
+      "plhSearch": "search user...",
+      "colRole": "Role",
+      "colName": "Name",
+      "colTargetLng": "Target lng.",
+      "colNativeLng": "Native lng.",
+      "colLanguageLevel": "Level",
+      "colDictSize": "Dictionary size",
+      "colExerciseCount": "Exercises count",
+      "confirmApproveUser": "Are you sure you want to approve {{USERNAME}}?",
+      "toastUserApproved": "User approved",
+      "btnApproveUser": "Approve",
+      "inviteBoxHeader": "Enter the emails of users you want to invite:",
+      "btnLeave": "Leave group",
+      "confirmLeave": "Are you sure you want to leave this group?",
+      "btnConfirmJoin": "Confirm joining the group",
+      "btnCopyLink": "Copy link",
+      "toastLinkCopied": "Link copied to clipboard",
+      "roles": {
+        "admin": "admin",
+        "user": "user",
+        "pabu": "pending user approval",
+        "paba": "pending admin approval"
+      }
     },
     "userCard": {
       "streak": "Streak",
@@ -384,7 +421,8 @@
         "more": "More",
         "feedback": "Feedback",
         "collapse": "Collapse menu",
-        "expand": "Expand menu"
+        "expand": "Expand menu",
+        "groups": "Groups"
       },
       "speakTextInput": {
         "hint": "Type or hold mic icon to speak"

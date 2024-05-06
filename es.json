@@ -47,7 +47,8 @@
         "confirmTitle": "¿Estás seguro?"
       },
       "placeholders": {
-        "select": "Selecciona una opción..."
+        "select": "Selecciona una opción...",
+        "search": "Search..."
       },
       "options": {
         "ttsRate": [
@@ -234,6 +235,7 @@
       "teacherGender": "Género gramatical del profesor",
       "notAvailable": "(solo para escuelas)",
       "hideCard": "ocultar mi <a target='_blank' href='{{URL}}'>perfil público</a>",
+      "showGroups": "mostrar <a target='_blank' href='/groups'>grupos</a> en el menú",
       "showGoals": "Mostrar mis metas diarias",
       "dangerZone": "Mostrar zona de peligro",
       "startSubscription": "Cambiar a versión de pago",
@@ -269,6 +271,41 @@
       "btnTranslitOutOff": "Transliteración desactivada",
       "pttHint": "No, necesitas mantener presionada la tecla 'espacio' en tu auténtico teclado, donde escribes con los dedos. 😉",
       "lngMismatch": "Advertencia: tu idioma de chat es '{{CHAT_LNG}}', mientras que estás aprendiendo '{{TARGET_LNG}}'. Reinicia el chat para alinearlos."
+    },
+    "groups": {
+      "joinHint": "¿Quieres unirte al grupo «{{GROUP_NAME}}»?",
+      "joinRequestSent": "¡Solicitud enviada! El administrador del grupo la aprobará pronto.",
+      "plhNewGroupName": "nombre del grupo",
+      "addNewTab": "nuevo grupo",
+      "addNewTitle": "Crear un nuevo grupo",
+      "confirmRemoveUser": "¿Estás seguro de que quieres eliminar a {{USERNAME}} del grupo? No hay vuelta atrás.",
+      "toastUserRemoved": "Usuario {{USERNAME}} eliminado",
+      "noUsersFound": "No se encontraron usuarios",
+      "btnInviteUser": "Invitar",
+      "btnRemoveUser": "Eliminar usuario",
+      "plhSearch": "buscar...",
+      "colRole": "Rol",
+      "colName": "Nombre",
+      "colTargetLng": "Idioma objetivo",
+      "colNativeLng": "Idioma nativo",
+      "colLanguageLevel": "Nivel",
+      "colDictSize": "Tamaño del diccionario",
+      "colExerciseCount": "Cantidad de ejercicios",
+      "confirmApproveUser": "¿Estás seguro de que quieres aprobar a {{USERNAME}}?",
+      "toastUserApproved": "Usuario aprobado",
+      "btnApproveUser": "Aprobar",
+      "inviteBoxHeader": "Ingresa los correos electrónicos de los usuarios que deseas invitar:",
+      "btnLeave": "Salir del grupo",
+      "confirmLeave": "¿Estás seguro de que quieres abandonar este grupo?",
+      "btnConfirmJoin": "Confirmar unirse al grupo",
+      "btnCopyLink": "Copiar enlace",
+      "toastLinkCopied": "Enlace copiado al portapapeles",
+      "roles": {
+        "admin": "administrador",
+        "user": "usuario",
+        "pabu": "usuario pendiente de aprobación",
+        "paba": "administrador pendiente de aprobación"
+      }
     },
     "userCard": {
       "streak": "Racha",
@@ -385,7 +422,8 @@
         "more": "Más",
         "feedback": "Comentarios",
         "collapse": "Colapsar menú",
-        "expand": "Expandir menú"
+        "expand": "Expandir menú",
+        "groups": "Grupos"
       },
       "speakTextInput": {
         "hint": "Escribe o mantén presionado el icono del micrófono para hablar"

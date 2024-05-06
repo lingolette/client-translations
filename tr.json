@@ -13,8 +13,8 @@
       "unsubscribe": "Abonelikten Çık",
       "signUp": "Kaydol",
       "signIn": "Giriş Yap",
-      "mute": "Sessize al",
-      "unmute": "Sessizi Kaldır",
+      "mute": "Sessize Al",
+      "unmute": "Sesi Aç",
       "restart": "Yeniden Başlat",
       "complete": "Tamamla",
       "back": "Geri",
@@ -47,7 +47,8 @@
         "confirmTitle": "Emin misiniz?"
       },
       "placeholders": {
-        "select": "Bir seçenek seçin..."
+        "select": "Bir seçenek seçin...",
+        "search": "Search..."
       },
       "options": {
         "ttsRate": [
@@ -233,6 +234,7 @@
       "teacherGender": "Öğretmenin cinsiyeti",
       "notAvailable": "(sadece okullar için)",
       "hideCard": "Benim <a target='_blank' href='{{URL}}'>genel profilimi</a> gizle",
+      "showGroups": "menüde <a target='_blank' href='/groups'>grupları</a> göster",
       "showGoals": "Günlük hedeflerimi göster",
       "dangerZone": "Tehlike bölgesini göster",
       "startSubscription": "Ücretli sürüme geç",
@@ -268,6 +270,41 @@
       "btnTranslitOutOff": "Transliterasyon kapalı",
       "pttHint": "Hayır hayır, gerçek klavyenizde 'boşluk' tuşunu basılı tutmanız gerekiyor, parmaklarınızla yazdığınız klavyede. 😉",
       "lngMismatch": "Uyarı: Sohbet diliniz '{{CHAT_LNG}}' iken öğrendiğiniz dil '{{TARGET_LNG}}'. Onları hizalamak için sohbeti yeniden başlatın."
+    },
+    "groups": {
+      "joinHint": "«{{GROUP_NAME}}» grubuna katılmak istiyor musunuz?",
+      "joinRequestSent": "İstek gönderildi! Grup yöneticisi yakında onaylayacak.",
+      "plhNewGroupName": "grup adı",
+      "addNewTab": "Yeni ekle",
+      "addNewTitle": "Yeni bir grup oluştur",
+      "confirmRemoveUser": "{{USERNAME}}'yi gruptan kaldırmak istediğinizden emin misiniz? Geri dönüş yok.",
+      "toastUserRemoved": "{{USERNAME}} kullanıcısı kaldırıldı",
+      "noUsersFound": "Kullanıcı bulunamadı",
+      "btnInviteUser": "Davet et",
+      "btnRemoveUser": "Kullanıcıyı kaldır",
+      "plhSearch": "arama...",
+      "colRole": "Rol",
+      "colName": "Ad",
+      "colTargetLng": "Hedef dil",
+      "colNativeLng": "Ana dil",
+      "colLanguageLevel": "Seviye",
+      "colDictSize": "Sözlük boyutu",
+      "colExerciseCount": "Egzersiz sayısı",
+      "confirmApproveUser": "{{USERNAME}}'yi onaylamak istediğinizden emin misiniz?",
+      "toastUserApproved": "Kullanıcı onaylandı",
+      "btnApproveUser": "Onayla",
+      "inviteBoxHeader": "Davet etmek istediğiniz kullanıcıların e-posta adreslerini girin:",
+      "btnLeave": "Grubu terk et",
+      "confirmLeave": "Bu gruptan ayrılmak istediğinizden emin misiniz?",
+      "btnConfirmJoin": "Gruba katılmayı onayla",
+      "btnCopyLink": "Bağlantıyı Kopyala",
+      "toastLinkCopied": "Bağlantı panoya kopyalandı",
+      "roles": {
+        "admin": "yönetici",
+        "user": "kullanıcı",
+        "pabu": "onay bekleyen kullanıcı",
+        "paba": "onay bekleyen yönetici"
+      }
     },
     "userCard": {
       "streak": "Serüven",
@@ -384,7 +421,8 @@
         "more": "Daha Fazla",
         "feedback": "Geribildirim",
         "collapse": "Menüyü Daralt",
-        "expand": "Menüyü Genişlet"
+        "expand": "Menüyü Genişlet",
+        "groups": "Gruplar"
       },
       "speakTextInput": {
         "hint": "Yazmak için tıklayın veya mikrofon simgesini basılı tutun"
