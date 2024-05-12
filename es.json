@@ -217,7 +217,7 @@
     },
     "account": {
       "confirmLogout": "¿Estás seguro de que quieres cerrar sesión?",
-      "confirmDelete": "¿Estás seguro de que quieres eliminar tu cuenta?",
+      "confirmDelete": "¿Estás seguro de que quieres ELIMINAR tu cuenta? ¡No hay vuelta atrás!",
       "deleteConfirmation": "Tu cuenta se eliminará en 30 días.",
       "toastSaved": "Configuración guardada",
       "phName": "¿Cómo te llamamos?",
@@ -335,7 +335,7 @@
       "chatResults": {
         "btnGoBack": "Volver",
         "header": "¡Bien hecho, {{NAME}}!",
-        "mainText": "Hoy estuviste un poco más cerca de tu objetivo. Puedes volver al chat o reiniciar la sesión y comenzar de nuevo.",
+        "mainText": "Estuviste un poco más cerca de tu objetivo. Puedes volver al chat o reiniciar la sesión y comenzar de nuevo.",
         "headerProgress": "Tu progreso de palabras",
         "word": "Palabra",
         "before": "Antes",

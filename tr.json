@@ -216,7 +216,7 @@
     },
     "account": {
       "confirmLogout": "Çıkış yapmak istediğinizden emin misiniz?",
-      "confirmDelete": "Hesabınızı silmek istediğinizden emin misiniz?",
+      "confirmDelete": "Hesabınızı SİLMEK istediğinizden emin misiniz? Geri dönüş yok!",
       "deleteConfirmation": "Hesabınız 30 gün içinde silinecek.",
       "toastSaved": "Ayarlar kaydedildi",
       "phName": "Sizi nasıl çağıralım",
@@ -334,7 +334,7 @@
       "chatResults": {
         "btnGoBack": "Geri git",
         "header": "Harika iş çıkardınız, {{NAME}}!",
-        "mainText": "Bugün hedefinize biraz daha yaklaştınız. Sohbete geri dönebilir veya oturumu yeniden başlatabilir ve yeniden başlayabilirsiniz.",
+        "mainText": "Hedefinize biraz daha yaklaştınız. Sohbete geri dönebilir veya oturumu yeniden başlatabilir ve yeniden başlayabilirsiniz.",
         "headerProgress": "Sözcük ilerlemeniz",
         "word": "Kelime",
         "before": "Önce",
@@ -430,7 +430,7 @@
       "voiceoverPlayer": {
         "play": "Oynat",
         "stop": "Dur",
-        "translit": "Transliterasyon",
+        "translit": "Translit.",
         "rate": "Hızı",
         "fontSize": "Yazı boyutu"
       },

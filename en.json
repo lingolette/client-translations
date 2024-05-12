@@ -216,7 +216,7 @@
     },
     "account": {
       "confirmLogout": "Are you sure you want to log out?",
-      "confirmDelete": "Are you sure you want to delete your account?",
+      "confirmDelete": "Are you sure you want to DELETE your account? There is no way back!",
       "deleteConfirmation": "Your account will be deleted in 30 days.",
       "toastSaved": "Settings saved",
       "phName": "How shall we call you",
@@ -334,7 +334,7 @@
       "chatResults": {
         "btnGoBack": "Go back",
         "header": "Well done, {{NAME}}!",
-        "mainText": "Today you got a bit closer to your goal. You can either go back to the chat or restart the session and start anew.",
+        "mainText": "You got a bit closer to your goal. You can either go back to the chat or restart the session and start anew.",
         "headerProgress": "Your words progress",
         "word": "Word",
         "before": "Before",
@@ -431,7 +431,7 @@
         "play": "Play",
         "stop": "Stop",
         "translit": "Translit",
-        "rate": "Rate",
+        "rate": "Speed",
         "fontSize": "Font size"
       },
       "dailyGoals": {
