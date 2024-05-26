@@ -66,6 +66,11 @@
           "C1 — Advanced",
           "C2 — Fluent"
         ],
+        "feedbackOption": [
+          "No feedback",
+          "In its speech",
+          "As a separate note"
+        ],
         "interest": [
           "Politics",
           "Business",
@@ -81,8 +86,7 @@
       }
     },
     "header": {
-      "btnCTA": "Dashboard",
-      "freeStuff": "Daily articles"
+      "btnCTA": "Log in"
     },
     "footer": {
       "copyright": "All rights reserved.",
@@ -95,31 +99,36 @@
       "businessInquiry": "Business inquiry"
     },
     "home": {
-      "heroHead": [
-        "Language<span> </span>",
-        "<span>teaching</span> machine"
-      ],
-      "heroSubhead": "Master a language faster by chatting with AI. Transform your language learning experience with personalized neural network chat-based tools.",
-      "btnStart": "Try it now!",
-      "btnEmail": "Contact us",
+      "heroHead": "Learn <b>languages</b><br/>by speaking with <span>AI</span>",
+      "heroSubhead": "Achieve spoken and written fluency through real-time conversations.",
+      "toPractice": "I want to practice:",
+      "btnStart": "Let's start",
+      "whyDifferent": "How <b>Lingolette</b> is different from<br/> all other tutors?",
       "explain": [
         [
-          "Lingolette <span>speaks</span>",
-          "Speaks with you as a real teacher and aims to improve your talking skills and pronunciation."
+          "Lingolette ENGAGES",
+          "Immerses you in real-life scenarios, making your practice sessions both relevant and practical."
         ],
         [
-          "Lingolette <span>motivates</span>",
-          "Motivates you on your journey as you take charge with intensive learning for personalized progress"
+          "Lingolette ADAPTS",
+          "Adjusts to your responses and learning pace, offering a personalized and responsive experience."
         ],
         [
-          "Lingolette <span>adapts</span>",
-          "Adapts to your learning, swiftly using new words based on your interests and knowledge level."
+          "Lingolette MOTIVATES",
+          "Delivers fresh, thought-provoking content daily to keep you inspired and eager to learn."
         ],
         [
-          "Lingolette <span>explains</span>",
-          "Explains everything clearly on each step, ensuring new knowledge is only a click away."
+          "Lingolette EXPLAINS",
+          "Offers clear, step-by-step guidance to help you understand \nand progress confidently."
         ]
-      ]
+      ],
+      "whomIsFor": "Who is <b>Lingolette</b> for?",
+      "whomSubheader": "Whether you are enrolled to a language school or a self learner,<br/>Lingolette is for you if...",
+      "breakBarrier": "Break out of the fluency barrier.",
+      "breakBarrierSub": "Try out yourself. It’s really easy!",
+      "whatUsersSay": "What our users say",
+      "joinCommunity": "Join our community of enthusiastic learners now!",
+      "toLearn": "Choose the language you want to learn:"
     },
     "dashboard": {
       "sources": {
@@ -230,6 +239,7 @@
       "coins": "Coins",
       "coinsSpent": "Coins spent",
       "ttsRate": "How fast teacher speaks",
+      "feedbackMode": "How teacher gives feedback",
       "gender": "Your gramm. gender",
       "teacherGender": "Teacher's gramm. gender",
       "notAvailable": "(for schools only)",
@@ -256,7 +266,8 @@
       "emptyPlaceholderHeader": "Your vocabulary is empty",
       "emptyPlaceholderHint": "Talk to <a href='/talk'>AI-teacher</a> or add words in <a href='/feed'>articles</a> to fill it.",
       "more": {
-        "addWords": "Add own words..."
+        "addWords": "Add own words...",
+        "flashCards": "Flash-cards"
       }
     },
     "talk": {
@@ -269,7 +280,9 @@
       "btnTranslitOutOn": "Translit on",
       "btnTranslitOutOff": "Translit off",
       "pttHint": "No-no, you need to hold 'space' on your real keyboard, where you type with fingers. \uD83D\uDE09",
-      "lngMismatch": "Warning: your chat language is '{{CHAT_LNG}}' while you are learning '{{TARGET_LNG}}'. Restart the chat to align them."
+      "lngMismatch": "Warning: your chat language is '{{CHAT_LNG}}' while you are learning '{{TARGET_LNG}}'. Restart the chat to align them.",
+      "longChatWarning": "The chat is getting too long. Restart it to get a better experience.",
+      "listenFailed": "We could not recognize your voice. Please check your microphone is properly connected and permissions are granted in the browser."
     },
     "groups": {
       "joinHint": "Do you want to join group «{{GROUP_NAME}}»?",
@@ -441,6 +454,38 @@
         ],
         "header": "Your daily goals",
         "btnGo": "Got it!"
+      },
+      "targetLngSelector": {
+        "header": "Select a language",
+        "placeholder": "Search language"
+      },
+      "whomFor": {
+        "cards": [
+          [
+            "You want to improve your spoken and written fluency without formal classes.",
+            "You need a practice buddy that adapts to your pace and taste instead of static curriculum."
+          ],
+          [
+            "Your vocabulary is stuck inside same pool of words",
+            "You are using the same words and phrases excessively and repetitively due to lack of variety in your learning. "
+          ],
+          [
+            "You don’t have the budget for a language school.",
+            "Let’s admit it, language schools are expensive."
+          ],
+          [
+            "You struggle with finding opportunities to practice.",
+            "Real-world language practice is often hard to come by unless you're in a country where the language is spoken."
+          ],
+          [
+            "You get anxious while speaking a foreign language with other people.",
+            "No judgement here! Who doesn’t?"
+          ],
+          [
+            "You need flexible practice that fits into your hectic schedule.",
+            "You don’t always have hours to sit in a class. Some days, 15 minutes is all you can give."
+          ]
+        ]
       }
     }
   }

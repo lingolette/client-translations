@@ -66,6 +66,11 @@
           "C1 — Advanced",
           "C2 — Fluent"
         ],
+        "feedbackOption": [
+          "Geri bildirim yok",
+          "Kendi konuşmasında",
+          "Ayrı bir not olarak"
+        ],
         "interest": [
           "Politika",
           "İş Dünyası",
@@ -81,8 +86,7 @@
       }
     },
     "header": {
-      "btnCTA": "Giriş",
-      "freeStuff": "Günlük Makaleler"
+      "btnCTA": "Giriş"
     },
     "footer": {
       "copyright": "Tüm hakları saklıdır.",
@@ -95,31 +99,36 @@
       "businessInquiry": "Bize ulaşın"
     },
     "home": {
-      "heroHead": [
-        "Dil<span> </span>",
-        "<span>öğreten</span> makine"
-      ],
-      "heroSubhead": "Yapay zeka ile sohbet ederek dilinizi daha hızlı öğrenin. Kişiselleştirilmiş sinir ağı tabanlı sohbet araçları ile dil öğrenme deneyiminizi dönüştürün.",
-      "btnStart": "Şimdi Deneyin!",
-      "btnEmail": "Bize Ulaşın",
+      "heroHead": "<span>Yapay Zeka</span> ile<br/>konuşarak <b>dil öğrenin</b>",
+      "heroSubhead": "Gerçek zamanlı sohbet ederek sözlü ve yazılı akıcılık kazanın.",
+      "toPractice": "Pratik yapmak istediğim dil:",
+      "btnStart": "Başlayalım",
+      "whyDifferent": "<b>Lingolette</b> diğer tüm öğretmenlerden<br/> nasıl farklı?",
       "explain": [
         [
-          "Lingolette <span>konuşur</span>",
-          "Sizi gerçek bir öğretmen gibi dinler ve konuşma becerilerinizi ve telaffuzunuzu geliştirmeyi amaçlar."
+          "Lingolette DAHİL EDER",
+          "Pratik seanslarınızı hem alakalı hem de pratik hale getirerek sizi gerçek yaşam senaryolarına dahil eder."
         ],
         [
-          "Lingolette <span>motive eder</span>",
-          "Kişiselleştirilmiş ilerleme için yoğun öğrenme ile yolculuğunuzda sizi motive eder."
+          "Lingolette UYUM SAĞLAR",
+          "Yanıtlarınıza ve öğrenme hızınıza uyum sağlayarak kişiselleştirilmiş ve duyarlı bir deneyim sunar."
         ],
         [
-          "Lingolette <span>uyarlar</span>",
-          "Öğrenmenize uyum sağlar, ilgi alanlarınıza ve bilgi düzeyinize bağlı olarak hızla yeni kelimeler kullanır."
+          "Lingolette MOTİVE EDER",
+          "Günlük taze, düşündürücü içerikler sunarak sizi öğrenmeye hevesli ve ilham dolu tutar."
         ],
         [
-          "Lingolette <span>açıklar</span>",
-          "Her adımda her şeyi açıklayarak, yeni bilginin bir tık uzağınızda olduğundan emin olur."
+          "Lingolette AÇIKLAR",
+          "Anlamanıza ve güvenle ilerlemenize yardımcı olmak için net, adım adım rehberlik sunar."
         ]
-      ]
+      ],
+      "whomIsFor": "<b>Lingolette</b> kimler için?",
+      "whomSubheader": "Bir dil okuluna da kayıtlı olsanız, kendi kendinize öğrenen biri de olsanız,<br/>bu problemleri yaşıyorsanız Lingolette sizin için ideal:",
+      "breakBarrier": "Akıcılık engelini aşın.",
+      "breakBarrierSub": "Kendiniz deneyin. Gerçekten kolay!",
+      "whatUsersSay": "Kullanıcılarımız ne diyor",
+      "joinCommunity": "Şimdi hevesli öğreniciler topluluğumuza katılın!",
+      "toLearn": "Öğrenmek istediğiniz dili seçin:"
     },
     "dashboard": {
       "sources": {
@@ -230,6 +239,7 @@
       "coins": "Jetonlar",
       "coinsSpent": "Harcamış olduğunuz jetonlar",
       "ttsRate": "Öğretmenin konuşma hızı",
+      "feedbackMode": "Öğretmenin geri bildirim verme modu",
       "gender": "Cinsiyetiniz",
       "teacherGender": "Öğretmenin cinsiyeti",
       "notAvailable": "(sadece okullar için)",
@@ -256,7 +266,8 @@
       "emptyPlaceholderHeader": "Sözlüğünüz boş",
       "emptyPlaceholderHint": "Sözlüğü doldurmak için bir <a href='/talk'>AI-öğretmeni</a> ile konuşun veya <a href='/feed'>makalelerde</a> kelimeler ekleyin.",
       "more": {
-        "addWords": "Kendi kelime ekle..."
+        "addWords": "Kendi kelime ekle...",
+        "flashCards": "Flash kartlar"
       }
     },
     "talk": {
@@ -269,7 +280,9 @@
       "btnTranslitOutOn": "Transliterasyon açık",
       "btnTranslitOutOff": "Transliterasyon kapalı",
       "pttHint": "Hayır hayır, gerçek klavyenizde 'boşluk' tuşunu basılı tutmanız gerekiyor, parmaklarınızla yazdığınız klavyede. 😉",
-      "lngMismatch": "Uyarı: Sohbet diliniz '{{CHAT_LNG}}' iken öğrendiğiniz dil '{{TARGET_LNG}}'. Onları hizalamak için sohbeti yeniden başlatın."
+      "lngMismatch": "Uyarı: Sohbet diliniz '{{CHAT_LNG}}' iken öğrendiğiniz dil '{{TARGET_LNG}}'. Onları hizalamak için sohbeti yeniden başlatın.",
+      "longChatWarning": "Sohbet çok uzuyor. Daha iyi bir deneyim için yeniden başlatın.",
+      "listenFailed": "Sesinizi tanıyamadık. Lütfen mikrofonunuzun doğru şekilde bağlı olduğundan ve tarayıcıda izinlerin verildiğinden emin olun."
     },
     "groups": {
       "joinHint": "«{{GROUP_NAME}}» grubuna katılmak istiyor musunuz?",
@@ -441,6 +454,38 @@
         ],
         "header": "Günlük Hedefleriniz",
         "btnGo": "Anladım!"
+      },
+      "targetLngSelector": {
+        "header": "Bir dil seçin",
+        "placeholder": "Dil ara"
+      },
+      "whomFor": {
+        "cards": [
+          [
+            "Klasik dersler olmadan konuşma ve yazma akıcılığınızı geliştirmek istiyorsunuz.",
+            "Sabit bir müfredat yerine sizin temponuza ve zevkinize uyum sağlayan bir pratik arkadaşına ihtiyacınız var."
+          ],
+          [
+            "Kelime dağarcığınız aynı kelime havuzunda sıkışıp kalmış durumda.",
+            "Öğreniminizde çeşitlilik eksikliğinden dolayı aynı kelimeleri ve ifadeleri aşırı ve tekrar tekrar kullanıyorsunuz."
+          ],
+          [
+            "Bir dil okulu için bütçeniz yok.",
+            "Kabul edelim, dil okulları pahalı."
+          ],
+          [
+            "Pratik yapma fırsatları bulmakta zorlanıyorsunuz.",
+            "Gerçek dünyada dil pratiği yapmak, dilin konuşulduğu bir ülkede değilseniz genellikle zordur."
+          ],
+          [
+            "Başkalarıyla yabancı dil konuşurken gergin oluyorsunuz.",
+            "Yargılamıyoruz! Kim olmaz ki?"
+          ],
+          [
+            "Yoğun programınıza uyan esnek bir pratik yapmanız gerekiyor.",
+            "Her zaman pratik için vaktiniz olmuyor. Bazı günler, sadece 15 dakikanız var."
+          ]
+        ]
       }
     }
   }

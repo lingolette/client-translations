@@ -66,6 +66,11 @@
           "C1 - Avanzado",
           "C2 - Fluido"
         ],
+        "feedbackOption": [
+          "Sin retroalimentación",
+          "En su discurso",
+          "Como nota aparte"
+        ],
         "interest": [
           "Política",
           "Negocios",
@@ -81,8 +86,7 @@
       }
     },
     "header": {
-      "btnCTA": "Panel de control",
-      "freeStuff": "Artículos diarios"
+      "btnCTA": "Acceso"
     },
     "footer": {
       "copyright": "Todos los derechos reservados.",
@@ -95,31 +99,36 @@
       "businessInquiry": "Contáctanos"
     },
     "home": {
-      "heroHead": [
-        "Máquina de",
-        "<span>enseñanza</span> de idiomas"
-      ],
-      "heroSubhead": "Aprende un idioma más rápido chateando con IA. Transforma tu experiencia de aprendizaje de idiomas con herramientas personalizadas basadas en chat y redes neuronales.",
-      "btnStart": "¡Pruébalo ahora!",
-      "btnEmail": "Contáctanos",
+      "heroHead": "Aprende <b>idiomas</b><br/>hablando con <span>IA</span>",
+      "heroSubhead": "Logra fluidez oral y escrita a través de conversaciones en tiempo real.",
+      "toPractice": "Quiero practicar:",
+      "btnStart": "Empecemos",
+      "whyDifferent": "¿En qué <b>Lingolette</b> es diferente de<br/> todos los demás tutores?",
       "explain": [
         [
-          "Lingolette <span>habla</span>",
-          "Te habla como un profesor real, enfocándose en mejorar tu conversación y pronunciación."
+          "Lingolette INVOLUCRA",
+          "Te sumerge en escenarios de la vida real, haciendo tus sesiones de práctica tanto relevantes como prácticas."
         ],
         [
-          "Lingolette <span>motiva</span>",
-          "Te motiva en tu camino con un aprendizaje acelerado para progreso personalizado."
+          "Lingolette SE ADAPTA",
+          "Se ajusta a tus respuestas y ritmo de aprendizaje, ofreciendo una experiencia personalizada y receptiva."
         ],
         [
-          "Lingolette <span>se adapta</span>",
-          "Se adapta a tu nivel de aprendizaje, incluindo rápidamente palabras nuevas según tus intereses."
+          "Lingolette MOTIVA",
+          "Ofrece contenido fresco y provocador diariamente para mantenerte inspirado y con ganas de aprender."
         ],
         [
-          "Lingolette <span>explica</span>",
-          "Explica todo en detalle en cada paso, garantizar que el saber esté a un clic de distancia."
+          "Lingolette EXPLICA",
+          "Ofrece una guía clara y paso a paso para ayudarte a entender y progresar con confianza."
         ]
-      ]
+      ],
+      "whomIsFor": "¿Para quién es <b>Lingolette</b>?",
+      "whomSubheader": "Ya sea que estés inscrito en una escuela de idiomas o seas un autodidacta,<br/>Lingolette es para ti si...",
+      "breakBarrier": "Rompe la barrera de la fluidez.",
+      "breakBarrierSub": "Pruébalo tú mismo. ¡Es realmente fácil!",
+      "whatUsersSay": "Lo que dicen nuestros usuarios",
+      "joinCommunity": "¡Únete a nuestra comunidad de entusiastas del aprendizaje ahora!",
+      "toLearn": "Elige el idioma que quieres aprender:"
     },
     "dashboard": {
       "sources": {
@@ -231,6 +240,7 @@
       "coins": "Monedas",
       "coinsSpent": "Monedas gastadas",
       "ttsRate": "Velocidad de la voz del profesor",
+      "feedbackMode": "Cómo el profesor da retroalimentación",
       "gender": "Tu género gramatical",
       "teacherGender": "Género gramatical del profesor",
       "notAvailable": "(solo para escuelas)",
@@ -257,7 +267,8 @@
       "emptyPlaceholderHeader": "Tu vocabulario está vacío",
       "emptyPlaceholderHint": "Habla con <a href='/talk'>el profesor de IA</a> o agrega palabras en <a href='/feed'>artículos</a> para completarlo.",
       "more": {
-        "addWords": "Agregar palabras propias..."
+        "addWords": "Agregar palabras propias...",
+        "flashCards": "Tarjetas de memoria"
       }
     },
     "talk": {
@@ -270,7 +281,9 @@
       "btnTranslitOutOn": "Transliteración activada",
       "btnTranslitOutOff": "Transliteración desactivada",
       "pttHint": "No, necesitas mantener presionada la tecla 'espacio' en tu auténtico teclado, donde escribes con los dedos. 😉",
-      "lngMismatch": "Advertencia: tu idioma de chat es '{{CHAT_LNG}}', mientras que estás aprendiendo '{{TARGET_LNG}}'. Reinicia el chat para alinearlos."
+      "lngMismatch": "Advertencia: tu idioma de chat es '{{CHAT_LNG}}', mientras que estás aprendiendo '{{TARGET_LNG}}'. Reinicia el chat para alinearlos.",
+      "longChatWarning": "El chat es un poco largo. Reiníciala para una mejor experiencia.",
+      "listenFailed": "No pudimos reconocer tu voz. Por favor, verifica que tu micrófono esté correctamente conectado y que los permisos estén concedidos en el navegador."
     },
     "groups": {
       "joinHint": "¿Quieres unirte al grupo «{{GROUP_NAME}}»?",
@@ -442,6 +455,38 @@
         ],
         "header": "Tus metas diarias",
         "btnGo": "¡Entendido!"
+      },
+      "targetLngSelector": {
+        "header": "Seleccione un idioma",
+        "placeholder": "Buscar idioma"
+      },
+      "whomFor": {
+        "cards": [
+          [
+            "Quieres mejorar tu fluidez hablada y escrita sin clases formales.",
+            "Necesitas un compañero de práctica que se adapte a tu ritmo y gustos en lugar de un currículo estático."
+          ],
+          [
+            "Tu vocabulario está atrapado en el mismo conjunto de palabras.",
+            "Estás usando las mismas palabras y frases de manera excesiva y repetitiva debido a la falta de variedad en tu aprendizaje."
+          ],
+          [
+            "No tienes el presupuesto para una escuela de idiomas.",
+            "Seamos sinceros, las escuelas de idiomas son caras."
+          ],
+          [
+            "Tienes dificultades para encontrar oportunidades para practicar.",
+            "La práctica del idioma en el mundo real es a menudo difícil de encontrar a menos que estés en un país donde se hable el idioma."
+          ],
+          [
+            "Te pones ansioso al hablar un idioma extranjero con otras personas.",
+            "¡Sin juzgar! ¿Quién no?"
+          ],
+          [
+            "Necesitas una práctica flexible que se ajuste a tu apretada agenda.",
+            "No siempre tienes horas para sentarte en una clase. Algunos días, solo tienes 15 minutos."
+          ]
+        ]
       }
     }
   }
