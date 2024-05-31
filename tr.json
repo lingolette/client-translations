@@ -101,6 +101,7 @@
     "home": {
       "heroHead": "<span>Yapay Zeka</span> ile<br/>konuşarak <b>dil öğrenin</b>",
       "heroSubhead": "Gerçek zamanlı sohbet ederek sözlü ve yazılı akıcılık kazanın.",
+      "heroSubheadVariant": "Gerçek hayattan alınan bağlamsal dil pratiği. Yaparak öğrenin. Konuşarak ustalaşın.",
       "toPractice": "Pratik yapmak istediğim dil:",
       "btnStart": "Başlayalım",
       "whyDifferent": "<b>Lingolette</b> diğer tüm öğretmenlerden<br/> nasıl farklı?",
@@ -127,7 +128,7 @@
       "breakBarrier": "Akıcılık engelini aşın.",
       "breakBarrierSub": "Kendiniz deneyin. Gerçekten kolay!",
       "whatUsersSay": "Kullanıcılarımız ne diyor",
-      "joinCommunity": "Şimdi hevesli öğreniciler topluluğumuza katılın!",
+      "joinCommunity": "Hevesli dil öğrenenler topluluğumuza şimdi katılın!",
       "toLearn": "Öğrenmek istediğiniz dili seçin:"
     },
     "dashboard": {
@@ -282,7 +283,15 @@
       "pttHint": "Hayır hayır, gerçek klavyenizde 'boşluk' tuşunu basılı tutmanız gerekiyor, parmaklarınızla yazdığınız klavyede. 😉",
       "lngMismatch": "Uyarı: Sohbet diliniz '{{CHAT_LNG}}' iken öğrendiğiniz dil '{{TARGET_LNG}}'. Onları hizalamak için sohbeti yeniden başlatın.",
       "longChatWarning": "Sohbet çok uzuyor. Daha iyi bir deneyim için yeniden başlatın.",
-      "listenFailed": "Sesinizi tanıyamadık. Lütfen mikrofonunuzun doğru şekilde bağlı olduğundan ve tarayıcıda izinlerin verildiğinden emin olun."
+      "listenFailed": "Sesinizi tanıyamadık. Olası nedenler: sessiz kalmak, mırıldanmak, yüksek arka plan sesleri, sessize alınmış cihaz, mikrofon ayarları.",
+      "sseFailed": "Hmm... Sunucu ile bağlantı kesildi. Geçici ise, sayfayı yeniden yüklemeyi deneyin.",
+      "confirmEditReply": "Bu yanıtınızı kaldırmak mı istiyorsunuz?",
+      "tooltips": {
+        "pa": "Telaffuz analizi",
+        "editReply": "Yanıtı düzenle",
+        "sayAgain": "Tekrar söyle",
+        "translate": "Çevir"
+      }
     },
     "groups": {
       "joinHint": "«{{GROUP_NAME}}» grubuna katılmak istiyor musunuz?",
@@ -386,7 +395,7 @@
       "paywall": {
         "walls": {
           "chatPA": "Sesli sohbet analizi yalnızca premium kullanıcılar için mevcuttur.",
-          "chatLength": "Letty yorgun ve mola istiyor. Ona sonsuz enerji vermek için Lingolette Premium satın alın!"
+          "chatLength": "Letty yorgun ve mola istiyor. Ona sonsuz enerji vermek için Lingolette Premium'a yükseltin!"
         },
         "suffix": "Hesabınızı yükseltmek ister misiniz?",
         "btnYes": "Evet, lütfen",
@@ -435,7 +444,8 @@
         "feedback": "Geribildirim",
         "collapse": "Menüyü Daralt",
         "expand": "Menüyü Genişlet",
-        "groups": "Gruplar"
+        "groups": "Gruplar",
+        "plans": "Premium'a Geç"
       },
       "speakTextInput": {
         "hint": "Yazmak için tıklayın veya mikrofon simgesini basılı tutun"
@@ -486,6 +496,38 @@
             "Her zaman pratik için vaktiniz olmuyor. Bazı günler, sadece 15 dakikanız var."
           ]
         ]
+      },
+      "premiumOffer": {
+        "header": "Daha çabuk akıcılık kazanmak için yükseltin!",
+        "monthly": "Aylık",
+        "yearly": "Yıllık (%25 indirim)",
+        "freePlan": {
+          "preHeader": "Ücretsiz Plan",
+          "header": "Lingolette Temel",
+          "items": [
+            "Genel AI öğretmen modeli",
+            "Sohbet başına en fazla 20 yanıt",
+            "Haftada üç makale",
+            "Reklam içerir"
+          ],
+          "footer": "Sonsuza Kadar Ücretsiz",
+          "subFooter": "Ama Letty kuru mamayla besleniyor"
+        },
+        "premiumPlan": {
+          "preHeader": "Yıllık Plan",
+          "header": "Lingolette Premium",
+          "items": [
+            "Gelişmiş AI öğretmen modeline yükseltin",
+            "Sınırsız konuşmanın tadını çıkarın",
+            "Her gün kişiselleştirilmiş makaleler alın",
+            "AI-öğretmen ile sınırsız konuları tartışın",
+            "İngilizce için telaffuz analizi kilidini açın"
+          ],
+          "footer": "$9.99/ay",
+          "footer2": "$7.49/ay",
+          "subFooter": "Yıllık $89.99 olarak faturalandırılır"
+        },
+        "cta": "Başlayın"
       }
     }
   }

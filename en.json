@@ -101,6 +101,7 @@
     "home": {
       "heroHead": "Learn <b>languages</b><br/>by speaking with <span>AI</span>",
       "heroSubhead": "Achieve spoken and written fluency through real-time conversations.",
+      "heroSubheadVariant": "Real-life, contextual language practice. Learn by doing. Master by speaking.",
       "toPractice": "I want to practice:",
       "btnStart": "Let's start",
       "whyDifferent": "How <b>Lingolette</b> is different from<br/> all other tutors?",
@@ -199,7 +200,7 @@
       "s2NativeLng": "Your native language",
       "s2TargetLng": "Language you learn",
       "s2LngLevel": "What level are you at?",
-      "s3Header": "What does interest you <strong>most</strong>?",
+      "s3Header": "What interests you <strong>most</strong>?",
       "s4Header": "Let's test your mic and headphones",
       "btnPlaySound": "Play test sound",
       "btnSpeak": "Press and say \"test\"",
@@ -282,7 +283,15 @@
       "pttHint": "No-no, you need to hold 'space' on your real keyboard, where you type with fingers. \uD83D\uDE09",
       "lngMismatch": "Warning: your chat language is '{{CHAT_LNG}}' while you are learning '{{TARGET_LNG}}'. Restart the chat to align them.",
       "longChatWarning": "The chat is getting too long. Restart it to get a better experience.",
-      "listenFailed": "We could not recognize your voice. Please check your microphone is properly connected and permissions are granted in the browser."
+      "listenFailed": "We could not recognize your voice. Possible reasons: being silent, murmuring, loud background noises, muted device, microphone settings.",
+      "sseFailed": "Hmm... Connection to server was lost. If it's temporarily, try to reload the page.",
+      "confirmEditReply": "Remove this your reply?",
+      "tooltips": {
+        "pa": "Pronunciation analysis",
+        "editReply": "Edit reply",
+        "sayAgain": "Say again",
+        "translate": "Translate"
+      }
     },
     "groups": {
       "joinHint": "Do you want to join group «{{GROUP_NAME}}»?",
@@ -386,7 +395,7 @@
       "paywall": {
         "walls": {
           "chatPA": "Pronunciation analysis in the voice chat is available for premium users only.",
-          "chatLength": "Letty is tired and needs a break. Buy Lingolette Premium to give her infinity energy!"
+          "chatLength": "Letty is tired and needs a break. Go Lingolette Premium to give her infinity energy!"
         },
         "suffix": "Would you like to upgrade?",
         "btnYes": "Yes, please",
@@ -435,7 +444,8 @@
         "feedback": "Feedback",
         "collapse": "Collapse menu",
         "expand": "Expand menu",
-        "groups": "Groups"
+        "groups": "Groups",
+        "plans": "Go Premium"
       },
       "speakTextInput": {
         "hint": "Type or hold mic icon to speak"
@@ -486,6 +496,38 @@
             "You don’t always have hours to sit in a class. Some days, 15 minutes is all you can give."
           ]
         ]
+      },
+      "premiumOffer": {
+        "header": "Upgrade to get fluent faster!",
+        "monthly": "Monthly",
+        "yearly": "Yearly (save 25%)",
+        "freePlan": {
+          "preHeader": "Free Plan",
+          "header": "Lingolette Basic",
+          "items": [
+            "Generic AI teacher model",
+            "Max 20 responses per chat",
+            "Three articles per week",
+            "Ads may be shown"
+          ],
+          "footer": "Free Forever",
+          "subFooter": "But Letty is fed with dry food"
+        },
+        "premiumPlan": {
+          "preHeader": "Yearly Plan",
+          "header": "Lingolette Premium",
+          "items": [
+            "Upgrade to the advanced AI teacher model",
+            "Enjoy unlimited speaking ",
+            "Get personalized articles every day",
+            "Discuss unlimited topics with AI-teacher",
+            "Unlock precise pronunciation analysis for English"
+          ],
+          "footer": "$9.99/month",
+          "footer2": "$7.49/month",
+          "subFooter": "Billed $89.99/year"
+        },
+        "cta": "Get Started"
       }
     }
   }

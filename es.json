@@ -101,6 +101,7 @@
     "home": {
       "heroHead": "Aprende <b>idiomas</b><br/>hablando con <span>IA</span>",
       "heroSubhead": "Logra fluidez oral y escrita a través de conversaciones en tiempo real.",
+      "heroSubheadVariant": "Práctica de idiomas contextual y real. Aprende haciendo. Domina hablando.",
       "toPractice": "Quiero practicar:",
       "btnStart": "Empecemos",
       "whyDifferent": "¿En qué <b>Lingolette</b> es diferente de<br/> todos los demás tutores?",
@@ -283,7 +284,15 @@
       "pttHint": "No, necesitas mantener presionada la tecla 'espacio' en tu auténtico teclado, donde escribes con los dedos. 😉",
       "lngMismatch": "Advertencia: tu idioma de chat es '{{CHAT_LNG}}', mientras que estás aprendiendo '{{TARGET_LNG}}'. Reinicia el chat para alinearlos.",
       "longChatWarning": "El chat es un poco largo. Reiníciala para una mejor experiencia.",
-      "listenFailed": "No pudimos reconocer tu voz. Por favor, verifica que tu micrófono esté correctamente conectado y que los permisos estén concedidos en el navegador."
+      "listenFailed": "No pudimos reconocer tu voz. Posibles razones: estar en silencio, murmurar, ruidos de fondo fuertes, dispositivo silenciado, configuraciones del micrófono.",
+      "sseFailed": "Hmm... Se perdió la conexión con el servidor. Si es temporal, intenta recargar la página.",
+      "confirmEditReply": "¿Eliminar esta respuesta?",
+      "tooltips": {
+        "pa": "Análisis de pronunciación",
+        "editReply": "Editar respuesta",
+        "sayAgain": "Decir de nuevo",
+        "translate": "Traducir"
+      }
     },
     "groups": {
       "joinHint": "¿Quieres unirte al grupo «{{GROUP_NAME}}»?",
@@ -436,7 +445,8 @@
         "feedback": "Comentarios",
         "collapse": "Colapsar menú",
         "expand": "Expandir menú",
-        "groups": "Grupos"
+        "groups": "Grupos",
+        "plans": "Hazte Premium"
       },
       "speakTextInput": {
         "hint": "Escribe o mantén presionado el icono del micrófono para hablar"
@@ -487,6 +497,38 @@
             "No siempre tienes horas para sentarte en una clase. Algunos días, solo tienes 15 minutos."
           ]
         ]
+      },
+      "premiumOffer": {
+        "header": "¡Mejora para hablar con fluidez más rápido!",
+        "monthly": "Mensual",
+        "yearly": "Anual (ahorra 25%)",
+        "freePlan": {
+          "preHeader": "Plan Gratuito",
+          "header": "Lingolette Básico",
+          "items": [
+            "Modelo genérico de profesor AI",
+            "Máximo 20 respuestas por chat",
+            "Tres artículos por semana",
+            "Publicidad posible"
+          ],
+          "footer": "Gratis Para Siempre",
+          "subFooter": "Pero Letty se alimenta con comida seca"
+        },
+        "premiumPlan": {
+          "preHeader": "Plan Anual",
+          "header": "Lingolette Premium",
+          "items": [
+            "Actualiza al modelo avanzado de profesor AI",
+            "Disfruta de conversación ilimitada",
+            "Recibe artículos personalizados todos los días",
+            "Discute temas ilimitados con el profesor AI",
+            "Desbloquea análisis preciso de pronunciación para inglés"
+          ],
+          "footer": "$9.99/mes",
+          "footer2": "$7.49/mes",
+          "subFooter": "Facturado $89.99/año"
+        },
+        "cta": "Empezar"
       }
     }
   }
