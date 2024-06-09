@@ -218,7 +218,7 @@
         "We start from the main navigation bar. Here's the feed. All new articles will appear there.",
         "Here's a dictionary. It tracks your memory progress and helps you to refresh the words you've already learned.",
         "Here you talk to an AI teacher. At the end of each article there's a button to discuss it with the teacher.",
-        "Sources define what articles you see in the feed.",
+        "Customize your article topics from here.",
         "This is your account configuration: change language settings, export your data, and so on.",
         "So, here is your future feed, but it's empty now. Let's finish this intro and go add some sources!",
         "So, here is your future feed. You already have something here. Let's finish this intro and go reading!"
@@ -242,7 +242,7 @@
       "ttsRate": "How fast teacher speaks",
       "feedbackMode": "How teacher gives feedback",
       "gender": "Your gramm. gender",
-      "teacherGender": "Teacher's gramm. gender",
+      "yourTeacher": "Your teacher",
       "notAvailable": "(for schools only)",
       "hideCard": "hide my <a target='_blank' href='{{URL}}'>public profile</a>",
       "showGroups": "show <a target='_blank' href='/groups'>groups</a> in menu",
@@ -284,6 +284,7 @@
       "lngMismatch": "Warning: your chat language is '{{CHAT_LNG}}' while you are learning '{{TARGET_LNG}}'. Restart the chat to align them.",
       "longChatWarning": "The chat is getting too long. Restart it to get a better experience.",
       "listenFailed": "We could not recognize your voice. Possible reasons: being silent, murmuring, loud background noises, muted device, microphone settings.",
+      "listenFailedDebug": "Here's what we heard:",
       "sseFailed": "Hmm... Connection to server was lost. If it's temporarily, try to reload the page.",
       "confirmEditReply": "Remove this your reply?",
       "tooltips": {
@@ -395,7 +396,8 @@
       "paywall": {
         "walls": {
           "chatPA": "Pronunciation analysis in the voice chat is available for premium users only.",
-          "chatLength": "Letty is tired and needs a break. Go Lingolette Premium to give her infinity energy!"
+          "chatLength": "Letty is tired and needs a break. Go Lingolette Premium to give her infinity energy!",
+          "lockedArticle": "This article is available for premium users only."
         },
         "suffix": "Would you like to upgrade?",
         "btnYes": "Yes, please",
@@ -419,7 +421,8 @@
       },
       "publicFeed": {
         "readMore": "Read article →",
-        "tasksCount": "tasks"
+        "tasksCount": "tasks",
+        "goPremium": "Go Premium"
       },
       "articleView": {
         "logInForAssessment": "Log in to get your answers assessed by AI.",
@@ -432,7 +435,8 @@
         "btnDiscuss": "Discuss with AI",
         "discussP": "The artificial intelligence teacher has a lot of benefits. You don't need to book any time slot. You don't have to wait for the teacher to come to class. You can learn at any time. The teacher will never get bored and can keep a conversation on any related topic.",
         "logInForDiscussion": "Log in to start the conversation with AI.",
-        "btnPA": "Check pronunciation"
+        "btnPA": "Check pronunciation",
+        "printedInfo": "Read a new article every day and<br/>discuss it with AI at lingolette.com"
       },
       "desktopMenu": {
         "feed": "Read",
@@ -476,7 +480,7 @@
             "You need a practice buddy that adapts to your pace and taste instead of static curriculum."
           ],
           [
-            "Your vocabulary is stuck inside same pool of words",
+            "Your vocabulary is stuck inside same pool of words.",
             "You are using the same words and phrases excessively and repetitively due to lack of variety in your learning. "
           ],
           [
@@ -507,7 +511,7 @@
           "items": [
             "Generic AI teacher model",
             "Max 20 responses per chat",
-            "Three articles per week",
+            "Max 1 article per day",
             "Ads may be shown"
           ],
           "footer": "Free Forever",

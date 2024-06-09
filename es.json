@@ -243,7 +243,7 @@
       "ttsRate": "Velocidad de la voz del profesor",
       "feedbackMode": "Cómo el profesor da retroalimentación",
       "gender": "Tu género gramatical",
-      "teacherGender": "Género gramatical del profesor",
+      "yourTeacher": "Tu profesor",
       "notAvailable": "(solo para escuelas)",
       "hideCard": "ocultar mi <a target='_blank' href='{{URL}}'>perfil público</a>",
       "showGroups": "mostrar <a target='_blank' href='/groups'>grupos</a> en el menú",
@@ -285,6 +285,7 @@
       "lngMismatch": "Advertencia: tu idioma de chat es '{{CHAT_LNG}}', mientras que estás aprendiendo '{{TARGET_LNG}}'. Reinicia el chat para alinearlos.",
       "longChatWarning": "El chat es un poco largo. Reiníciala para una mejor experiencia.",
       "listenFailed": "No pudimos reconocer tu voz. Posibles razones: estar en silencio, murmurar, ruidos de fondo fuertes, dispositivo silenciado, configuraciones del micrófono.",
+      "listenFailedDebug": "Esto es lo que escuchamos:",
       "sseFailed": "Hmm... Se perdió la conexión con el servidor. Si es temporal, intenta recargar la página.",
       "confirmEditReply": "¿Eliminar esta respuesta?",
       "tooltips": {
@@ -396,7 +397,8 @@
       "paywall": {
         "walls": {
           "chatPA": "El análisis de pronunciación en el chat de voz está disponible solo para usuarios premium.",
-          "chatLength": "Letty está cansada y necesita un descanso. ¡Compra Lingolette Premium para darle energía infinita!"
+          "chatLength": "Letty está cansada y necesita un descanso. ¡Compra Lingolette Premium para darle energía infinita!",
+          "lockedArticle": "Este artículo está disponible solo para usuarios premium."
         },
         "suffix": "¿Te gustaría mejorar tu cuenta?",
         "btnYes": "Sí, por favor",
@@ -420,7 +422,8 @@
       },
       "publicFeed": {
         "readMore": "Leer artículo →",
-        "tasksCount": "tareas"
+        "tasksCount": "tareas",
+        "goPremium": "Hazte Premium"
       },
       "articleView": {
         "logInForAssessment": "Inicia sesión para que la IA evalúe tus respuestas.",
@@ -433,7 +436,8 @@
         "btnDiscuss": "Discutir con la IA",
         "discussP": "El profesor de inteligencia artificial tiene muchas ventajas. No necesitas reservar ningún horario. No tienes que esperar a que el profesor llegue a clase. Puedes aprender en cualquier momento. El profesor nunca se aburrirá y puede mantener una conversación sobre cualquier tema relacionado.",
         "logInForDiscussion": "Inicia sesión para comenzar la conversación con IA.",
-        "btnPA": "Ver la pronunciación"
+        "btnPA": "Ver la pronunciación",
+        "printedInfo": "Lee un nuevo artículo cada día y<br/>discútelo con IA en lingolette.com"
       },
       "desktopMenu": {
         "feed": "Leer",
@@ -508,7 +512,7 @@
           "items": [
             "Modelo genérico de profesor AI",
             "Máximo 20 respuestas por chat",
-            "Tres artículos por semana",
+            "Máximo 1 artículo por día",
             "Publicidad posible"
           ],
           "footer": "Gratis Para Siempre",

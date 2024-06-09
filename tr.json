@@ -242,7 +242,7 @@
       "ttsRate": "Öğretmenin konuşma hızı",
       "feedbackMode": "Öğretmenin geri bildirim verme modu",
       "gender": "Cinsiyetiniz",
-      "teacherGender": "Öğretmenin cinsiyeti",
+      "yourTeacher": "Öğretmeniniz",
       "notAvailable": "(sadece okullar için)",
       "hideCard": "Benim <a target='_blank' href='{{URL}}'>genel profilimi</a> gizle",
       "showGroups": "menüde <a target='_blank' href='/groups'>grupları</a> göster",
@@ -284,6 +284,7 @@
       "lngMismatch": "Uyarı: Sohbet diliniz '{{CHAT_LNG}}' iken öğrendiğiniz dil '{{TARGET_LNG}}'. Onları hizalamak için sohbeti yeniden başlatın.",
       "longChatWarning": "Sohbet çok uzuyor. Daha iyi bir deneyim için yeniden başlatın.",
       "listenFailed": "Sesinizi tanıyamadık. Olası nedenler: sessiz kalmak, mırıldanmak, yüksek arka plan sesleri, sessize alınmış cihaz, mikrofon ayarları.",
+      "listenFailedDebug": "Duyduğumuz şey:",
       "sseFailed": "Hmm... Sunucu ile bağlantı kesildi. Geçici ise, sayfayı yeniden yüklemeyi deneyin.",
       "confirmEditReply": "Bu yanıtınızı kaldırmak mı istiyorsunuz?",
       "tooltips": {
@@ -395,7 +396,8 @@
       "paywall": {
         "walls": {
           "chatPA": "Sesli sohbet analizi yalnızca premium kullanıcılar için mevcuttur.",
-          "chatLength": "Letty yorgun ve mola istiyor. Ona sonsuz enerji vermek için Lingolette Premium'a yükseltin!"
+          "chatLength": "Letty yorgun ve mola istiyor. Ona sonsuz enerji vermek için Lingolette Premium'a yükseltin!",
+          "lockedArticle": "Bu makale yalnızca premium kullanıcılar için mevcuttur."
         },
         "suffix": "Hesabınızı yükseltmek ister misiniz?",
         "btnYes": "Evet, lütfen",
@@ -419,7 +421,8 @@
       },
       "publicFeed": {
         "readMore": "Makaleyi oku →",
-        "tasksCount": "görevler"
+        "tasksCount": "görevler",
+        "goPremium": "Premium'a Geç"
       },
       "articleView": {
         "logInForAssessment": "Yanıtlarınızı yapay zeka tarafından değerlendirmek için giriş yapın.",
@@ -432,7 +435,8 @@
         "btnDiscuss": "Yapay Zeka ile Tartış",
         "discussP": "Yapay zeka öğretmeninin birçok faydası var. Herhangi bir zaman dilimi ayırtmanıza gerek yok. Öğretmenin sınıfa gelmesini beklemenize gerek yok. Her zaman öğrenebilirsiniz. Öğretmen asla sıkılmaz ve ilgili herhangi bir konuda konuşabilir.",
         "logInForDiscussion": "Tartışmayı başlatmak için giriş yapın.",
-        "btnPA": "Telaffuzu Kontrol Et"
+        "btnPA": "Telaffuzu Kontrol Et",
+        "printedInfo": "Her gün yeni bir makale okuyun ve<br/>AI ile lingolette.com'da tartışın"
       },
       "desktopMenu": {
         "feed": "Oku",
@@ -507,7 +511,7 @@
           "items": [
             "Genel AI öğretmen modeli",
             "Sohbet başına en fazla 20 yanıt",
-            "Haftada üç makale",
+            "Günde en fazla 1 makale",
             "Reklam içerir"
           ],
           "footer": "Sonsuza Kadar Ücretsiz",
