@@ -101,7 +101,8 @@
     "home": {
       "heroHead": "Aprende <b>idiomas</b><br/>hablando con <span>IA</span>",
       "heroSubhead": "Logra fluidez oral y escrita a través de conversaciones en tiempo real.",
-      "heroSubheadVariant": "Práctica de idiomas contextual y real. Aprende haciendo. Domina hablando.",
+      "heroHeadVariant": "Conversación en <b>idiomas</b><br/> extranjeros con <span>IA</span>",
+      "heroSubheadVariant": "Práctica de conversación personalizada sin ansiedad. Empieza a hablar con fluidez sin esfuerzo.",
       "toPractice": "Quiero practicar:",
       "btnStart": "Empecemos",
       "whyDifferent": "¿En qué <b>Lingolette</b> es diferente de<br/> todos los demás tutores?",
@@ -293,6 +294,10 @@
         "editReply": "Editar respuesta",
         "sayAgain": "Decir de nuevo",
         "translate": "Traducir"
+      },
+      "teacher": {
+        "header": "Profesor",
+        "confirmChange": "Cambiar de profesor reiniciará el chat. ¿Estás seguro?"
       }
     },
     "groups": {
@@ -460,7 +465,8 @@
         "stop": "Detener",
         "translit": "Translit.",
         "rate": "Velocidad",
-        "fontSize": "Tamaño de fuente"
+        "fontSize": "Tamaño de fuente",
+        "btnPrint": "Obtener versión imprimible"
       },
       "dailyGoals": {
         "goalTypes": [

@@ -101,7 +101,8 @@
     "home": {
       "heroHead": "<span>Yapay Zeka</span> ile<br/>konuşarak <b>dil öğrenin</b>",
       "heroSubhead": "Gerçek zamanlı sohbet ederek sözlü ve yazılı akıcılık kazanın.",
-      "heroSubheadVariant": "Gerçek hayattan alınan bağlamsal dil pratiği. Yaparak öğrenin. Konuşarak ustalaşın.",
+      "heroHeadVariant": "<span>AI</span> ile yabancı dil<br/> <b>konuşma pratiği</b>",
+      "heroSubheadVariant": "Kaygı olmadan kişiselleştirilmiş konuşma pratiği yapın. Çaba harcamadan akıcı bir şekilde konuşmaya başlayın.",
       "toPractice": "Pratik yapmak istediğim dil:",
       "btnStart": "Başlayalım",
       "whyDifferent": "<b>Lingolette</b> diğer tüm öğretmenlerden<br/> nasıl farklı?",
@@ -292,6 +293,10 @@
         "editReply": "Yanıtı düzenle",
         "sayAgain": "Tekrar söyle",
         "translate": "Çevir"
+      },
+      "teacher": {
+        "header": "Öğretmen",
+        "confirmChange": "Öğretmeni değiştirmek sohbeti yeniden başlatacaktır. Emin misiniz?"
       }
     },
     "groups": {
@@ -459,7 +464,8 @@
         "stop": "Dur",
         "translit": "Translit.",
         "rate": "Hızı",
-        "fontSize": "Yazı boyutu"
+        "fontSize": "Yazı boyutu",
+        "btnPrint": "Yazdırılabilir versiyon"
       },
       "dailyGoals": {
         "goalTypes": [

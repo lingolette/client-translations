@@ -101,7 +101,8 @@
     "home": {
       "heroHead": "Learn <b>languages</b><br/>by speaking with <span>AI</span>",
       "heroSubhead": "Achieve spoken and written fluency through real-time conversations.",
-      "heroSubheadVariant": "Real-life, contextual language practice. Learn by doing. Master by speaking.",
+      "heroHeadVariant": "Foreign language<br/><b>chat practice</b> with <span>AI</span>",
+      "heroSubheadVariant": "Personalized speaking practice without the anxiety. Start speaking fluently with no effort.",
       "toPractice": "I want to practice:",
       "btnStart": "Let's start",
       "whyDifferent": "How <b>Lingolette</b> is different from<br/> all other tutors?",
@@ -286,12 +287,16 @@
       "listenFailed": "We could not recognize your voice. Possible reasons: being silent, murmuring, loud background noises, muted device, microphone settings.",
       "listenFailedDebug": "Here's what we heard:",
       "sseFailed": "Hmm... Connection to server was lost. If it's temporarily, try to reload the page.",
-      "confirmEditReply": "Remove this your reply?",
+      "confirmEditReply": "Remove this reply?",
       "tooltips": {
         "pa": "Pronunciation analysis",
         "editReply": "Edit reply",
         "sayAgain": "Say again",
         "translate": "Translate"
+      },
+      "teacher": {
+        "header": "Teacher",
+        "confirmChange": "Changing the teacher will restart the chat. Are you sure?"
       }
     },
     "groups": {
@@ -459,7 +464,8 @@
         "stop": "Stop",
         "translit": "Translit",
         "rate": "Speed",
-        "fontSize": "Font size"
+        "fontSize": "Font size",
+        "btnPrint": "Get printable version"
       },
       "dailyGoals": {
         "goalTypes": [
