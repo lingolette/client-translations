@@ -281,6 +281,7 @@
       "btnTranslitInOff": "Transliterasyon kapalı",
       "btnTranslitOutOn": "Transliterasyon açık",
       "btnTranslitOutOff": "Transliterasyon kapalı",
+      "btnNovice": "Çaylak paneli",
       "pttHint": "Hayır hayır, gerçek klavyenizde 'boşluk' tuşunu basılı tutmanız gerekiyor, parmaklarınızla yazdığınız klavyede. 😉",
       "lngMismatch": "Uyarı: Sohbet diliniz '{{CHAT_LNG}}' iken öğrendiğiniz dil '{{TARGET_LNG}}'. Onları hizalamak için sohbeti yeniden başlatın.",
       "longChatWarning": "Sohbet çok uzuyor. Daha iyi bir deneyim için yeniden başlatın.",

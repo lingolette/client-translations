@@ -282,6 +282,7 @@
       "btnTranslitInOff": "Transliteración desactivada",
       "btnTranslitOutOn": "Transliteración activada",
       "btnTranslitOutOff": "Transliteración desactivada",
+      "btnNovice": "Panel de novato",
       "pttHint": "No, necesitas mantener presionada la tecla 'espacio' en tu auténtico teclado, donde escribes con los dedos. 😉",
       "lngMismatch": "Advertencia: tu idioma de chat es '{{CHAT_LNG}}', mientras que estás aprendiendo '{{TARGET_LNG}}'. Reinicia el chat para alinearlos.",
       "longChatWarning": "El chat es un poco largo. Reiníciala para una mejor experiencia.",

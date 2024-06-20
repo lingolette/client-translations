@@ -281,6 +281,7 @@
       "btnTranslitInOff": "Translit off",
       "btnTranslitOutOn": "Translit on",
       "btnTranslitOutOff": "Translit off",
+      "btnNovice": "Novice panel",
       "pttHint": "No-no, you need to hold 'space' on your real keyboard, where you type with fingers. \uD83D\uDE09",
       "lngMismatch": "Warning: your chat language is '{{CHAT_LNG}}' while you are learning '{{TARGET_LNG}}'. Restart the chat to align them.",
       "longChatWarning": "The chat is getting too long. Restart it to get a better experience.",
