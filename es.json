@@ -174,13 +174,15 @@
     },
     "login": {
       "hint": "Selecciona tu método de autenticación.\n¡Crear una cuenta es gratuito y rápido!",
-      "schoolHint": "¡Bienvenido a Lingolette para Escuelas!",
+      "schoolHint": "¡Bienvenido a {{VENDOR}}!",
       "btnGoogle": "Continuar con Google",
       "btnLinkedIn": "Continuar con LinkedIn",
       "btnTelegram": "Continuar con Telegram",
       "btnSchools": "Iniciar sesión para escuelas",
       "disclaimer": "Al continuar, aceptas nuestros <a target='blank' href='/docs/terms-and-conditions'>términos y condiciones</a> y nuestra <a target='blank' href='/docs/privacy-policy'>política de privacidad</a>.",
-      "receiveOffers": "recibir ofertas especiales de nuestros socios"
+      "receiveOffers": "recibir ofertas especiales de nuestros socios",
+      "plhEmail": "identidad",
+      "plhPassword": "contraseña"
     },
     "paymentDone": {
       "hdrComplete": "Pago completado",
@@ -282,7 +284,7 @@
       "btnTranslitInOff": "Transliteración desactivada",
       "btnTranslitOutOn": "Transliteración activada",
       "btnTranslitOutOff": "Transliteración desactivada",
-      "btnNovice": "Panel de novato",
+      "btnNovice": "Fundamentos",
       "pttHint": "No, necesitas mantener presionada la tecla 'espacio' en tu auténtico teclado, donde escribes con los dedos. 😉",
       "lngMismatch": "Advertencia: tu idioma de chat es '{{CHAT_LNG}}', mientras que estás aprendiendo '{{TARGET_LNG}}'. Reinicia el chat para alinearlos.",
       "longChatWarning": "El chat es un poco largo. Reiníciala para una mejor experiencia.",
@@ -428,8 +430,10 @@
       },
       "publicFeed": {
         "readMore": "Leer artículo →",
+        "readMoreAd": "Leer más →",
         "tasksCount": "tareas",
-        "goPremium": "Hazte Premium"
+        "goPremium": "Hazte Premium",
+        "ad": "Anuncio"
       },
       "articleView": {
         "logInForAssessment": "Inicia sesión para que la IA evalúe tus respuestas.",

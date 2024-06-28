@@ -173,13 +173,15 @@
     },
     "login": {
       "hint": "Kimlik doğrulama yönteminizi seçin.\nBir hesap oluşturmak ücretsiz ve hızlıdır!",
-      "schoolHint": "Okullar için Lingolette'e hoş geldiniz!",
+      "schoolHint": "{{VENDOR}}'a hoş geldiniz!",
       "btnGoogle": "Google ile Devam Et",
       "btnLinkedIn": "LinkedIn ile Devam Et",
       "btnTelegram": "Telegram ile Devam Et",
       "btnSchools": "Okullar İçin Oturum Aç",
       "disclaimer": "Devam ederek, <a target='blank' href='/docs/terms-and-conditions'>kullanım şartlarımızı</a> ve <a target='blank' href='/docs/privacy-policy'>gizlilik politikamızı</a> kabul etmiş olursunuz.",
-      "receiveOffers": "iş ortaklarımızdan özel teklifler al"
+      "receiveOffers": "iş ortaklarımızdan özel teklifler al",
+      "plhEmail": "kimlik",
+      "plhPassword": "şifre"
     },
     "paymentDone": {
       "hdrComplete": "Ödeme tamamlandı",
@@ -281,7 +283,7 @@
       "btnTranslitInOff": "Transliterasyon kapalı",
       "btnTranslitOutOn": "Transliterasyon açık",
       "btnTranslitOutOff": "Transliterasyon kapalı",
-      "btnNovice": "Çaylak paneli",
+      "btnNovice": "Dil Temelleri",
       "pttHint": "Hayır hayır, gerçek klavyenizde 'boşluk' tuşunu basılı tutmanız gerekiyor, parmaklarınızla yazdığınız klavyede. 😉",
       "lngMismatch": "Uyarı: Sohbet diliniz '{{CHAT_LNG}}' iken öğrendiğiniz dil '{{TARGET_LNG}}'. Onları hizalamak için sohbeti yeniden başlatın.",
       "longChatWarning": "Sohbet çok uzuyor. Daha iyi bir deneyim için yeniden başlatın.",
@@ -427,8 +429,10 @@
       },
       "publicFeed": {
         "readMore": "Makaleyi oku →",
+        "readMoreAd": "Daha fazla oku →",
         "tasksCount": "görevler",
-        "goPremium": "Premium'a Geç"
+        "goPremium": "Premium'a Geç",
+        "ad": "Reklam"
       },
       "articleView": {
         "logInForAssessment": "Yanıtlarınızı yapay zeka tarafından değerlendirmek için giriş yapın.",
