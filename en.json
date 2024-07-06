@@ -22,7 +22,8 @@
       "next": "Next",
       "done": "Done",
       "close": "Close",
-      "retry": "Retry"
+      "retry": "Retry",
+      "start": "Start"
     },
     "pos": [
       "other",
@@ -271,7 +272,8 @@
       "emptyPlaceholderHint": "Talk to <a href='/talk'>AI-teacher</a> or add words in <a href='/feed'>articles</a> to fill it.",
       "more": {
         "addWords": "Add own words...",
-        "flashCards": "Flash-cards"
+        "flashCards": "Flash-cards",
+        "repeatGame": "Play a game"
       }
     },
     "talk": {
@@ -350,7 +352,8 @@
     },
     "dialogs": {
       "feedback": {
-        "header": "Feedback",
+        "header": "Share your feedback below",
+        "joinCommunity": "Join our Discord community",
         "placeholder": "What would you like to improve or fix?",
         "thankYou": "Thank you! Your message will help us make the product better."
       },
@@ -412,7 +415,25 @@
         "btnNo": "Maybe later"
       }
     },
+    "games": {
+      "repeat": {
+        "header": "“Repeat after me”",
+        "intro": "You will see cards with words. Each word will be spoken out loud. After that you will have 3 seconds to repeat it. Click a card to go to a new one.",
+        "act": "Repeat!",
+        "btnLoading": "Loading..."
+      }
+    },
     "components": {
+      "testSpeaker": {
+        "button": "Test",
+        "didYouHear": "Did you hear the sound?",
+        "cannotPlay": "Could not play the sound. Please check your audio settings."
+      },
+      "testMic": {
+        "button": "Test",
+        "hint": "Say something and click OK",
+        "didYouSay": "Here is what we heard: “{{RESULT}}”"
+      },
       "noArticles": {
         "info": [
           "Oops, our linguistic explorers are on a thrilling quest for articles in a language yet to be unveiled. It seems they're still packing their dictionaries and setting up grammar traps!",

@@ -22,7 +22,8 @@
       "next": "Siguiente",
       "done": "Hecho",
       "close": "Cerrar",
-      "retry": "Reintentar"
+      "retry": "Reintentar",
+      "start": "Iniciar"
     },
     "pos": [
       "otro",
@@ -272,7 +273,8 @@
       "emptyPlaceholderHint": "Habla con <a href='/talk'>el profesor de IA</a> o agrega palabras en <a href='/feed'>artículos</a> para completarlo.",
       "more": {
         "addWords": "Agregar palabras propias...",
-        "flashCards": "Tarjetas de memoria"
+        "flashCards": "Tarjetas de memoria",
+        "repeatGame": "Jugar un juego"
       }
     },
     "talk": {
@@ -351,7 +353,8 @@
     },
     "dialogs": {
       "feedback": {
-        "header": "Comentarios",
+        "header": "Comparte tus comentarios a continuación",
+        "joinCommunity": "Únete a nuestra comunidad en Discord",
         "placeholder": "¿Qué te gustaría mejorar o corregir?",
         "thankYou": "¡Gracias! Tu mensaje nos ayudará a mejorar el producto."
       },
@@ -413,7 +416,25 @@
         "btnNo": "Tal vez más tarde"
       }
     },
+    "games": {
+      "repeat": {
+        "header": "“Repite después de mí”",
+        "intro": "Verás tarjetas con palabras. Cada palabra será pronunciada en voz alta. Después de eso, tendrás 3 segundos para repetirla. Haz clic en una tarjeta para pasar a una nueva.",
+        "act": "¡Repite!",
+        "btnLoading": "Cargando..."
+      }
+    },
     "components": {
+      "testSpeaker": {
+        "button": "Probar",
+        "didYouHear": "¿Escuchaste el sonido?",
+        "cannotPlay": "No se pudo reproducir el sonido. Por favor, revise la configuración de audio."
+      },
+      "testMic": {
+        "button": "Prueba",
+        "hint": "Diga algo y haga clic en OK",
+        "didYouSay": "Esto es lo que escuchamos: “{{RESULT}}”"
+      },
       "noArticles": {
         "info": [
           "Vaya, nuestros exploradores lingüísticos se encuentran en una emocionante búsqueda de artículos en un idioma por descubrir. Parece que todavía están preparando sus diccionarios y configurando trampas gramaticales.",

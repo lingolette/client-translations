@@ -22,7 +22,8 @@
       "next": "İleri",
       "done": "Tamamlandı",
       "close": "Kapat",
-      "retry": "Yeniden"
+      "retry": "Yeniden",
+      "start": "Başlat"
     },
     "pos": [
       "diğer",
@@ -271,7 +272,8 @@
       "emptyPlaceholderHint": "Sözlüğü doldurmak için bir <a href='/talk'>AI-öğretmeni</a> ile konuşun veya <a href='/feed'>makalelerde</a> kelimeler ekleyin.",
       "more": {
         "addWords": "Kendi kelime ekle...",
-        "flashCards": "Flash kartlar"
+        "flashCards": "Flash kartlar",
+        "repeatGame": "Bir oyun oyna"
       }
     },
     "talk": {
@@ -350,7 +352,8 @@
     },
     "dialogs": {
       "feedback": {
-        "header": "Geribildirim",
+        "header": "Görüşlerinizi aşağıda paylaşın",
+        "joinCommunity": "Discord topluluğumuza katılın",
         "placeholder": "Nasıl geliştirebiliriz veya düzeltebiliriz?",
         "thankYou": "Teşekkürler! Mesajınız ürünü daha iyi yapmamıza yardımcı olacak."
       },
@@ -412,7 +415,25 @@
         "btnNo": "Belki sonra"
       }
     },
+    "games": {
+      "repeat": {
+        "header": "“Beni tekrar et”",
+        "intro": "Kelime kartları göreceksiniz. Her kelime yüksek sesle söylenecektir. Ardından, tekrar etmek için 3 saniyeniz olacak. Yeni bir karta geçmek için bir karta tıklayın.",
+        "act": "Tekrar et!",
+        "btnLoading": "Yükleniyor..."
+      }
+    },
     "components": {
+      "testSpeaker": {
+        "button": "Test",
+        "didYouHear": "Sesi duydun mu?",
+        "cannotPlay": "Ses çalınamadı. Lütfen ses ayarlarını kontrol edin."
+      },
+      "testMic": {
+        "button": "Test",
+        "hint": "Bir şey söyleyin ve Tamam'a tıklayın",
+        "didYouSay": "Duyduğumuz şey: “{{RESULT}}”"
+      },
       "noArticles": {
         "info": [
           "Hata! Dilbilimsel kaşiflerimiz henüz ortaya çıkarılmamış bir dilde makaleler için heyecan verici bir arayış içindeler. Onlar hala sözlüklerini paketliyor gibi görünüyorlar ve dilbilgisi tuzakları kuruyorlar!",
