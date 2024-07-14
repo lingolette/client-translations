@@ -292,6 +292,7 @@
       "listenFailed": "Sesinizi tanıyamadık. Olası nedenler: sessiz kalmak, mırıldanmak, yüksek arka plan sesleri, sessize alınmış cihaz, mikrofon ayarları.",
       "listenFailedDebug": "Duyduğumuz şey:",
       "sseFailed": "Hmm... Sunucu ile bağlantı kesildi. Geçici ise, sayfayı yeniden yüklemeyi deneyin.",
+      "longVoiceInput": "En iyi deneyimi yaşamak için yanıtlarınızı 30 saniyenin altında tutun.",
       "confirmEditReply": "Bu yanıtınızı kaldırmak mı istiyorsunuz?",
       "tooltips": {
         "pa": "Telaffuz analizi",
@@ -299,6 +300,7 @@
         "sayAgain": "Tekrar söyle",
         "translate": "Çevir"
       },
+      "noticeSlowdown": "Öğretmeniniz daha yavaş konuşacak",
       "teacher": {
         "header": "Öğretmen",
         "confirmChange": "Öğretmeni değiştirmek sohbeti yeniden başlatacaktır. Emin misiniz?"
@@ -491,7 +493,8 @@
         "translit": "Translit.",
         "rate": "Hızı",
         "fontSize": "Yazı boyutu",
-        "btnPrint": "Yazdırılabilir versiyon"
+        "btnPrint": "Yazdırılabilir versiyon",
+        "loopVO": "Seslendirmeyi döngüye sokmak"
       },
       "dailyGoals": {
         "goalTypes": [

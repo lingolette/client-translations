@@ -292,6 +292,7 @@
       "listenFailed": "We could not recognize your voice. Possible reasons: being silent, murmuring, loud background noises, muted device, microphone settings.",
       "listenFailedDebug": "Here's what we heard:",
       "sseFailed": "Hmm... Connection to server was lost. If it's temporarily, try to reload the page.",
+      "longVoiceInput": "Keep your replies below 30 seconds to get the best experience.",
       "confirmEditReply": "Remove this reply?",
       "tooltips": {
         "pa": "Pronunciation analysis",
@@ -299,6 +300,7 @@
         "sayAgain": "Say again",
         "translate": "Translate"
       },
+      "noticeSlowdown": "Your teacher will speak slower",
       "teacher": {
         "header": "Teacher",
         "confirmChange": "Changing the teacher will restart the chat. Are you sure?"
@@ -491,7 +493,8 @@
         "translit": "Translit",
         "rate": "Speed",
         "fontSize": "Font size",
-        "btnPrint": "Get printable version"
+        "btnPrint": "Get printable version",
+        "loopVO": "Loop voiceover"
       },
       "dailyGoals": {
         "goalTypes": [

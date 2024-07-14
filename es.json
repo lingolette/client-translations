@@ -293,6 +293,7 @@
       "listenFailed": "No pudimos reconocer tu voz. Posibles razones: estar en silencio, murmurar, ruidos de fondo fuertes, dispositivo silenciado, configuraciones del micrófono.",
       "listenFailedDebug": "Esto es lo que escuchamos:",
       "sseFailed": "Hmm... Se perdió la conexión con el servidor. Si es temporal, intenta recargar la página.",
+      "longVoiceInput": "Mantén tus respuestas por debajo de 30 segundos para obtener la mejor experiencia.",
       "confirmEditReply": "¿Eliminar esta respuesta?",
       "tooltips": {
         "pa": "Análisis de pronunciación",
@@ -300,6 +301,7 @@
         "sayAgain": "Decir de nuevo",
         "translate": "Traducir"
       },
+      "noticeSlowdown": "Tu profesor hablará más despacio",
       "teacher": {
         "header": "Profesor",
         "confirmChange": "Cambiar de profesor reiniciará el chat. ¿Estás seguro?"
@@ -492,7 +494,8 @@
         "translit": "Translit.",
         "rate": "Velocidad",
         "fontSize": "Tamaño de fuente",
-        "btnPrint": "Obtener versión imprimible"
+        "btnPrint": "Obtener versión imprimible",
+        "loopVO": "Ciclar la voz en off"
       },
       "dailyGoals": {
         "goalTypes": [
