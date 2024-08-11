@@ -102,10 +102,11 @@
     "home": {
       "heroHead": "Learn <b>languages</b><br/>by speaking with <span>AI</span>",
       "heroSubhead": "Achieve spoken and written fluency through real-time conversations.",
-      "heroHeadVariant": "Foreign language<br/><b>chat practice</b> with <span>AI</span>",
+      "heroHeadVariant": "Master <b>languages</b> with<br/> <span>the most advanced</span> AI tutor.",
       "heroSubheadVariant": "Personalized speaking practice without the anxiety. Start speaking fluently with no effort.",
       "toPractice": "I want to practice:",
       "btnStart": "Let's start",
+      "btnStartVariant": "Practice for free",
       "whyDifferent": "How <b>Lingolette</b> is different from<br/> all other tutors?",
       "explain": [
         [
@@ -226,7 +227,9 @@
         "This is your account configuration: change language settings, export your data, and so on.",
         "So, here is your future feed, but it's empty now. Let's finish this intro and go add some sources!",
         "So, here is your future feed. You already have something here. Let's finish this intro and go reading!"
-      ]
+      ],
+      "chatOnlyHeader": "No articles for {{LNG}}",
+      "chatOnlyText": "We only support talking to the AI teacher in {{LNG}} language. To read articles, switch to another language."
     },
     "account": {
       "confirmLogout": "Are you sure you want to log out?",
@@ -254,7 +257,7 @@
       "dangerZone": "Reveal danger zone",
       "startSubscription": "Switch to paid version",
       "cancelSubscription": "Cancel subscription",
-      "subCancellationWarning": "Are you sure you want to cancel your subscription? Payments will not be refunded."
+      "subCancellationWarning": "Are you sure you want to cancel your subscription? Premium access will be gone. Payment for the rest of the month will not be refunded."
     },
     "vocabulary": {
       "confirmRemove": "Are you sure you want to remove this word?",
@@ -287,11 +290,11 @@
       "btnTranslitOutOff": "Translit off",
       "btnNovice": "Language basics",
       "pttHint": "No-no, you need to hold 'space' on your real keyboard, where you type with fingers. \uD83D\uDE09",
-      "lngMismatch": "Warning: your chat language is '{{CHAT_LNG}}' while you are learning '{{TARGET_LNG}}'. Restart the chat to align them.",
       "longChatWarning": "The chat is getting too long. Restart it to get a better experience.",
       "listenFailed": "We could not recognize your voice. Possible reasons: being silent, murmuring, loud background noises, muted device, microphone settings.",
       "listenFailedDebug": "Here's what we heard:",
       "sseFailed": "Hmm... Connection to server was lost. If it's temporarily, try to reload the page.",
+      "longVoiceInput": "Keep your replies below 30 seconds to get the best experience.",
       "confirmEditReply": "Remove this reply?",
       "tooltips": {
         "pa": "Pronunciation analysis",
@@ -299,9 +302,23 @@
         "sayAgain": "Say again",
         "translate": "Translate"
       },
+      "noticeSlowdown": "Your teacher will speak slower",
       "teacher": {
         "header": "Teacher",
         "confirmChange": "Changing the teacher will restart the chat. Are you sure?"
+      },
+      "chatMode": "Chat",
+      "historyMode": "Chat history",
+      "situationMode": "Situations",
+      "situationSolved": "Situation solved",
+      "lngMismatch": {
+        "text": "Your chat language is '{{CHAT_LNG}}' while you are learning '{{TARGET_LNG}}'. Restart the chat to align them or change your language back.",
+        "btnRestart": "Restart",
+        "btnFix": "Change language"
+      },
+      "suggestions": {
+        "hint": "Show suggestions",
+        "inputHint": "Type your own reply in your native language"
       }
     },
     "groups": {
@@ -348,7 +365,8 @@
       "wordStatsHint": "Words I know",
       "streakInfo": "Your streak is the number of consecutive days you've been learning with Lingolette. Keep it up!",
       "gemsInfo": "Gems are a virtual currency you can use to buy premium features and content. You earn gems by learning and completing tasks.",
-      "energyInfo": "Energy is used to talk to AI teacher, read articles, and to do other activities."
+      "energyInfo": "Energy is used to talk to AI teacher, read articles, and to do other activities.",
+      "privateHeader": "Profile is private"
     },
     "dialogs": {
       "feedback": {
@@ -406,13 +424,24 @@
       },
       "paywall": {
         "walls": {
-          "chatPA": "Pronunciation analysis in the voice chat is available for premium users only.",
+          "chatPA": "Pronunciation analysis in the voice chat is available for Premium users only.",
           "chatLength": "Letty is tired and needs a break. Go Lingolette Premium to give her infinity energy!",
-          "lockedArticle": "This article is available for premium users only."
+          "lockedArticle": "This article is available for Premium users only.",
+          "longTime": "You've been using Lingolette for a while. We hope you're enjoying it!",
+          "chatHistory": "Chat history is available for Premium users only.",
+          "languages": "Multi-language study is available for Premium users only."
         },
         "suffix": "Would you like to upgrade?",
         "btnYes": "Yes, please",
         "btnNo": "Maybe later"
+      },
+      "salePopup": {
+        "btnSave": "Save 30%",
+        "btnNope": "Remind me later",
+        "disclaimer": "discount valid until August 7 11:59 GMT and for yearly subscription only",
+        "header": "Our Summer Sale starts now! \uD83C\uDFD6\uFE0F",
+        "mainText": "Beat the heat but you can’t beat the price!<br/><br/>For a limited time only, save 30% on <b>Lingolette Premium Yearly</b>.",
+        "codeLine": "Use code <b>SUMMER30</b> at checkout<sup>*</sup>"
       }
     },
     "games": {
@@ -445,7 +474,7 @@
         "logInForContext": "Log in to get translations, context tools, pronunciation and more.",
         "btnYesPlease": "Let's go!",
         "btnPronounce": "Pronounce",
-        "btnAdd": "To dictionary",
+        "btnAdd": "To dict.",
         "btnPA": "Pronunciation"
       },
       "publicFeed": {
@@ -491,7 +520,8 @@
         "translit": "Translit",
         "rate": "Speed",
         "fontSize": "Font size",
-        "btnPrint": "Get printable version"
+        "btnPrint": "Get printable version",
+        "loopVO": "Loop voiceover"
       },
       "dailyGoals": {
         "goalTypes": [
@@ -512,7 +542,7 @@
             "You need a practice buddy that adapts to your pace and taste instead of static curriculum."
           ],
           [
-            "Your vocabulary is stuck inside same pool of words.",
+            "Your vocabulary is stuck in the same pool of words.",
             "You are using the same words and phrases excessively and repetitively due to lack of variety in your learning. "
           ],
           [
@@ -534,9 +564,9 @@
         ]
       },
       "premiumOffer": {
-        "header": "Upgrade to get fluent faster!",
+        "header": "Upgrade to get fluent faster! Cancel anytime.",
         "monthly": "Monthly",
-        "yearly": "Yearly (save 25%)",
+        "yearly": "Yearly (save 47%)",
         "freePlan": {
           "preHeader": "Free Plan",
           "header": "Lingolette Basic",
@@ -547,19 +577,21 @@
             "Ads may be shown"
           ],
           "footer": "Free Forever",
-          "subFooter": "But Letty is fed with dry food"
+          "subFooter": "Free, for trying things out."
         },
         "premiumPlan": {
-          "preHeader": "Yearly Plan",
+          "preHeaderMonthly": "Monthly Plan",
+          "preHeaderYearly": "Yearly Plan",
           "header": "Lingolette Premium",
           "items": [
-            "Upgrade to the advanced AI teacher model",
-            "Enjoy unlimited speaking ",
-            "Get personalized articles every day",
-            "Discuss unlimited topics with AI-teacher",
-            "Unlock precise pronunciation analysis for English"
+            "25+ languages",
+            "Unlimited chat",
+            "Unlimited personalized articles",
+            "Advanced AI tutor model",
+            "Pronunciation feedback for English",
+            "Access to chat history"
           ],
-          "footer": "$9.99/month",
+          "footer": "$13.99/month",
           "footer2": "$7.49/month",
           "subFooter": "Billed $89.99/year"
         },

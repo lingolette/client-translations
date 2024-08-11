@@ -102,10 +102,11 @@
     "home": {
       "heroHead": "Aprende <b>idiomas</b><br/>hablando con <span>IA</span>",
       "heroSubhead": "Logra fluidez oral y escrita a través de conversaciones en tiempo real.",
-      "heroHeadVariant": "Conversación en <b>idiomas</b><br/> extranjeros con <span>IA</span>",
+      "heroHeadVariant": "Domina <b>idiomas</b> con<br/> un tutor de IA <span>avanzado</span>.",
       "heroSubheadVariant": "Práctica de conversación personalizada sin ansiedad. Empieza a hablar con fluidez sin esfuerzo.",
       "toPractice": "Quiero practicar:",
       "btnStart": "Empecemos",
+      "btnStartVariant": "Practicar gratis",
       "whyDifferent": "¿En qué <b>Lingolette</b> es diferente de<br/> todos los demás tutores?",
       "explain": [
         [
@@ -227,7 +228,9 @@
         "Esta es la configuración de tu cuenta: cambia la configuración del idioma, exporta tus datos, etc.",
         "Así que aquí está tu futuro feed, pero ahora está vacío. ¡Terminemos esta introducción y vayamos a agregar algunas fuentes!",
         "Así que aquí está tu futuro feed. Ya tienes algo aquí. ¡Terminemos esta introducción y vayamos a leer!"
-      ]
+      ],
+      "chatOnlyHeader": "No hay artículos para {{LNG}}",
+      "chatOnlyText": "Solo admitimos hablar con el maestro de IA en {{LNG}}. Para leer artículos, cambie a otro idioma."
     },
     "account": {
       "confirmLogout": "¿Estás seguro de que quieres cerrar sesión?",
@@ -255,7 +258,7 @@
       "dangerZone": "Mostrar zona de peligro",
       "startSubscription": "Cambiar a versión de pago",
       "cancelSubscription": "Cancelar suscripción",
-      "subCancellationWarning": "¿Estás seguro de que quieres cancelar tu suscripción? Los pagos no serán reembolsados."
+      "subCancellationWarning": "¿Estás seguro de que quieres cancelar tu suscripción? El acceso Premium se eliminará. No se reembolsará el pago por el resto del mes."
     },
     "vocabulary": {
       "confirmRemove": "¿Estás seguro de que quieres eliminar esta palabra?",
@@ -288,11 +291,11 @@
       "btnTranslitOutOff": "Transliteración desactivada",
       "btnNovice": "Fundamentos",
       "pttHint": "No, necesitas mantener presionada la tecla 'espacio' en tu auténtico teclado, donde escribes con los dedos. 😉",
-      "lngMismatch": "Advertencia: tu idioma de chat es '{{CHAT_LNG}}', mientras que estás aprendiendo '{{TARGET_LNG}}'. Reinicia el chat para alinearlos.",
       "longChatWarning": "El chat es un poco largo. Reiníciala para una mejor experiencia.",
       "listenFailed": "No pudimos reconocer tu voz. Posibles razones: estar en silencio, murmurar, ruidos de fondo fuertes, dispositivo silenciado, configuraciones del micrófono.",
       "listenFailedDebug": "Esto es lo que escuchamos:",
       "sseFailed": "Hmm... Se perdió la conexión con el servidor. Si es temporal, intenta recargar la página.",
+      "longVoiceInput": "Mantén tus respuestas por debajo de 30 segundos para obtener la mejor experiencia.",
       "confirmEditReply": "¿Eliminar esta respuesta?",
       "tooltips": {
         "pa": "Análisis de pronunciación",
@@ -300,9 +303,23 @@
         "sayAgain": "Decir de nuevo",
         "translate": "Traducir"
       },
+      "noticeSlowdown": "Tu profesor hablará más despacio",
       "teacher": {
         "header": "Profesor",
         "confirmChange": "Cambiar de profesor reiniciará el chat. ¿Estás seguro?"
+      },
+      "chatMode": "Chat",
+      "historyMode": "Historial de chat",
+      "situationMode": "Situaciones",
+      "situationSolved": "Situación resuelta",
+      "lngMismatch": {
+        "text": "Tu idioma de chat es '{{CHAT_LNG}}' mientras estás aprendiendo '{{TARGET_LNG}}'. Reinicia el chat para alinearlos o cambia tu idioma de vuelta.",
+        "btnRestart": "Reiniciar",
+        "btnFix": "Cambiar idioma"
+      },
+      "suggestions": {
+        "hint": "Mostrar sugerencias",
+        "inputHint": "Escribe tu respuesta en tu idioma nativo"
       }
     },
     "groups": {
@@ -349,7 +366,8 @@
       "wordStatsHint": "Palabras que conozco",
       "streakInfo": "Tu racha es el número de días consecutivos en los que has estado aprendiendo con Lingolette. ¡Sigue así!",
       "gemsInfo": "Las gemas son una moneda virtual que puedes utilizar para comprar funciones y contenido premium. Ganas gemas al aprender y completar tareas.",
-      "energyInfo": "La energía se utiliza para hablar con el profesor de IA, leer artículos y realizar otras actividades."
+      "energyInfo": "La energía se utiliza para hablar con el profesor de IA, leer artículos y realizar otras actividades.",
+      "privateHeader": "El perfil es privado"
     },
     "dialogs": {
       "feedback": {
@@ -407,13 +425,24 @@
       },
       "paywall": {
         "walls": {
-          "chatPA": "El análisis de pronunciación en el chat de voz está disponible solo para usuarios premium.",
+          "chatPA": "El análisis de pronunciación en el chat de voz está disponible solo para usuarios Premium.",
           "chatLength": "Letty está cansada y necesita un descanso. ¡Compra Lingolette Premium para darle energía infinita!",
-          "lockedArticle": "Este artículo está disponible solo para usuarios premium."
+          "lockedArticle": "Este artículo está disponible solo para usuarios Premium.",
+          "longTime": "Llevas un tiempo usando Lingolette. ¡Esperamos que lo estés disfrutando!",
+          "chatHistory": "El historial de chat está disponible solo para usuarios Premium.",
+          "languages": "El estudio multilingüe está disponible solo para usuarios Premium."
         },
         "suffix": "¿Te gustaría mejorar tu cuenta?",
         "btnYes": "Sí, por favor",
         "btnNo": "Tal vez más tarde"
+      },
+      "salePopup": {
+        "btnSave": "Ahorrar 30%",
+        "btnNope": "Recuérdame más tarde",
+        "disclaimer": "descuento válido hasta el 7 de agosto a las 11:59 GMT y solo para suscripción anual",
+        "header": "¡Nuestra Venta de Verano comienza ahora! 🏖️",
+        "mainText": "¡Enfrenta el calor, pero no podrás vencer el precio!<br/><br/>Por tiempo limitado, ahorra 30% en <b>Lingolette Premium Anual</b>.",
+        "codeLine": "Usa el código <b>SUMMER30</b> al pagar<sup>*</sup>"
       }
     },
     "games": {
@@ -492,7 +521,8 @@
         "translit": "Translit.",
         "rate": "Velocidad",
         "fontSize": "Tamaño de fuente",
-        "btnPrint": "Obtener versión imprimible"
+        "btnPrint": "Obtener versión imprimible",
+        "loopVO": "Ciclar la voz en off"
       },
       "dailyGoals": {
         "goalTypes": [
@@ -535,9 +565,9 @@
         ]
       },
       "premiumOffer": {
-        "header": "¡Mejora para hablar con fluidez más rápido!",
+        "header": "¡Mejora para hablar con fluidez más rápido! Cancela en cualquier momento.",
         "monthly": "Mensual",
-        "yearly": "Anual (ahorra 25%)",
+        "yearly": "Anual (ahorra 47%)",
         "freePlan": {
           "preHeader": "Plan Gratuito",
           "header": "Lingolette Básico",
@@ -548,19 +578,21 @@
             "Publicidad posible"
           ],
           "footer": "Gratis Para Siempre",
-          "subFooter": "Pero Letty se alimenta con comida seca"
+          "subFooter": "Suficiente para probar las todas."
         },
         "premiumPlan": {
-          "preHeader": "Plan Anual",
+          "preHeaderMonthly": "Plan Mensual",
+          "preHeaderYearly": "Plan Anual",
           "header": "Lingolette Premium",
           "items": [
-            "Actualiza al modelo avanzado de profesor AI",
-            "Disfruta de conversación ilimitada",
-            "Recibe artículos personalizados todos los días",
-            "Discute temas ilimitados con el profesor AI",
-            "Desbloquea análisis preciso de pronunciación para inglés"
+            "25+ idiomas",
+            "Modelo avanzado de profesor de IA",
+            "Conversación ilimitada",
+            "Artículos personalizados todos los días",
+            "Análisis de pronunciación para inglés",
+            "Acceso al historial de chat"
           ],
-          "footer": "$9.99/mes",
+          "footer": "$13.99/mes",
           "footer2": "$7.49/mes",
           "subFooter": "Facturado $89.99/año"
         },

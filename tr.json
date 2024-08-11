@@ -102,10 +102,11 @@
     "home": {
       "heroHead": "<span>Yapay Zeka</span> ile<br/>konuşarak <b>dil öğrenin</b>",
       "heroSubhead": "Gerçek zamanlı sohbet ederek sözlü ve yazılı akıcılık kazanın.",
-      "heroHeadVariant": "<span>AI</span> ile yabancı dil<br/> <b>konuşma pratiği</b>",
+      "heroHeadVariant": "<span>En gelişmiş</span> yapay<br/> zeka ile <b>dil</b> öğrenin.",
       "heroSubheadVariant": "Kaygı olmadan kişiselleştirilmiş konuşma pratiği yapın. Çaba harcamadan akıcı bir şekilde konuşmaya başlayın.",
       "toPractice": "Pratik yapmak istediğim dil:",
       "btnStart": "Başlayalım",
+      "btnStartVariant": "Ücretsiz pratik yap",
       "whyDifferent": "<b>Lingolette</b> diğer tüm öğretmenlerden<br/> nasıl farklı?",
       "explain": [
         [
@@ -226,7 +227,9 @@
         "Bu hesap yapılandırmanız: dil ayarlarını değiştirme, verilerinizi dışa aktarma ve benzeri işlemler.",
         "Demek ki burası gelecekteki akışınız, ama şu anda boş. Haydi bu girişi bitirelim ve bazı kaynaklar ekleyelim!",
         "Demek ki burası gelecekteki akışınız. Zaten burada bir şeyiniz var. Haydi bu girişi bitirelim ve okumaya başlayalım!"
-      ]
+      ],
+      "chatOnlyHeader": "{{LNG}} dili için makale yok",
+      "chatOnlyText": "Sadece {{LNG}} dilinde AI öğretmeni ile konuşmayı destekliyoruz. Makaleleri okumak için başka bir dile geçin."
     },
     "account": {
       "confirmLogout": "Çıkış yapmak istediğinizden emin misiniz?",
@@ -254,7 +257,7 @@
       "dangerZone": "Tehlike bölgesini göster",
       "startSubscription": "Ücretli sürüme geç",
       "cancelSubscription": "Aboneliği iptal et",
-      "subCancellationWarning": "Aboneliğinizi iptal etmek istediğinizden emin misiniz? Ödemeler geri ödenmeyecek."
+      "subCancellationWarning": "Aboneliğinizi iptal etmek istediğinizden emin misiniz? Premium erişim sona erecek. Ayın geri kalanı için ödeme iade edilmeyecek."
     },
     "vocabulary": {
       "confirmRemove": "Bu kelimeyi kaldırmak istediğinizden emin misiniz?",
@@ -287,11 +290,11 @@
       "btnTranslitOutOff": "Transliterasyon kapalı",
       "btnNovice": "Dil Temelleri",
       "pttHint": "Hayır hayır, gerçek klavyenizde 'boşluk' tuşunu basılı tutmanız gerekiyor, parmaklarınızla yazdığınız klavyede. 😉",
-      "lngMismatch": "Uyarı: Sohbet diliniz '{{CHAT_LNG}}' iken öğrendiğiniz dil '{{TARGET_LNG}}'. Onları hizalamak için sohbeti yeniden başlatın.",
       "longChatWarning": "Sohbet çok uzuyor. Daha iyi bir deneyim için yeniden başlatın.",
       "listenFailed": "Sesinizi tanıyamadık. Olası nedenler: sessiz kalmak, mırıldanmak, yüksek arka plan sesleri, sessize alınmış cihaz, mikrofon ayarları.",
       "listenFailedDebug": "Duyduğumuz şey:",
       "sseFailed": "Hmm... Sunucu ile bağlantı kesildi. Geçici ise, sayfayı yeniden yüklemeyi deneyin.",
+      "longVoiceInput": "En iyi deneyimi yaşamak için yanıtlarınızı 30 saniyenin altında tutun.",
       "confirmEditReply": "Bu yanıtınızı kaldırmak mı istiyorsunuz?",
       "tooltips": {
         "pa": "Telaffuz analizi",
@@ -299,9 +302,23 @@
         "sayAgain": "Tekrar söyle",
         "translate": "Çevir"
       },
+      "noticeSlowdown": "Öğretmeniniz daha yavaş konuşacak",
       "teacher": {
         "header": "Öğretmen",
         "confirmChange": "Öğretmeni değiştirmek sohbeti yeniden başlatacaktır. Emin misiniz?"
+      },
+      "chatMode": "Sohbet",
+      "historyMode": "Sohbet geçmişi",
+      "situationMode": "Durumlar",
+      "situationSolved": "Durum çözüldü",
+      "lngMismatch": {
+        "text": "Sohbet diliniz '{{CHAT_LNG}}' iken '{{TARGET_LNG}}' öğreniyorsunuz. Onları hizalamak için sohbeti yeniden başlatın veya dilinizi geri değiştirin.",
+        "btnRestart": "Yeniden Başlat",
+        "btnFix": "Dili Değiştir"
+      },
+      "suggestions": {
+        "hint": "Önerileri göster",
+        "inputHint": "Kendi dilinizde bir yanıt yazın"
       }
     },
     "groups": {
@@ -348,7 +365,8 @@
       "wordStatsHint": "Bildiğim kelimeler",
       "streakInfo": "Serüveniniz, Lingolette ile öğrenmeye başladığınız ardışık günlerin sayısıdır. Devam edin!",
       "gemsInfo": "Mücevherler, premium özellikler ve içerik satın almak için kullanabileceğiniz sanal bir para birimidir. Mücevherler kazanarak öğrenir ve görevleri tamamlarsınız.",
-      "energyInfo": "Enerji, yapay zeka öğretmeniyle konuşmak, makale okumak ve diğer etkinlikler için kullanılır."
+      "energyInfo": "Enerji, yapay zeka öğretmeniyle konuşmak, makale okumak ve diğer etkinlikler için kullanılır.",
+      "privateHeader": "Profil gizli"
     },
     "dialogs": {
       "feedback": {
@@ -406,13 +424,24 @@
       },
       "paywall": {
         "walls": {
-          "chatPA": "Sesli sohbet analizi yalnızca premium kullanıcılar için mevcuttur.",
+          "chatPA": "Sesli sohbet analizi yalnızca Premium kullanıcılar için mevcuttur.",
           "chatLength": "Letty yorgun ve mola istiyor. Ona sonsuz enerji vermek için Lingolette Premium'a yükseltin!",
-          "lockedArticle": "Bu makale yalnızca premium kullanıcılar için mevcuttur."
+          "lockedArticle": "Bu makale yalnızca Premium kullanıcılar için mevcuttur.",
+          "longTime": "Bir süredir Lingolette kullanıyorsun. Umarız beğeniyorsundur!",
+          "chatHistory": "Sohbet geçmişi yalnızca Premium kullanıcılar için kullanılabilir.",
+          "languages": "Çok dilli çalışma yalnızca Premium kullanıcılar için mevcuttur."
         },
         "suffix": "Hesabınızı yükseltmek ister misiniz?",
         "btnYes": "Evet, lütfen",
         "btnNo": "Belki sonra"
+      },
+      "salePopup": {
+        "btnSave": "30% Tasarruf",
+        "btnNope": "Daha sonra hatırlat",
+        "disclaimer": "indirim 7 Ağustos 11:59 GMT'ye kadar geçerlidir ve yalnızca yıllık abonelik için",
+        "header": "Yaz İndirimimiz şimdi başlıyor! 🏖️",
+        "mainText": "Sıcağı yenin ama fiyatı yenemezsiniz!<br/><br/>Sadece sınırlı bir süre için, <b>Lingolette Premium Yıllık</b> aboneliğinde %30 tasarruf edin.",
+        "codeLine": "Kasa'da <b>SUMMER30</b> kodunu kullanın<sup>*</sup>"
       }
     },
     "games": {
@@ -491,7 +520,8 @@
         "translit": "Translit.",
         "rate": "Hızı",
         "fontSize": "Yazı boyutu",
-        "btnPrint": "Yazdırılabilir versiyon"
+        "btnPrint": "Yazdırılabilir versiyon",
+        "loopVO": "Seslendirmeyi döngüye sokmak"
       },
       "dailyGoals": {
         "goalTypes": [
@@ -534,9 +564,9 @@
         ]
       },
       "premiumOffer": {
-        "header": "Daha çabuk akıcılık kazanmak için yükseltin!",
+        "header": "İstediğin dili konuşmak için yükselt! Her zaman iptal edilebilir.",
         "monthly": "Aylık",
-        "yearly": "Yıllık (%25 indirim)",
+        "yearly": "Yıllık (%47 indirim)",
         "freePlan": {
           "preHeader": "Ücretsiz Plan",
           "header": "Lingolette Temel",
@@ -547,19 +577,21 @@
             "Reklam içerir"
           ],
           "footer": "Sonsuza Kadar Ücretsiz",
-          "subFooter": "Ama Letty kuru mamayla besleniyor"
+          "subFooter": "Her şeyi denemek için yeterli."
         },
         "premiumPlan": {
-          "preHeader": "Yıllık Plan",
+          "preHeaderMonthly": "Aylık Plan",
+          "preHeaderYearly": "Yıllık Plan",
           "header": "Lingolette Premium",
           "items": [
-            "Gelişmiş AI öğretmen modeline yükseltin",
-            "Sınırsız konuşmanın tadını çıkarın",
-            "Her gün kişiselleştirilmiş makaleler alın",
-            "AI-öğretmen ile sınırsız konuları tartışın",
-            "İngilizce için telaffuz analizi kilidini açın"
+            "25+ dil",
+            "Sınırsız sohbet",
+            "Sınırsız kişiselleştirilmiş makaleler",
+            "Gelişmiş AI öğretmen modeli",
+            "İngilizce telaffuz geri bildirimi",
+            "Sohbet geçmişine erişim"
           ],
-          "footer": "$9.99/ay",
+          "footer": "$13.99/ay",
           "footer2": "$7.49/ay",
           "subFooter": "Yıllık $89.99 olarak faturalandırılır"
         },
