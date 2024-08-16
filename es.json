@@ -97,7 +97,8 @@
       "privacy": "Política de privacidad",
       "freeStuff": "Artículos diarios",
       "apiManual": "Manual de la API",
-      "businessInquiry": "Contáctanos"
+      "businessInquiry": "Contáctanos",
+      "integrations": "Integraciones"
     },
     "home": {
       "heroHead": "Aprende <b>idiomas</b><br/>hablando con <span>IA</span>",
@@ -164,6 +165,11 @@
         "El contenido gratuito se genera automáticamente todos los días, por lo que siempre está actualizado."
       ]
     },
+    "integrations": {
+      "header": "Integraciones",
+      "addonChrome": "Extensión para el navegador Chrome",
+      "addonFirefox": "Extensión para el navegador Firefox"
+    },
     "inquiry": {
       "header": "¿Interesado en Lingolette?",
       "subHeader": "Déjanos tus datos de contacto y te responderemos",
@@ -195,7 +201,7 @@
       "steps": [
         "Nombre",
         "Idioma",
-        "Intereses",
+        "Misión",
         "Sonido"
       ],
       "nextStep": "Siguiente",
@@ -207,6 +213,7 @@
       "s2TargetLng": "Idioma que aprendes",
       "s2LngLevel": "¿En qué nivel te encuentras?",
       "s3Header": "¿Qué te interesa <strong>más</strong>?",
+      "s3HeaderNext": "Tu primera misión:",
       "s4Header": "Probemos tu micrófono y tus auriculares",
       "btnPlaySound": "Reproducir sonido de prueba",
       "btnSpeak": "Presiona y di «prueba»",
@@ -311,6 +318,7 @@
       "chatMode": "Chat",
       "historyMode": "Historial de chat",
       "situationMode": "Situaciones",
+      "situationsHeader": "Elige una situación y completa el objetivo hablando.",
       "situationSolved": "Situación resuelta",
       "lngMismatch": {
         "text": "Tu idioma de chat es '{{CHAT_LNG}}' mientras estás aprendiendo '{{TARGET_LNG}}'. Reinicia el chat para alinearlos o cambia tu idioma de vuelta.",
@@ -430,7 +438,8 @@
           "lockedArticle": "Este artículo está disponible solo para usuarios Premium.",
           "longTime": "Llevas un tiempo usando Lingolette. ¡Esperamos que lo estés disfrutando!",
           "chatHistory": "El historial de chat está disponible solo para usuarios Premium.",
-          "languages": "El estudio multilingüe está disponible solo para usuarios Premium."
+          "languages": "El estudio multilingüe está disponible solo para usuarios Premium.",
+          "paidSituation": "Esta situación está disponible solo para usuarios Premium."
         },
         "suffix": "¿Te gustaría mejorar tu cuenta?",
         "btnYes": "Sí, por favor",
@@ -597,6 +606,24 @@
           "subFooter": "Facturado $89.99/año"
         },
         "cta": "Empezar"
+      },
+      "nextMission": {
+        "hChat": "Lección de idioma",
+        "hSituations": "Situaciones",
+        "btnCaption": "Elige tu primera misión",
+        "modes": {
+          "chat": "Habla con tu profesor de IA",
+          "hotelCheckIn": "Registro en el hotel",
+          "cashDesk": "Caja del supermercado",
+          "buySimCard": "Compra de tarjeta SIM",
+          "buyTransportCard": "Comprar una tarjeta de transporte",
+          "bankAccount": "Abrir una cuenta bancaria",
+          "rentApartment": "Alquilar un apartamento",
+          "restaurant": "Restaurante",
+          "hospital": "Hospital",
+          "drugstore": "Farmacia",
+          "alienInvasion": "Invasión alienígena"
+        }
       }
     }
   }

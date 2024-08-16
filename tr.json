@@ -97,7 +97,8 @@
       "privacy": "Gizlilik Politikası",
       "freeStuff": "Günlük Makaleler",
       "apiManual": "API Kılavuzu",
-      "businessInquiry": "Bize ulaşın"
+      "businessInquiry": "Bize ulaşın",
+      "integrations": "Entegrasyonlar"
     },
     "home": {
       "heroHead": "<span>Yapay Zeka</span> ile<br/>konuşarak <b>dil öğrenin</b>",
@@ -163,6 +164,11 @@
         "Ücretsiz içerik her gün otomatik olarak oluşturulur, bu nedenle her zaman günceldir."
       ]
     },
+    "integrations": {
+      "header": "Entegrasyonlar",
+      "addonChrome": "Chrome tarayıcı uzantısı",
+      "addonFirefox": "Firefox tarayıcı uzantısı"
+    },
     "inquiry": {
       "header": "Lingolette ile ilgileniyor musunuz?",
       "subHeader": "Bize bazı iletişim bilgilerinizi bırakın, size geri döneceğiz",
@@ -194,7 +200,7 @@
       "steps": [
         "Ad",
         "Dil",
-        "İlgi alanları",
+        "Misyon",
         "Ses"
       ],
       "nextStep": "Sonraki",
@@ -206,6 +212,7 @@
       "s2TargetLng": "Öğrendiğiniz dil",
       "s2LngLevel": "Şu anda hangi seviyedesiniz?",
       "s3Header": "Sizi <strong>en çok</strong> ilgilendiren nedir?",
+      "s3HeaderNext": "İlk göreviniz:",
       "s4Header": "Mikrofonunuzu ve kulaklığınızı test edelim",
       "btnPlaySound": "Test sesini çal",
       "btnSpeak": "Bas ve \"test\" de",
@@ -310,6 +317,7 @@
       "chatMode": "Sohbet",
       "historyMode": "Sohbet geçmişi",
       "situationMode": "Durumlar",
+      "situationsHeader": "Bir durum seçin ve konuşarak hedefi tamamlayın.",
       "situationSolved": "Durum çözüldü",
       "lngMismatch": {
         "text": "Sohbet diliniz '{{CHAT_LNG}}' iken '{{TARGET_LNG}}' öğreniyorsunuz. Onları hizalamak için sohbeti yeniden başlatın veya dilinizi geri değiştirin.",
@@ -429,7 +437,8 @@
           "lockedArticle": "Bu makale yalnızca Premium kullanıcılar için mevcuttur.",
           "longTime": "Bir süredir Lingolette kullanıyorsun. Umarız beğeniyorsundur!",
           "chatHistory": "Sohbet geçmişi yalnızca Premium kullanıcılar için kullanılabilir.",
-          "languages": "Çok dilli çalışma yalnızca Premium kullanıcılar için mevcuttur."
+          "languages": "Çok dilli çalışma yalnızca Premium kullanıcılar için mevcuttur.",
+          "paidSituation": "Bu durum yalnızca Premium kullanıcılar için mevcuttur."
         },
         "suffix": "Hesabınızı yükseltmek ister misiniz?",
         "btnYes": "Evet, lütfen",
@@ -596,6 +605,24 @@
           "subFooter": "Yıllık $89.99 olarak faturalandırılır"
         },
         "cta": "Başlayın"
+      },
+      "nextMission": {
+        "hChat": "Dil dersi",
+        "hSituations": "Durumlar",
+        "btnCaption": "İlk görevinizi seçin",
+        "modes": {
+          "chat": "Yapay zeka öğretmeninizle konuşun",
+          "hotelCheckIn": "Otele giriş",
+          "cashDesk": "Süpermarket kasası",
+          "buySimCard": "SIM kart satın alma",
+          "buyTransportCard": "Ulaşım kartı satın al",
+          "bankAccount": "Banka hesabı aç",
+          "rentApartment": "Daire kiralama",
+          "restaurant": "Restoran",
+          "hospital": "Hastane",
+          "drugstore": "Eczane",
+          "alienInvasion": "Uzaylı istilası"
+        }
       }
     }
   }

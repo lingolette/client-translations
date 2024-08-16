@@ -97,7 +97,8 @@
       "privacy": "Privacy policy",
       "freeStuff": "Daily articles",
       "apiManual": "API manual",
-      "businessInquiry": "Business inquiry"
+      "businessInquiry": "Business inquiry",
+      "integrations": "Integrations"
     },
     "home": {
       "heroHead": "Learn <b>languages</b><br/>by speaking with <span>AI</span>",
@@ -163,6 +164,11 @@
         "The free content is generated automatically every day, so it is always up to date."
       ]
     },
+    "integrations": {
+      "header": "Integrations",
+      "addonChrome": "Chrome browser extension",
+      "addonFirefox": "Firefox browser extension"
+    },
     "inquiry": {
       "header": "Interested in Lingolette?",
       "subHeader": "Leave us some contact details and we will get back to you",
@@ -194,7 +200,7 @@
       "steps": [
         "Name",
         "Language",
-        "Interests",
+        "Mission",
         "Sound"
       ],
       "nextStep": "Next",
@@ -206,6 +212,7 @@
       "s2TargetLng": "Language you learn",
       "s2LngLevel": "What level are you at?",
       "s3Header": "What interests you <strong>most</strong>?",
+      "s3HeaderNext": "Your first mission:",
       "s4Header": "Let's test your mic and headphones",
       "btnPlaySound": "Play test sound",
       "btnSpeak": "Press and say \"test\"",
@@ -310,6 +317,7 @@
       "chatMode": "Chat",
       "historyMode": "Chat history",
       "situationMode": "Situations",
+      "situationsHeader": "Choose a situation and complete the goal by talking.",
       "situationSolved": "Situation solved",
       "lngMismatch": {
         "text": "Your chat language is '{{CHAT_LNG}}' while you are learning '{{TARGET_LNG}}'. Restart the chat to align them or change your language back.",
@@ -318,7 +326,7 @@
       },
       "suggestions": {
         "hint": "Show suggestions",
-        "inputHint": "Type your own reply in your native language"
+        "inputHint": "or type your own reply in native language"
       }
     },
     "groups": {
@@ -429,7 +437,8 @@
           "lockedArticle": "This article is available for Premium users only.",
           "longTime": "You've been using Lingolette for a while. We hope you're enjoying it!",
           "chatHistory": "Chat history is available for Premium users only.",
-          "languages": "Multi-language study is available for Premium users only."
+          "languages": "Multi-language study is available for Premium users only.",
+          "paidSituation": "This situation is available for Premium users only."
         },
         "suffix": "Would you like to upgrade?",
         "btnYes": "Yes, please",
@@ -596,6 +605,24 @@
           "subFooter": "Billed $89.99/year"
         },
         "cta": "Get Started"
+      },
+      "nextMission": {
+        "hChat": "Language lesson",
+        "hSituations": "Situations",
+        "btnCaption": "Choose your first mission",
+        "modes": {
+          "chat": "Talk to your AI teacher",
+          "hotelCheckIn": "Hotel check-in",
+          "cashDesk": "Supermarket cash desk",
+          "buySimCard": "Buying a SIM card",
+          "buyTransportCard": "Buy a transport card",
+          "bankAccount": "Open a bank account",
+          "rentApartment": "Rent an apartment",
+          "restaurant": "Restaurant",
+          "hospital": "Hospital",
+          "drugstore": "Drugstore",
+          "alienInvasion": "Alien invasion"
+        }
       }
     }
   }

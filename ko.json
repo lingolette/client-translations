@@ -97,7 +97,8 @@
       "privacy": "개인정보 보호정책",
       "freeStuff": "일일 기사",
       "apiManual": "API 매뉴얼",
-      "businessInquiry": "비즈니스 문의"
+      "businessInquiry": "비즈니스 문의",
+      "integrations": "통합"
     },
     "home": {
       "heroHead": "<span>AI</span>와의 대화를 통해<br/><b>언어</b>공부를 해보세요",
@@ -163,6 +164,11 @@
         "무료 콘텐츠는 매일 자동으로 생성되므로 항상 최신 상태입니다."
       ]
     },
+    "integrations": {
+      "header": "통합",
+      "addonChrome": "Chrome 브라우저 확장 프로그램",
+      "addonFirefox": "Firefox 브라우저 확장 프로그램"
+    },
     "inquiry": {
       "header": "Lingolette에 관심이 있으신가요?",
       "subHeader": "연락처를 남겨주시면 연락드리겠습니다",
@@ -194,7 +200,7 @@
       "steps": [
         "이름",
         "언어",
-        "관심 분야",
+        "사명",
         "사운드"
       ],
       "nextStep": "다음",
@@ -206,6 +212,7 @@
       "s2TargetLng": "학습할 언어",
       "s2LngLevel": "현재 수준은 어떻게 되나요?",
       "s3Header": "가장 <strong>관심 있는</strong> 분야는 무엇인가요?",
+      "s3HeaderNext": "당신의 첫 번째 임무:",
       "s4Header": "마이크와 헤드폰을 테스트해 보겠습니다",
       "btnPlaySound": "테스트 사운드 재생",
       "btnSpeak": "누르고 \"테스트\"라고 말하세요",
@@ -310,6 +317,7 @@
       "chatMode": "대화",
       "historyMode": "대화 기록",
       "situationMode": "상황",
+      "situationsHeader": "상황을 선택하고 대화로 목표를 달성하세요.",
       "situationSolved": "상황 해결",
       "lngMismatch": {
         "text": "대화 언어는 '{{CHAT_LNG}}'이지만 '{{TARGET_LNG}}'를 배우고 있습니다. 대화를 다시 시작하여 언어를 맞추거나 언어를 다시 변경하세요.",
@@ -429,7 +437,8 @@
           "lockedArticle": "이 기사는 프리미엄 사용자만 이용할 수 있습니다.",
           "longTime": "Lingolette를 한동안 사용하셨습니다. 마음에 드시나요!",
           "chatHistory": "대화 기록은 프리미엄 사용자만 이용할 수 있습니다.",
-          "languages": "다국어 학습은 프리미엄 사용자만 이용할 수 있습니다."
+          "languages": "다국어 학습은 프리미엄 사용자만 이용할 수 있습니다.",
+          "paidSituation": "이 상황은 프리미엄 사용자만 사용할 수 있습니다."
         },
         "suffix": "업그레이드하시겠습니까?",
         "btnYes": "예, 업그레이드하겠습니다",
@@ -596,6 +605,24 @@
           "subFooter": "연간 $89.99 청구"
         },
         "cta": "시작하기"
+      },
+      "nextMission": {
+        "hChat": "언어 수업",
+        "hSituations": "상황",
+        "btnCaption": "첫 번째 임무를 선택하세요",
+        "modes": {
+          "chat": "AI 선생님과 대화하세요",
+          "hotelCheckIn": "호텔 체크인",
+          "cashDesk": "슈퍼마켓 계산대",
+          "buySimCard": "SIM 카드 구입",
+          "buyTransportCard": "교통 카드 구입",
+          "bankAccount": "은행 계좌 개설",
+          "rentApartment": "아파트 임대",
+          "restaurant": "레스토랑",
+          "hospital": "병원",
+          "drugstore": "약국",
+          "alienInvasion": "외계인 침공"
+        }
       }
     }
   }
