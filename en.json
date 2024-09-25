@@ -83,11 +83,16 @@
           "Health",
           "Science",
           "Other"
+        ],
+        "formalityOption": [
+          "Informal",
+          "Formal"
         ]
       }
     },
     "header": {
-      "btnCTA": "Log in"
+      "btnCTA": "Log in",
+      "forOrgs": "For companies"
     },
     "footer": {
       "copyright": "All rights reserved.",
@@ -137,6 +142,7 @@
     },
     "dashboard": {
       "sources": {
+        "header": "Sources define your feed",
         "add": "Add source",
         "addHint": "This feature is coming soon",
         "deleteConfirm": "Are you sure you want to delete {{sourceName}}?",
@@ -255,7 +261,9 @@
       "coinsSpent": "Coins spent",
       "ttsRate": "How fast teacher speaks",
       "feedbackMode": "How teacher gives feedback",
+      "formalityLevel": "Formality level",
       "gender": "Your gramm. gender",
+      "whenApplied": "Settings will only be applied to a new chat",
       "yourTeacher": "Your teacher",
       "notAvailable": "(for schools only)",
       "hideCard": "hide my <a target='_blank' href='{{URL}}'>public profile</a>",
@@ -264,7 +272,18 @@
       "dangerZone": "Reveal danger zone",
       "startSubscription": "Switch to paid version",
       "cancelSubscription": "Cancel subscription",
-      "subCancellationWarning": "Are you sure you want to cancel your subscription? Premium access will be gone. Payment for the rest of the month will not be refunded."
+      "subCancellationWarning": "Are you sure you want to cancel your subscription? Premium access will be gone. Payment for the rest of the month will not be refunded.",
+      "lblGrammarFeatures": "Grammar features",
+      "grammarFeatures": [
+        "Present tense",
+        "Past tense",
+        "Future tense"
+      ],
+      "tabs": [
+        "Settings",
+        "My profile",
+        "Sources"
+      ]
     },
     "vocabulary": {
       "confirmRemove": "Are you sure you want to remove this word?",
@@ -326,7 +345,9 @@
       },
       "suggestions": {
         "hint": "Show suggestions",
-        "inputHint": "or type your own reply in native language"
+        "inputHint": "or type your own reply in native language",
+        "gotStuck": "Got stuck?",
+        "gotStuckWidth": 8.5
       }
     },
     "groups": {
@@ -363,6 +384,13 @@
         "pabu": "pending user approval",
         "paba": "pending admin approval"
       }
+    },
+    "tools": {
+      "title": "Power-up your learning!",
+      "scratchpad": ["scratchpad", "work with any text using Lingolette"],
+      "extensions": ["browser extensions", "access Lingolette's Scratchpad from any site"],
+      "wordsGame": ["words game", "play a game of words pronunciation"],
+      "flashcards": ["flashcards", "repeat your vocabulary words until you learn them"]
     },
     "userCard": {
       "streak": "Streak",
@@ -451,6 +479,12 @@
         "header": "Our Summer Sale starts now! \uD83C\uDFD6\uFE0F",
         "mainText": "Beat the heat but you can’t beat the price!<br/><br/>For a limited time only, save 30% on <b>Lingolette Premium Yearly</b>.",
         "codeLine": "Use code <b>SUMMER30</b> at checkout<sup>*</sup>"
+      },
+      "share": {
+        "header": "Share public profile",
+        "subheader": "Tell your friends about your progress in learning languages!",
+        "btnCopy": "Copy link",
+        "prompt": "My progress on Lingolette"
       }
     },
     "games": {
@@ -483,8 +517,9 @@
         "logInForContext": "Log in to get translations, context tools, pronunciation and more.",
         "btnYesPlease": "Let's go!",
         "btnPronounce": "Pronounce",
-        "btnAdd": "To dict.",
-        "btnPA": "Pronunciation"
+        "btnAdd": "To dictionary",
+        "btnPA": "Pronunciation",
+        "btnExtra": "Extras"
       },
       "publicFeed": {
         "readMore": "Read article →",
@@ -513,6 +548,7 @@
         "vocabulary": "Words",
         "configure": "Sources",
         "account": "Profile",
+        "tools": "Tools",
         "more": "More",
         "feedback": "Feedback",
         "collapse": "Collapse menu",
@@ -525,6 +561,7 @@
       },
       "voiceoverPlayer": {
         "play": "Play",
+        "prev": "Prev.",
         "stop": "Stop",
         "translit": "Translit",
         "rate": "Speed",
@@ -573,38 +610,49 @@
         ]
       },
       "premiumOffer": {
-        "header": "Upgrade to get fluent faster! Cancel anytime.",
+        "headers": {
+          "generic": "Unlock unlimited chat and much more.",
+          "chatHistory": "Unlock all chat history and much more.",
+          "paidSituation": "Unlock all situations and much more.",
+          "lockedArticle": "Unlock unlimited articles and much more."
+        },
+        "subHeaders": {
+          "generic": "Become fluent x5 faster. Start today!"
+        },
         "monthly": "Monthly",
-        "yearly": "Yearly (save 47%)",
+        "yearly": "Yearly",
         "freePlan": {
           "preHeader": "Free Plan",
           "header": "Lingolette Basic",
           "items": [
-            "Generic AI teacher model",
-            "Max 20 responses per chat",
-            "Max 1 article per day",
-            "Ads may be shown"
+            "Basic AI tutor model",
+            "1 language",
+            "20 responses per chat",
+            "1 article per day"
           ],
-          "footer": "Free Forever",
-          "subFooter": "Free, for trying things out."
+          "footer": "Free",
+          "subFooter": "Ads may be shown."
         },
         "premiumPlan": {
           "preHeaderMonthly": "Monthly Plan",
           "preHeaderYearly": "Yearly Plan",
           "header": "Lingolette Premium",
           "items": [
-            "25+ languages",
-            "Unlimited chat",
-            "Unlimited personalized articles",
             "Advanced AI tutor model",
+            "25+ languages",
+            "Unlimited chats",
+            "Unlimited articles",
             "Pronunciation feedback for English",
-            "Access to chat history"
+            "Chat situations and history",
+            "No ads"
           ],
           "footer": "$13.99/month",
           "footer2": "$7.49/month",
-          "subFooter": "Billed $89.99/year"
+          "subFooter": "Billed $89.99/year",
+          "saveX": "Save 47%"
         },
-        "cta": "Get Started"
+        "cta": "Upgrade now",
+        "dummyCta": "Stay on Basic"
       },
       "nextMission": {
         "hChat": "Language lesson",

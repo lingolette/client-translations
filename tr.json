@@ -83,11 +83,16 @@
           "Sağlık",
           "Bilim",
           "Diğer"
+        ],
+        "formalityOption": [
+          "Resmi Olmayan",
+          "Resmi"
         ]
       }
     },
     "header": {
-      "btnCTA": "Giriş"
+      "btnCTA": "Giriş",
+      "forOrgs": "Şirketler için"
     },
     "footer": {
       "copyright": "Tüm hakları saklıdır.",
@@ -137,6 +142,7 @@
     },
     "dashboard": {
       "sources": {
+        "header": "Kaynaklar makale akışınızı tanımlar",
         "add": "Kaynak Ekle",
         "addHint": "Bu özellik yakında gelecek",
         "deleteConfirm": "{{sourceName}}'ı silmek istediğinizden emin misiniz?",
@@ -255,16 +261,29 @@
       "coinsSpent": "Harcamış olduğunuz jetonlar",
       "ttsRate": "Öğretmenin konuşma hızı",
       "feedbackMode": "Öğretmenin geri bildirim verme modu",
+      "formalityLevel": "Resmiyet seviyesi",
       "gender": "Cinsiyetiniz",
+      "whenApplied": "Ayarlar yalnızca yeni bir sohbette uygulanacak",
       "yourTeacher": "Öğretmeniniz",
       "notAvailable": "(sadece okullar için)",
       "hideCard": "Benim <a target='_blank' href='{{URL}}'>genel profilimi</a> gizle",
       "showGroups": "menüde <a target='_blank' href='/groups'>grupları</a> göster",
-      "showGoals": "Günlük hedeflerimi göster",
+      "showGoals": "Günlük hedeflerim",
       "dangerZone": "Tehlike bölgesini göster",
       "startSubscription": "Ücretli sürüme geç",
       "cancelSubscription": "Aboneliği iptal et",
-      "subCancellationWarning": "Aboneliğinizi iptal etmek istediğinizden emin misiniz? Premium erişim sona erecek. Ayın geri kalanı için ödeme iade edilmeyecek."
+      "subCancellationWarning": "Aboneliğinizi iptal etmek istediğinizden emin misiniz? Premium erişim sona erecek. Ayın geri kalanı için ödeme iade edilmeyecek.",
+      "lblGrammarFeatures": "Sohbetin dilbilgisi ayarları",
+      "grammarFeatures": [
+        "Şimdiki zaman",
+        "Geçmiş zaman",
+        "Gelecek zaman"
+      ],
+      "tabs": [
+        "Ayarlar",
+        "Profilim",
+        "Kaynaklar"
+      ]
     },
     "vocabulary": {
       "confirmRemove": "Bu kelimeyi kaldırmak istediğinizden emin misiniz?",
@@ -326,7 +345,9 @@
       },
       "suggestions": {
         "hint": "Önerileri göster",
-        "inputHint": "Kendi dilinizde bir yanıt yazın"
+        "inputHint": "Kendi dilinizde bir yanıt yazın",
+        "gotStuck": "Takıldın mı?",
+        "gotStuckWidth": 9
       }
     },
     "groups": {
@@ -363,6 +384,25 @@
         "pabu": "onay bekleyen kullanıcı",
         "paba": "onay bekleyen yönetici"
       }
+    },
+    "tools": {
+      "title": "Öğreniminizi güçlendirin!",
+      "scratchpad": [
+        "scratchpad",
+        "Lingolette ile herhangi bir metin üzerinde çalışın"
+      ],
+      "extensions": [
+        "tarayıcı uzantıları",
+        "herhangi bir web sitesinden Lingolette Scratchpad'e erişin"
+      ],
+      "wordsGame": [
+        "kelime oyunu",
+        "kelime telaffuz oyunu oynayın"
+      ],
+      "flashcards": [
+        "flashcards",
+        "kelime haznenizi tekrar edin ve öğrenene kadar çalışın"
+      ]
     },
     "userCard": {
       "streak": "Serüven",
@@ -451,6 +491,12 @@
         "header": "Yaz İndirimimiz şimdi başlıyor! 🏖️",
         "mainText": "Sıcağı yenin ama fiyatı yenemezsiniz!<br/><br/>Sadece sınırlı bir süre için, <b>Lingolette Premium Yıllık</b> aboneliğinde %30 tasarruf edin.",
         "codeLine": "Kasa'da <b>SUMMER30</b> kodunu kullanın<sup>*</sup>"
+      },
+      "share": {
+        "header": "Herkese açık profili paylaş",
+        "subheader": "Dil öğrenmedeki ilerlemenizi arkadaşlarınıza anlatın!",
+        "btnCopy": "Bağlantıyı kopyala",
+        "prompt": "Lingolette üzerindeki ilerlemem"
       }
     },
     "games": {
@@ -484,7 +530,8 @@
         "btnYesPlease": "Haydi!",
         "btnPronounce": "Telaffuz et",
         "btnAdd": "Sözlüğe",
-        "btnPA": "Telaffuz"
+        "btnPA": "Telaffuz",
+        "btnExtra": "Ekstralar"
       },
       "publicFeed": {
         "readMore": "Makaleyi oku →",
@@ -513,6 +560,7 @@
         "vocabulary": "Kelimeler",
         "configure": "Kaynaklar",
         "account": "Profil",
+        "tools": "Araçlar",
         "more": "Daha Fazla",
         "feedback": "Geribildirim",
         "collapse": "Menüyü Daralt",
@@ -525,6 +573,7 @@
       },
       "voiceoverPlayer": {
         "play": "Oynat",
+        "prev": "Önceki",
         "stop": "Dur",
         "translit": "Translit.",
         "rate": "Hızı",
@@ -573,38 +622,49 @@
         ]
       },
       "premiumOffer": {
-        "header": "İstediğin dili konuşmak için yükselt! Her zaman iptal edilebilir.",
+        "headers": {
+          "generic": "Sınırsız sohbet ve çok daha fazlası",
+          "chatHistory": "Sohbet geçmişi ve çok daha fazlası",
+          "paidSituation": "Tüm senaryoları ve çok daha fazlası",
+          "lockedArticle": "Sınırsız makale ve çok daha fazlası"
+        },
+        "subHeaders": {
+          "generic": "5 kat daha hızlı akıcılık kazan. Bugün başla!"
+        },
         "monthly": "Aylık",
-        "yearly": "Yıllık (%47 indirim)",
+        "yearly": "Yıllık",
         "freePlan": {
           "preHeader": "Ücretsiz Plan",
           "header": "Lingolette Temel",
           "items": [
-            "Genel AI öğretmen modeli",
-            "Sohbet başına en fazla 20 yanıt",
-            "Günde en fazla 1 makale",
-            "Reklam içerir"
+            "Basit yapay zeka modeli",
+            "1 dil",
+            "Sohbet başına 20 yanıt",
+            "Günde 1 makale"
           ],
-          "footer": "Sonsuza Kadar Ücretsiz",
-          "subFooter": "Her şeyi denemek için yeterli."
+          "footer": "Ücretsiz",
+          "subFooter": "Deneme yapmak için uygun."
         },
         "premiumPlan": {
           "preHeaderMonthly": "Aylık Plan",
           "preHeaderYearly": "Yıllık Plan",
           "header": "Lingolette Premium",
           "items": [
+            "Gelişmiş yapay zeka modeli",
             "25+ dil",
             "Sınırsız sohbet",
-            "Sınırsız kişiselleştirilmiş makaleler",
-            "Gelişmiş AI öğretmen modeli",
-            "İngilizce telaffuz geri bildirimi",
-            "Sohbet geçmişine erişim"
+            "Sınırsız makale",
+            "İngilizce için telaffuz geri bildirimi",
+            "Sohbet senaryoları ve geçmişi",
+            "Reklamsız"
           ],
           "footer": "$13.99/ay",
           "footer2": "$7.49/ay",
-          "subFooter": "Yıllık $89.99 olarak faturalandırılır"
+          "subFooter": "Yıllık $89.99",
+          "saveX": "%47 tasarruf edin"
         },
-        "cta": "Başlayın"
+        "cta": "Şimdi yükselt",
+        "dummyCta": "Temel planda kal"
       },
       "nextMission": {
         "hChat": "Dil dersi",

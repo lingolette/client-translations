@@ -83,11 +83,16 @@
           "Salud",
           "Ciencia",
           "Otros"
+        ],
+        "formalityOption": [
+          "Informal",
+          "Formal"
         ]
       }
     },
     "header": {
-      "btnCTA": "Acceso"
+      "btnCTA": "Acceso",
+      "forOrgs": "Para empresas"
     },
     "footer": {
       "copyright": "Todos los derechos reservados.",
@@ -137,6 +142,7 @@
     },
     "dashboard": {
       "sources": {
+        "header": "Las fuentes definen tu feed de artículos",
         "add": "Agregar fuente",
         "addHint": "Esta función estará disponible próximamente",
         "deleteConfirm": "¿Estás seguro de que quieres eliminar {{sourceName}}?",
@@ -256,16 +262,29 @@
       "coinsSpent": "Monedas gastadas",
       "ttsRate": "Velocidad de la voz del profesor",
       "feedbackMode": "Cómo el profesor da retroalimentación",
+      "formalityLevel": "Nivel de formalidad",
       "gender": "Tu género gramatical",
+      "whenApplied": "La configuración solo se aplicará a un nuevo chat",
       "yourTeacher": "Tu profesor",
       "notAvailable": "(solo para escuelas)",
       "hideCard": "ocultar mi <a target='_blank' href='{{URL}}'>perfil público</a>",
       "showGroups": "mostrar <a target='_blank' href='/groups'>grupos</a> en el menú",
-      "showGoals": "Mostrar mis metas diarias",
+      "showGoals": "Mis metas diarias",
       "dangerZone": "Mostrar zona de peligro",
       "startSubscription": "Cambiar a versión de pago",
       "cancelSubscription": "Cancelar suscripción",
-      "subCancellationWarning": "¿Estás seguro de que quieres cancelar tu suscripción? El acceso Premium se eliminará. No se reembolsará el pago por el resto del mes."
+      "subCancellationWarning": "¿Estás seguro de que quieres cancelar tu suscripción? El acceso Premium se eliminará. No se reembolsará el pago por el resto del mes.",
+      "lblGrammarFeatures": "Configuración de gramática del chat",
+      "grammarFeatures": [
+        "Tiempo presente",
+        "Tiempo pasado",
+        "Tiempo futuro"
+      ],
+      "tabs": [
+        "Configuración",
+        "Mi perfil",
+        "Fuentes"
+      ]
     },
     "vocabulary": {
       "confirmRemove": "¿Estás seguro de que quieres eliminar esta palabra?",
@@ -327,7 +346,9 @@
       },
       "suggestions": {
         "hint": "Mostrar sugerencias",
-        "inputHint": "Escribe tu respuesta en tu idioma nativo"
+        "inputHint": "Escribe tu respuesta en tu idioma nativo",
+        "gotStuck": "¿Te quedaste atascado?",
+        "gotStuckWidth": 15
       }
     },
     "groups": {
@@ -364,6 +385,25 @@
         "pabu": "usuario pendiente de aprobación",
         "paba": "administrador pendiente de aprobación"
       }
+    },
+    "tools": {
+      "title": "¡Potencia tu aprendizaje!",
+      "scratchpad": [
+        "scratchpad",
+        "trabaja con cualquier texto usando Lingolette"
+      ],
+      "extensions": [
+        "extensiones del navegador",
+        "accede al Lingolette Scratchpad desde cualquier sitio"
+      ],
+      "wordsGame": [
+        "juego de palabras",
+        "juega un juego de pronunciación de palabras"
+      ],
+      "flashcards": [
+        "flashcards",
+        "repite tus palabras de vocabulario hasta que las aprendas"
+      ]
     },
     "userCard": {
       "streak": "Racha",
@@ -452,6 +492,12 @@
         "header": "¡Nuestra Venta de Verano comienza ahora! 🏖️",
         "mainText": "¡Enfrenta el calor, pero no podrás vencer el precio!<br/><br/>Por tiempo limitado, ahorra 30% en <b>Lingolette Premium Anual</b>.",
         "codeLine": "Usa el código <b>SUMMER30</b> al pagar<sup>*</sup>"
+      },
+      "share": {
+        "header": "Compartir perfil público",
+        "subheader": "¡Diles a tus amigos sobre tu progreso en el aprendizaje de idiomas!",
+        "btnCopy": "Copiar enlace",
+        "prompt": "Mi progreso en Lingolette"
       }
     },
     "games": {
@@ -485,7 +531,8 @@
         "btnYesPlease": "¡Vamos allá!",
         "btnPronounce": "Pronunciar",
         "btnAdd": "Al diccionario",
-        "btnPA": "Pronunciación"
+        "btnPA": "Pronunciación",
+        "btnExtra": "Extras"
       },
       "publicFeed": {
         "readMore": "Leer artículo →",
@@ -514,6 +561,7 @@
         "vocabulary": "Palabras",
         "configure": "Fuentes",
         "account": "Perfil",
+        "tools": "Herramientas",
         "more": "Más",
         "feedback": "Comentarios",
         "collapse": "Colapsar menú",
@@ -526,6 +574,7 @@
       },
       "voiceoverPlayer": {
         "play": "Reproducir",
+        "prev": "Anter.",
         "stop": "Detener",
         "translit": "Translit.",
         "rate": "Velocidad",
@@ -574,17 +623,25 @@
         ]
       },
       "premiumOffer": {
-        "header": "¡Mejora para hablar con fluidez más rápido! Cancela en cualquier momento.",
+        "headers": {
+          "generic": "Desbloquea chat ilimitado y mucho más.",
+          "chatHistory": "Desbloquea todo el historial de chat y mucho más.",
+          "paidSituation": "Desbloquea todas las situaciones y mucho más.",
+          "lockedArticle": "Desbloquea artículos ilimitados y mucho más."
+        },
+        "subHeaders": {
+          "generic": "Domina el idioma 5 veces más rápido. ¡Comienza hoy!"
+        },
         "monthly": "Mensual",
-        "yearly": "Anual (ahorra 47%)",
+        "yearly": "Anual",
         "freePlan": {
           "preHeader": "Plan Gratuito",
           "header": "Lingolette Básico",
           "items": [
             "Modelo genérico de profesor AI",
-            "Máximo 20 respuestas por chat",
-            "Máximo 1 artículo por día",
-            "Publicidad posible"
+            "1 idioma",
+            "20 respuestas por chat",
+            "1 artículo por día"
           ],
           "footer": "Gratis Para Siempre",
           "subFooter": "Suficiente para probar las todas."
@@ -594,18 +651,21 @@
           "preHeaderYearly": "Plan Anual",
           "header": "Lingolette Premium",
           "items": [
+            "Modelo avanzado de tutor de IA",
             "25+ idiomas",
-            "Modelo avanzado de profesor de IA",
-            "Conversación ilimitada",
-            "Artículos personalizados todos los días",
+            "Chats ilimitados",
+            "Artículos ilimitados",
             "Análisis de pronunciación para inglés",
-            "Acceso al historial de chat"
+            "Situaciones de chat e historial",
+            "Sin anuncios"
           ],
           "footer": "$13.99/mes",
           "footer2": "$7.49/mes",
-          "subFooter": "Facturado $89.99/año"
+          "subFooter": "Facturado $89.99/año",
+          "saveX": "Ahorra un 47%"
         },
-        "cta": "Empezar"
+        "cta": "Mejorar ahora",
+        "dummyCta": "Quedarse en el básico"
       },
       "nextMission": {
         "hChat": "Lección de idioma",

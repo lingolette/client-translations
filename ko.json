@@ -83,11 +83,16 @@
           "건강",
           "과학",
           "기타"
+        ],
+        "formalityOption": [
+          "비공식적",
+          "공식적"
         ]
       }
     },
     "header": {
-      "btnCTA": "로그인"
+      "btnCTA": "로그인",
+      "forOrgs": "기업용"
     },
     "footer": {
       "copyright": "모든 권리 보유.",
@@ -137,6 +142,7 @@
     },
     "dashboard": {
       "sources": {
+        "header": "소스가 귀하의 기사 피드를 정의합니다",
         "add": "출처 추가",
         "addHint": "이 기능은 곧 제공될 예정입니다",
         "deleteConfirm": "{{sourceName}}을(를) 삭제하시겠습니까?",
@@ -255,7 +261,9 @@
       "coinsSpent": "사용한 코인",
       "ttsRate": "선생님의 말하기 속도",
       "feedbackMode": "선생님의 피드백 방식",
+      "formalityLevel": "격식 수준",
       "gender": "문법적 성별",
+      "whenApplied": "설정은 새 채팅에만 적용됩니다",
       "yourTeacher": "선생님",
       "notAvailable": "(학교 전용)",
       "hideCard": "내 <a target='_blank' href='{{URL}}'>공개 프로필</a> 숨기기",
@@ -264,7 +272,18 @@
       "dangerZone": "위험 영역 표시",
       "startSubscription": "유료 버전으로 전환",
       "cancelSubscription": "구독 취소",
-      "subCancellationWarning": "정말 구독을 취소하시겠습니까? 프리미엄 이용 권한이 사라집니다. 남은 기간에 대한 요금은 환불되지 않습니다."
+      "subCancellationWarning": "정말 구독을 취소하시겠습니까? 프리미엄 이용 권한이 사라집니다. 남은 기간에 대한 요금은 환불되지 않습니다.",
+      "lblGrammarFeatures": "문법 기능",
+      "grammarFeatures": [
+        "현재 시제",
+        "과거 시제",
+        "미래 시제"
+      ],
+      "tabs": [
+        "설정",
+        "내 프로필",
+        "출처"
+      ]
     },
     "vocabulary": {
       "confirmRemove": "이 단어를 정말로 제거하시겠습니까?",
@@ -326,7 +345,9 @@
       },
       "suggestions": {
         "hint": "제안 표시",
-        "inputHint": "자신의 언어로 답변을 입력하세요"
+        "inputHint": "자신의 언어로 답변을 입력하세요",
+        "gotStuck": "막혔나요?",
+        "gotStuckWidth": 8
       }
     },
     "groups": {
@@ -363,6 +384,25 @@
         "pabu": "사용자 승인 보류 중",
         "paba": "관리자 승인 보류 중"
       }
+    },
+    "tools": {
+      "title": "학습을 강화하세요!",
+      "scratchpad": [
+        "scratchpad",
+        "Lingolette를 사용하여 모든 텍스트 작업"
+      ],
+      "extensions": [
+        "브라우저 확장 프로그램",
+        "어느 웹사이트에서나 Linolette Scratchpad에 액세스하세요"
+      ],
+      "wordsGame": [
+        "단어 게임",
+        "단어 발음 게임을 플레이하세요"
+      ],
+      "flashcards": [
+        "flashcards",
+        "단어를 반복 학습하여 숙달하세요"
+      ]
     },
     "userCard": {
       "streak": "연속 학습일",
@@ -451,6 +491,12 @@
         "header": "여름 세일이 시작되었습니다! 🏖️",
         "mainText": "더위는 이길 수 없지만 가격은 이길 수 있습니다!<br/><br/>기간 한정으로 <b>Lingolette Premium 연간</b> 구독을 30% 할인된 가격으로 만나보세요.",
         "codeLine": "결제 시 코드 <b>SUMMER30</b>을 입력하세요<sup>*</sup>"
+      },
+      "share": {
+        "header": "공개 프로필 공유",
+        "subheader": "언어 학습 진척도를 친구들에게 알려주세요!",
+        "btnCopy": "링크 복사",
+        "prompt": "Lingolette에서의 나의 진척도"
       }
     },
     "games": {
@@ -484,7 +530,8 @@
         "btnYesPlease": "로그인하기!",
         "btnPronounce": "발음",
         "btnAdd": "사전에 추가",
-        "btnPA": "발음"
+        "btnPA": "발음",
+        "btnExtra": "추가 항목"
       },
       "publicFeed": {
         "readMore": "기사 더 읽기 →",
@@ -513,6 +560,7 @@
         "vocabulary": "단어",
         "configure": "출처",
         "account": "프로필",
+        "tools": "도구",
         "more": "더보기",
         "feedback": "피드백",
         "collapse": "메뉴 축소",
@@ -525,6 +573,7 @@
       },
       "voiceoverPlayer": {
         "play": "재생",
+        "prev": "이전",
         "stop": "중지",
         "translit": "음역",
         "rate": "속도",
@@ -573,17 +622,25 @@
         ]
       },
       "premiumOffer": {
-        "header": "업그레이드하여 더 빨리 유창하게 말하세요! 언제든지 취소할 수 있습니다.",
+        "headers": {
+          "generic": "무제한 채팅 및 더 많은 기능을 잠금 해제하세요.",
+          "chatHistory": "모든 채팅 기록과 더 많은 기능을 잠금 해제하세요.",
+          "paidSituation": "모든 상황과 더 많은 기능을 잠금 해제하세요.",
+          "lockedArticle": "무제한 기사 및 더 많은 기능을 잠금 해제하세요."
+        },
+        "subHeaders": {
+          "generic": "5배 더 빠르게 유창해지세요. 지금 시작하세요!"
+        },
         "monthly": "월간",
-        "yearly": "연간 (47% 할인)",
+        "yearly": "연간",
         "freePlan": {
           "preHeader": "무료 플랜",
           "header": "Lingolette Basic",
           "items": [
             "일반 AI 선생님 모델",
-            "대화당 최대 20개 응답",
-            "하루 최대 1개 기사",
-            "광고가 표시될 수 있음"
+            "1개 언어",
+            "채팅당 20개 응답",
+            "하루 1개 기사"
           ],
           "footer": "영원히 무료",
           "subFooter": "무료로 체험해 보세요."
@@ -593,18 +650,21 @@
           "preHeaderYearly": "연간 플랜",
           "header": "Lingolette Premium",
           "items": [
-            "25개 이상 언어",
-            "무제한 대화",
-            "무제한 맞춤형 기사",
             "고급 AI 튜터 모델",
+            "25개 이상의 언어",
+            "무제한 채팅",
+            "무제한 기사",
             "영어 발음 피드백",
-            "대화 기록 액세스"
+            "채팅 상황 및 기록",
+            "광고 없음"
           ],
           "footer": "월 $13.99",
           "footer2": "월 $7.49",
-          "subFooter": "연간 $89.99 청구"
+          "subFooter": "연간 $89.99 청구",
+          "saveX": "47% 저장"
         },
-        "cta": "시작하기"
+        "cta": "시작하기",
+        "dummyCta": "기본 유지"
       },
       "nextMission": {
         "hChat": "언어 수업",
