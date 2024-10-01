@@ -326,7 +326,8 @@
         "pa": "Telaffuz analizi",
         "editReply": "Yanıtı düzenle",
         "sayAgain": "Tekrar söyle",
-        "translate": "Çevir"
+        "translate": "Çevir",
+        "explainMistake": "Explain mistake"
       },
       "noticeSlowdown": "Öğretmeniniz daha yavaş konuşacak",
       "teacher": {
@@ -531,7 +532,9 @@
         "btnPronounce": "Telaffuz et",
         "btnAdd": "Sözlüğe",
         "btnPA": "Telaffuz",
-        "btnExtra": "Ekstralar"
+        "btnExtra": "Çekimler",
+        "extraLoading": "Yükleniyor...",
+        "extraError": "Dilbilgisi bilgisi alınırken hata oluştu"
       },
       "publicFeed": {
         "readMore": "Makaleyi oku →",

@@ -326,7 +326,8 @@
         "pa": "Анализ произношения",
         "editReply": "Редактировать ответ",
         "sayAgain": "Сказать снова",
-        "translate": "Перевести"
+        "translate": "Перевести",
+        "explainMistake": "Explain mistake"
       },
       "noticeSlowdown": "Ваш учитель будет говорить медленнее",
       "teacher": {
@@ -531,7 +532,9 @@
         "btnPronounce": "Произнести",
         "btnAdd": "В словарь",
         "btnPA": "Произношение",
-        "btnExtra": "Дополнительно"
+        "btnExtra": "Спряжения",
+        "extraLoading": "Загрузка...",
+        "extraError": "Ошибка получения грамматической информации"
       },
       "publicFeed": {
         "readMore": "Читать далее →",

@@ -326,7 +326,8 @@
         "pa": "Pronunciation analysis",
         "editReply": "Edit reply",
         "sayAgain": "Say again",
-        "translate": "Translate"
+        "translate": "Translate",
+        "explainMistake": "Explain mistake"
       },
       "noticeSlowdown": "Your teacher will speak slower",
       "teacher": {
@@ -519,7 +520,9 @@
         "btnPronounce": "Pronounce",
         "btnAdd": "To dictionary",
         "btnPA": "Pronunciation",
-        "btnExtra": "Extras"
+        "btnExtra": "Conjugation",
+        "extraLoading": "Loading...",
+        "extraError": "Error fetching grammar info"
       },
       "publicFeed": {
         "readMore": "Read article →",

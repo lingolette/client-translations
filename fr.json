@@ -1,0 +1,692 @@
+{
+  "translation": {
+    "offerLocalized": "Votre navigateur préfère «{{lngName}}», mais vous utilisez la version «{{lngName2}}». Souhaitez-vous passer à «{{lngName}}» ?",
+    "buttons": {
+      "yes": "Oui",
+      "no": "Non",
+      "ok": "OK",
+      "cancel": "Annuler",
+      "save": "Sauvegarder",
+      "delete": "Supprimer",
+      "preview": "Aperçu",
+      "subscribe": "S'abonner",
+      "unsubscribe": "Se désabonner",
+      "signUp": "S'inscrire",
+      "signIn": "Se connecter",
+      "mute": "Couper le son",
+      "unmute": "Rétablir le son",
+      "restart": "Redémarrer",
+      "complete": "Compléter",
+      "back": "Retour",
+      "send": "Envoyer",
+      "next": "Suivant",
+      "done": "Fait",
+      "close": "Fermer",
+      "retry": "Réessayer",
+      "start": "Démarrer"
+    },
+    "pos": [
+      "autre",
+      "nom",
+      "verbe",
+      "adjectif",
+      "adverbe",
+      "pronom",
+      "préposition",
+      "conjonction",
+      "interjection",
+      "déterminant",
+      "numéral",
+      "ponctuation",
+      "particule",
+      "article"
+    ],
+    "UI": {
+      "messageBox": {
+        "oops": "Oups !",
+        "alertTitle": "Lingolette",
+        "confirmTitle": "Êtes-vous sûr ?"
+      },
+      "placeholders": {
+        "select": "Sélectionnez une option...",
+        "search": "Rechercher..."
+      },
+      "options": {
+        "ttsRate": [
+          "Normal",
+          "Lent",
+          "Très lent"
+        ],
+        "languageLevel": [
+          "Je ne sais pas",
+          "A0 — Débutant absolu",
+          "A1 — Débutant",
+          "A2 — Élémentaire",
+          "B1 — Intermédiaire",
+          "B2 — Intermédiaire+",
+          "C1 — Avancé",
+          "C2 — Courant"
+        ],
+        "feedbackOption": [
+          "Pas de retour",
+          "Dans son discours",
+          "En tant que note séparée"
+        ],
+        "interest": [
+          "Politique",
+          "Affaires",
+          "Technologie",
+          "Divertissement",
+          "Sports",
+          "Monde",
+          "Style de vie",
+          "Santé",
+          "Sciences",
+          "Autre"
+        ],
+        "formalityOption": [
+          "Informel",
+          "Formel"
+        ]
+      }
+    },
+    "header": {
+      "btnCTA": "Se connecter",
+      "forOrgs": "Pour les entreprises"
+    },
+    "footer": {
+      "copyright": "Tous droits réservés.",
+      "links1Header": "Pour les entreprises",
+      "links2Header": "Pour les personnes",
+      "terms": "Conditions générales",
+      "privacy": "Politique de confidentialité",
+      "freeStuff": "Articles quotidiens",
+      "apiManual": "Manuel API",
+      "businessInquiry": "Demande commerciale",
+      "integrations": "Intégrations"
+    },
+    "home": {
+      "heroHead": "Apprenez <b>des langues</b><br/>en parlant avec <span>IA</span>",
+      "heroSubhead": "Atteignez la fluidité orale et écrite grâce à des conversations en temps réel.",
+      "heroHeadVariant": "Maîtrisez <b>des langues</b> avec<br/> <span>le tuteur</span> IA le plus avancé.",
+      "heroSubheadVariant": "Pratique de la parole personnalisée sans anxiété. Commencez à parler couramment sans effort.",
+      "toPractice": "Je veux pratiquer :",
+      "btnStart": "Commençons",
+      "btnStartVariant": "Pratiquer gratuitement",
+      "whyDifferent": "Comment <b>Lingolette</b> est différent<br/> de tous les autres tuteurs ?",
+      "explain": [
+        [
+          "Lingolette ENGAGE",
+          "Vous plonge dans des scénarios de la vie réelle, rendant vos sessions de pratique à la fois pertinentes et pratiques."
+        ],
+        [
+          "Lingolette ADAPTE",
+          "S'ajuste à vos réponses et à votre rythme d'apprentissage, offrant une expérience personnalisée et réactive."
+        ],
+        [
+          "Lingolette MOTIVE",
+          "Propose chaque jour un contenu frais et stimulant pour vous garder inspiré et désireux d'apprendre."
+        ],
+        [
+          "Lingolette EXPLIQUE",
+          "Offre des conseils clairs et étape par étape pour vous aider à comprendre\net à progresser en toute confiance."
+        ]
+      ],
+      "whomIsFor": "Qui est <b>Lingolette</b> ?",
+      "whomSubheader": "Que vous soyez inscrit dans une école de langues ou que vous soyez un apprenant autodidacte,<br/>Lingolette est pour vous si...",
+      "breakBarrier": "Franchissez la barrière de la fluidité.",
+      "breakBarrierSub": "Essayez par vous-même. C'est vraiment facile !",
+      "whatUsersSay": "Ce que disent nos utilisateurs",
+      "joinCommunity": "Rejoignez notre communauté d'apprenants enthousiastes maintenant !",
+      "toLearn": "Choisissez la langue que vous voulez apprendre :"
+    },
+    "dashboard": {
+      "sources": {
+        "header": "Les sources définissent votre fil",
+        "add": "Ajouter une source",
+        "addHint": "Cette fonctionnalité arrive bientôt",
+        "deleteConfirm": "Êtes-vous sûr de vouloir supprimer {{sourceName}} ?",
+        "unsubscribeConfirm": "Êtes-vous sûr de vouloir vous désabonner de {{sourceName}} ?",
+        "toastSubscribed": "Abonnement réussi",
+        "toastUnsubscribed": "Désabonnement réussi",
+        "maxSources": "Il n'est pas efficace de suivre plus de 5 sources à la fois. Veuillez vous désabonner de certaines sources pour en ajouter de nouvelles."
+      },
+      "dlgAddSource": {
+        "header": "Ajouter une nouvelle source"
+      }
+    },
+    "article": {
+      "disclaimer": "Tout le contenu et les tâches sont générés par une IA inspirée par une véritable publication."
+    },
+    "sourceInfo": {
+      "readArticles": "Articles de la source",
+      "nextPage": "Page suivante",
+      "prevPage": "Page précédente"
+    },
+    "freeStuff": {
+      "header": "Contenu gratuit",
+      "p": [
+        "Nous avons une catégorie de contenu généré gratuitement pour tout le monde avec les paramètres par défaut (niveau de langue B1, pas de vocabulaire personnalisé, style d'images d'actualité, voix standard).\n Vous êtes libre de l'utiliser gratuitement pour toujours, mais si vous souhaitez le personnaliser, vous devrez créer un compte gratuit ou payant, selon le niveau de personnalisation dont vous avez besoin.",
+        "Le contenu gratuit est généré automatiquement chaque jour, il est donc toujours à jour."
+      ]
+    },
+    "integrations": {
+      "header": "Intégrations",
+      "addonChrome": "Extension pour le navigateur Chrome",
+      "addonFirefox": "Extension pour le navigateur Firefox"
+    },
+    "inquiry": {
+      "header": "Intéressé par Lingolette ?",
+      "subHeader": "Laissez-nous vos coordonnées et nous vous recontacterons",
+      "header2": "Merci pour votre demande !",
+      "subHeader2": "Nous vous recontacterons dans un délai d'un jour ouvrable.",
+      "plhName": "Nom",
+      "plhEmail": "Adresse e-mail",
+      "plhCompany": "Société",
+      "plhMessage": "Quelque chose d'autre que nous devons savoir ?"
+    },
+    "login": {
+      "hint": "Sélectionnez votre méthode d'authentification.\nCréer un compte est gratuit et rapide !",
+      "schoolHint": "Bienvenue chez {{VENDOR}} !",
+      "btnGoogle": "Continuer avec Google",
+      "btnLinkedIn": "Continuer avec LinkedIn",
+      "btnTelegram": "Continuer avec Telegram",
+      "btnSchools": "Se connecter pour les écoles",
+      "disclaimer": "En continuant, vous acceptez nos <a target='blank' href='/docs/terms-and-conditions'>conditions</a> et notre <a target='blank' href='/docs/privacy-policy'>politique de confidentialité</a>.",
+      "receiveOffers": "recevoir des offres spéciales de nos partenaires",
+      "plhEmail": "identité",
+      "plhPassword": "mot de passe"
+    },
+    "paymentDone": {
+      "hdrComplete": "Paiement complété",
+      "hdrError": "Erreur lors du traitement du paiement",
+      "confirmation": "Merci ! Un e-mail de confirmation sera envoyé à {{email}}."
+    },
+    "onboarding": {
+      "steps": [
+        "Nom",
+        "Langue",
+        "Mission",
+        "Son"
+      ],
+      "nextStep": "Suivant",
+      "prevStep": "Étape précédente",
+      "s1Header": "Comment devons-nous vous appeler ?",
+      "s1Placeholder": "votre nom",
+      "s2Header": "En ce moment, nous supportons un nombre limité de langues que nos coéquipiers et testeurs peuvent vérifier et tester. Nous en ajouterons d'autres !",
+      "s2NativeLng": "Votre langue maternelle",
+      "s2TargetLng": "Langue que vous apprenez",
+      "s2LngLevel": "Quel niveau avez-vous ?",
+      "s3Header": "Quels sujets vous intéressent <strong>le plus</strong> ?",
+      "s3HeaderNext": "Votre première mission :",
+      "s4Header": "Testons votre micro et vos écouteurs",
+      "btnPlaySound": "Lire le son de test",
+      "btnSpeak": "Appuyez et dites \"test\"",
+      "btnFinish": "Terminer",
+      "msgPlayback": "Si vous n'avez pas entendu le son, veuillez vérifier vos écouteurs et votre microphone et réessayer.",
+      "msgTestMic": "Veuillez dire \"test\" et cliquez sur OK",
+      "msgMicError": "Vous pourriez avoir des problèmes avec votre microphone"
+    },
+    "feed": {
+      "emptyHeader": "Votre fil est vide",
+      "emptyText": "Suivez certaines sources pour commencer.",
+      "emptyText2": "Si vous venez de vous abonner à une source, de nouveaux articles apparaîtront ici dans les 24h.",
+      "notOnboarded": "Veuillez compléter l'intégration !",
+      "intro": [
+        "Nous commençons par la barre de navigation principale. Voici le fil. Tous les nouveaux articles y apparaîtront.",
+        "Voici un dictionnaire. Il suit votre progression en mémoire et vous aide à rafraîchir les mots que vous avez déjà appris.",
+        "Ici, vous parlez à un enseignant IA. À la fin de chaque article, il y a un bouton pour en discuter avec l'enseignant.",
+        "Personnalisez vos sujets d'article d'ici.",
+        "Voici votre configuration de compte : changez les paramètres de langue, exportez vos données, et ainsi de suite.",
+        "Donc, voici votre futur fil, mais il est vide maintenant. Terminons cette introduction et allons ajouter des sources !",
+        "Donc, voici votre futur fil. Vous avez déjà quelque chose ici. Terminons cette introduction et allons lire !"
+      ],
+      "chatOnlyHeader": "Aucun article pour {{LNG}}",
+      "chatOnlyText": "Nous ne supportons que des conversations avec l'enseignant IA en langue {{LNG}}. Pour lire des articles, passez à une autre langue."
+    },
+    "account": {
+      "confirmLogout": "Êtes-vous sûr de vouloir vous déconnecter ?",
+      "confirmDelete": "Êtes-vous sûr de vouloir SUPPRIMER votre compte ? Il n'y a pas de retour en arrière !",
+      "deleteConfirmation": "Votre compte sera supprimé dans 30 jours.",
+      "toastSaved": "Paramètres sauvegardés",
+      "phName": "Comment devons-nous vous appeler",
+      "lblName": "Votre nom",
+      "lblNativeLng": "Votre langue maternelle",
+      "lblTargetLng": "Langue que vous apprenez",
+      "lblLevel": "Niveau que vous avez atteint",
+      "btnLogout": "Se déconnecter",
+      "btnDeleteAccount": "Supprimer le compte",
+      "btnExport": "Exporter les données",
+      "coins": "Pièces",
+      "coinsSpent": "Pièces dépensées",
+      "ttsRate": "À quelle vitesse l'enseignant parle",
+      "feedbackMode": "Comment l'enseignant donne du retour",
+      "formalityLevel": "Niveau de formalité",
+      "gender": "Votre genre grammatical",
+      "whenApplied": "Les paramètres ne seront appliqués qu'à un nouveau chat",
+      "yourTeacher": "Votre enseignant",
+      "notAvailable": "(pour les écoles uniquement)",
+      "hideCard": "cacher mon <a target='_blank' href='{{URL}}'>profil public</a>",
+      "showGroups": "montrer <a target='_blank' href='/groups'>les groupes</a> dans le menu",
+      "showGoals": "Afficher mes objectifs quotidiens",
+      "dangerZone": "Révéler la zone de danger",
+      "startSubscription": "Passer à la version payante",
+      "cancelSubscription": "Annuler l'abonnement",
+      "subCancellationWarning": "Êtes-vous sûr de vouloir annuler votre abonnement ? L'accès premium sera perdu. Le paiement pour le reste du mois ne sera pas remboursé.",
+      "lblGrammarFeatures": "Caractéristiques grammaticales",
+      "grammarFeatures": [
+        "Temps présent",
+        "Temps passé",
+        "Temps futur"
+      ],
+      "tabs": [
+        "Paramètres",
+        "Mon profil",
+        "Sources"
+      ]
+    },
+    "vocabulary": {
+      "confirmRemove": "Êtes-vous sûr de vouloir supprimer ce mot ?",
+      "lblIntensiveOnly": "Mots pour étude intensive seulement",
+      "switchToNormal": "Passer au mode d'apprentissage normal",
+      "switchToIntensive": "Passer au mode d'apprentissage intensif",
+      "intensiveToast": "L'apprentissage intensif est activé. L'enseignant IA se concentrera désormais plus sur ce mot pendant les leçons.",
+      "removeWord": "Supprimer le mot du vocabulaire",
+      "colLemma": "Mot",
+      "colIntensive": "Intensif",
+      "colUseCount": "Exemple d'utilisation",
+      "colUsedTimes": "Niveau de maîtrise",
+      "colLastUsed": "Dernière utilisation",
+      "emptyPlaceholderHeader": "Votre vocabulaire est vide",
+      "emptyPlaceholderHint": "Parlez à un <a href='/talk'>enseignant IA</a> ou ajoutez des mots dans des <a href='/feed'>articles</a> pour le remplir.",
+      "more": {
+        "addWords": "Ajouter des mots personnels...",
+        "flashCards": "Cartes mémoire",
+        "repeatGame": "Jouer à un jeu"
+      }
+    },
+    "talk": {
+      "confirmDrop": "Nous avons trouvé une discussion précédente sans rapport. Devons-nous l'abandonner ?",
+      "phInputMobile": "Tapez ou appuyez longuement ici pour parler...",
+      "phInputDesktop": "Tapez ici ou maintenez 'espace' sur votre clavier et parlez...",
+      "btnToArticle": "Vers le texte",
+      "btnTranslitInOn": "Translit activé",
+      "btnTranslitInOff": "Translit désactivé",
+      "btnTranslitOutOn": "Translit activé",
+      "btnTranslitOutOff": "Translit désactivé",
+      "btnNovice": "Notions de base en langue",
+      "pttHint": "Non-non, vous devez maintenir 'espace' sur votre vrai clavier, où vous tapez avec vos doigts. 😉",
+      "longChatWarning": "La discussion devient trop longue. Redémarrez-la pour une meilleure expérience.",
+      "listenFailed": "Nous n'avons pas pu reconnaître votre voix. Raisons possibles : silence, murmure, bruits de fond forts, appareil muet, paramètres du microphone.",
+      "listenFailedDebug": "Voici ce que nous avons entendu :",
+      "sseFailed": "Hmm... La connexion au serveur a été perdue. Si c'est temporaire, essayez de recharger la page.",
+      "longVoiceInput": "Gardez vos réponses en dessous de 30 secondes pour une meilleure expérience.",
+      "confirmEditReply": "Supprimer cette réponse ?",
+      "tooltips": {
+        "pa": "Analyse de prononciation",
+        "editReply": "Éditer la réponse",
+        "sayAgain": "Dire à nouveau",
+        "translate": "Traduire",
+        "explainMistake": "Explain mistake"
+      },
+      "noticeSlowdown": "Votre professeur parlera plus lentement",
+      "teacher": {
+        "header": "Professeur",
+        "confirmChange": "Changer de professeur redémarrera la discussion. Êtes-vous sûr ?"
+      },
+      "chatMode": "Discussion",
+      "historyMode": "Historique des discussions",
+      "situationMode": "Situations",
+      "situationsHeader": "Choisissez une situation et atteignez l'objectif en parlant.",
+      "situationSolved": "Situation résolue",
+      "lngMismatch": {
+        "text": "Votre langue de discussion est '{{CHAT_LNG}}' alors que vous apprenez '{{TARGET_LNG}}'. Redémarrez la discussion pour les aligner ou changez votre langue.",
+        "btnRestart": "Redémarrer",
+        "btnFix": "Changer de langue"
+      },
+      "suggestions": {
+        "hint": "Montrer des suggestions",
+        "inputHint": "ou tapez votre propre réponse dans votre langue maternelle",
+        "gotStuck": "Vous êtes bloqué ?",
+        "gotStuckWidth": 8.5
+      }
+    },
+    "groups": {
+      "joinHint": "Voulez-vous rejoindre le groupe «{{GROUP_NAME}}» ?",
+      "joinRequestSent": "Demande envoyée ! L'admin du groupe l'approuvera bientôt.",
+      "plhNewGroupName": "nom du groupe",
+      "addNewTab": "Ajouter nouveau",
+      "addNewTitle": "Créer un nouveau groupe",
+      "confirmRemoveUser": "Êtes-vous sûr de vouloir retirer {{USERNAME}} du groupe ? Il n'y a pas de retour en arrière.",
+      "toastUserRemoved": "Utilisateur {{USERNAME}} retiré",
+      "noUsersFound": "Aucun utilisateur trouvé",
+      "btnInviteUser": "Inviter",
+      "btnRemoveUser": "Retirer l'utilisateur",
+      "plhSearch": "chercher un utilisateur...",
+      "colRole": "Rôle",
+      "colName": "Nom",
+      "colTargetLng": "Langue cible.",
+      "colNativeLng": "Langue maternelle.",
+      "colLanguageLevel": "Niveau",
+      "colDictSize": "Taille du dictionnaire",
+      "colExerciseCount": "Nombre d'exercices",
+      "confirmApproveUser": "Êtes-vous sûr de vouloir approuver {{USERNAME}} ?",
+      "toastUserApproved": "Utilisateur approuvé",
+      "btnApproveUser": "Approuver",
+      "inviteBoxHeader": "Entrez les e-mails des utilisateurs que vous souhaitez inviter :",
+      "btnLeave": "Quitter le groupe",
+      "confirmLeave": "Êtes-vous sûr de vouloir quitter ce groupe ?",
+      "btnConfirmJoin": "Confirmer l'adhésion au groupe",
+      "btnCopyLink": "Copier le lien",
+      "toastLinkCopied": "Lien copié dans le presse-papiers",
+      "roles": {
+        "admin": "admin",
+        "user": "utilisateur",
+        "pabu": "en attente d'approbation de l'utilisateur",
+        "paba": "en attente de l'approbation de l'admin"
+      }
+    },
+    "tools": {
+      "title": "Optimisez votre apprentissage !",
+      "scratchpad": [
+        "carnet de notes",
+        "travailler avec n'importe quel texte en utilisant Lingolette"
+      ],
+      "extensions": [
+        "extensions de navigateur",
+        "accéder au carnet de notes de Lingolette depuis n'importe quel site"
+      ],
+      "wordsGame": [
+        "jeu de mots",
+        "jouez à un jeu de prononciation des mots"
+      ],
+      "flashcards": [
+        "cartes mémoire",
+        "répétez vos mots de vocabulaire jusqu'à ce que vous les appreniez"
+      ]
+    },
+    "userCard": {
+      "streak": "Série",
+      "gems": "Gemmes",
+      "energy": "Énergie",
+      "language": "langues × {{count}}",
+      "wordStatsHeader": "Mon vocabulaire",
+      "wordStatsHint": "Mots que je connais",
+      "streakInfo": "Votre série est le nombre de jours consécutifs pendant lesquels vous avez appris avec Lingolette. Continuez !",
+      "gemsInfo": "Les gemmes sont une monnaie virtuelle que vous pouvez utiliser pour acheter des fonctionnalités et du contenu premium. Vous gagnez des gemmes en apprenant et en complétant des tâches.",
+      "energyInfo": "L'énergie est utilisée pour parler au professeur AI, lire des articles et faire d'autres activités.",
+      "privateHeader": "Profil privé"
+    },
+    "dialogs": {
+      "feedback": {
+        "header": "Partagez vos commentaires ci-dessous",
+        "joinCommunity": "Rejoignez notre communauté Discord",
+        "placeholder": "Qu'aimeriez-vous améliorer ou corriger ?",
+        "thankYou": "Merci ! Votre message nous aidera à améliorer le produit."
+      },
+      "audioPermissions": {
+        "inRequired": "Le chat vocal nécessite l'autorisation du microphone. Veuillez l'accorder.",
+        "outRequired": "Le chat vocal nécessite l'autorisation de lecture. Appuyez sur OK pour l'accorder."
+      },
+      "offerPWA": {
+        "text": "Souhaitez-vous ajouter l'application web Lingolette à votre écran d'accueil pour un accès rapide ?",
+        "btnInstall": "Installer"
+      },
+      "chatResults": {
+        "btnGoBack": "Retourner",
+        "header": "Bien joué, {{NAME}} !",
+        "mainText": "Vous vous êtes un peu rapproché de votre objectif. Vous pouvez soit retourner à la discussion soit redémarrer la session et recommencer.",
+        "headerProgress": "Votre avancement en mots",
+        "word": "Mot",
+        "before": "Avant",
+        "after": "Après"
+      },
+      "pa": {
+        "scoreGreen": "Excellent travail !",
+        "scoreYellow": "Bon",
+        "scoreRed": "Continuez à pratiquer !",
+        "btnHearExample": "Entendre un exemple",
+        "btnStop": "Arrêter",
+        "btnPractice": "Pratiquer",
+        "thWord": "Mot",
+        "thSound": "Son",
+        "thFeedback": "Retour",
+        "fbGood": "Bon",
+        "fbABitOff": "Un peu à côté",
+        "offTowards": "Hors de [{{sound}}]",
+        "soundsLike": "Semble comme [{{sound}}]",
+        "inProgress": "Analyse..."
+      },
+      "addWords": {
+        "header": "Ajoutez les mots que vous souhaitez apprendre",
+        "word": "Un mot",
+        "sentence": "Une phrase d'exemple avec celui-ci",
+        "toastAdded": "Mot '{{word}}' ajouté",
+        "toastAddFailed": "Échec de l'ajout du mot '{{word}}' : ",
+        "inputLng": "Langue de votre saisie"
+      },
+      "mediaError": {
+        "errNotAllowed": "Impossible d'obtenir les autorisations de votre navigateur. Veuillez vous assurer qu'elles ne sont pas bloquées.",
+        "errAbort": "L'accès à la caméra est bloqué. Veuillez vous assurer que vous ne l'utilisez pas dans un autre navigateur ou programme.",
+        "errFallback": "Vous avez accordé l'accès à vos dispositifs matériels, mais un problème local dans votre système a empêché l'utilisation de votre appareil. Veuillez essayer un autre navigateur ou un autre appareil.",
+        "retryError": "Non, ça n'a pas marché. Vérifiez vos paramètres matériels."
+      },
+      "paywall": {
+        "walls": {
+          "chatPA": "L'analyse de prononciation dans le chat vocal n'est disponible que pour les utilisateurs Premium.",
+          "chatLength": "Letty est fatiguée et a besoin d'une pause. Devenez Lingolette Premium pour lui donner une énergie infinie !",
+          "lockedArticle": "Cet article est disponible uniquement pour les utilisateurs Premium.",
+          "longTime": "Vous utilisez Lingolette depuis un certain temps. Nous espérons que vous l'appréciez !",
+          "chatHistory": "L'historique des discussions est disponible uniquement pour les utilisateurs Premium.",
+          "languages": "L'étude multilingue est disponible uniquement pour les utilisateurs Premium.",
+          "paidSituation": "Cette situation est disponible uniquement pour les utilisateurs Premium."
+        },
+        "suffix": "Souhaitez-vous passer à l'abonnement Premium ?",
+        "btnYes": "Oui, s'il vous plaît",
+        "btnNo": "Peut-être plus tard"
+      },
+      "salePopup": {
+        "btnSave": "Économisez 30%",
+        "btnNope": "Rappelez-moi plus tard",
+        "disclaimer": "remise valable jusqu'au 7 août 11h59 GMT et uniquement pour les abonnements annuels",
+        "header": "Notre vente d'été commence maintenant ! 🏖️",
+        "mainText": "Bravez la chaleur mais vous ne pouvez pas braver le prix !<br/><br/>Pour une durée limitée, économisez 30 % sur <b>Lingolette Premium Annuel</b>.",
+        "codeLine": "Utilisez le code <b>SUMMER30</b> lors du paiement<sup>*</sup>"
+      },
+      "share": {
+        "header": "Partager le profil public",
+        "subheader": "Parlez de vos progrès dans l'apprentissage des langues à vos amis !",
+        "btnCopy": "Copier le lien",
+        "prompt": "Mes progrès sur Lingolette"
+      }
+    },
+    "games": {
+      "repeat": {
+        "header": "« Répétez après moi »",
+        "intro": "Vous verrez des cartes avec des mots. Chaque mot sera prononcé à haute voix. Après cela, vous aurez 3 secondes pour le répéter. Cliquez sur une carte pour passer à la suivante.",
+        "act": "Répétez !",
+        "btnLoading": "Chargement..."
+      }
+    },
+    "components": {
+      "testSpeaker": {
+        "button": "Tester",
+        "didYouHear": "Avez-vous entendu le son ?",
+        "cannotPlay": "Impossible de jouer le son. Veuillez vérifier vos paramètres audio."
+      },
+      "testMic": {
+        "button": "Tester",
+        "hint": "Dites quelque chose et cliquez sur OK",
+        "didYouSay": "Voici ce que nous avons entendu : « {{RESULT}} »"
+      },
+      "noArticles": {
+        "info": [
+          "Oups, nos explorateurs linguistiques sont en quête d'articles dans une langue encore à dévoiler. Il semble qu'ils soient encore en train de préparer leurs dictionnaires et d'installer des pièges grammaticaux !",
+          "Ne craignez rien, cher polyglotte en attente ! Pendant que nous déchiffrons les secrets de cette langue intrigante, pourquoi ne pas muscler vos capacités linguistiques avec nos langues existantes ? Réveillez votre français, étirez votre espagnol et polissez votre klingon (je rigole, nous n'avons pas de klingon... encore)."
+        ],
+        "ctaHint": "Parce que qui a besoin d'articles quand on peut conquérir le monde avec des mots !"
+      },
+      "contextTools": {
+        "logInForContext": "Connectez-vous pour obtenir des traductions, des outils de contexte, de la prononciation et plus encore.",
+        "btnYesPlease": "Allons-y !",
+        "btnPronounce": "Prononcer",
+        "btnAdd": "Au dictionnaire",
+        "btnPA": "Prononciation",
+        "btnExtra": "Conjugaison",
+        "extraLoading": "Chargement...",
+        "extraError": "Erreur lors de la récupération des informations grammaticales"
+      },
+      "publicFeed": {
+        "readMore": "Lire l'article →",
+        "readMoreAd": "Lire plus →",
+        "tasksCount": "tâches",
+        "goPremium": "Devenir Premium",
+        "ad": "Annonce"
+      },
+      "articleView": {
+        "logInForAssessment": "Connectez-vous pour faire évaluer vos réponses par l'IA.",
+        "readingHead": "Lecture",
+        "readingSubhead": "Lisez ce texte et écoutez-le en même temps. Si vous ne connaissez pas un mot, cliquez dessus pour voir son explication.",
+        "questionsHead": "Questions",
+        "questionsSubhead": "Répondez aux questions sur le texte. Parlez ou écrivez, c'est vous qui choisissez. L'IA évaluera vos réponses.",
+        "discussHead": "Discuter",
+        "discussSubhead": "Discutez du texte avec le professeur AI. Le professeur vous aidera avec le vocabulaire et la grammaire.",
+        "btnDiscuss": "Discuter avec l'IA",
+        "discussP": "Le professeur d'intelligence artificielle a de nombreux avantages. Vous n'avez pas besoin de réserver d'heure. Vous n'avez pas à attendre que le professeur arrive en classe. Vous pouvez apprendre à tout moment. Le professeur ne se lassera jamais et peut maintenir une conversation sur n'importe quel sujet connexe.",
+        "logInForDiscussion": "Connectez-vous pour commencer la conversation avec l'IA.",
+        "btnPA": "Vérifier la prononciation",
+        "printedInfo": "Lisez un nouvel article chaque jour et<br/>discutez-en avec l'IA sur lingolette.com"
+      },
+      "desktopMenu": {
+        "feed": "Lire",
+        "talk": "Parler",
+        "vocabulary": "Mots",
+        "configure": "Sources",
+        "account": "Profil",
+        "tools": "Outils",
+        "more": "Plus",
+        "feedback": "Commentaires",
+        "collapse": "Réduire le menu",
+        "expand": "Développer le menu",
+        "groups": "Groupes",
+        "plans": "Passer à Premium"
+      },
+      "speakTextInput": {
+        "hint": "Tapez ou maintenez l'icône du micro pour parler"
+      },
+      "voiceoverPlayer": {
+        "play": "Jouer",
+        "prev": "Préc.",
+        "stop": "Arrêter",
+        "translit": "Translit",
+        "rate": "Vitesse",
+        "fontSize": "Taille de police",
+        "btnPrint": "Obtenir une version imprimable",
+        "loopVO": "Boucle de voix off"
+      },
+      "dailyGoals": {
+        "goalTypes": [
+          "phrases parlées",
+          "exercices de texte"
+        ],
+        "header": "Vos objectifs quotidiens",
+        "btnGo": "Compris !"
+      },
+      "targetLngSelector": {
+        "header": "Sélectionnez une langue",
+        "placeholder": "Recherchez une langue"
+      },
+      "whomFor": {
+        "cards": [
+          [
+            "Vous souhaitez améliorer votre fluidité orale et écrite sans cours formels.",
+            "Vous avez besoin d'un partenaire de pratique qui s'adapte à votre rythme et à vos goûts au lieu d'un programme statique."
+          ],
+          [
+            "Votre vocabulaire est bloqué dans le même réservoir de mots.",
+            "Vous utilisez les mêmes mots et phrases de manière excessive et répétitive en raison d'un manque de variété dans votre apprentissage."
+          ],
+          [
+            "Vous n'avez pas le budget pour une école de langues.",
+            "Admettons-le, les écoles de langues sont coûteuses."
+          ],
+          [
+            "Vous avez du mal à trouver des occasions de pratiquer.",
+            "La pratique de la langue dans le monde réel est souvent difficile à trouver à moins que vous ne soyez dans un pays où la langue est parlée."
+          ],
+          [
+            "Vous vous sentez anxieux lorsque vous parlez une langue étrangère avec d'autres personnes.",
+            "Pas de jugement ici ! Qui ne le ferait pas ?"
+          ],
+          [
+            "Vous avez besoin d'une pratique flexible qui s'adapte à votre emploi du temps chargé.",
+            "Vous n'avez pas toujours des heures à consacrer à un cours. Certains jours, 15 minutes est tout ce que vous pouvez donner."
+          ]
+        ]
+      },
+      "premiumOffer": {
+        "headers": {
+          "generic": "Débloquez un chat illimité et bien plus encore.",
+          "chatHistory": "Débloquez tout l'historique des discussions et bien plus encore.",
+          "paidSituation": "Débloquez toutes les situations et bien plus encore.",
+          "lockedArticle": "Débloquez des articles illimités et bien plus encore."
+        },
+        "subHeaders": {
+          "generic": "Devenez fluide 5 fois plus vite. Commencez dès aujourd'hui !"
+        },
+        "monthly": "Mensuel",
+        "yearly": "Annuel",
+        "freePlan": {
+          "preHeader": "Plan Gratuit",
+          "header": "Lingolette Basique",
+          "items": [
+            "Modèle de tuteur AI basique",
+            "1 langue",
+            "20 réponses par discussion",
+            "1 article par jour"
+          ],
+          "footer": "Gratuit",
+          "subFooter": "Des annonces peuvent être affichées."
+        },
+        "premiumPlan": {
+          "preHeaderMonthly": "Plan Mensuel",
+          "preHeaderYearly": "Plan Annuel",
+          "header": "Lingolette Premium",
+          "items": [
+            "Modèle de tuteur AI avancé",
+            "25+ langues",
+            "Discussions illimitées",
+            "Articles illimités",
+            "Retour de prononciation pour l'anglais",
+            "Situations et historique de discussion",
+            "Pas d'annonces"
+          ],
+          "footer": "$13.99/mois",
+          "footer2": "$7.49/mois",
+          "subFooter": "Facturé $89.99/an",
+          "saveX": "Économisez 47%"
+        },
+        "cta": "Améliorez votre abonnement maintenant",
+        "dummyCta": "Rester sur la version Basique"
+      },
+      "nextMission": {
+        "hChat": "Leçon de langue",
+        "hSituations": "Situations",
+        "btnCaption": "Choisissez votre première mission",
+        "modes": {
+          "chat": "Parlez à votre professeur AI",
+          "hotelCheckIn": "Enregistrement à l'hôtel",
+          "cashDesk": "Caisse du supermarché",
+          "buySimCard": "Achat d'une carte SIM",
+          "buyTransportCard": "Acheter une carte de transport",
+          "bankAccount": "Ouvrir un compte bancaire",
+          "rentApartment": "Louer un appartement",
+          "restaurant": "Restaurant",
+          "hospital": "Hôpital",
+          "drugstore": "Pharmacie",
+          "alienInvasion": "Invasion extra-terrestre"
+        }
+      }
+    }
+  }
+}
