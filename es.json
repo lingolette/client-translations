@@ -92,6 +92,7 @@
     },
     "header": {
       "btnCTA": "Acceso",
+      "btnEnter": "A la clase",
       "forOrgs": "Para empresas"
     },
     "footer": {
@@ -106,10 +107,8 @@
       "integrations": "Integraciones"
     },
     "home": {
-      "heroHead": "Aprende <b>idiomas</b><br/>hablando con <span>IA</span>",
+      "heroHead": "Domina <b>idiomas</b> con<br/> un tutor de IA <span>avanzado</span>.",
       "heroSubhead": "Logra fluidez oral y escrita a través de conversaciones en tiempo real.",
-      "heroHeadVariant": "Domina <b>idiomas</b> con<br/> un tutor de IA <span>avanzado</span>.",
-      "heroSubheadVariant": "Práctica de conversación personalizada sin ansiedad. Empieza a hablar con fluidez sin esfuerzo.",
       "toPractice": "Quiero practicar:",
       "btnStart": "Empecemos",
       "btnStartVariant": "Practicar gratis",
@@ -270,6 +269,7 @@
       "hideCard": "ocultar mi <a target='_blank' href='{{URL}}'>perfil público</a>",
       "showGroups": "mostrar <a target='_blank' href='/groups'>grupos</a> en el menú",
       "showGoals": "Mis metas diarias",
+      "hideCompletedExercises": "Ocultar ejercicios completados",
       "dangerZone": "Mostrar zona de peligro",
       "startSubscription": "Cambiar a versión de pago",
       "cancelSubscription": "Cancelar suscripción",
@@ -303,7 +303,8 @@
       "more": {
         "addWords": "Agregar palabras propias...",
         "flashCards": "Tarjetas de memoria",
-        "repeatGame": "Jugar un juego"
+        "repeatGame": "Jugar un juego",
+        "exportWords": "Exportar palabras intensivas"
       }
     },
     "talk": {
@@ -323,12 +324,14 @@
       "sseFailed": "Hmm... Se perdió la conexión con el servidor. Si es temporal, intenta recargar la página.",
       "longVoiceInput": "Mantén tus respuestas por debajo de 30 segundos para obtener la mejor experiencia.",
       "confirmEditReply": "¿Eliminar esta respuesta?",
+      "btnReInput": "Reingresar",
       "tooltips": {
         "pa": "Análisis de pronunciación",
         "editReply": "Editar respuesta",
         "sayAgain": "Decir de nuevo",
         "translate": "Traducir",
-        "explainMistake": "Explain mistake"
+        "explainMistake": "Explicar error",
+        "report": "Informar contenido"
       },
       "noticeSlowdown": "Tu profesor hablará más despacio",
       "teacher": {
@@ -347,10 +350,11 @@
       },
       "suggestions": {
         "hint": "Mostrar sugerencias",
-        "inputHint": "Escribe tu respuesta en tu idioma nativo",
+        "inputHint": "o escribe tu respuesta en tu idioma nativo",
         "gotStuck": "¿Te quedaste atascado?",
         "gotStuckWidth": 15
-      }
+      },
+      "noteBasicModel": "Este es un modelo de IA básico. ¡Actualice a Premium para obtener más funciones!"
     },
     "groups": {
       "joinHint": "¿Quieres unirte al grupo «{{GROUP_NAME}}»?",
@@ -423,7 +427,8 @@
         "header": "Comparte tus comentarios a continuación",
         "joinCommunity": "Únete a nuestra comunidad en Discord",
         "placeholder": "¿Qué te gustaría mejorar o corregir?",
-        "thankYou": "¡Gracias! Tu mensaje nos ayudará a mejorar el producto."
+        "thankYou": "¡Gracias! Tu mensaje nos ayudará a mejorar el producto.",
+        "trustPilot": "Califícanos en Trustpilot"
       },
       "audioPermissions": {
         "inRequired": "El chat de voz requiere permiso para el micrófono. Concédelo, por favor.",
@@ -480,7 +485,8 @@
           "longTime": "Llevas un tiempo usando Lingolette. ¡Esperamos que lo estés disfrutando!",
           "chatHistory": "El historial de chat está disponible solo para usuarios Premium.",
           "languages": "El estudio multilingüe está disponible solo para usuarios Premium.",
-          "paidSituation": "Esta situación está disponible solo para usuarios Premium."
+          "paidSituation": "Esta situación está disponible solo para usuarios Premium.",
+          "chatAnalysis": "El reinicio del chat y el análisis de progreso están disponibles solo para usuarios Premium."
         },
         "suffix": "¿Te gustaría mejorar tu cuenta?",
         "btnYes": "Sí, por favor",
@@ -499,6 +505,19 @@
         "subheader": "¡Diles a tus amigos sobre tu progreso en el aprendizaje de idiomas!",
         "btnCopy": "Copiar enlace",
         "prompt": "Mi progreso en Lingolette"
+      },
+      "pledge": {
+        "offerHeader": "El Compromiso de Práctica Diaria",
+        "offer": "Yo, {{NAME}}, me comprometo a dedicar al menos 10 minutos cada día a practicar {{LANG}}.",
+        "acceptedHeader": "🎉 ¡Estás dentro!",
+        "accepted": "¡Te has unido al Compromiso de Práctica Diaria!<br/><br/>Cada día, dedica solo 10 minutos a practicar {{LANG}} y observa cómo mejora tu fluidez.",
+        "btnJoin": "Únete al compromiso ahora",
+        "btnOK": "Empieza a practicar ahora"
+      },
+      "reportContent": {
+        "header": "Informar contenido de IA inapropiado",
+        "btnReport": "Informar",
+        "reported": "Contenido informado"
       }
     },
     "games": {
@@ -507,6 +526,9 @@
         "intro": "Verás tarjetas con palabras. Cada palabra será pronunciada en voz alta. Después de eso, tendrás 3 segundos para repetirla. Haz clic en una tarjeta para pasar a una nueva.",
         "act": "¡Repite!",
         "btnLoading": "Cargando..."
+      },
+      "flashCards": {
+        "btnShow": "Mostrar de nuevo"
       }
     },
     "components": {
@@ -583,7 +605,8 @@
         "rate": "Velocidad",
         "fontSize": "Tamaño de fuente",
         "btnPrint": "Obtener versión imprimible",
-        "loopVO": "Ciclar la voz en off"
+        "loopVO": "Ciclar la voz en off",
+        "followVO": "Desplázate después del discurso"
       },
       "dailyGoals": {
         "goalTypes": [
@@ -660,6 +683,7 @@
             "Artículos ilimitados",
             "Análisis de pronunciación para inglés",
             "Situaciones de chat e historial",
+            "Traducción instantánea",
             "Sin anuncios"
           ],
           "footer": "$13.99/mes",
@@ -668,7 +692,7 @@
           "saveX": "Ahorra un 47%"
         },
         "cta": "Mejorar ahora",
-        "dummyCta": "Quedarse en el básico"
+        "dummyCta": "Iniciar prueba gratuita"
       },
       "nextMission": {
         "hChat": "Lección de idioma",
@@ -687,6 +711,9 @@
           "drugstore": "Farmacia",
           "alienInvasion": "Invasión alienígena"
         }
+      },
+      "sentence": {
+        "wordStudied": "Estudiada activamente"
       }
     }
   }

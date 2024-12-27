@@ -92,6 +92,7 @@
     },
     "header": {
       "btnCTA": "Giriş",
+      "btnEnter": "Sınıfa git",
       "forOrgs": "Şirketler için"
     },
     "footer": {
@@ -106,10 +107,8 @@
       "integrations": "Entegrasyonlar"
     },
     "home": {
-      "heroHead": "<span>Yapay Zeka</span> ile<br/>konuşarak <b>dil öğrenin</b>",
+      "heroHead": "<span>En gelişmiş</span> yapay<br/> zeka ile <b>dil</b> öğrenin.",
       "heroSubhead": "Gerçek zamanlı sohbet ederek sözlü ve yazılı akıcılık kazanın.",
-      "heroHeadVariant": "<span>En gelişmiş</span> yapay<br/> zeka ile <b>dil</b> öğrenin.",
-      "heroSubheadVariant": "Kaygı olmadan kişiselleştirilmiş konuşma pratiği yapın. Çaba harcamadan akıcı bir şekilde konuşmaya başlayın.",
       "toPractice": "Pratik yapmak istediğim dil:",
       "btnStart": "Başlayalım",
       "btnStartVariant": "Ücretsiz pratik yap",
@@ -269,6 +268,7 @@
       "hideCard": "Benim <a target='_blank' href='{{URL}}'>genel profilimi</a> gizle",
       "showGroups": "menüde <a target='_blank' href='/groups'>grupları</a> göster",
       "showGoals": "Günlük hedeflerim",
+      "hideCompletedExercises": "Tamamlanan alıştırmaları gizle",
       "dangerZone": "Tehlike bölgesini göster",
       "startSubscription": "Ücretli sürüme geç",
       "cancelSubscription": "Aboneliği iptal et",
@@ -302,11 +302,12 @@
       "more": {
         "addWords": "Kendi kelime ekle...",
         "flashCards": "Flash kartlar",
-        "repeatGame": "Bir oyun oyna"
+        "repeatGame": "Bir oyun oyna",
+        "exportWords": "Yoğun kelimeleri dışa aktar"
       }
     },
     "talk": {
-      "confirmDrop": "Daha önce ilgisiz bir tartışma bulduk. Onu bırakalım mı?",
+      "confirmDrop": "Yarım kalmış bir konuşma bulduk. Bitirmeden atlamak ister misin?",
       "phInputMobile": "Buraya yazın veya konuşmak için dokunun ve basılı tutun...",
       "phInputDesktop": "Buraya yazın veya klavyenizde 'boşluk' tuşuna basılı tutun ve konuşun...",
       "btnToArticle": "Metne git",
@@ -322,12 +323,14 @@
       "sseFailed": "Hmm... Sunucu ile bağlantı kesildi. Geçici ise, sayfayı yeniden yüklemeyi deneyin.",
       "longVoiceInput": "En iyi deneyimi yaşamak için yanıtlarınızı 30 saniyenin altında tutun.",
       "confirmEditReply": "Bu yanıtınızı kaldırmak mı istiyorsunuz?",
+      "btnReInput": "Yeniden gir",
       "tooltips": {
         "pa": "Telaffuz analizi",
         "editReply": "Yanıtı düzenle",
         "sayAgain": "Tekrar söyle",
         "translate": "Çevir",
-        "explainMistake": "Explain mistake"
+        "explainMistake": "Hata açıklama",
+        "report": "İçeriği bildir"
       },
       "noticeSlowdown": "Öğretmeniniz daha yavaş konuşacak",
       "teacher": {
@@ -346,10 +349,11 @@
       },
       "suggestions": {
         "hint": "Önerileri göster",
-        "inputHint": "Kendi dilinizde bir yanıt yazın",
+        "inputHint": "Veya kendi dilinizde bir yanıt yazın",
         "gotStuck": "Takıldın mı?",
         "gotStuckWidth": 9
-      }
+      },
+      "noteBasicModel": "Bu, temel bir AI modelidir. Daha fazla özellik için Premium'a yükseltin!"
     },
     "groups": {
       "joinHint": "«{{GROUP_NAME}}» grubuna katılmak istiyor musunuz?",
@@ -422,11 +426,12 @@
         "header": "Görüşlerinizi aşağıda paylaşın",
         "joinCommunity": "Discord topluluğumuza katılın",
         "placeholder": "Nasıl geliştirebiliriz veya düzeltebiliriz?",
-        "thankYou": "Teşekkürler! Mesajınız ürünü daha iyi yapmamıza yardımcı olacak."
+        "thankYou": "Teşekkürler! Mesajınız ürünü daha iyi yapmamıza yardımcı olacak.",
+        "trustPilot": "Bizi Trustpilot'ta değerlendirin"
       },
       "audioPermissions": {
         "inRequired": "Sesli sohbet mikrofon izni gerektirir. Lütfen izin verin.",
-        "outRequired": "Sesli sohbet oynatma izni gerektirir. Vermek için Tamam'a basın."
+        "outRequired": "Sesli sohbet için mikrofon izni gerekiyor. İzin vermek için Tamam’a basın."
       },
       "offerPWA": {
         "text": "Hızlı erişim için Lingolette web uygulamasını ana ekranınıza eklemek ister misiniz?",
@@ -479,7 +484,8 @@
           "longTime": "Bir süredir Lingolette kullanıyorsun. Umarız beğeniyorsundur!",
           "chatHistory": "Sohbet geçmişi yalnızca Premium kullanıcılar için kullanılabilir.",
           "languages": "Çok dilli çalışma yalnızca Premium kullanıcılar için mevcuttur.",
-          "paidSituation": "Bu durum yalnızca Premium kullanıcılar için mevcuttur."
+          "paidSituation": "Bu durum yalnızca Premium kullanıcılar için mevcuttur.",
+          "chatAnalysis": "Sohbet sıfırlama ve ilerleme analizi yalnızca Premium kullanıcılar için mevcuttur."
         },
         "suffix": "Hesabınızı yükseltmek ister misiniz?",
         "btnYes": "Evet, lütfen",
@@ -498,6 +504,19 @@
         "subheader": "Dil öğrenmedeki ilerlemenizi arkadaşlarınıza anlatın!",
         "btnCopy": "Bağlantıyı kopyala",
         "prompt": "Lingolette üzerindeki ilerlemem"
+      },
+      "pledge": {
+        "offerHeader": "Günlük Pratik Sözü",
+        "offer": "Ben, {{NAME}}, her gün en az 10 dakika {{LANG}} pratiği yapmaya söz veriyorum.",
+        "acceptedHeader": "🎉 İşte buradasınız!",
+        "accepted": "Günlük Pratik Sözü verdiniz!<br/><br/>Her gün sadece 10 dakika {{LANG}} pratiği yapın ve akıcılığınızın nasıl geliştiğini görün.",
+        "btnJoin": "Sözünü imzala",
+        "btnOK": "Şimdi pratik yapmaya başla"
+      },
+      "reportContent": {
+        "header": "Uygunsuz Yapay Zeka içeriğini bildir",
+        "btnReport": "Bildir",
+        "reported": "İçerik bildirildi"
       }
     },
     "games": {
@@ -506,6 +525,9 @@
         "intro": "Kelime kartları göreceksiniz. Her kelime yüksek sesle söylenecektir. Ardından, tekrar etmek için 3 saniyeniz olacak. Yeni bir karta geçmek için bir karta tıklayın.",
         "act": "Tekrar et!",
         "btnLoading": "Yükleniyor..."
+      },
+      "flashCards": {
+        "btnShow": "Tekrar göster"
       }
     },
     "components": {
@@ -582,7 +604,8 @@
         "rate": "Hızı",
         "fontSize": "Yazı boyutu",
         "btnPrint": "Yazdırılabilir versiyon",
-        "loopVO": "Seslendirmeyi döngüye sokmak"
+        "loopVO": "Seslendirmeyi döngüye sokmak",
+        "followVO": "Konuşmadan sonra kaydır"
       },
       "dailyGoals": {
         "goalTypes": [
@@ -659,6 +682,7 @@
             "Sınırsız makale",
             "İngilizce için telaffuz geri bildirimi",
             "Sohbet senaryoları ve geçmişi",
+            "Anlık çeviri",
             "Reklamsız"
           ],
           "footer": "$13.99/ay",
@@ -667,7 +691,7 @@
           "saveX": "%47 tasarruf edin"
         },
         "cta": "Şimdi yükselt",
-        "dummyCta": "Temel planda kal"
+        "dummyCta": "Ücretsiz denemeyi başlat"
       },
       "nextMission": {
         "hChat": "Dil dersi",
@@ -686,6 +710,9 @@
           "drugstore": "Eczane",
           "alienInvasion": "Uzaylı istilası"
         }
+      },
+      "sentence": {
+        "wordStudied": "Aktif olarak çalışılıyor"
       }
     }
   }

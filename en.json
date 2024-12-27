@@ -92,6 +92,7 @@
     },
     "header": {
       "btnCTA": "Log in",
+      "btnEnter": "To the class",
       "forOrgs": "For companies"
     },
     "footer": {
@@ -106,10 +107,8 @@
       "integrations": "Integrations"
     },
     "home": {
-      "heroHead": "Learn <b>languages</b><br/>by speaking with <span>AI</span>",
+      "heroHead": "Master <b>languages</b> with<br/> <span>the most advanced</span> AI tutor.",
       "heroSubhead": "Achieve spoken and written fluency through real-time conversations.",
-      "heroHeadVariant": "Master <b>languages</b> with<br/> <span>the most advanced</span> AI tutor.",
-      "heroSubheadVariant": "Personalized speaking practice without the anxiety. Start speaking fluently with no effort.",
       "toPractice": "I want to practice:",
       "btnStart": "Let's start",
       "btnStartVariant": "Practice for free",
@@ -269,6 +268,7 @@
       "hideCard": "hide my <a target='_blank' href='{{URL}}'>public profile</a>",
       "showGroups": "show <a target='_blank' href='/groups'>groups</a> in menu",
       "showGoals": "Show my daily goals",
+      "hideCompletedExercises": "Hide completed exercises",
       "dangerZone": "Reveal danger zone",
       "startSubscription": "Switch to paid version",
       "cancelSubscription": "Cancel subscription",
@@ -302,7 +302,8 @@
       "more": {
         "addWords": "Add own words...",
         "flashCards": "Flash-cards",
-        "repeatGame": "Play a game"
+        "repeatGame": "Play a game",
+        "exportWords": "Export intensive words"
       }
     },
     "talk": {
@@ -322,12 +323,14 @@
       "sseFailed": "Hmm... Connection to server was lost. If it's temporarily, try to reload the page.",
       "longVoiceInput": "Keep your replies below 30 seconds to get the best experience.",
       "confirmEditReply": "Remove this reply?",
+      "btnReInput": "Re-input",
       "tooltips": {
         "pa": "Pronunciation analysis",
         "editReply": "Edit reply",
         "sayAgain": "Say again",
         "translate": "Translate",
-        "explainMistake": "Explain mistake"
+        "explainMistake": "Explain mistake",
+        "report": "Report content"
       },
       "noticeSlowdown": "Your teacher will speak slower",
       "teacher": {
@@ -349,7 +352,8 @@
         "inputHint": "or type your own reply in native language",
         "gotStuck": "Got stuck?",
         "gotStuckWidth": 8.5
-      }
+      },
+      "noteBasicModel": "This is a basic AI-model. Upgrade to Premium to get more features!"
     },
     "groups": {
       "joinHint": "Do you want to join group «{{GROUP_NAME}}»?",
@@ -410,7 +414,8 @@
         "header": "Share your feedback below",
         "joinCommunity": "Join our Discord community",
         "placeholder": "What would you like to improve or fix?",
-        "thankYou": "Thank you! Your message will help us make the product better."
+        "thankYou": "Thank you! Your message will help us make the product better.",
+        "trustPilot": "Rate us on Trustpilot"
       },
       "audioPermissions": {
         "inRequired": "Voice chat requires microphone permission. Please grant it.",
@@ -467,7 +472,8 @@
           "longTime": "You've been using Lingolette for a while. We hope you're enjoying it!",
           "chatHistory": "Chat history is available for Premium users only.",
           "languages": "Multi-language study is available for Premium users only.",
-          "paidSituation": "This situation is available for Premium users only."
+          "paidSituation": "This situation is available for Premium users only.",
+          "chatAnalysis": "Chat restart and progress analysis is available for Premium users only."
         },
         "suffix": "Would you like to upgrade?",
         "btnYes": "Yes, please",
@@ -486,6 +492,19 @@
         "subheader": "Tell your friends about your progress in learning languages!",
         "btnCopy": "Copy link",
         "prompt": "My progress on Lingolette"
+      },
+      "pledge": {
+        "offerHeader": "The Daily Practice Pledge",
+        "offer": "I, {{NAME}}, pledge to dedicate at least 10 minutes every day to practicing {{LANG}}.",
+        "acceptedHeader": "\uD83C\uDF89 You're in!",
+        "accepted": "You have joined the Daily Practice Pledge!<br/><br/>Every day, spend just 10 minutes practicing {{LANG}} and watch your fluency leap.",
+        "btnJoin": "Join the pledge now",
+        "btnOK": "Start practicing now"
+      },
+      "reportContent": {
+        "header": "Report inappropriate AI content",
+        "btnReport": "Report",
+        "reported": "Content reported"
       }
     },
     "games": {
@@ -494,6 +513,9 @@
         "intro": "You will see cards with words. Each word will be spoken out loud. After that you will have 3 seconds to repeat it. Click a card to go to a new one.",
         "act": "Repeat!",
         "btnLoading": "Loading..."
+      },
+      "flashCards": {
+        "btnShow": "Show again"
       }
     },
     "components": {
@@ -570,7 +592,8 @@
         "rate": "Speed",
         "fontSize": "Font size",
         "btnPrint": "Get printable version",
-        "loopVO": "Loop voiceover"
+        "loopVO": "Loop voiceover",
+        "followVO": "Follow voiceover"
       },
       "dailyGoals": {
         "goalTypes": [
@@ -647,6 +670,7 @@
             "Unlimited articles",
             "Pronunciation feedback for English",
             "Chat situations and history",
+            "Instant translation",
             "No ads"
           ],
           "footer": "$13.99/month",
@@ -654,7 +678,7 @@
           "subFooter": "Billed $89.99/year",
           "saveX": "Save 47%"
         },
-        "cta": "Upgrade now",
+        "cta": "Start free trial",
         "dummyCta": "Stay on Basic"
       },
       "nextMission": {
@@ -674,6 +698,9 @@
           "drugstore": "Drugstore",
           "alienInvasion": "Alien invasion"
         }
+      },
+      "sentence": {
+        "wordStudied": "Actively studied"
       }
     }
   }
