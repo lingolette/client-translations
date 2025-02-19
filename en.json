@@ -23,7 +23,8 @@
       "done": "Done",
       "close": "Close",
       "retry": "Retry",
-      "start": "Start"
+      "start": "Start",
+      "copy": "Copy"
     },
     "pos": [
       "other",
@@ -51,6 +52,9 @@
         "select": "Select an option...",
         "search": "Search..."
       },
+      "toasts": {
+        "muted": "Your device is muted"
+      },
       "options": {
         "ttsRate": [
           "Normal",
@@ -66,6 +70,26 @@
           "B2 — Intermediate+",
           "C1 — Advanced",
           "C2 — Fluent"
+        ],
+        "languageLevelJLPT": [
+          "I do not know",
+          "Absolute beginner",
+          "JLPT5 — Beginner",
+          "JLPT4 — Elementary",
+          "JLPT3 — Intermediate",
+          "JLPT2 — Intermediate+",
+          "JLPT1 — Advanced",
+          "Fluent"
+        ],
+        "languageLevelHSK": [
+          "I do not know",
+          "Absolute beginner",
+          "HSK1 — Beginner",
+          "HSK2/3 — Elementary",
+          "HSK4 — Intermediate",
+          "HSK5 — Intermediate+",
+          "HSK6 — Advanced",
+          "HSK7+ — Fluent"
         ],
         "feedbackOption": [
           "No feedback",
@@ -87,18 +111,22 @@
         "formalityOption": [
           "Informal",
           "Formal"
+        ],
+        "nativeAssistanceOption": [
+          "Disabled",
+          "Explain new things in native language"
         ]
       }
     },
     "header": {
-      "btnCTA": "Log in",
+      "btnCTA": "Login",
       "btnEnter": "To the class",
       "forOrgs": "For companies"
     },
     "footer": {
       "copyright": "All rights reserved.",
       "links1Header": "For companies",
-      "links2Header": "For people",
+      "links2Header": "For learners",
       "terms": "Terms & Conditions",
       "privacy": "Privacy policy",
       "freeStuff": "Daily articles",
@@ -107,37 +135,79 @@
       "integrations": "Integrations"
     },
     "home": {
-      "heroHead": "Master <b>languages</b> with<br/> <span>the most advanced</span> AI tutor.",
-      "heroSubhead": "Achieve spoken and written fluency through real-time conversations.",
-      "toPractice": "I want to practice:",
-      "btnStart": "Let's start",
-      "btnStartVariant": "Practice for free",
-      "whyDifferent": "How <b>Lingolette</b> is different from<br/> all other tutors?",
-      "explain": [
-        [
-          "Lingolette ENGAGES",
-          "Immerses you in real-life scenarios, making your practice sessions both relevant and practical."
-        ],
-        [
-          "Lingolette ADAPTS",
-          "Adjusts to your responses and learning pace, offering a personalized and responsive experience."
-        ],
-        [
-          "Lingolette MOTIVATES",
-          "Delivers fresh, thought-provoking content daily to keep you inspired and eager to learn."
-        ],
-        [
-          "Lingolette EXPLAINS",
-          "Offers clear, step-by-step guidance to help you understand \nand progress confidently."
+      "top": {
+        "heroHead": "Break through the\nfluency barrier.",
+        "heroSubhead": "Get past the intermediate plateau through speaking\npractice with AI, instant corrections, and daily articles.",
+        "wdywts": "Which language do you want to speak?",
+        "btnStart": "Get started"
+      },
+      "goAdvanced": {
+        "header": "Go from intermediate to advanced",
+        "route": [
+          ["Immersive AI voice chat", "Chat about any topic you’re interested in and choose between tutors of different dialects."],
+          ["Learn words in context", "Click on any word to learn its meaning and pronunciation or add it to your dictionary."],
+          ["Daily articles with questions", "Test your understanding by answering questions about what you’ve read. Your AI tutor can discuss the article with you."]
         ]
-      ],
-      "whomIsFor": "Who is <b>Lingolette</b> for?",
-      "whomSubheader": "Whether you are enrolled to a language school or a self learner,<br/>Lingolette is for you if...",
-      "breakBarrier": "Break out of the fluency barrier.",
-      "breakBarrierSub": "Try out yourself. It’s really easy!",
-      "whatUsersSay": "What our users say",
-      "joinCommunity": "Join our community of enthusiastic learners now!",
-      "toLearn": "Choose the language you want to learn:"
+      },
+      "mobile": {
+        "header1": "The latest AI tech,\noptimized for languages",
+        "subheader1": "Download Lingolette on mobile",
+        "header2": "Start speaking today",
+        "subheader2": "with Lingolette",
+        "comingSoon": "Coming soon"
+      },
+      "scenarios": {
+        "header": "Practice scenarios with AI"
+      },
+      "reachFluency": {
+        "header": "Reach fluency faster",
+        "explain": [
+          [
+            "Stay engaged",
+            "Immerse in real-life scenarios to make your practice sessions relevant and practical."
+          ],
+          [
+            "Improve rapidly",
+            "Get clear, step-by-step guidance and corrections to help you progress confidently."
+          ],
+          [
+            "Personalized experience",
+            "Lingolette adjusts to your level, interests and pace for a fully personalized experience."
+          ]
+        ]
+      },
+      "testimonials": {
+        "header": "What Lingolettis say"
+      },
+      "if": {
+        "header": "Lingolette is perfect for you if..."
+      },
+      "schools": {
+        "topNote": "Lingolette for businesses",
+        "header": "Lingolette for schools",
+        "body": "We support schools and educational\ninstitutions with language learning solutions.",
+        "cta": "Contact us"
+      },
+      "news": {
+        "topNote": "The Lingolette Times",
+        "header": "Subscribe for offers, updates and news",
+        "emailPlaceholder": "Your email",
+        "emailHint": "Lingolette will never spam you.",
+        "cta": "Subscribe"
+      },
+      "community": {
+        "header": "Join a community of\nlearners reaching fluency"
+      },
+      "someLanguages": {
+        "en": "English",
+        "es": "Spanish",
+        "de": "German",
+        "ja": "Japanese",
+        "fr": "French",
+        "zh": "Chinese",
+        "ru": "Russian",
+        "ko": "Korean"
+      }
     },
     "dashboard": {
       "sources": {
@@ -261,14 +331,16 @@
       "ttsRate": "How fast teacher speaks",
       "feedbackMode": "How teacher gives feedback",
       "formalityLevel": "Formality level",
+      "nativeAssistanceLevel": "Native language assistance",
       "gender": "Your gramm. gender",
       "whenApplied": "Settings will only be applied to a new chat",
       "yourTeacher": "Your teacher",
       "notAvailable": "(for schools only)",
-      "hideCard": "hide my <a target='_blank' href='{{URL}}'>public profile</a>",
-      "showGroups": "show <a target='_blank' href='/groups'>groups</a> in menu",
+      "hideCard": "Hide my <a target='_blank' href='{{URL}}'>public profile</a>",
+      "showGroups": "Show <a target='_blank' href='/groups'>groups</a> in menu",
       "showGoals": "Show my daily goals",
       "hideCompletedExercises": "Hide completed exercises",
+      "useDarkTheme": "Dark theme on mobile",
       "dangerZone": "Reveal danger zone",
       "startSubscription": "Switch to paid version",
       "cancelSubscription": "Cancel subscription",
@@ -409,6 +481,9 @@
       "energyInfo": "Energy is used to talk to AI teacher, read articles, and to do other activities.",
       "privateHeader": "Profile is private"
     },
+    "upgrade": {
+      "cryptoPay": "Pay in crypto"
+    },
     "dialogs": {
       "feedback": {
         "header": "Share your feedback below",
@@ -505,6 +580,18 @@
         "header": "Report inappropriate AI content",
         "btnReport": "Report",
         "reported": "Content reported"
+      },
+      "promptCash": {
+        "paymentLink": "Payment link",
+        "copyLink": "Copy link",
+        "amount": "Amount",
+        "trialInfo": "Due to crypto currency limitations we can't offer free trials and automatic subscriptions. You will have to pay again manually in a year.",
+        "lagInfo": "Please note that the payment may take a few minutes to process."
+      },
+      "preReview": {
+        "header": "Enjoing Lingolette?",
+        "text": "Your app store review helps spread the word and grow the Lingolette community!",
+        "btnCta": "Rate us"
       }
     },
     "games": {
@@ -512,7 +599,7 @@
         "header": "“Repeat after me”",
         "intro": "You will see cards with words. Each word will be spoken out loud. After that you will have 3 seconds to repeat it. Click a card to go to a new one.",
         "act": "Repeat!",
-        "btnLoading": "Loading..."
+        "btnLoading": "Creating..."
       },
       "flashCards": {
         "btnShow": "Show again"
@@ -604,33 +691,35 @@
         "btnGo": "Got it!"
       },
       "targetLngSelector": {
+        "buttonN": "Show {{N}} more languages",
+        "buttonSimple": "More languages",
         "header": "Select a language",
         "placeholder": "Search language"
       },
       "whomFor": {
         "cards": [
           [
-            "You want to improve your spoken and written fluency without formal classes.",
+            "You want to improve spoken and written fluency",
             "You need a practice buddy that adapts to your pace and taste instead of static curriculum."
           ],
           [
-            "Your vocabulary is stuck in the same pool of words.",
-            "You are using the same words and phrases excessively and repetitively due to lack of variety in your learning. "
+            "You want to grow your vocabulary",
+            "Using the same words and phrases repetitively? Lingolette adds variety to your language learning."
           ],
           [
             "You don’t have the budget for a language school.",
-            "Let’s admit it, language schools are expensive."
+            "Language schools are expensive. Lingolette is affordable and available all the time!"
           ],
           [
             "You struggle with finding opportunities to practice.",
             "Real-world language practice is often hard to come by unless you're in a country where the language is spoken."
           ],
           [
-            "You get anxious while speaking a foreign language with other people.",
-            "No judgement here! Who doesn’t?"
+            "You get nervous while speaking a foreign language",
+            "No judgement here! We all get nervous sometimes. Lingolette will help you grow in confidence."
           ],
           [
-            "You need flexible practice that fits into your hectic schedule.",
+            "You need flexible practice that fits into your schedule.",
             "You don’t always have hours to sit in a class. Some days, 15 minutes is all you can give."
           ]
         ]
@@ -678,8 +767,10 @@
           "subFooter": "Billed $89.99/year",
           "saveX": "Save 47%"
         },
-        "cta": "Start free trial",
-        "dummyCta": "Stay on Basic"
+        "cta": "Start now",
+        "ctaTrial": "Start free trial",
+        "dummyCta": "Stay on Basic",
+        "nativePaymentFailed": "Native payment failed with code {{CODE}}."
       },
       "nextMission": {
         "hChat": "Language lesson",
@@ -696,11 +787,21 @@
           "restaurant": "Restaurant",
           "hospital": "Hospital",
           "drugstore": "Drugstore",
+          "airportSecurity": "Airport security",
+          "returnItem": "Return an item",
+          "tableReservation": "Table reservation",
+          "negotiatePrice": "Negotiate price",
           "alienInvasion": "Alien invasion"
         }
       },
       "sentence": {
         "wordStudied": "Actively studied"
+      },
+      "liveUpdateBox": {
+        "checking": "Checking for updates...",
+        "downloading": "Downloading new version...",
+        "restarting": "Restarting app...",
+        "newNative": "New version is available at {{VENDOR}}"
       }
     }
   }

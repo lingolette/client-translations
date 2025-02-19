@@ -23,7 +23,8 @@
       "done": "Hecho",
       "close": "Cerrar",
       "retry": "Reintentar",
-      "start": "Iniciar"
+      "start": "Iniciar",
+      "copy": "Copiar"
     },
     "pos": [
       "otro",
@@ -51,6 +52,9 @@
         "select": "Selecciona una opción...",
         "search": "Search..."
       },
+      "toasts": {
+        "muted": "Tu dispositivo está en silencio"
+      },
       "options": {
         "ttsRate": [
           "Normal",
@@ -59,13 +63,33 @@
         ],
         "languageLevel": [
           "No lo sé",
-          "A0 - Principiante absoluto",
-          "A1 - Principiante",
-          "A2 - Elemental",
-          "B1 - Intermedio",
-          "B2 - Intermedio+",
-          "C1 - Avanzado",
-          "C2 - Fluido"
+          "A0 — Principiante absoluto",
+          "A1 — Principiante",
+          "A2 — Elemental",
+          "B1 — Intermedio",
+          "B2 — Intermedio+",
+          "C1 — Avanzado",
+          "C2 — Fluido"
+        ],
+        "languageLevelJLPT": [
+          "No lo sé",
+          "Principiante absoluto",
+          "JLPT5 — Principiante",
+          "JLPT4 — Elemental",
+          "JLPT3 — Intermedio",
+          "JLPT2 — Intermedio+",
+          "JLPT1 — Avanzado",
+          "Fluido"
+        ],
+        "languageLevelHSK": [
+          "No lo sé",
+          "Principiante absoluto",
+          "HSK1 — Principiante",
+          "HSK2/3 — Elemental",
+          "HSK4 — Intermedio",
+          "HSK5 — Intermedio+",
+          "HSK6 — Avanzado",
+          "HSK7+ — Fluido"
         ],
         "feedbackOption": [
           "Sin retroalimentación",
@@ -87,6 +111,10 @@
         "formalityOption": [
           "Informal",
           "Formal"
+        ],
+        "nativeAssistanceOption": [
+          "Deshabilitado",
+          "Explicar cosas nuevas en el idioma nativo"
         ]
       }
     },
@@ -107,37 +135,88 @@
       "integrations": "Integraciones"
     },
     "home": {
-      "heroHead": "Domina <b>idiomas</b> con<br/> un tutor de IA <span>avanzado</span>.",
-      "heroSubhead": "Logra fluidez oral y escrita a través de conversaciones en tiempo real.",
-      "toPractice": "Quiero practicar:",
-      "btnStart": "Empecemos",
-      "btnStartVariant": "Practicar gratis",
-      "whyDifferent": "¿En qué <b>Lingolette</b> es diferente de<br/> todos los demás tutores?",
-      "explain": [
-        [
-          "Lingolette INVOLUCRA",
-          "Te sumerge en escenarios de la vida real, haciendo tus sesiones de práctica tanto relevantes como prácticas."
-        ],
-        [
-          "Lingolette SE ADAPTA",
-          "Se ajusta a tus respuestas y ritmo de aprendizaje, ofreciendo una experiencia personalizada y receptiva."
-        ],
-        [
-          "Lingolette MOTIVA",
-          "Ofrece contenido fresco y provocador diariamente para mantenerte inspirado y con ganas de aprender."
-        ],
-        [
-          "Lingolette EXPLICA",
-          "Ofrece una guía clara y paso a paso para ayudarte a entender y progresar con confianza."
+      "top": {
+        "heroHead": "Rompe la barrera\nde la fluidez.",
+        "heroSubhead": "Supera el estancamiento intermedio practicando con IA, correcciones instantáneas y artículos diarios.",
+        "wdywts": "¿Qué idioma quieres hablar?",
+        "btnStart": "Empecemos"
+      },
+      "goAdvanced": {
+        "header": "Pasa de intermedio a avanzado",
+        "route": [
+          [
+            "Chat de voz inmersivo con IA",
+            "Habla sobre cualquier tema que te interese y elige entre tutores de diferentes dialectos."
+          ],
+          [
+            "Aprende palabras en contexto",
+            "Haz clic en cualquier palabra para aprender su significado y pronunciación o añadirla a tu diccionario."
+          ],
+          [
+            "Artículos diarios con preguntas",
+            "Prueba tu comprensión respondiendo preguntas sobre lo que has leído. Tu tutor de IA puede discutir el artículo contigo."
+          ]
         ]
-      ],
-      "whomIsFor": "¿Para quién es <b>Lingolette</b>?",
-      "whomSubheader": "Ya sea que estés inscrito en una escuela de idiomas o seas un autodidacta,<br/>Lingolette es para ti si...",
-      "breakBarrier": "Rompe la barrera de la fluidez.",
-      "breakBarrierSub": "Pruébalo tú mismo. ¡Es realmente fácil!",
-      "whatUsersSay": "Lo que dicen nuestros usuarios",
-      "joinCommunity": "¡Únete a nuestra comunidad de entusiastas del aprendizaje ahora!",
-      "toLearn": "Elige el idioma que quieres aprender:"
+      },
+      "mobile": {
+        "header1": "La última tecnología de IA,\noptimizada para idiomas",
+        "subheader1": "Descarga Lingolette en móvil",
+        "header2": "Empieza a hablar hoy",
+        "subheader2": "con Lingolette",
+        "comingSoon": "Próximamente"
+      },
+      "scenarios": {
+        "header": "Escenarios de práctica con IA"
+      },
+      "reachFluency": {
+        "header": "Alcanza la fluidez más rápido",
+        "explain": [
+          [
+            "Mantente comprometido",
+            "Sumérgete en escenarios de la vida real para que tus sesiones de práctica sean relevantes y prácticas."
+          ],
+          [
+            "Mejora rápidamente",
+            "Obtén orientación clara y paso a paso y correcciones que te ayuden a avanzar con confianza."
+          ],
+          [
+            "Experiencia personalizada",
+            "Lingolette se ajusta a tu nivel, intereses y ritmo para una experiencia completamente personalizada."
+          ]
+        ]
+      },
+      "testimonials": {
+        "header": "Lo que dicen los usuarios de Lingolette"
+      },
+      "if": {
+        "header": "Lingolette es perfecto para ti si..."
+      },
+      "schools": {
+        "topNote": "Para empresas",
+        "header": "Lingolette para escuelas",
+        "body": "Apoyamos a escuelas e instituciones educativas con soluciones de aprendizaje de idiomas.",
+        "cta": "Contáctanos"
+      },
+      "news": {
+        "topNote": "El Lingolette Times",
+        "header": "Suscríbete para ofertas, actualizaciones y noticias",
+        "emailPlaceholder": "Tu correo electrónico",
+        "emailHint": "Lingolette nunca te enviará spam.",
+        "cta": "Suscribirse"
+      },
+      "community": {
+        "header": "Únete a una comunidad de aprendices alcanzando la fluidez"
+      },
+      "someLanguages": {
+        "en": "Inglés",
+        "es": "Español",
+        "de": "Alemán",
+        "ja": "Japonés",
+        "fr": "Francés",
+        "zh": "Chino",
+        "ru": "Ruso",
+        "ko": "Coreano"
+      }
     },
     "dashboard": {
       "sources": {
@@ -262,14 +341,16 @@
       "ttsRate": "Velocidad de la voz del profesor",
       "feedbackMode": "Cómo el profesor da retroalimentación",
       "formalityLevel": "Nivel de formalidad",
+      "nativeAssistanceLevel": "Asistencia en el idioma nativo",
       "gender": "Tu género gramatical",
       "whenApplied": "La configuración solo se aplicará a un nuevo chat",
       "yourTeacher": "Tu profesor",
       "notAvailable": "(solo para escuelas)",
-      "hideCard": "ocultar mi <a target='_blank' href='{{URL}}'>perfil público</a>",
-      "showGroups": "mostrar <a target='_blank' href='/groups'>grupos</a> en el menú",
+      "hideCard": "Ocultar mi <a target='_blank' href='{{URL}}'>perfil público</a>",
+      "showGroups": "Mostrar <a target='_blank' href='/groups'>grupos</a> en el menú",
       "showGoals": "Mis metas diarias",
       "hideCompletedExercises": "Ocultar ejercicios completados",
+      "useDarkTheme": "Tema oscuro en el móvil",
       "dangerZone": "Mostrar zona de peligro",
       "startSubscription": "Cambiar a versión de pago",
       "cancelSubscription": "Cancelar suscripción",
@@ -422,6 +503,9 @@
       "energyInfo": "La energía se utiliza para hablar con el profesor de IA, leer artículos y realizar otras actividades.",
       "privateHeader": "El perfil es privado"
     },
+    "upgrade": {
+      "cryptoPay": "Pagar con cripto"
+    },
     "dialogs": {
       "feedback": {
         "header": "Comparte tus comentarios a continuación",
@@ -518,6 +602,18 @@
         "header": "Informar contenido de IA inapropiado",
         "btnReport": "Informar",
         "reported": "Contenido informado"
+      },
+      "promptCash": {
+        "paymentLink": "Enlace de pago",
+        "copyLink": "Copiar enlace",
+        "amount": "Monto",
+        "trialInfo": "Debido a las limitaciones de las criptomonedas, no podemos ofrecer pruebas gratuitas ni suscripciones automáticas. Tendrá que pagar nuevamente manualmente en un año.",
+        "lagInfo": "Tenga en cuenta que el pago puede tardar unos minutos en procesarse."
+      },
+      "preReview": {
+        "header": "¿Disfrutando de Lingolette?",
+        "text": "¡Tu reseña en la tienda de aplicaciones ayuda a correr la voz y hacer crecer la comunidad de Lingolette!",
+        "btnCta": "Califícanos"
       }
     },
     "games": {
@@ -525,7 +621,7 @@
         "header": "“Repite después de mí”",
         "intro": "Verás tarjetas con palabras. Cada palabra será pronunciada en voz alta. Después de eso, tendrás 3 segundos para repetirla. Haz clic en una tarjeta para pasar a una nueva.",
         "act": "¡Repite!",
-        "btnLoading": "Cargando..."
+        "btnLoading": "Creando..."
       },
       "flashCards": {
         "btnShow": "Mostrar de nuevo"
@@ -617,6 +713,8 @@
         "btnGo": "¡Entendido!"
       },
       "targetLngSelector": {
+        "buttonN": "Mostrar {{N}} más idiomas",
+        "buttonSimple": "Más idiomas",
         "header": "Seleccione un idioma",
         "placeholder": "Buscar idioma"
       },
@@ -691,8 +789,10 @@
           "subFooter": "Facturado $89.99/año",
           "saveX": "Ahorra un 47%"
         },
-        "cta": "Mejorar ahora",
-        "dummyCta": "Iniciar prueba gratuita"
+        "cta": "Comienza ahora",
+        "ctaTrial": "Mejorar ahora",
+        "dummyCta": "Iniciar prueba gratuita",
+        "nativePaymentFailed": "El pago nativo falló con el código {{CODE}}."
       },
       "nextMission": {
         "hChat": "Lección de idioma",
@@ -709,11 +809,21 @@
           "restaurant": "Restaurante",
           "hospital": "Hospital",
           "drugstore": "Farmacia",
+          "airportSecurity": "Sécurité aéroportuaire",
+          "returnItem": "Rendre un article",
+          "tableReservation": "Réservation de table",
+          "negotiatePrice": "Négocier le prix",
           "alienInvasion": "Invasión alienígena"
         }
       },
       "sentence": {
         "wordStudied": "Estudiada activamente"
+      },
+      "liveUpdateBox": {
+        "checking": "Buscando actualizaciones...",
+        "downloading": "Descargando nueva versión...",
+        "restarting": "Reiniciando la aplicación...",
+        "newNative": "Nueva versión disponible en {{VENDOR}}"
       }
     }
   }
