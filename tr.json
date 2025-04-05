@@ -116,6 +116,35 @@
           "Devre Dışı",
           "Yeni şeyleri ana dilde açıklayın"
         ]
+      },
+      "languageNames": {
+        "ar": "Arapça",
+        "ca": "Katalanca",
+        "de": "Almanca",
+        "el": "Yunanca",
+        "en": "İngilizce",
+        "es": "İspanyolca",
+        "fa": "Farsça",
+        "fi": "Fince",
+        "fr": "Fransızca",
+        "he": "İbranice",
+        "it": "İtalyanca",
+        "ja": "Japonca",
+        "ko": "Korece",
+        "lt": "Litvanca",
+        "ms": "Malayca",
+        "nb": "Norveççe (Bokmål)",
+        "nl": "Felemenkçe",
+        "pl": "Lehçe",
+        "pt": "Portekizce",
+        "ro": "Romence",
+        "ru": "Rusça",
+        "sr": "Sırpça",
+        "sv": "İsveççe",
+        "th": "Tayca",
+        "tr": "Türkçe",
+        "uk": "Ukraynaca",
+        "zh": "Çince (Mandarin)"
       }
     },
     "header": {
@@ -206,16 +235,6 @@
       },
       "community": {
         "header": "Akıcı konuşan öğrenciler topluluğuna katılın"
-      },
-      "someLanguages": {
-        "en": "İngilizce",
-        "es": "İspanyolca",
-        "de": "Almanca",
-        "ja": "Japonca",
-        "fr": "Fransızca",
-        "zh": "Çince",
-        "ru": "Rusça",
-        "ko": "Korece"
       }
     },
     "dashboard": {
@@ -264,16 +283,20 @@
       "plhMessage": "Bilmemiz gereken başka bir şey var mı?"
     },
     "login": {
-      "hint": "Kimlik doğrulama yönteminizi seçin.\nBir hesap oluşturmak ücretsiz ve hızlıdır!",
+      "hintSignUp": "Öğrenmeye başlamak için\nbir hesap oluştur",
+      "hintSignIn": "Öğrenmeye devam etmek\niçin giriş yap",
       "schoolHint": "{{VENDOR}}'a hoş geldiniz!",
       "btnGoogle": "Google ile Devam Et",
+      "btnApple": "Apple ile Devam Et",
       "btnLinkedIn": "LinkedIn ile Devam Et",
+      "btnMicrosoft": "Microsoft ile Devam Et",
       "btnTelegram": "Telegram ile Devam Et",
       "btnSchools": "Okullar İçin Oturum Aç",
       "disclaimer": "Devam ederek, <a target='blank' href='/docs/terms-and-conditions'>kullanım şartlarımızı</a> ve <a target='blank' href='/docs/privacy-policy'>gizlilik politikamızı</a> kabul etmiş olursunuz.",
       "receiveOffers": "iş ortaklarımızdan özel teklifler al",
       "plhEmail": "kimlik",
-      "plhPassword": "şifre"
+      "plhPassword": "şifre",
+      "btnExtraAuth": "Kurumsal giriş"
     },
     "paymentDone": {
       "hdrComplete": "Ödeme tamamlandı",
@@ -281,51 +304,98 @@
       "confirmation": "Teşekkürler! Onay e-postası {{email}} adresine gönderilecek."
     },
     "onboarding": {
-      "steps": [
-        "Ad",
-        "Dil",
-        "Misyon",
-        "Ses"
-      ],
-      "nextStep": "Sonraki",
-      "prevStep": "Önceki adım",
-      "s1Header": "Sizi nasıl çağıralım?",
-      "s1Placeholder": "adınız",
-      "s2Header": "Şu anda, ekibimizin ve testçilerimizin doğrulayabileceği ve test edebileceği sınırlı sayıda dil desteklenmektedir. Daha fazlasını ekleyeceğiz!",
-      "s2NativeLng": "Ana diliniz",
-      "s2TargetLng": "Öğrendiğiniz dil",
-      "s2LngLevel": "Şu anda hangi seviyedesiniz?",
-      "s3Header": "Sizi <strong>en çok</strong> ilgilendiren nedir?",
-      "s3HeaderNext": "İlk göreviniz:",
-      "s4Header": "Mikrofonunuzu ve kulaklığınızı test edelim",
-      "btnPlaySound": "Test sesini çal",
-      "btnSpeak": "Bas ve \"test\" de",
-      "btnFinish": "Bitir",
-      "msgPlayback": "Eğer sesi duymadıysanız, lütfen kulaklıklarınızı ve mikrofonunuzu kontrol edin ve tekrar deneyin.",
-      "msgTestMic": "Lütfen \"test\" deyin ve Tamam'a tıklayın",
-      "msgMicError": "Mikrofonunuzda sorun olabilir"
+      "lettyBuilder": {
+        "hiThere": "Merhaba!",
+        "iAmLetty": "Merhaba, ben rehberiniz Letty!",
+        "readyToPractice": "Pratik yapmaya hazır mısınız?",
+        "haveAccount": "Zaten bir hesabınız var mı?",
+        "btnLogIn": "Giriş yapın",
+        "btnStart": "Başla",
+        "buildingPartner": "Dil partneriniz<br/>oluşturuluyor..."
+      },
+      "progressPlot": {
+        "withLingolette": "Lingolette ile",
+        "withoutLingolette": "Lingolette olmadan",
+        "today": "Bugün",
+        "in30days": "30 gün sonra",
+        "header": "Öğrenilen yeni kelimeler",
+        "subHeader": "Gerçek Lingolette kullanıcı verilerine dayanır"
+      },
+      "lettyChat": {
+        "lettyTitle": "Rehberiniz",
+        "lettyName": "Letty",
+        "plhName": "Adınızı girin...",
+        "bblHello": "Merhaba! Konuşma becerinizi geliştirmek için doğru yere geldiniz!",
+        "bblName": "Öncelikle, adınız nedir?",
+        "bblNice": "Tanıştığımıza memnun oldum, {{NAME}}.",
+        "bblNativeLng": "Anadiliniz nedir?",
+        "bblWhichLng": "Hangi dili öğreniyorsunuz?",
+        "plhAllLanguages": "{{N}} dili görüntüle",
+        "bblLngOK": "{{LNG}}! Harika! Seviyeniz nedir?",
+        "selLevel": [
+          [
+            "Başlangıç",
+            "Birkaç kelime biliyorum"
+          ],
+          [
+            "Orta",
+            "Çoğu konu hakkında konuşabiliyorum"
+          ],
+          [
+            "İleri",
+            "Neredeyse her konu hakkında konuşabiliyorum"
+          ]
+        ],
+        "bblLngComment": "Harika. Kaldığınız yerden devam edeceğiz.",
+        "bblWhy": "Demek ki {{LNG}} öğreniyorsunuz. Sizi {{LNG}} öğrenmeye motive eden şey nedir?",
+        "selGoal": [
+          "Seyahat",
+          "İş veya kariyer",
+          "Hobi veya kişisel gelişim",
+          "Sevdiklerinle iletişim kurmak"
+        ],
+        "bblGoalComment": [
+          "Seyahat etmek, dil öğrenmek için harika bir sebeptir. Yerel halkla konuşabilir ve yeni arkadaşlar edinebilirsiniz.",
+          "İş için dil öğrenmek, kariyerinizi ilerletmenin mükemmel bir yoludur.",
+          "Harika! Dil öğrenmek, kimileri için hem keyifli bir hobi hem de kişisel gelişim yolculuğunun önemli bir parçasıdır.",
+          "Aile veya arkadaşlar için dil öğrenmek, onlarla daha iyi bağlantı kurmanın harika bir yoludur."
+        ],
+        "bblHowMuchTime": "Öğrenmeye günde ne kadar zaman ayırabilirsiniz?",
+        "selTime": [
+          "<span>Günde <span>5</span> dakika</span>",
+          "<span>Günde <span>15</span> dakika</span>",
+          "<span>Günde <span>30</span> dakika</span>"
+        ],
+        "bblPrefs": "Bu arada, ayarlardan tercihlerini daha sonra değiştirebilirsin. 🙂",
+        "bblIfYou": "{{NAME}}, verilerimize göre, eğer <strong>günde sadece {{TPD}} dakika</strong> Lingolette'te pratik yaparsan...",
+        "bblThenYou": "... sadece 30 günün sonunda kelime dağarcığınız <strong>{{GROWTH}} kelime</strong> büyüyecek!",
+        "bblReadyToMeet": "Peki, eğitmeninizle tanışmaya hazır mısınız?",
+        "btnLetsGo": "Hadi gidelim!"
+      },
+      "findingTeacher": {
+        "futureTutor": "Gelecekteki eğitmeniniz",
+        "finding": "{{AUTONYM}} için mükemmel bir eğitmen bulunuyor...",
+        "myNameIs": "Ben {{NAME}}! 👋",
+        "youWillLearn": "Benimle günde {{TPD}} dakika konuşarak ayda {{GROWTH}} yeni kelime öğreneceksiniz.",
+        "drawerHeader": "Akıcılığa giden yoldasınız.",
+        "drawerSubheader": "Kararınızı verdiniz mi?",
+        "drawFace": "Onaylamak için mutlu bir yüz çizin.",
+        "plhDrawHere": "Buraya çizin",
+        "btnAccepted": "Meydan okuma kabul edildi!"
+      }
     },
     "feed": {
       "emptyHeader": "Akışınız boş",
       "emptyText": "Başlamak için bazı kaynakları takip edin.",
       "emptyText2": "Eğer bir kaynağa yeni abone olduysanız, yeni makaleler 24 saat içinde burada görünecektir.",
       "notOnboarded": "Lütfen onboarding'i tamamlayın!",
-      "intro": [
-        "Ana gezinti çubuğundan başlıyoruz. İşte akış. Tüm yeni makaleler orada görünecektir.",
-        "İşte bir sözlük. Bellek ilerlemenizi takip eder ve zaten öğrendiğiniz kelimeleri tazelemenize yardımcı olur.",
-        "Burada bir AI öğretmeniyle konuşursunuz. Her makalenin sonunda, onunla tartışmak için bir düğme bulunmaktadır.",
-        "Kaynaklar, akışta gördüğünüz makaleleri tanımlar.",
-        "Bu hesap yapılandırmanız: dil ayarlarını değiştirme, verilerinizi dışa aktarma ve benzeri işlemler.",
-        "Demek ki burası gelecekteki akışınız, ama şu anda boş. Haydi bu girişi bitirelim ve bazı kaynaklar ekleyelim!",
-        "Demek ki burası gelecekteki akışınız. Zaten burada bir şeyiniz var. Haydi bu girişi bitirelim ve okumaya başlayalım!"
-      ],
       "chatOnlyHeader": "{{LNG}} dili için makale yok",
       "chatOnlyText": "Sadece {{LNG}} dilinde AI öğretmeni ile konuşmayı destekliyoruz. Makaleleri okumak için başka bir dile geçin."
     },
     "account": {
       "confirmLogout": "Çıkış yapmak istediğinizden emin misiniz?",
-      "confirmDelete": "Hesabınızı SİLMEK istediğinizden emin misiniz? Geri dönüş yok!",
-      "deleteConfirmation": "Hesabınız 30 gün içinde silinecek.",
+      "confirmDelete": "Hesabınızı SİLMEK istediğinizden emin misiniz? Geri dönüşü yok! Bir aboneliğiniz varsa, geri ödeme olmadan kaybolacaktır.",
+      "deleteConfirmation": "Gitmenize üzüldük.",
       "toastSaved": "Ayarlar kaydedildi",
       "phName": "Sizi nasıl çağıralım",
       "lblName": "Adınız",
@@ -363,7 +433,7 @@
       "tabs": [
         "Ayarlar",
         "Profilim",
-        "Kaynaklar"
+        "Makale kaynakları"
       ]
     },
     "vocabulary": {
@@ -389,15 +459,15 @@
     },
     "talk": {
       "confirmDrop": "Yarım kalmış bir konuşma bulduk. Bitirmeden atlamak ister misin?",
-      "phInputMobile": "Buraya yazın veya konuşmak için dokunun ve basılı tutun...",
-      "phInputDesktop": "Buraya yazın veya klavyenizde 'boşluk' tuşuna basılı tutun ve konuşun...",
-      "btnToArticle": "Metne git",
-      "btnTranslitInOn": "Transliterasyon açık",
-      "btnTranslitInOff": "Transliterasyon kapalı",
-      "btnTranslitOutOn": "Transliterasyon açık",
-      "btnTranslitOutOff": "Transliterasyon kapalı",
+      "phInputMobile": "Buraya yazın",
+      "phInputDesktop": "Buraya yazın veya konuşmak için <strong>boşluk tuşuna</strong> basılı tutun",
+      "hintPTT": "Konuşmak için basılı tutun",
+      "muted": "Sessiz",
+      "unmuted": "Sesli",
+      "btnToArticle": "Makaleye git",
+      "btnTranslitIn": "Yazarken translit",
+      "btnTranslitOut": "Okurken translit",
       "btnNovice": "Dil Temelleri",
-      "pttHint": "Hayır hayır, gerçek klavyenizde 'boşluk' tuşunu basılı tutmanız gerekiyor, parmaklarınızla yazdığınız klavyede. 😉",
       "longChatWarning": "Sohbet çok uzuyor. Daha iyi bir deneyim için yeniden başlatın.",
       "listenFailed": "Sesinizi tanıyamadık. Olası nedenler: sessiz kalmak, mırıldanmak, yüksek arka plan sesleri, sessize alınmış cihaz, mikrofon ayarları.",
       "listenFailedDebug": "Duyduğumuz şey:",
@@ -434,7 +504,8 @@
         "gotStuck": "Takıldın mı?",
         "gotStuckWidth": 9
       },
-      "noteBasicModel": "Bu, temel bir AI modelidir. Daha fazla özellik için Premium'a yükseltin!"
+      "noteBasicModel": "Bu, temel bir AI modelidir. Daha fazla özellik için Premium'a yükseltin!",
+      "yourMission": "Your mission"
     },
     "groups": {
       "joinHint": "«{{GROUP_NAME}}» grubuna katılmak istiyor musunuz?",
@@ -455,7 +526,7 @@
       "colLanguageLevel": "Seviye",
       "colDictSize": "Sözlük boyutu",
       "colExerciseCount": "Egzersiz sayısı",
-      "confirmApproveUser": "{{USERNAME}}'yi onaylamak istediğinizden emin misiniz?",
+      "confirmApproveUser": "{{USERNAME}} isimli kullanıcıyı onaylamak istediğinizden emin misiniz?",
       "toastUserApproved": "Kullanıcı onaylandı",
       "btnApproveUser": "Onayla",
       "inviteBoxHeader": "Davet etmek istediğiniz kullanıcıların e-posta adreslerini girin:",
@@ -505,6 +576,11 @@
     "upgrade": {
       "cryptoPay": "Kripto ile ödeme yap"
     },
+    "scratchpad": {
+      "placeholder": "Yukarıda analiz etmek için buraya metin yapıştırın veya yazın...",
+      "btnImportVideo": "Video içe aktar",
+      "processingVideo": "Video işleniyor..."
+    },
     "dialogs": {
       "feedback": {
         "header": "Görüşlerinizi aşağıda paylaşın",
@@ -522,13 +598,13 @@
         "btnInstall": "Yükle"
       },
       "chatResults": {
-        "btnGoBack": "Geri git",
         "header": "Harika iş çıkardınız, {{NAME}}!",
         "mainText": "Hedefinize biraz daha yaklaştınız. Sohbete geri dönebilir veya oturumu yeniden başlatabilir ve yeniden başlayabilirsiniz.",
         "headerProgress": "Sözcük ilerlemeniz",
         "word": "Kelime",
         "before": "Önce",
-        "after": "Sonra"
+        "after": "Sonra",
+        "leave": "Sadece çıkmak"
       },
       "pa": {
         "scoreGreen": "Harika iş!",
@@ -687,7 +763,8 @@
         "collapse": "Menüyü Daralt",
         "expand": "Menüyü Genişlet",
         "groups": "Gruplar",
-        "plans": "Premium'a Geç"
+        "offerCopy": "Premium için sınırlı süreli teklif",
+        "offerCta": "Hemen al"
       },
       "speakTextInput": {
         "hint": "Yazmak için tıklayın veya mikrofon simgesini basılı tutun"
@@ -755,6 +832,7 @@
         "subHeaders": {
           "generic": "5 kat daha hızlı akıcılık kazan. Bugün başla!"
         },
+        "h1": "Premium öğrenciler<br/><span>5 kat</span> daha hızlı öğreniyor!",
         "monthly": "Aylık",
         "yearly": "Yıllık",
         "freePlan": {
@@ -785,12 +863,15 @@
           ],
           "footer": "$13.99/ay",
           "footer2": "$7.49/ay",
+          "footer2Crapple": "$7.49/ay",
           "subFooter": "Yıllık $89.99",
-          "saveX": "%47 tasarruf edin"
+          "saveX": "%47 tasarruf edin",
+          "coffeeNote": "Ayda bir büyük kahve fiyatına!"
         },
         "cta": "Hemen başla",
         "ctaTrial": "Şimdi yükselt",
         "dummyCta": "Ücretsiz denemeyi başlat",
+        "nativePaymentStart": "Ödeme başlatılıyor...",
         "nativePaymentFailed": "Yerel ödeme {{CODE}} kodu ile başarısız oldu."
       },
       "nextMission": {

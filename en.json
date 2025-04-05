@@ -116,6 +116,35 @@
           "Disabled",
           "Explain new things in native language"
         ]
+      },
+      "languageNames": {
+        "ar": "Arabic",
+        "ca": "Catalan",
+        "de": "German",
+        "el": "Greek",
+        "en": "English",
+        "es": "Spanish",
+        "fa": "Persian",
+        "fi": "Finnish",
+        "fr": "French",
+        "he": "Hebrew",
+        "it": "Italian",
+        "ja": "Japanese",
+        "ko": "Korean",
+        "lt": "Lithuanian",
+        "ms": "Malay",
+        "nb": "Norwegian (Bokmål)",
+        "nl": "Dutch",
+        "pl": "Polish",
+        "pt": "Portuguese",
+        "ro": "Romanian",
+        "ru": "Russian",
+        "sr": "Serbian",
+        "sv": "Swedish",
+        "th": "Thai",
+        "tr": "Turkish",
+        "uk": "Ukrainian",
+        "zh": "Chinese (Mandarin)"
       }
     },
     "header": {
@@ -197,16 +226,6 @@
       },
       "community": {
         "header": "Join a community of\nlearners reaching fluency"
-      },
-      "someLanguages": {
-        "en": "English",
-        "es": "Spanish",
-        "de": "German",
-        "ja": "Japanese",
-        "fr": "French",
-        "zh": "Chinese",
-        "ru": "Russian",
-        "ko": "Korean"
       }
     },
     "dashboard": {
@@ -255,16 +274,20 @@
       "plhMessage": "Anything else we need to know?"
     },
     "login": {
-      "hint": "Select your authentication method.\nCreating an account is free and quick!",
+      "hintSignUp": "Create an account\nto start learning",
+      "hintSignIn": "Log in to\ncontinue learning",
       "schoolHint": "Welcome to {{VENDOR}}!",
       "btnGoogle": "Continue with Google",
+      "btnApple": "Continue with Apple",
       "btnLinkedIn": "Continue with LinkedIn",
+      "btnMicrosoft": "Continue with Microsoft",
       "btnTelegram": "Continue with Telegram",
       "btnSchools": "Sign in for schools",
       "disclaimer": "By proceeding, you agree to our <a target='blank' href='/docs/terms-and-conditions'>terms</a> and <a target='blank' href='/docs/privacy-policy'>privacy policy</a>.",
       "receiveOffers": "receive special offers from our partners",
       "plhEmail": "identity",
-      "plhPassword": "password"
+      "plhPassword": "password",
+      "btnExtraAuth": "Corporate login"
     },
     "paymentDone": {
       "hdrComplete": "Payment complete",
@@ -272,51 +295,98 @@
       "confirmation": "Thank you! A confirmation email will be sent to {{email}}."
     },
     "onboarding": {
-      "steps": [
-        "Name",
-        "Language",
-        "Mission",
-        "Sound"
-      ],
-      "nextStep": "Next",
-      "prevStep": "Previous step",
-      "s1Header": "How shall we call you?",
-      "s1Placeholder": "your name",
-      "s2Header": "Right now we support a limited amount of languages that our teammates and testers can verify and test. We will add more!",
-      "s2NativeLng": "Your native language",
-      "s2TargetLng": "Language you learn",
-      "s2LngLevel": "What level are you at?",
-      "s3Header": "What interests you <strong>most</strong>?",
-      "s3HeaderNext": "Your first mission:",
-      "s4Header": "Let's test your mic and headphones",
-      "btnPlaySound": "Play test sound",
-      "btnSpeak": "Press and say \"test\"",
-      "btnFinish": "Finish",
-      "msgPlayback": "If you have not heard the sound, please check your headphones and microphone and try again.",
-      "msgTestMic": "Please say \"test\" and click OK",
-      "msgMicError": "You may have problems with your microphone"
+      "lettyBuilder": {
+        "hiThere": "Hi there!",
+        "iAmLetty": "I’m Letty, your guide.",
+        "readyToPractice": "Ready to practice?",
+        "haveAccount": "Already have an account?",
+        "btnLogIn": "Log in",
+        "btnStart": "Get started",
+        "buildingPartner": "Building your<br/>language partner..."
+      },
+      "progressPlot": {
+        "withLingolette": "With Lingolette",
+        "withoutLingolette": "Without Lingolette",
+        "today": "Today",
+        "in30days": "In 1 month",
+        "header": "New vocabulary words learned",
+        "subHeader": "Based on real Lingolette user data"
+      },
+      "lettyChat": {
+        "lettyTitle": "Your guide",
+        "lettyName": "Letty",
+        "plhName": "Enter your name...",
+        "bblHello": "Hello! You’ve come to the right place to improve your speaking!",
+        "bblName": "First things first, what’s your name?",
+        "bblNice": "Nice to meet you, {{NAME}}.",
+        "bblNativeLng": "What’s your native language?",
+        "bblWhichLng": "Which language are you learning?",
+        "plhAllLanguages": "See all {{N}} languages",
+        "bblLngOK": "{{LNG}}! Great! What is your level?",
+        "selLevel": [
+          [
+            "Beginner",
+            "I know a few words"
+          ],
+          [
+            "Intermediate",
+            "I can talk about most topics"
+          ],
+          [
+            "Advanced",
+            "I can talk about almost all topics"
+          ]
+        ],
+        "bblLngComment": "That’s excellent. We will pick up where you left off.",
+        "bblWhy": "So, it’s {{LNG}}. Why are you learning it?",
+        "selGoal": [
+          "For travel",
+          "For business or work",
+          "Hobby or self-development",
+          "To communicate with family or friends"
+        ],
+        "bblGoalComment": [
+          "Travel is a great reason to learn a language. You will be able to talk to locals and make new friends.",
+          "Learning a language for work is a great way to advance your career.",
+          "Hobbies are always a fun reason to learn a language.",
+          "Learning a language for family or friends is a great way to connect with them."
+        ],
+        "bblHowMuchTime": "How much time are you able to commit to learning?",
+        "selTime": [
+          "<span>5</span><span>minutes a day</span>",
+          "<span>15</span><span>minutes a day</span>",
+          "<span>30</span><span>minutes a day</span>"
+        ],
+        "bblPrefs": "By the way, you can change your preferences in the settings later. \uD83D\uDE42",
+        "bblIfYou": "{{NAME}}, based on our data, if you practice <strong>just for {{TPD}} minutes a day</strong> on Lingolette...",
+        "bblThenYou": "... then your vocabulary will grow by <strong>{{GROWTH}} words</strong> in just 30 days!",
+        "bblReadyToMeet": "So, are you ready to meet your tutor?",
+        "btnLetsGo": "Let’s go!"
+      },
+      "findingTeacher": {
+        "futureTutor": "Your future tutor",
+        "finding": "Finding a perfect tutor for {{AUTONYM}}...",
+        "myNameIs": "I’m {{NAME}}! \uD83D\uDC4B",
+        "youWillLearn": "With {{TPD}} minutes a day talking to me, you’ll learn {{GROWTH}} new words a month.",
+        "drawerHeader": "You’re on your way to fluency.",
+        "drawerSubheader": "Ready to commit?",
+        "drawFace": "Draw a happy face to lock it in.",
+        "plhDrawHere": "Draw here",
+        "btnAccepted": "Challenge accepted!"
+      }
     },
     "feed": {
       "emptyHeader": "Your feed is empty",
       "emptyText": "Follow some sources to get started.",
       "emptyText2": "If you have just subscribed to a source new articles will appear here within 24h.",
       "notOnboarded": "Please complete onboarding!",
-      "intro": [
-        "We start from the main navigation bar. Here's the feed. All new articles will appear there.",
-        "Here's a dictionary. It tracks your memory progress and helps you to refresh the words you've already learned.",
-        "Here you talk to an AI teacher. At the end of each article there's a button to discuss it with the teacher.",
-        "Customize your article topics from here.",
-        "This is your account configuration: change language settings, export your data, and so on.",
-        "So, here is your future feed, but it's empty now. Let's finish this intro and go add some sources!",
-        "So, here is your future feed. You already have something here. Let's finish this intro and go reading!"
-      ],
       "chatOnlyHeader": "No articles for {{LNG}}",
       "chatOnlyText": "We only support talking to the AI teacher in {{LNG}} language. To read articles, switch to another language."
     },
     "account": {
       "confirmLogout": "Are you sure you want to log out?",
-      "confirmDelete": "Are you sure you want to DELETE your account? There is no way back!",
-      "deleteConfirmation": "Your account will be deleted in 30 days.",
+      "confirmDelete": "Are you sure you want to DELETE your account? There is no way back! If you have a subscription, it will disappear without a refund.",
+      "deleteConfirmation": "It’s sad to see you go.",
       "toastSaved": "Settings saved",
       "phName": "How shall we call you",
       "lblName": "Your name",
@@ -354,7 +424,7 @@
       "tabs": [
         "Settings",
         "My profile",
-        "Sources"
+        "Article sources"
       ]
     },
     "vocabulary": {
@@ -380,19 +450,19 @@
     },
     "talk": {
       "confirmDrop": "We found a previous unrelated discussion. Shall we drop it?",
-      "phInputMobile": "Type or touch and hold here to speak...",
-      "phInputDesktop": "Type here or hold 'space' on your keyboard and speak...",
-      "btnToArticle": "To text",
-      "btnTranslitInOn": "Translit on",
-      "btnTranslitInOff": "Translit off",
-      "btnTranslitOutOn": "Translit on",
-      "btnTranslitOutOff": "Translit off",
+      "phInputMobile": "Type here",
+      "phInputDesktop": "Type here or hold <strong>spacebar</strong> to speak",
+      "hintPTT": "Tap and hold to speak",
+      "muted": "Muted",
+      "unmuted": "Unmuted",
+      "btnToArticle": "To the article",
+      "btnTranslitIn": "Typing translit",
+      "btnTranslitOut": "Reading translit",
       "btnNovice": "Language basics",
-      "pttHint": "No-no, you need to hold 'space' on your real keyboard, where you type with fingers. \uD83D\uDE09",
       "longChatWarning": "The chat is getting too long. Restart it to get a better experience.",
       "listenFailed": "We could not recognize your voice. Possible reasons: being silent, murmuring, loud background noises, muted device, microphone settings.",
-      "listenFailedDebug": "Here's what we heard:",
-      "sseFailed": "Hmm... Connection to server was lost. If it's temporarily, try to reload the page.",
+      "listenFailedDebug": "Here’s what we heard:",
+      "sseFailed": "Hmm... Connection to server was lost. If it’s temporarily, try to reload the page.",
       "longVoiceInput": "Keep your replies below 30 seconds to get the best experience.",
       "confirmEditReply": "Remove this reply?",
       "btnReInput": "Re-input",
@@ -406,7 +476,7 @@
       },
       "noticeSlowdown": "Your teacher will speak slower",
       "teacher": {
-        "header": "Teacher",
+        "header": "Your tutor",
         "confirmChange": "Changing the teacher will restart the chat. Are you sure?"
       },
       "chatMode": "Chat",
@@ -421,11 +491,12 @@
       },
       "suggestions": {
         "hint": "Show suggestions",
-        "inputHint": "or type your own reply in native language",
+        "inputHint": "Or type own reply in your native language",
         "gotStuck": "Got stuck?",
-        "gotStuckWidth": 8.5
+        "gotStuckWidth": 7.5
       },
-      "noteBasicModel": "This is a basic AI-model. Upgrade to Premium to get more features!"
+      "noteBasicModel": "This is a basic AI-model. Upgrade to Premium to get more features!",
+      "yourMission": "Your mission"
     },
     "groups": {
       "joinHint": "Do you want to join group «{{GROUP_NAME}}»?",
@@ -465,7 +536,7 @@
     "tools": {
       "title": "Power-up your learning!",
       "scratchpad": ["scratchpad", "work with any text using Lingolette"],
-      "extensions": ["browser extensions", "access Lingolette's Scratchpad from any site"],
+      "extensions": ["browser extensions", "access Lingolette’s Scratchpad from any site"],
       "wordsGame": ["words game", "play a game of words pronunciation"],
       "flashcards": ["flashcards", "repeat your vocabulary words until you learn them"]
     },
@@ -476,13 +547,18 @@
       "language": "languages × {{count}}",
       "wordStatsHeader": "My vocabulary",
       "wordStatsHint": "Words I know",
-      "streakInfo": "Your streak is the number of consecutive days you've been learning with Lingolette. Keep it up!",
+      "streakInfo": "Your streak is the number of consecutive days you’ve been learning with Lingolette. Keep it up!",
       "gemsInfo": "Gems are a virtual currency you can use to buy premium features and content. You earn gems by learning and completing tasks.",
       "energyInfo": "Energy is used to talk to AI teacher, read articles, and to do other activities.",
       "privateHeader": "Profile is private"
     },
     "upgrade": {
       "cryptoPay": "Pay in crypto"
+    },
+    "scratchpad": {
+      "placeholder": "Paste or write text here to analyze it above...",
+      "btnImportVideo": "Import video",
+      "processingVideo": "Processing video..."
     },
     "dialogs": {
       "feedback": {
@@ -501,13 +577,13 @@
         "btnInstall": "Install"
       },
       "chatResults": {
-        "btnGoBack": "Go back",
         "header": "Well done, {{NAME}}!",
         "mainText": "You got a bit closer to your goal. You can either go back to the chat or restart the session and start anew.",
         "headerProgress": "Your words progress",
         "word": "Word",
         "before": "Before",
-        "after": "After"
+        "after": "After",
+        "leave": "Just quit"
       },
       "pa": {
         "scoreGreen": "Great job!",
@@ -537,14 +613,14 @@
         "errNotAllowed": "Cannot acquire permissions from your browser. Please ensure that they are not blocked.",
         "errAbort": "Camera access is blocked. Please ensure that you are not using it in another browser or program.",
         "errFallback": "You provided access to your hardware devices, but a local problem in your system prevented your device from being used. Please try another browser or another device.",
-        "retryError": "Nope, it didn't work. Check your hardware settings."
+        "retryError": "Nope, it didn’t work. Check your hardware settings."
       },
       "paywall": {
         "walls": {
           "chatPA": "Pronunciation analysis in the voice chat is available for Premium users only.",
           "chatLength": "Letty is tired and needs a break. Go Lingolette Premium to give her infinity energy!",
           "lockedArticle": "This article is available for Premium users only.",
-          "longTime": "You've been using Lingolette for a while. We hope you're enjoying it!",
+          "longTime": "You’ve been using Lingolette for a while. We hope you’re enjoying it!",
           "chatHistory": "Chat history is available for Premium users only.",
           "languages": "Multi-language study is available for Premium users only.",
           "paidSituation": "This situation is available for Premium users only.",
@@ -571,7 +647,7 @@
       "pledge": {
         "offerHeader": "The Daily Practice Pledge",
         "offer": "I, {{NAME}}, pledge to dedicate at least 10 minutes every day to practicing {{LANG}}.",
-        "acceptedHeader": "\uD83C\uDF89 You're in!",
+        "acceptedHeader": "\uD83C\uDF89 You’re in!",
         "accepted": "You have joined the Daily Practice Pledge!<br/><br/>Every day, spend just 10 minutes practicing {{LANG}} and watch your fluency leap.",
         "btnJoin": "Join the pledge now",
         "btnOK": "Start practicing now"
@@ -585,7 +661,7 @@
         "paymentLink": "Payment link",
         "copyLink": "Copy link",
         "amount": "Amount",
-        "trialInfo": "Due to crypto currency limitations we can't offer free trials and automatic subscriptions. You will have to pay again manually in a year.",
+        "trialInfo": "Due to crypto currency limitations we can’t offer free trials and automatic subscriptions. You will have to pay again manually in a year.",
         "lagInfo": "Please note that the payment may take a few minutes to process."
       },
       "preReview": {
@@ -618,14 +694,14 @@
       },
       "noArticles": {
         "info": [
-          "Oops, our linguistic explorers are on a thrilling quest for articles in a language yet to be unveiled. It seems they're still packing their dictionaries and setting up grammar traps!",
-          "Fear not, dear polyglot-in-waiting! While we're decoding the secrets of this intriguing tongue, why not flex those linguistic muscles with our existing languages? Dust off your French, stretch your Spanish, and polish your Klingon (just kidding, we don't have Klingon... yet)."
+          "Oops, our linguistic explorers are on a thrilling quest for articles in a language yet to be unveiled. It seems they’re still packing their dictionaries and setting up grammar traps!",
+          "Fear not, dear polyglot-in-waiting! While we’re decoding the secrets of this intriguing tongue, why not flex those linguistic muscles with our existing languages? Dust off your French, stretch your Spanish, and polish your Klingon (just kidding, we don’t have Klingon... yet)."
         ],
         "ctaHint": "Because who needs articles when you can conquer the world with words!"
       },
       "contextTools": {
         "logInForContext": "Log in to get translations, context tools, pronunciation and more.",
-        "btnYesPlease": "Let's go!",
+        "btnYesPlease": "Let’s go!",
         "btnPronounce": "Pronounce",
         "btnAdd": "To dictionary",
         "btnPA": "Pronunciation",
@@ -643,13 +719,13 @@
       "articleView": {
         "logInForAssessment": "Log in to get your answers assessed by AI.",
         "readingHead": "Reading",
-        "readingSubhead": "Read this text and listen to it at the same time. If you don't know a word click it to see explanation.",
+        "readingSubhead": "Read this text and listen to it at the same time. If you don’t know a word click it to see explanation, hear pronunciation or add it to vocabulary.",
         "questionsHead": "Questions",
         "questionsSubhead": "Answer the questions to the text. Speak or write, you choose. AI will assess your answers.",
         "discussHead": "Discuss",
         "discussSubhead": "Discuss the text the AI teacher. The teacher will help you with vocabulary and grammar.",
         "btnDiscuss": "Discuss with AI",
-        "discussP": "The artificial intelligence teacher has a lot of benefits. You don't need to book any time slot. You don't have to wait for the teacher to come to class. You can learn at any time. The teacher will never get bored and can keep a conversation on any related topic.",
+        "discussP": "The artificial intelligence teacher has a lot of benefits. You don’t need to book any time slot. You don’t have to wait for the teacher to come to class. You can learn at any time. The teacher will never get bored and can keep a conversation on any related topic.",
         "logInForDiscussion": "Log in to start the conversation with AI.",
         "btnPA": "Check pronunciation",
         "printedInfo": "Read a new article every day and<br/>discuss it with AI at lingolette.com"
@@ -666,7 +742,8 @@
         "collapse": "Collapse menu",
         "expand": "Expand menu",
         "groups": "Groups",
-        "plans": "Go Premium"
+        "offerCopy": "Limited-time offer on Premium",
+        "offerCta": "Get it now"
       },
       "speakTextInput": {
         "hint": "Type or hold mic icon to speak"
@@ -712,7 +789,7 @@
           ],
           [
             "You struggle with finding opportunities to practice.",
-            "Real-world language practice is often hard to come by unless you're in a country where the language is spoken."
+            "Real-world language practice is often hard to come by unless you’re in a country where the language is spoken."
           ],
           [
             "You get nervous while speaking a foreign language",
@@ -734,6 +811,7 @@
         "subHeaders": {
           "generic": "Become fluent x5 faster. Start today!"
         },
+        "h1": "Premium learners<br/><span>learn 5x</span> faster!",
         "monthly": "Monthly",
         "yearly": "Yearly",
         "freePlan": {
@@ -764,12 +842,15 @@
           ],
           "footer": "$13.99/month",
           "footer2": "$7.49/month",
+          "footer2Crapple": "$89.99/year",
           "subFooter": "Billed $89.99/year",
-          "saveX": "Save 47%"
+          "saveX": "Save 47%",
+          "coffeeNote": "About the price of one large coffee a month!"
         },
         "cta": "Start now",
         "ctaTrial": "Start free trial",
         "dummyCta": "Stay on Basic",
+        "nativePaymentStart": "Initializing payment...",
         "nativePaymentFailed": "Native payment failed with code {{CODE}}."
       },
       "nextMission": {

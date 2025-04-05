@@ -116,6 +116,35 @@
           "Deshabilitado",
           "Explicar cosas nuevas en el idioma nativo"
         ]
+      },
+      "languageNames": {
+        "ar": "Árabe",
+        "ca": "Catalán",
+        "de": "Alemán",
+        "el": "Griego",
+        "en": "Inglés",
+        "es": "Español",
+        "fa": "Persa",
+        "fi": "Finlandés",
+        "fr": "Francés",
+        "he": "Hebreo",
+        "it": "Italiano",
+        "ja": "Japonés",
+        "ko": "Coreano",
+        "lt": "Lituano",
+        "ms": "Malayo",
+        "nb": "Noruego (Bokmål)",
+        "nl": "Neerlandés",
+        "pl": "Polaco",
+        "pt": "Portugués",
+        "ro": "Rumano",
+        "ru": "Ruso",
+        "sr": "Serbio",
+        "sv": "Sueco",
+        "th": "Tailandés",
+        "tr": "Turco",
+        "uk": "Ucraniano",
+        "zh": "Chino (Mandarín)"
       }
     },
     "header": {
@@ -206,16 +235,6 @@
       },
       "community": {
         "header": "Únete a una comunidad de aprendices alcanzando la fluidez"
-      },
-      "someLanguages": {
-        "en": "Inglés",
-        "es": "Español",
-        "de": "Alemán",
-        "ja": "Japonés",
-        "fr": "Francés",
-        "zh": "Chino",
-        "ru": "Ruso",
-        "ko": "Coreano"
       }
     },
     "dashboard": {
@@ -265,16 +284,20 @@
       "plhMessage": "¿Hay algo más que necesitemos saber?"
     },
     "login": {
-      "hint": "Selecciona tu método de autenticación.\n¡Crear una cuenta es gratuito y rápido!",
+      "hintSignUp": "Crea una cuenta\npara comenzar a aprender",
+      "hintSignIn": "Inicia sesión\npara continuar aprendiendo",
       "schoolHint": "¡Bienvenido a {{VENDOR}}!",
       "btnGoogle": "Continuar con Google",
+      "btnApple": "Continuar con Apple",
       "btnLinkedIn": "Continuar con LinkedIn",
+      "btnMicrosoft": "Continuar con Microsoft",
       "btnTelegram": "Continuar con Telegram",
       "btnSchools": "Iniciar sesión para escuelas",
       "disclaimer": "Al continuar, aceptas nuestros <a target='blank' href='/docs/terms-and-conditions'>términos y condiciones</a> y nuestra <a target='blank' href='/docs/privacy-policy'>política de privacidad</a>.",
       "receiveOffers": "recibir ofertas especiales de nuestros socios",
       "plhEmail": "identidad",
-      "plhPassword": "contraseña"
+      "plhPassword": "contraseña",
+      "btnExtraAuth": "Sesión corporativo"
     },
     "paymentDone": {
       "hdrComplete": "Pago completado",
@@ -282,51 +305,98 @@
       "confirmation": "¡Gracias! Se enviará un correo de confirmación a {{email}}."
     },
     "onboarding": {
-      "steps": [
-        "Nombre",
-        "Idioma",
-        "Misión",
-        "Sonido"
-      ],
-      "nextStep": "Siguiente",
-      "prevStep": "Paso anterior",
-      "s1Header": "¿Cómo te llamamos?",
-      "s1Placeholder": "tu nombre",
-      "s2Header": "En este momento, solo proporcionamos soporte para una cantidad limitada de idiomas que nuestros compañeros y probadores pueden verificar y probar. ¡Pronto agregaremos más!",
-      "s2NativeLng": "Tu idioma nativo",
-      "s2TargetLng": "Idioma que aprendes",
-      "s2LngLevel": "¿En qué nivel te encuentras?",
-      "s3Header": "¿Qué te interesa <strong>más</strong>?",
-      "s3HeaderNext": "Tu primera misión:",
-      "s4Header": "Probemos tu micrófono y tus auriculares",
-      "btnPlaySound": "Reproducir sonido de prueba",
-      "btnSpeak": "Presiona y di «prueba»",
-      "btnFinish": "Terminar",
-      "msgPlayback": "Si no has escuchado el sonido, verifica tus auriculares y micrófono y vuelve a intentarlo.",
-      "msgTestMic": "Por favor, di «prueba» y haz clic en OK",
-      "msgMicError": "Es posible que tengas problemas con tu micrófono"
+      "lettyBuilder": {
+        "hiThere": "¡Hola!",
+        "iAmLetty": "Soy Letty, tu guía.",
+        "readyToPractice": "¡Vamos a practicar!",
+        "haveAccount": "¿Ya tienes una cuenta?",
+        "btnLogIn": "Iniciar sesión",
+        "btnStart": "Empezar",
+        "buildingPartner": "Construyendo tu<br/>compañero de idiomas..."
+      },
+      "progressPlot": {
+        "withLingolette": "Con Lingolette",
+        "withoutLingolette": "Sin Lingolette",
+        "today": "Hoy",
+        "in30days": "En 30 días",
+        "header": "Nuevas palabras aprendidas",
+        "subHeader": "Basado en datos reales de usuarios de Lingolette"
+      },
+      "lettyChat": {
+        "lettyTitle": "Tu guía",
+        "lettyName": "Letty",
+        "plhName": "Ingresa tu nombre...",
+        "bblHello": "¡Hola! Has llegado al lugar correcto para mejorar tu habla.",
+        "bblName": "Lo primero es lo primero, ¿cuál es tu nombre?",
+        "bblNice": "Encantado de conocerte, {{NAME}}.",
+        "bblNativeLng": "¿Cuál es tu lengua materna?",
+        "bblWhichLng": "¿Qué idioma estás aprendiendo?",
+        "plhAllLanguages": "Ver los {{N}} idiomas",
+        "bblLngOK": "¡{{LNG}}! ¡Genial! ¿Cuál es tu nivel?",
+        "selLevel": [
+          [
+            "Principiante",
+            "Conozco algunas palabras"
+          ],
+          [
+            "Intermedio",
+            "Puedo hablar sobre la mayoría de los temas"
+          ],
+          [
+            "Avanzado",
+            "Puedo hablar sobre casi todos los temas"
+          ]
+        ],
+        "bblLngComment": "Eso es excelente. Continuaremos desde donde te quedaste.",
+        "bblWhy": "Entonces, es {{LNG}}. ¿Por qué lo estás aprendiendo?",
+        "selGoal": [
+          "Por viaje",
+          "Por negocios o trabajo",
+          "Por hobby o desarrollo personal",
+          "Para comunicarse con familia o amigos"
+        ],
+        "bblGoalComment": [
+          "Viajar es una gran razón para aprender un idioma. Podrás hablar con los locales y hacer nuevos amigos.",
+          "Aprender un idioma para el trabajo es una excelente manera de avanzar en tu carrera.",
+          "Los hobbies siempre son una razón divertida para aprender un idioma.",
+          "Aprender un idioma por familia o amigos es una gran manera de conectar con ellos."
+        ],
+        "bblHowMuchTime": "¿Cuánto tiempo puedes comprometerte a aprender?",
+        "selTime": [
+          "<span>5</span><span>minutos al día</span>",
+          "<span>15</span><span>minutos al día</span>",
+          "<span>30</span><span>minutos al día</span>"
+        ],
+        "bblPrefs": "Por cierto, puedes cambiar tus preferencias en la configuración más tarde. 🙂",
+        "bblIfYou": "{{NAME}}, según nuestros datos, si practicas <strong>solo {{TPD}} minutos al día</strong> en Lingolette...",
+        "bblThenYou": "... entonces tu vocabulario crecerá en <strong>{{GROWTH}} palabras</strong> en solo 30 días.",
+        "bblReadyToMeet": "Entonces, ¿estás listo para conocer a tu tutor?",
+        "btnLetsGo": "¡Vamos!"
+      },
+      "findingTeacher": {
+        "futureTutor": "Tu futuro tutor",
+        "finding": "Buscando un tutor perfecto para {{AUTONYM}}...",
+        "myNameIs": "¡Soy {{NAME}}! 👋",
+        "youWillLearn": "Con {{TPD}} minutos al día hablando conmigo, aprenderás {{GROWTH}} nuevas palabras al mes.",
+        "drawerHeader": "Estás en camino a la fluidez.",
+        "drawerSubheader": "¿Listo para comprometerte?",
+        "drawFace": "Dibuja una cara feliz para confirmarlo.",
+        "plhDrawHere": "Dibuja aquí",
+        "btnAccepted": "¡Reto aceptado!"
+      }
     },
     "feed": {
       "emptyHeader": "Tu feed está vacío",
       "emptyText": "Sigue algunas fuentes para comenzar.",
       "emptyText2": "Si acabas de suscribirte a una fuente, los artículos nuevos aparecerán aquí dentro de las 24 horas.",
       "notOnboarded": "¡Completa el proceso de incorporación, por favor!",
-      "intro": [
-        "Comenzamos desde la barra de navegación principal. Aquí está el feed. Todos los artículos nuevos aparecerán aquí.",
-        "Aquí hay un diccionario. Realiza un seguimiento de tu progreso en memoria y te ayuda a repasar las palabras que ya has aprendido.",
-        "Aquí hablas con un profesor de IA. Al final de cada artículo hay un botón para discutirlo con el profesor.",
-        "Las fuentes definen los artículos que ves en el feed.",
-        "Esta es la configuración de tu cuenta: cambia la configuración del idioma, exporta tus datos, etc.",
-        "Así que aquí está tu futuro feed, pero ahora está vacío. ¡Terminemos esta introducción y vayamos a agregar algunas fuentes!",
-        "Así que aquí está tu futuro feed. Ya tienes algo aquí. ¡Terminemos esta introducción y vayamos a leer!"
-      ],
       "chatOnlyHeader": "No hay artículos para {{LNG}}",
       "chatOnlyText": "Solo admitimos hablar con el maestro de IA en {{LNG}}. Para leer artículos, cambie a otro idioma."
     },
     "account": {
       "confirmLogout": "¿Estás seguro de que quieres cerrar sesión?",
-      "confirmDelete": "¿Estás seguro de que quieres ELIMINAR tu cuenta? ¡No hay vuelta atrás!",
-      "deleteConfirmation": "Tu cuenta se eliminará en 30 días.",
+      "confirmDelete": "¿Estás seguro de que quieres ELIMINAR tu cuenta? ¡No hay vuelta atrás! Si tienes una suscripción, desaparecerá sin reembolso.",
+      "deleteConfirmation": "Es triste verte partir.",
       "toastSaved": "Configuración guardada",
       "phName": "¿Cómo te llamamos?",
       "lblName": "Tu nombre",
@@ -364,7 +434,7 @@
       "tabs": [
         "Configuración",
         "Mi perfil",
-        "Fuentes"
+        "Fuentes de artículos"
       ]
     },
     "vocabulary": {
@@ -390,15 +460,15 @@
     },
     "talk": {
       "confirmDrop": "Encontramos una discusión anterior no relacionada. ¿Quieres abandonarla?",
-      "phInputMobile": "Escribe aquí o mantén presionado para hablar...",
-      "phInputDesktop": "Escribe aquí o mantén presionada la tecla 'espacio' en tu teclado y habla...",
-      "btnToArticle": "A texto",
-      "btnTranslitInOn": "Transliteración activada",
-      "btnTranslitInOff": "Transliteración desactivada",
-      "btnTranslitOutOn": "Transliteración activada",
-      "btnTranslitOutOff": "Transliteración desactivada",
+      "phInputMobile": "Escribe aquí",
+      "phInputDesktop": "Escribe aquí o mantén presionada la <strong>barra espaciadora</strong> para hablar",
+      "hintPTT": "Mantén pulsado para hablar",
+      "muted": "Silenciado",
+      "unmuted": "No silenciado",
+      "btnToArticle": "Al artículo",
+      "btnTranslitIn": "Translit al escribir",
+      "btnTranslitOut": "Translit al leer",
       "btnNovice": "Fundamentos",
-      "pttHint": "No, necesitas mantener presionada la tecla 'espacio' en tu auténtico teclado, donde escribes con los dedos. 😉",
       "longChatWarning": "El chat es un poco largo. Reiníciala para una mejor experiencia.",
       "listenFailed": "No pudimos reconocer tu voz. Posibles razones: estar en silencio, murmurar, ruidos de fondo fuertes, dispositivo silenciado, configuraciones del micrófono.",
       "listenFailedDebug": "Esto es lo que escuchamos:",
@@ -435,7 +505,8 @@
         "gotStuck": "¿Te quedaste atascado?",
         "gotStuckWidth": 15
       },
-      "noteBasicModel": "Este es un modelo de IA básico. ¡Actualice a Premium para obtener más funciones!"
+      "noteBasicModel": "Este es un modelo de IA básico. ¡Actualice a Premium para obtener más funciones!",
+      "yourMission": "Your mission"
     },
     "groups": {
       "joinHint": "¿Quieres unirte al grupo «{{GROUP_NAME}}»?",
@@ -506,6 +577,11 @@
     "upgrade": {
       "cryptoPay": "Pagar con cripto"
     },
+    "scratchpad": {
+      "placeholder": "Pega o escribe texto aquí para analizarlo arriba...",
+      "btnImportVideo": "Importar video",
+      "processingVideo": "Procesando video..."
+    },
     "dialogs": {
       "feedback": {
         "header": "Comparte tus comentarios a continuación",
@@ -523,13 +599,13 @@
         "btnInstall": "Instalar"
       },
       "chatResults": {
-        "btnGoBack": "Volver",
         "header": "¡Bien hecho, {{NAME}}!",
         "mainText": "Estuviste un poco más cerca de tu objetivo. Puedes volver al chat o reiniciar la sesión y comenzar de nuevo.",
         "headerProgress": "Tu progreso de palabras",
         "word": "Palabra",
         "before": "Antes",
-        "after": "Después"
+        "after": "Después",
+        "leave": "Simplemente salir"
       },
       "pa": {
         "scoreGreen": "¡Buen trabajo!",
@@ -688,7 +764,8 @@
         "collapse": "Colapsar menú",
         "expand": "Expandir menú",
         "groups": "Grupos",
-        "plans": "Hazte Premium"
+        "offerCopy": "Oferta por tiempo limitado en Premium",
+        "offerCta": "Consíguelo ahora"
       },
       "speakTextInput": {
         "hint": "Escribe o mantén presionado el icono del micrófono para hablar"
@@ -756,6 +833,7 @@
         "subHeaders": {
           "generic": "Domina el idioma 5 veces más rápido. ¡Comienza hoy!"
         },
+        "h1": "Los estudiantes premium<br/><span>aprenden 5 veces</span> más rápido!",
         "monthly": "Mensual",
         "yearly": "Anual",
         "freePlan": {
@@ -786,12 +864,15 @@
           ],
           "footer": "$13.99/mes",
           "footer2": "$7.49/mes",
+          "footer2Crapple": "$7.49/mes",
           "subFooter": "Facturado $89.99/año",
-          "saveX": "Ahorra un 47%"
+          "saveX": "Ahorra un 47%",
+          "coffeeNote": "¡Por el precio de un café grande al mes!"
         },
         "cta": "Comienza ahora",
         "ctaTrial": "Mejorar ahora",
         "dummyCta": "Iniciar prueba gratuita",
+        "nativePaymentStart": "Iniciando el pago...",
         "nativePaymentFailed": "El pago nativo falló con el código {{CODE}}."
       },
       "nextMission": {
