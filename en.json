@@ -24,7 +24,8 @@
       "close": "Close",
       "retry": "Retry",
       "start": "Start",
-      "copy": "Copy"
+      "copy": "Copy",
+      "continue": "Continue"
     },
     "pos": [
       "other",
@@ -115,6 +116,12 @@
         "nativeAssistanceOption": [
           "Disabled",
           "Explain new things in native language"
+        ],
+        "learningGoalOption": [
+          "For travel",
+          "For business or work",
+          "Hobby or self-development",
+          "To communicate with loved ones"
         ]
       },
       "languageNames": {
@@ -133,7 +140,7 @@
         "ko": "Korean",
         "lt": "Lithuanian",
         "ms": "Malay",
-        "nb": "Norwegian (Bokmål)",
+        "nb": "Norwegian",
         "nl": "Dutch",
         "pl": "Polish",
         "pt": "Portuguese",
@@ -144,11 +151,11 @@
         "th": "Thai",
         "tr": "Turkish",
         "uk": "Ukrainian",
-        "zh": "Chinese (Mandarin)"
+        "zh": "Mandarin"
       }
     },
     "header": {
-      "btnCTA": "Login",
+      "btnCTA": "Log in",
       "btnEnter": "To the class",
       "forOrgs": "For companies"
     },
@@ -241,6 +248,26 @@
       },
       "dlgAddSource": {
         "header": "Add new source"
+      },
+      "tods": {
+        "morning": "Good morning",
+        "afternoon": "Good afternoon",
+        "evening": "Good evening",
+        "hello": "Hello"
+      },
+      "widgets": {
+        "streak": {
+          "header": "Your streak",
+          "subHeader": "Build your streak by doing article tasks or talking to your tutor."
+        },
+        "chat": {
+          "header": "Practice {{LNG}}",
+          "tutorHeader": "Chat to {{NAME}}",
+          "tutorDescr": "Practice talking to your tutor about anything"
+        },
+        "read": {
+          "header": "Read today’s article"
+        }
       }
     },
     "article": {
@@ -315,7 +342,7 @@
       "lettyChat": {
         "lettyTitle": "Your guide",
         "lettyName": "Letty",
-        "plhName": "Enter your name...",
+        "plhName": "Enter your first name...",
         "bblHello": "Hello! You’ve come to the right place to improve your speaking!",
         "bblName": "First things first, what’s your name?",
         "bblNice": "Nice to meet you, {{NAME}}.",
@@ -342,13 +369,13 @@
         "selGoal": [
           "For travel",
           "For business or work",
-          "Hobby or self-development",
+          "Just for fun",
           "To communicate with family or friends"
         ],
         "bblGoalComment": [
           "Travel is a great reason to learn a language. You will be able to talk to locals and make new friends.",
           "Learning a language for work is a great way to advance your career.",
-          "Hobbies are always a fun reason to learn a language.",
+          "Language learning is a great hobby.",
           "Learning a language for family or friends is a great way to connect with them."
         ],
         "bblHowMuchTime": "How much time are you able to commit to learning?",
@@ -373,12 +400,21 @@
         "drawFace": "Draw a happy face to lock it in.",
         "plhDrawHere": "Draw here",
         "btnAccepted": "Challenge accepted!"
+      },
+      "bellsWhistles": {
+        "yourTutor": "Your tutor",
+        "main": "I’m preparing your\nfirst lesson!",
+        "jokes": [
+          "Brewing a coffee... ☕",
+          "Coming up with great jokes... \uD83D\uDE01",
+          "Warming up my vocal cords...\uD83D\uDDE3\uFE0F"
+        ]
       }
     },
     "feed": {
       "emptyHeader": "Your feed is empty",
-      "emptyText": "Follow some sources to get started.",
-      "emptyText2": "If you have just subscribed to a source new articles will appear here within 24h.",
+      "emptyText": "You’re not following any topics yet.",
+      "emptyText2": "<a href='/account#sources'>Find topics</a> to get started. If you have just subscribed, new articles may appear with a delay.",
       "notOnboarded": "Please complete onboarding!",
       "chatOnlyHeader": "No articles for {{LNG}}",
       "chatOnlyText": "We only support talking to the AI teacher in {{LNG}} language. To read articles, switch to another language."
@@ -402,6 +438,7 @@
       "feedbackMode": "How teacher gives feedback",
       "formalityLevel": "Formality level",
       "nativeAssistanceLevel": "Native language assistance",
+      "learningGoal": "Why do you learn it?",
       "gender": "Your gramm. gender",
       "whenApplied": "Settings will only be applied to a new chat",
       "yourTeacher": "Your teacher",
@@ -416,6 +453,7 @@
       "cancelSubscription": "Cancel subscription",
       "subCancellationWarning": "Are you sure you want to cancel your subscription? Premium access will be gone. Payment for the rest of the month will not be refunded.",
       "lblGrammarFeatures": "Grammar features",
+      "allFeatures": "All",
       "grammarFeatures": [
         "Present tense",
         "Past tense",
@@ -553,7 +591,8 @@
       "privateHeader": "Profile is private"
     },
     "upgrade": {
-      "cryptoPay": "Pay in crypto"
+      "cryptoPay": "Pay in crypto",
+      "activeSubPresent": "You already have an active subscription."
     },
     "scratchpad": {
       "placeholder": "Paste or write text here to analyze it above...",
@@ -665,7 +704,7 @@
         "lagInfo": "Please note that the payment may take a few minutes to process."
       },
       "preReview": {
-        "header": "Enjoing Lingolette?",
+        "header": "Enjoying Lingolette?",
         "text": "Your app store review helps spread the word and grow the Lingolette community!",
         "btnCta": "Rate us"
       }
@@ -802,54 +841,50 @@
         ]
       },
       "premiumOffer": {
-        "headers": {
-          "generic": "Unlock unlimited chat and much more.",
-          "chatHistory": "Unlock all chat history and much more.",
-          "paidSituation": "Unlock all situations and much more.",
-          "lockedArticle": "Unlock unlimited articles and much more."
+        "hereWeGo": "here we go!",
+        "subHeader": "Premium users learn 5x faster with:",
+        "shChecks": [
+          "Advanced AI model",
+          "Unlimited AI chat",
+          "Free daily articles"
+        ],
+        "plans": {
+          "M01": {
+            "header": "Monthly",
+            "price": "$13.99/month",
+            "total": "$13.99"
+          },
+          "M12": {
+            "header": "Yearly",
+            "price": "$7.49/month",
+            "total": "$89.99",
+            "saveX": "Save 41%"
+          }
         },
-        "subHeaders": {
-          "generic": "Become fluent x5 faster. Start today!"
+        "bestValue": "Best value",
+        "perksHeader": "Perks for premium users:",
+        "perks": [
+          "Choose between 25+ languages",
+          "Advanced AI tutor model",
+          "Unlimited daily articles",
+          "Unlimited language practice",
+          "Advanced language tools",
+          "Instant translation",
+          "No ads",
+          "Pronunciation feedback (English)",
+          "Chat history",
+          "Situational roleplays"
+        ],
+        "weAreTrusted": "We’re trusted by the best!",
+        "tutor": {
+          "name": "Tutor {{NAME}}",
+          "studentsCount": "{{X}} students on Lingolette",
+          "header": "Unlock unlimited chats with me on Premium! ",
+          "subHeader": "You will also get smarter tutor replies, free articles and extra language tools.",
+          "subHeaderEN": "You will also get pronunciation corrections, free articles and extra language tools."
         },
-        "h1": "Premium learners<br/><span>learn 5x</span> faster!",
-        "monthly": "Monthly",
-        "yearly": "Yearly",
-        "freePlan": {
-          "preHeader": "Free Plan",
-          "header": "Lingolette Basic",
-          "items": [
-            "Basic AI tutor model",
-            "1 language",
-            "20 responses per chat",
-            "1 article per day"
-          ],
-          "footer": "Free",
-          "subFooter": "Ads may be shown."
-        },
-        "premiumPlan": {
-          "preHeaderMonthly": "Monthly Plan",
-          "preHeaderYearly": "Yearly Plan",
-          "header": "Lingolette Premium",
-          "items": [
-            "Advanced AI tutor model",
-            "25+ languages",
-            "Unlimited chats",
-            "Unlimited articles",
-            "Pronunciation feedback for English",
-            "Chat situations and history",
-            "Instant translation",
-            "No ads"
-          ],
-          "footer": "$13.99/month",
-          "footer2": "$7.49/month",
-          "footer2Crapple": "$89.99/year",
-          "subFooter": "Billed $89.99/year",
-          "saveX": "Save 47%",
-          "coffeeNote": "About the price of one large coffee a month!"
-        },
-        "cta": "Start now",
-        "ctaTrial": "Start free trial",
-        "dummyCta": "Stay on Basic",
+        "legalShit": "<a target='blank' href='/docs/terms-and-conditions'>Terms and Conditions</a> and <a target='blank' href='/docs/privacy-policy'>Privacy Policy</a>.",
+        "noCommitment": "No commitment. Cancel anytime.",
         "nativePaymentStart": "Initializing payment...",
         "nativePaymentFailed": "Native payment failed with code {{CODE}}."
       },

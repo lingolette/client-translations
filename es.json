@@ -24,7 +24,8 @@
       "close": "Cerrar",
       "retry": "Reintentar",
       "start": "Iniciar",
-      "copy": "Copiar"
+      "copy": "Copiar",
+      "continue": "Continuar"
     },
     "pos": [
       "otro",
@@ -115,6 +116,12 @@
         "nativeAssistanceOption": [
           "Deshabilitado",
           "Explicar cosas nuevas en el idioma nativo"
+        ],
+        "learningGoalOption": [
+          "Para viajar",
+          "Para negocios o trabajo",
+          "Pasatiempo o desarrollo personal",
+          "Para comunicarme con seres queridos"
         ]
       },
       "languageNames": {
@@ -133,7 +140,7 @@
         "ko": "Coreano",
         "lt": "Lituano",
         "ms": "Malayo",
-        "nb": "Noruego (Bokmål)",
+        "nb": "Noruego",
         "nl": "Neerlandés",
         "pl": "Polaco",
         "pt": "Portugués",
@@ -144,7 +151,7 @@
         "th": "Tailandés",
         "tr": "Turco",
         "uk": "Ucraniano",
-        "zh": "Chino (Mandarín)"
+        "zh": "Chino"
       }
     },
     "header": {
@@ -250,6 +257,26 @@
       },
       "dlgAddSource": {
         "header": "Agregar nueva fuente"
+      },
+      "tods": {
+        "morning": "Buenos días",
+        "afternoon": "Buenas tardes",
+        "evening": "Buenas noches",
+        "hello": "Hola"
+      },
+      "widgets": {
+        "streak": {
+          "header": "Tu racha",
+          "subHeader": "Mantén tu racha leyendo un artículo o hablando con tu tutor."
+        },
+        "chat": {
+          "header": "Practica {{LNG}}",
+          "tutorHeader": "Chatea con {{NAME}}",
+          "tutorDescr": "Practica hablando con tu tutor sobre cualquier tema"
+        },
+        "read": {
+          "header": "Lee el artículo de hoy"
+        }
       }
     },
     "article": {
@@ -352,13 +379,13 @@
         "selGoal": [
           "Por viaje",
           "Por negocios o trabajo",
-          "Por hobby o desarrollo personal",
+          "Solo por diversión",
           "Para comunicarse con familia o amigos"
         ],
         "bblGoalComment": [
           "Viajar es una gran razón para aprender un idioma. Podrás hablar con los locales y hacer nuevos amigos.",
           "Aprender un idioma para el trabajo es una excelente manera de avanzar en tu carrera.",
-          "Los hobbies siempre son una razón divertida para aprender un idioma.",
+          "Aprender idiomas es un gran pasatiempo.",
           "Aprender un idioma por familia o amigos es una gran manera de conectar con ellos."
         ],
         "bblHowMuchTime": "¿Cuánto tiempo puedes comprometerte a aprender?",
@@ -383,12 +410,21 @@
         "drawFace": "Dibuja una cara feliz para confirmarlo.",
         "plhDrawHere": "Dibuja aquí",
         "btnAccepted": "¡Reto aceptado!"
+      },
+      "bellsWhistles": {
+        "yourTutor": "Tu tutor",
+        "main": "¡Estoy preparando\ntu primera lección!",
+        "jokes": [
+          "Preparando un café... ☕",
+          "Pensando en buenos chistes... 😁",
+          "Calentando mis cuerdas vocales...🗣️"
+        ]
       }
     },
     "feed": {
       "emptyHeader": "Tu feed está vacío",
-      "emptyText": "Sigue algunas fuentes para comenzar.",
-      "emptyText2": "Si acabas de suscribirte a una fuente, los artículos nuevos aparecerán aquí dentro de las 24 horas.",
+      "emptyText": "Aún no sigues ningún tema.",
+      "emptyText2": "<a href='/account#sources'>Encuentra temas</a> para comenzar. Si acabas de suscribirte, es posible que los nuevos artículos aparezcan con retraso.",
       "notOnboarded": "¡Completa el proceso de incorporación, por favor!",
       "chatOnlyHeader": "No hay artículos para {{LNG}}",
       "chatOnlyText": "Solo admitimos hablar con el maestro de IA en {{LNG}}. Para leer artículos, cambie a otro idioma."
@@ -412,6 +448,7 @@
       "feedbackMode": "Cómo el profesor da retroalimentación",
       "formalityLevel": "Nivel de formalidad",
       "nativeAssistanceLevel": "Asistencia en el idioma nativo",
+      "learningGoal": "¿Por qué lo aprendes?",
       "gender": "Tu género gramatical",
       "whenApplied": "La configuración solo se aplicará a un nuevo chat",
       "yourTeacher": "Tu profesor",
@@ -426,6 +463,7 @@
       "cancelSubscription": "Cancelar suscripción",
       "subCancellationWarning": "¿Estás seguro de que quieres cancelar tu suscripción? El acceso Premium se eliminará. No se reembolsará el pago por el resto del mes.",
       "lblGrammarFeatures": "Configuración de gramática del chat",
+      "allFeatures": "Todas",
       "grammarFeatures": [
         "Tiempo presente",
         "Tiempo pasado",
@@ -575,7 +613,8 @@
       "privateHeader": "El perfil es privado"
     },
     "upgrade": {
-      "cryptoPay": "Pagar con cripto"
+      "cryptoPay": "Pagar con cripto",
+      "activeSubPresent": "Ya tienes una suscripción activa."
     },
     "scratchpad": {
       "placeholder": "Pega o escribe texto aquí para analizarlo arriba...",
@@ -824,54 +863,50 @@
         ]
       },
       "premiumOffer": {
-        "headers": {
-          "generic": "Desbloquea chat ilimitado y mucho más.",
-          "chatHistory": "Desbloquea todo el historial de chat y mucho más.",
-          "paidSituation": "Desbloquea todas las situaciones y mucho más.",
-          "lockedArticle": "Desbloquea artículos ilimitados y mucho más."
+        "hereWeGo": "allá vamos!",
+        "subHeader": "Los usuarios premium aprenden 5 veces más rápido con:",
+        "shChecks": [
+          "Modelo de IA avanzado",
+          "Chat de IA ilimitado",
+          "Artículos diarios gratuitos"
+        ],
+        "plans": {
+          "M01": {
+            "header": "Mensual",
+            "price": "$13.99/mes",
+            "total": "$13.99"
+          },
+          "M12": {
+            "header": "Anual",
+            "price": "$7.49/mes",
+            "total": "$89.99",
+            "saveX": "Ahorra un 41%"
+          }
         },
-        "subHeaders": {
-          "generic": "Domina el idioma 5 veces más rápido. ¡Comienza hoy!"
+        "bestValue": "Mejor oferta",
+        "perksHeader": "Beneficios para usuarios premium:",
+        "perks": [
+          "Elige entre más de 25 idiomas",
+          "Modelo de tutor IA avanzado",
+          "Artículos diarios ilimitados",
+          "Práctica de idiomas ilimitada",
+          "Herramientas avanzadas de idiomas",
+          "Traducción instantánea",
+          "Sin anuncios",
+          "Retroalimentación de pronunciación (inglés)",
+          "Historial de chat",
+          "Juegos de rol situacionales"
+        ],
+        "weAreTrusted": "¡Los mejores confían en nosotros!",
+        "tutor": {
+          "name": "Tutor {{NAME}}",
+          "studentsCount": "{{X}} estudiantes en Lingolette",
+          "header": "¡Desbloquea chats ilimitados conmigo en Premium!",
+          "subHeader": "También obtendrás respuestas más inteligentes, artículos gratuitos y herramientas de idiomas extra.",
+          "subHeaderEN": "También recibirás correcciones de pronunciación, artículos gratuitos y herramientas de idiomas extra."
         },
-        "h1": "Los estudiantes premium<br/><span>aprenden 5 veces</span> más rápido!",
-        "monthly": "Mensual",
-        "yearly": "Anual",
-        "freePlan": {
-          "preHeader": "Plan Gratuito",
-          "header": "Lingolette Básico",
-          "items": [
-            "Modelo genérico de profesor AI",
-            "1 idioma",
-            "20 respuestas por chat",
-            "1 artículo por día"
-          ],
-          "footer": "Gratis Para Siempre",
-          "subFooter": "Suficiente para probar las todas."
-        },
-        "premiumPlan": {
-          "preHeaderMonthly": "Plan Mensual",
-          "preHeaderYearly": "Plan Anual",
-          "header": "Lingolette Premium",
-          "items": [
-            "Modelo avanzado de tutor de IA",
-            "25+ idiomas",
-            "Chats ilimitados",
-            "Artículos ilimitados",
-            "Análisis de pronunciación para inglés",
-            "Situaciones de chat e historial",
-            "Traducción instantánea",
-            "Sin anuncios"
-          ],
-          "footer": "$13.99/mes",
-          "footer2": "$7.49/mes",
-          "footer2Crapple": "$7.49/mes",
-          "subFooter": "Facturado $89.99/año",
-          "saveX": "Ahorra un 47%",
-          "coffeeNote": "¡Por el precio de un café grande al mes!"
-        },
-        "cta": "Comienza ahora",
-        "ctaTrial": "Mejorar ahora",
-        "dummyCta": "Iniciar prueba gratuita",
+        "legalShit": "<a target='blank' href='/docs/terms-and-conditions'>Términos y condiciones</a> y <a target='blank' href='/docs/privacy-policy'>Política de privacidad</a>.",
+        "noCommitment": "Sin compromiso. Cancela cuando quieras.",
         "nativePaymentStart": "Iniciando el pago...",
         "nativePaymentFailed": "El pago nativo falló con el código {{CODE}}."
       },

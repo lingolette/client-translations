@@ -24,7 +24,8 @@
       "close": "Kapat",
       "retry": "Yeniden",
       "start": "Başlat",
-      "copy": "Kopyala"
+      "copy": "Kopyala",
+      "continue": "Devam Et"
     },
     "pos": [
       "diğer",
@@ -57,9 +58,9 @@
       },
       "options": {
         "ttsRate": [
-          "normal",
-          "yavaş",
-          "çok yavaş"
+          "Normal",
+          "Yavaş",
+          "Çok yavaş"
         ],
         "languageLevel": [
           "Seviyemi bilmiyorum",
@@ -92,8 +93,8 @@
           "HSK7+ — Akıcı"
         ],
         "feedbackOption": [
-          "Geri bildirim yok",
-          "Kendi konuşmasında",
+          "Geri bildirim vermez",
+          "Konuşma içerisinde",
           "Ayrı bir not olarak"
         ],
         "interest": [
@@ -109,12 +110,18 @@
           "Diğer"
         ],
         "formalityOption": [
-          "Resmi Olmayan",
-          "Resmi"
+          "Gündelik dil",
+          "Resmi dil"
         ],
         "nativeAssistanceOption": [
           "Devre Dışı",
-          "Yeni şeyleri ana dilde açıklayın"
+          "Yeni kavramları ana dilimde açıklayın"
+        ],
+        "learningGoalOption": [
+          "Seyahat için",
+          "İş veya kariyer için",
+          "Hobi veya kişisel gelişim",
+          "Sevdiklerimle iletişim kurmak için"
         ]
       },
       "languageNames": {
@@ -246,10 +253,30 @@
         "unsubscribeConfirm": "{{sourceName}}'dan aboneliği iptal etmek istediğinizden emin misiniz?",
         "toastSubscribed": "Başarıyla abone olundu",
         "toastUnsubscribed": "Başarıyla abonelik iptal edildi",
-        "maxSources": "Aynı anda 5'ten fazla kaynağı takip etmek etkili değildir. Lütfen yeni eklemek için bazı kaynaklardan aboneliği iptal edin."
+        "maxSources": "Aynı anda 5'ten fazla kaynağı takip etmek etkili değildir. Lütfen yeni bir kaynak eklemek için bazı kaynaklardan aboneliğinizi iptal edin."
       },
       "dlgAddSource": {
         "header": "Yeni kaynak ekle"
+      },
+      "tods": {
+        "morning": "Günaydın",
+        "afternoon": "Tünaydın",
+        "evening": "İyi akşamlar",
+        "hello": "Merhaba"
+      },
+      "widgets": {
+        "streak": {
+          "header": "Serin",
+          "subHeader": "Makaleleri tamamlayarak veya eğitmeninle konuşarak serini oluştur."
+        },
+        "chat": {
+          "header": "{{LNG}} pratiği yap",
+          "tutorHeader": "{{NAME}} ile sohbet et",
+          "tutorDescr": "Eğitmeninle herhangi bir konuda konuşarak pratik yap"
+        },
+        "read": {
+          "header": "Bugünün makalesini oku"
+        }
       }
     },
     "article": {
@@ -306,8 +333,8 @@
     "onboarding": {
       "lettyBuilder": {
         "hiThere": "Merhaba!",
-        "iAmLetty": "Merhaba, ben rehberiniz Letty!",
-        "readyToPractice": "Pratik yapmaya hazır mısınız?",
+        "iAmLetty": "Merhaba, ben rehberin Letty!",
+        "readyToPractice": "Pratik yapmaya hazır mısın?",
         "haveAccount": "Zaten bir hesabınız var mı?",
         "btnLogIn": "Giriş yapın",
         "btnStart": "Başla",
@@ -322,16 +349,16 @@
         "subHeader": "Gerçek Lingolette kullanıcı verilerine dayanır"
       },
       "lettyChat": {
-        "lettyTitle": "Rehberiniz",
+        "lettyTitle": "Rehberin",
         "lettyName": "Letty",
         "plhName": "Adınızı girin...",
-        "bblHello": "Merhaba! Konuşma becerinizi geliştirmek için doğru yere geldiniz!",
-        "bblName": "Öncelikle, adınız nedir?",
+        "bblHello": "Merhaba! Konuşma becerini geliştirmek için doğru yere geldin!",
+        "bblName": "Öncelikle, adın nedir?",
         "bblNice": "Tanıştığımıza memnun oldum, {{NAME}}.",
-        "bblNativeLng": "Anadiliniz nedir?",
-        "bblWhichLng": "Hangi dili öğreniyorsunuz?",
-        "plhAllLanguages": "{{N}} dili görüntüle",
-        "bblLngOK": "{{LNG}}! Harika! Seviyeniz nedir?",
+        "bblNativeLng": "Anadilin nedir?",
+        "bblWhichLng": "Hangi dili öğreniyorsun?",
+        "plhAllLanguages": "Lingolette'in desteklediği {{N}} dili görüntüle",
+        "bblLngOK": "{{LNG}}! Harika! Seviyen nedir?",
         "selLevel": [
           [
             "Başlangıç",
@@ -346,21 +373,21 @@
             "Neredeyse her konu hakkında konuşabiliyorum"
           ]
         ],
-        "bblLngComment": "Harika. Kaldığınız yerden devam edeceğiz.",
-        "bblWhy": "Demek ki {{LNG}} öğreniyorsunuz. Sizi {{LNG}} öğrenmeye motive eden şey nedir?",
+        "bblLngComment": "Harika. Kaldığın yerden devam edeceğiz.",
+        "bblWhy": "Demek ki {{LNG}} öğreniyorsun. Seni {{LNG}} öğrenmeye motive eden şey nedir?",
         "selGoal": [
           "Seyahat",
           "İş veya kariyer",
-          "Hobi veya kişisel gelişim",
-          "Sevdiklerinle iletişim kurmak"
+          "Sadece eğlence için",
+          "Sevdiklerimle iletişim kurmak"
         ],
         "bblGoalComment": [
-          "Seyahat etmek, dil öğrenmek için harika bir sebeptir. Yerel halkla konuşabilir ve yeni arkadaşlar edinebilirsiniz.",
-          "İş için dil öğrenmek, kariyerinizi ilerletmenin mükemmel bir yoludur.",
-          "Harika! Dil öğrenmek, kimileri için hem keyifli bir hobi hem de kişisel gelişim yolculuğunun önemli bir parçasıdır.",
-          "Aile veya arkadaşlar için dil öğrenmek, onlarla daha iyi bağlantı kurmanın harika bir yoludur."
+          "Seyahat etmek, dil öğrenmek için harika bir sebep! Hedef dilini kullanarak yerel halkla konuşabilir ve yeni arkadaşlar edinebilirsin.",
+          "İş için dil öğrenmek, kariyerini ilerletmenin mükemmel bir yolu!",
+          "Dil öğrenmek harika bir hobidir.",
+          "Sevdiklerin için dil öğrenmek, onlarla daha iyi bağlantı kurmanın harika bir yolu."
         ],
-        "bblHowMuchTime": "Öğrenmeye günde ne kadar zaman ayırabilirsiniz?",
+        "bblHowMuchTime": "Öğrenmeye günde ne kadar zaman ayırabilirsin?",
         "selTime": [
           "<span>Günde <span>5</span> dakika</span>",
           "<span>Günde <span>15</span> dakika</span>",
@@ -368,54 +395,64 @@
         ],
         "bblPrefs": "Bu arada, ayarlardan tercihlerini daha sonra değiştirebilirsin. 🙂",
         "bblIfYou": "{{NAME}}, verilerimize göre, eğer <strong>günde sadece {{TPD}} dakika</strong> Lingolette'te pratik yaparsan...",
-        "bblThenYou": "... sadece 30 günün sonunda kelime dağarcığınız <strong>{{GROWTH}} kelime</strong> büyüyecek!",
-        "bblReadyToMeet": "Peki, eğitmeninizle tanışmaya hazır mısınız?",
+        "bblThenYou": "... sadece 30 günün sonunda kelime dağarcığın <strong>{{GROWTH}} kelime</strong> büyüyecek!",
+        "bblReadyToMeet": "Peki, eğitmeninle tanışmaya hazır mısın?",
         "btnLetsGo": "Hadi gidelim!"
       },
       "findingTeacher": {
         "futureTutor": "Gelecekteki eğitmeniniz",
         "finding": "{{AUTONYM}} için mükemmel bir eğitmen bulunuyor...",
         "myNameIs": "Ben {{NAME}}! 👋",
-        "youWillLearn": "Benimle günde {{TPD}} dakika konuşarak ayda {{GROWTH}} yeni kelime öğreneceksiniz.",
-        "drawerHeader": "Akıcılığa giden yoldasınız.",
-        "drawerSubheader": "Kararınızı verdiniz mi?",
-        "drawFace": "Onaylamak için mutlu bir yüz çizin.",
+        "youWillLearn": "Benimle günde {{TPD}} dakika konuşarak ayda {{GROWTH}} yeni kelime öğreneceksin.",
+        "drawerHeader": "Akıcılığa giden yoldasın!",
+        "drawerSubheader": "Kararını verdin mi?",
+        "drawFace": "Onaylamak için mutlu bir yüz çizin. 🙂",
         "plhDrawHere": "Buraya çizin",
         "btnAccepted": "Meydan okuma kabul edildi!"
+      },
+      "bellsWhistles": {
+        "yourTutor": "Senin eğitmenin",
+        "main": "İlk dersini\nhazırlıyorum!",
+        "jokes": [
+          "Kahve hazırlanıyor... ☕",
+          "Harika şakalar buluyorum... 😁",
+          "Ses tellerimi ısıtıyorum...🗣️"
+        ]
       }
     },
     "feed": {
       "emptyHeader": "Akışınız boş",
-      "emptyText": "Başlamak için bazı kaynakları takip edin.",
-      "emptyText2": "Eğer bir kaynağa yeni abone olduysanız, yeni makaleler 24 saat içinde burada görünecektir.",
-      "notOnboarded": "Lütfen onboarding'i tamamlayın!",
+      "emptyText": "Henüz hiçbir konuyu takip etmiyorsunuz.",
+      "emptyText2": "Başlamak için <a href='/account#sources'>konuları keşfedin</a>. Yeni abone olduysanız, yeni makalelerin görünmesi biraz zaman alabilir.",
+      "notOnboarded": "Lütfen oryantasyonu tamamlayın!",
       "chatOnlyHeader": "{{LNG}} dili için makale yok",
-      "chatOnlyText": "Sadece {{LNG}} dilinde AI öğretmeni ile konuşmayı destekliyoruz. Makaleleri okumak için başka bir dile geçin."
+      "chatOnlyText": "{{LNG}} dilinde sadece AI öğretmeni ile konuşmayı destekliyoruz. Makaleleri okumak için başka bir dile geçin."
     },
     "account": {
       "confirmLogout": "Çıkış yapmak istediğinizden emin misiniz?",
       "confirmDelete": "Hesabınızı SİLMEK istediğinizden emin misiniz? Geri dönüşü yok! Bir aboneliğiniz varsa, geri ödeme olmadan kaybolacaktır.",
       "deleteConfirmation": "Gitmenize üzüldük.",
       "toastSaved": "Ayarlar kaydedildi",
-      "phName": "Sizi nasıl çağıralım",
+      "phName": "Size nasıl hitap edelim",
       "lblName": "Adınız",
       "lblNativeLng": "Ana diliniz",
       "lblTargetLng": "Öğrendiğiniz dil",
-      "lblLevel": "Şu anda hangi seviyedesiniz",
+      "lblLevel": "Öğrendiğiniz dilde hangi seviyedesiniz",
       "btnLogout": "Çıkış yap",
       "btnDeleteAccount": "Hesabı sil",
       "btnExport": "Verileri dışa aktar",
       "coins": "Jetonlar",
       "coinsSpent": "Harcamış olduğunuz jetonlar",
-      "ttsRate": "Öğretmenin konuşma hızı",
-      "feedbackMode": "Öğretmenin geri bildirim verme modu",
+      "ttsRate": "Öğretmeninizin konuşma hızı",
+      "feedbackMode": "Öğretmeninizin geri bildirim verme yöntemi",
       "formalityLevel": "Resmiyet seviyesi",
       "nativeAssistanceLevel": "Ana dil desteği",
+      "learningGoal": "Neden öğreniyorsun?",
       "gender": "Cinsiyetiniz",
-      "whenApplied": "Ayarlar yalnızca yeni bir sohbette uygulanacak",
+      "whenApplied": "Ayarlar yalnızca yeni bir sohbet başlattığınızda uygulanacak",
       "yourTeacher": "Öğretmeniniz",
       "notAvailable": "(sadece okullar için)",
-      "hideCard": "Benim <a target='_blank' href='{{URL}}'>genel profilimi</a> gizle",
+      "hideCard": "<a target='_blank' href='{{URL}}'>Genel profilimi</a> gizle",
       "showGroups": "Menüde <a target='_blank' href='/groups'>grupları</a> göster",
       "showGoals": "Günlük hedeflerim",
       "hideCompletedExercises": "Tamamlanan alıştırmaları gizle",
@@ -425,6 +462,7 @@
       "cancelSubscription": "Aboneliği iptal et",
       "subCancellationWarning": "Aboneliğinizi iptal etmek istediğinizden emin misiniz? Premium erişim sona erecek. Ayın geri kalanı için ödeme iade edilmeyecek.",
       "lblGrammarFeatures": "Sohbetin dilbilgisi ayarları",
+      "allFeatures": "Hepsi",
       "grammarFeatures": [
         "Şimdiki zaman",
         "Geçmiş zaman",
@@ -440,9 +478,9 @@
       "confirmRemove": "Bu kelimeyi kaldırmak istediğinizden emin misiniz?",
       "lblIntensiveOnly": "Sadece yoğun çalışma kelimeleri",
       "switchToNormal": "Normal öğrenme moduna geç",
-      "switchToIntensive": "Yoğun öğrenme moduna geç",
+      "switchToIntensive": "Yoğun öğrenme moduna ekle",
       "intensiveToast": "Yoğun öğrenme etkinleştirildi. Yapay zeka öğretmeni artık dersler sırasında bu kelimeye daha fazla odaklanacak.",
-      "removeWord": "Kelimeleri sözlükten kaldır",
+      "removeWord": "Kelimeyi sözlükten kaldır",
       "colLemma": "Kelime",
       "colIntensive": "Yoğun",
       "colUseCount": "Kullanım örneği",
@@ -451,9 +489,9 @@
       "emptyPlaceholderHeader": "Sözlüğünüz boş",
       "emptyPlaceholderHint": "Sözlüğü doldurmak için bir <a href='/talk'>AI-öğretmeni</a> ile konuşun veya <a href='/feed'>makalelerde</a> kelimeler ekleyin.",
       "more": {
-        "addWords": "Kendi kelime ekle...",
+        "addWords": "Kendi kelimen ekle",
         "flashCards": "Flash kartlar",
-        "repeatGame": "Bir oyun oyna",
+        "repeatGame": "Bir oyun başlat",
         "exportWords": "Yoğun kelimeleri dışa aktar"
       }
     },
@@ -494,14 +532,14 @@
       "situationsHeader": "Bir durum seçin ve konuşarak hedefi tamamlayın.",
       "situationSolved": "Durum çözüldü",
       "lngMismatch": {
-        "text": "Sohbet diliniz '{{CHAT_LNG}}' iken '{{TARGET_LNG}}' öğreniyorsunuz. Onları hizalamak için sohbeti yeniden başlatın veya dilinizi geri değiştirin.",
+        "text": "Sohbet diliniz '{{CHAT_LNG}}' iken '{{TARGET_LNG}}' öğreniyorsunuz. Dilleri hizalamak için sohbeti yeniden başlatın veya dilinizi geri değiştirin.",
         "btnRestart": "Yeniden Başlat",
         "btnFix": "Dili Değiştir"
       },
       "suggestions": {
         "hint": "Önerileri göster",
         "inputHint": "Veya kendi dilinizde bir yanıt yazın",
-        "gotStuck": "Takıldın mı?",
+        "gotStuck": "Takıldınız mı?",
         "gotStuckWidth": 9
       },
       "noteBasicModel": "Bu, temel bir AI modelidir. Daha fazla özellik için Premium'a yükseltin!",
@@ -558,7 +596,7 @@
       ],
       "flashcards": [
         "flashcards",
-        "kelime haznenizi tekrar edin ve öğrenene kadar çalışın"
+        "kelimelerinizi tekrar edin, akılda kalana kadar çalışmaya devam edin"
       ]
     },
     "userCard": {
@@ -574,19 +612,20 @@
       "privateHeader": "Profil gizli"
     },
     "upgrade": {
-      "cryptoPay": "Kripto ile ödeme yap"
+      "cryptoPay": "Kripto ile ödeme yap",
+      "activeSubPresent": "Zaten aktif bir aboneliğiniz var."
     },
     "scratchpad": {
-      "placeholder": "Yukarıda analiz etmek için buraya metin yapıştırın veya yazın...",
-      "btnImportVideo": "Video içe aktar",
+      "placeholder": "Yukarıda analiz etmek için buraya metninizi yapıştırın veya yazın...",
+      "btnImportVideo": "Videodan içe aktar",
       "processingVideo": "Video işleniyor..."
     },
     "dialogs": {
       "feedback": {
         "header": "Görüşlerinizi aşağıda paylaşın",
         "joinCommunity": "Discord topluluğumuza katılın",
-        "placeholder": "Nasıl geliştirebiliriz veya düzeltebiliriz?",
-        "thankYou": "Teşekkürler! Mesajınız ürünü daha iyi yapmamıza yardımcı olacak.",
+        "placeholder": "Uygulamayı nasıl geliştirebilir veya neleri düzeltebiliriz?",
+        "thankYou": "Teşekkürler! Mesajınız ürünümüzü daha iyi hale getirmemize yardımcı olacak.",
         "trustPilot": "Bizi Trustpilot'ta değerlendirin"
       },
       "audioPermissions": {
@@ -623,7 +662,7 @@
         "inProgress": "Analiz ediliyor..."
       },
       "addWords": {
-        "header": "Öğrenmek istediğiniz herhangi bir kelime ekleyin",
+        "header": "Öğrenmek istediğiniz herhangi bir kelimeyi ekleyin",
         "word": "Kelime",
         "sentence": "Onunla bir örnek cümle",
         "toastAdded": "Kelime '{{word}}' eklendi",
@@ -631,8 +670,8 @@
         "inputLng": "Kelime giriş dili"
       },
       "mediaError": {
-        "errNotAllowed": "Tarayıcınızdan izin alınamıyor. Lütfen engellenmediklerinden emin olun.",
-        "errAbort": "Kamera erişimi engellendi. Lütfen başka bir tarayıcıda veya programda kullanmadığınızdan emin olun.",
+        "errNotAllowed": "Tarayıcınızdan izin alınamıyor. Lütfen izinlerin engellenmediklerinden emin olun.",
+        "errAbort": "Kamera erişimi engellendi. Lütfen kamerayı başka bir tarayıcıda veya programda kullanmadığınızdan emin olun.",
         "errFallback": "Donanım cihazlarına erişim sağladınız, ancak sistemdeki yerel bir sorun, cihazınızın kullanılmasını engelledi. Lütfen başka bir tarayıcı veya başka bir cihaz deneyin.",
         "retryError": "Hayır, işe yaramadı. Donanım ayarlarınızı kontrol edin."
       },
@@ -641,7 +680,7 @@
           "chatPA": "Sesli sohbet analizi yalnızca Premium kullanıcılar için mevcuttur.",
           "chatLength": "Letty yorgun ve mola istiyor. Ona sonsuz enerji vermek için Lingolette Premium'a yükseltin!",
           "lockedArticle": "Bu makale yalnızca Premium kullanıcılar için mevcuttur.",
-          "longTime": "Bir süredir Lingolette kullanıyorsun. Umarız beğeniyorsundur!",
+          "longTime": "Bir süredir Lingolette kullanıyorsunuz. Umarız beğeniyorsunuzdur!",
           "chatHistory": "Sohbet geçmişi yalnızca Premium kullanıcılar için kullanılabilir.",
           "languages": "Çok dilli çalışma yalnızca Premium kullanıcılar için mevcuttur.",
           "paidSituation": "Bu durum yalnızca Premium kullanıcılar için mevcuttur.",
@@ -654,14 +693,14 @@
       "salePopup": {
         "btnSave": "30% Tasarruf",
         "btnNope": "Daha sonra hatırlat",
-        "disclaimer": "indirim 7 Ağustos 11:59 GMT'ye kadar geçerlidir ve yalnızca yıllık abonelik için",
+        "disclaimer": "indirim 7 Ağustos 11:59 GMT'ye kadar yalnızca yıllık abonelik için geçerlidir",
         "header": "Yaz İndirimimiz şimdi başlıyor! 🏖️",
         "mainText": "Sıcağı yenin ama fiyatı yenemezsiniz!<br/><br/>Sadece sınırlı bir süre için, <b>Lingolette Premium Yıllık</b> aboneliğinde %30 tasarruf edin.",
         "codeLine": "Kasa'da <b>SUMMER30</b> kodunu kullanın<sup>*</sup>"
       },
       "share": {
         "header": "Herkese açık profili paylaş",
-        "subheader": "Dil öğrenmedeki ilerlemenizi arkadaşlarınıza anlatın!",
+        "subheader": "Dil öğrenmedeki ilerlemenizden arkadaşlarınıza bahsedin!",
         "btnCopy": "Bağlantıyı kopyala",
         "prompt": "Lingolette üzerindeki ilerlemem"
       },
@@ -670,7 +709,7 @@
         "offer": "Ben, {{NAME}}, her gün en az 10 dakika {{LANG}} pratiği yapmaya söz veriyorum.",
         "acceptedHeader": "🎉 İşte buradasınız!",
         "accepted": "Günlük Pratik Sözü verdiniz!<br/><br/>Her gün sadece 10 dakika {{LANG}} pratiği yapın ve akıcılığınızın nasıl geliştiğini görün.",
-        "btnJoin": "Sözünü imzala",
+        "btnJoin": "Sözünüzü imzalayın",
         "btnOK": "Şimdi pratik yapmaya başla"
       },
       "reportContent": {
@@ -694,7 +733,7 @@
     "games": {
       "repeat": {
         "header": "“Beni tekrar et”",
-        "intro": "Kelime kartları göreceksiniz. Her kelime yüksek sesle söylenecektir. Ardından, tekrar etmek için 3 saniyeniz olacak. Yeni bir karta geçmek için bir karta tıklayın.",
+        "intro": "Kelime kartları göreceksiniz. Her kelime yüksek sesle söylenecektir. Ardından, tekrar etmek için 3 saniyeniz olacak. Yeni bir karta geçmek için bir karta tıklayınız.",
         "act": "Tekrar et!",
         "btnLoading": "Oluşturuluyor..."
       },
@@ -705,7 +744,7 @@
     "components": {
       "testSpeaker": {
         "button": "Test",
-        "didYouHear": "Sesi duydun mu?",
+        "didYouHear": "Sesi duydunuz mu?",
         "cannotPlay": "Ses çalınamadı. Lütfen ses ayarlarını kontrol edin."
       },
       "testMic": {
@@ -724,7 +763,7 @@
         "logInForContext": "Çeviriler, bağlam araçları, telaffuz ve daha fazlası için giriş yapın.",
         "btnYesPlease": "Haydi!",
         "btnPronounce": "Telaffuz et",
-        "btnAdd": "Sözlüğe",
+        "btnAdd": "Sözlüğe ekle",
         "btnPA": "Telaffuz",
         "btnExtra": "Çekimler",
         "extraLoading": "Yükleniyor...",
@@ -738,7 +777,7 @@
         "ad": "Reklam"
       },
       "articleView": {
-        "logInForAssessment": "Yanıtlarınızı yapay zeka tarafından değerlendirmek için giriş yapın.",
+        "logInForAssessment": "Yanıtlarınızın yapay zeka tarafından değerlendirilmesi için giriş yapın.",
         "readingHead": "Okuma Metni",
         "readingSubhead": "Metni okurken aynı zamanda dinleyin. Bilmediğiniz bir kelimeye tıklayarak açıklamasını görün.",
         "questionsHead": "Sorular",
@@ -823,54 +862,50 @@
         ]
       },
       "premiumOffer": {
-        "headers": {
-          "generic": "Sınırsız sohbet ve çok daha fazlası",
-          "chatHistory": "Sohbet geçmişi ve çok daha fazlası",
-          "paidSituation": "Tüm senaryoları ve çok daha fazlası",
-          "lockedArticle": "Sınırsız makale ve çok daha fazlası"
+        "hereWeGo": "haydi başlayalım!",
+        "subHeader": "Premium kullanıcılar 5 kat daha hızlı öğreniyor:",
+        "shChecks": [
+          "Gelişmiş yapay zeka modeli",
+          "Sınırsız yapay zeka sohbeti",
+          "Günlük ücretsiz makaleler"
+        ],
+        "plans": {
+          "M01": {
+            "header": "Aylık",
+            "price": "$13.99/ay",
+            "total": "$13.99"
+          },
+          "M12": {
+            "header": "Yıllık",
+            "price": "$7.49/ay",
+            "total": "$89.99",
+            "saveX": "%41 tasarruf et"
+          }
         },
-        "subHeaders": {
-          "generic": "5 kat daha hızlı akıcılık kazan. Bugün başla!"
+        "bestValue": "En iyi teklif",
+        "perksHeader": "Premium kullanıcı avantajları:",
+        "perks": [
+          "25+ dil arasından seçim yap",
+          "Gelişmiş yapay zeka eğitmeni modeli",
+          "Sınırsız günlük makaleler",
+          "Sınırsız dil pratiği",
+          "Gelişmiş dil araçları",
+          "Anında çeviri",
+          "Reklamsız",
+          "Telaffuz geri bildirimi (İngilizce)",
+          "Sohbet geçmişi",
+          "Duruma özel rol yapma"
+        ],
+        "weAreTrusted": "En iyiler bize güveniyor!",
+        "tutor": {
+          "name": "Eğitmen {{NAME}}",
+          "studentsCount": "Lingolette üzerinde {{X}} öğrenci",
+          "header": "Premium ile benimle sınırsız sohbetin kilidini aç!",
+          "subHeader": "Ayrıca daha akıllı yanıtlar, ücretsiz makaleler ve ekstra dil araçları da alacaksınız.",
+          "subHeaderEN": "Ayrıca telaffuz düzeltmeleri, ücretsiz makaleler ve ekstra dil araçları da alacaksınız."
         },
-        "h1": "Premium öğrenciler<br/><span>5 kat</span> daha hızlı öğreniyor!",
-        "monthly": "Aylık",
-        "yearly": "Yıllık",
-        "freePlan": {
-          "preHeader": "Ücretsiz Plan",
-          "header": "Lingolette Temel",
-          "items": [
-            "Basit yapay zeka modeli",
-            "1 dil",
-            "Sohbet başına 20 yanıt",
-            "Günde 1 makale"
-          ],
-          "footer": "Ücretsiz",
-          "subFooter": "Deneme yapmak için uygun."
-        },
-        "premiumPlan": {
-          "preHeaderMonthly": "Aylık Plan",
-          "preHeaderYearly": "Yıllık Plan",
-          "header": "Lingolette Premium",
-          "items": [
-            "Gelişmiş yapay zeka modeli",
-            "25+ dil",
-            "Sınırsız sohbet",
-            "Sınırsız makale",
-            "İngilizce için telaffuz geri bildirimi",
-            "Sohbet senaryoları ve geçmişi",
-            "Anlık çeviri",
-            "Reklamsız"
-          ],
-          "footer": "$13.99/ay",
-          "footer2": "$7.49/ay",
-          "footer2Crapple": "$7.49/ay",
-          "subFooter": "Yıllık $89.99",
-          "saveX": "%47 tasarruf edin",
-          "coffeeNote": "Ayda bir büyük kahve fiyatına!"
-        },
-        "cta": "Hemen başla",
-        "ctaTrial": "Şimdi yükselt",
-        "dummyCta": "Ücretsiz denemeyi başlat",
+        "legalShit": "<a target='blank' href='/docs/terms-and-conditions'>Şartlar ve Koşullar</a> ve <a target='blank' href='/docs/privacy-policy'>Gizlilik Politikası</a>.",
+        "noCommitment": "Taahhüt yok. İstediğin zaman iptal edebilirsin.",
         "nativePaymentStart": "Ödeme başlatılıyor...",
         "nativePaymentFailed": "Yerel ödeme {{CODE}} kodu ile başarısız oldu."
       },
