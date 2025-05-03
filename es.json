@@ -122,6 +122,10 @@
           "Para negocios o trabajo",
           "Pasatiempo o desarrollo personal",
           "Para comunicarme con seres queridos"
+        ],
+        "gender": [
+          "Hombre",
+          "Mujer"
         ]
       },
       "languageNames": {
@@ -246,14 +250,14 @@
     },
     "dashboard": {
       "sources": {
-        "header": "Las fuentes definen tu feed de artículos",
+        "header": "Los temas definen tu feed",
         "add": "Agregar fuente",
         "addHint": "Esta función estará disponible próximamente",
         "deleteConfirm": "¿Estás seguro de que quieres eliminar {{sourceName}}?",
         "unsubscribeConfirm": "¿Estás seguro de que quieres cancelar tu suscripción a {{sourceName}}?",
         "toastSubscribed": "Suscripción realizada correctamente",
         "toastUnsubscribed": "Suscripción cancelada correctamente",
-        "maxSources": "No es efectivo seguir más de 5 fuentes a la vez. Por favor, desubscríbete de algunas fuentes para añadir nuevas."
+        "maxSources": "No es efectivo seguir más de 5 temas a la vez. Por favor, cancela la suscripción a algunos temas para añadir otros nuevos."
       },
       "dlgAddSource": {
         "header": "Agregar nueva fuente"
@@ -472,7 +476,7 @@
       "tabs": [
         "Configuración",
         "Mi perfil",
-        "Fuentes de artículos"
+        "Temas de artículos"
       ]
     },
     "vocabulary": {
@@ -784,18 +788,18 @@
         "questionsHead": "Preguntas",
         "questionsSubhead": "Contesta las preguntas sobre el texto. Habla o escribe, tú eliges. La IA evaluará tus respuestas.",
         "discussHead": "Discute",
-        "discussSubhead": "Discute el texto con el profesor de IA. El profesor te ayudará con el vocabulario y la gramática.",
-        "btnDiscuss": "Discutir con la IA",
-        "discussP": "El profesor de inteligencia artificial tiene muchas ventajas. No necesitas reservar ningún horario. No tienes que esperar a que el profesor llegue a clase. Puedes aprender en cualquier momento. El profesor nunca se aburrirá y puede mantener una conversación sobre cualquier tema relacionado.",
+        "discussSubhead": "Llévalo más lejos.",
+        "btnDiscuss": "Chatear con el tutor",
+        "discussP": "Habla sobre este artículo con tu tutor de IA para practicar. Tu tutor te ayudará con vocabulario y gramática.",
         "logInForDiscussion": "Inicia sesión para comenzar la conversación con IA.",
         "btnPA": "Ver la pronunciación",
-        "printedInfo": "Lee un nuevo artículo cada día y<br/>discútelo con IA en lingolette.com"
+        "printedInfo": "Lee un nuevo artículo cada día y<br/>discútelo con IA en lingolette.com",
+        "answerToSeeAnswer": "Da tu respuesta primero para revelar la correcta"
       },
       "desktopMenu": {
         "feed": "Leer",
         "talk": "Hablar",
         "vocabulary": "Palabras",
-        "configure": "Fuentes",
         "account": "Perfil",
         "tools": "Herramientas",
         "more": "Más",

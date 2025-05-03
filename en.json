@@ -122,6 +122,10 @@
           "For business or work",
           "Hobby or self-development",
           "To communicate with loved ones"
+        ],
+        "gender": [
+          "Male",
+          "Female"
         ]
       },
       "languageNames": {
@@ -237,14 +241,14 @@
     },
     "dashboard": {
       "sources": {
-        "header": "Sources define your feed",
+        "header": "Topics define your feed",
         "add": "Add source",
         "addHint": "This feature is coming soon",
         "deleteConfirm": "Are you sure you want to delete {{sourceName}}?",
         "unsubscribeConfirm": "Are you sure you want to unsubscribe from {{sourceName}}?",
         "toastSubscribed": "Subscribed successfully",
         "toastUnsubscribed": "Unsubscribed successfully",
-        "maxSources": "It is not effective to follow more than 5 sources at a time. Please unsubscribe from some sources to add new ones."
+        "maxSources": "It is not effective to follow more than 5 topics at a time. Please unsubscribe from some topics to add new ones."
       },
       "dlgAddSource": {
         "header": "Add new source"
@@ -439,7 +443,7 @@
       "formalityLevel": "Formality level",
       "nativeAssistanceLevel": "Native language assistance",
       "learningGoal": "Why do you learn it?",
-      "gender": "Your gramm. gender",
+      "gender": "Your grammatical gender",
       "whenApplied": "Settings will only be applied to a new chat",
       "yourTeacher": "Your teacher",
       "notAvailable": "(for schools only)",
@@ -462,7 +466,7 @@
       "tabs": [
         "Settings",
         "My profile",
-        "Article sources"
+        "Article topics"
       ]
     },
     "vocabulary": {
@@ -572,7 +576,7 @@
       }
     },
     "tools": {
-      "title": "Power-up your learning!",
+      "title": "Power up your learning!",
       "scratchpad": ["scratchpad", "work with any text using Lingolette"],
       "extensions": ["browser extensions", "access Lingolette’s Scratchpad from any site"],
       "wordsGame": ["words game", "play a game of words pronunciation"],
@@ -762,18 +766,18 @@
         "questionsHead": "Questions",
         "questionsSubhead": "Answer the questions to the text. Speak or write, you choose. AI will assess your answers.",
         "discussHead": "Discuss",
-        "discussSubhead": "Discuss the text the AI teacher. The teacher will help you with vocabulary and grammar.",
-        "btnDiscuss": "Discuss with AI",
-        "discussP": "The artificial intelligence teacher has a lot of benefits. You don’t need to book any time slot. You don’t have to wait for the teacher to come to class. You can learn at any time. The teacher will never get bored and can keep a conversation on any related topic.",
+        "discussSubhead": "Take it further.",
+        "btnDiscuss": "Chat with tutor",
+        "discussP": "Discuss this article with your AI tutor to practice. Your tutor will help you with vocabulary and grammar.",
         "logInForDiscussion": "Log in to start the conversation with AI.",
         "btnPA": "Check pronunciation",
-        "printedInfo": "Read a new article every day and<br/>discuss it with AI at lingolette.com"
+        "printedInfo": "Read a new article every day and<br/>discuss it with AI at lingolette.com",
+        "answerToSeeAnswer": "Give your answer first to reveal the correct one"
       },
       "desktopMenu": {
         "feed": "Read",
         "talk": "Talk",
         "vocabulary": "Words",
-        "configure": "Sources",
         "account": "Profile",
         "tools": "Tools",
         "more": "More",

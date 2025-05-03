@@ -122,6 +122,10 @@
           "İş veya kariyer için",
           "Hobi veya kişisel gelişim",
           "Sevdiklerimle iletişim kurmak için"
+        ],
+        "gender": [
+          "Erkek",
+          "Kadın"
         ]
       },
       "languageNames": {
@@ -246,14 +250,14 @@
     },
     "dashboard": {
       "sources": {
-        "header": "Kaynaklar makale akışınızı tanımlar",
+        "header": "Konular akışını tanımlar",
         "add": "Kaynak Ekle",
         "addHint": "Bu özellik yakında gelecek",
         "deleteConfirm": "{{sourceName}}'ı silmek istediğinizden emin misiniz?",
         "unsubscribeConfirm": "{{sourceName}}'dan aboneliği iptal etmek istediğinizden emin misiniz?",
         "toastSubscribed": "Başarıyla abone olundu",
         "toastUnsubscribed": "Başarıyla abonelik iptal edildi",
-        "maxSources": "Aynı anda 5'ten fazla kaynağı takip etmek etkili değildir. Lütfen yeni bir kaynak eklemek için bazı kaynaklardan aboneliğinizi iptal edin."
+        "maxSources": "Aynı anda 5'ten fazla konuyu takip etmek etkili değildir. Lütfen yeni konular eklemek için bazı konuların takibini bırakın."
       },
       "dlgAddSource": {
         "header": "Yeni kaynak ekle"
@@ -448,7 +452,7 @@
       "formalityLevel": "Resmiyet seviyesi",
       "nativeAssistanceLevel": "Ana dil desteği",
       "learningGoal": "Neden öğreniyorsun?",
-      "gender": "Cinsiyetiniz",
+      "gender": "Dilbilgisi cinsiyetiniz",
       "whenApplied": "Ayarlar yalnızca yeni bir sohbet başlattığınızda uygulanacak",
       "yourTeacher": "Öğretmeniniz",
       "notAvailable": "(sadece okullar için)",
@@ -471,7 +475,7 @@
       "tabs": [
         "Ayarlar",
         "Profilim",
-        "Makale kaynakları"
+        "Makale konuları"
       ]
     },
     "vocabulary": {
@@ -783,18 +787,18 @@
         "questionsHead": "Sorular",
         "questionsSubhead": "Metne yöneltilen soruları cevaplayın. Konuşarak veya yazarak cevap verebilirsiniz. Yapay zeka cevaplarınızı değerlendirecektir.",
         "discussHead": "Tartış",
-        "discussSubhead": "Metni yapay zeka öğretmeniyle tartışın. Öğretmen, kelime dağarcığı ve dilbilgisi konularında size yardımcı olacaktır.",
-        "btnDiscuss": "Yapay Zeka ile Tartış",
-        "discussP": "Yapay zeka öğretmeninin birçok faydası var. Herhangi bir zaman dilimi ayırtmanıza gerek yok. Öğretmenin sınıfa gelmesini beklemenize gerek yok. Her zaman öğrenebilirsiniz. Öğretmen asla sıkılmaz ve ilgili herhangi bir konuda konuşabilir.",
+        "discussSubhead": "Daha ileri götür.",
+        "btnDiscuss": "Eğitmenle sohbet et",
+        "discussP": "Pratik yapmak için bu makaleyi yapay zekâ eğitmeninle tartış. Eğitmenin sana kelime bilgisi ve gramer konusunda yardımcı olacak.",
         "logInForDiscussion": "Tartışmayı başlatmak için giriş yapın.",
         "btnPA": "Telaffuzu Kontrol Et",
-        "printedInfo": "Her gün yeni bir makale okuyun ve<br/>AI ile lingolette.com'da tartışın"
+        "printedInfo": "Her gün yeni bir makale okuyun ve<br/>AI ile lingolette.com'da tartışın",
+        "answerToSeeAnswer": "Doğru cevabı görmek için önce kendi cevabını ver"
       },
       "desktopMenu": {
         "feed": "Oku",
         "talk": "Konuş",
         "vocabulary": "Kelimeler",
-        "configure": "Kaynaklar",
         "account": "Profil",
         "tools": "Araçlar",
         "more": "Daha Fazla",
