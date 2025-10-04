@@ -1,6 +1,6 @@
 {
   "translation": {
-    "offerLocalized": "Tu navegador prefiere la versión en «{{lngName}}», pero estás utilizando la versión en «{{lngName2}}». ¿Te gustaría cambiar a la versión en «{{lngName}}»?",
+    "offerLocalized": "Tu navegador prefiere la versión en «{{lngName}}», pero estás usando la versión en «{{lngName2}}». ¿Quieres cambiar a la versión en «{{lngName}}»?",
     "buttons": {
       "yes": "Sí",
       "no": "No",
@@ -25,7 +25,9 @@
       "retry": "Reintentar",
       "start": "Iniciar",
       "copy": "Copiar",
-      "continue": "Continuar"
+      "continue": "Continuar",
+      "submit": "Submit",
+      "join": "Unirse"
     },
     "pos": [
       "otro",
@@ -45,7 +47,7 @@
     ],
     "UI": {
       "messageBox": {
-        "oops": "¡Vaya!",
+        "oops": "¡Ups!",
         "alertTitle": "Lingolette",
         "confirmTitle": "¿Estás seguro?"
       },
@@ -54,7 +56,8 @@
         "search": "Search..."
       },
       "toasts": {
-        "muted": "Tu dispositivo está en silencio"
+        "muted": "Tu dispositivo está en silencio",
+        "mutedIOS": "Tu dispositivo está en silencio. Consulta el interruptor mecánico en el lado izquierdo de tu iPhone."
       },
       "options": {
         "ttsRate": [
@@ -111,7 +114,8 @@
         ],
         "formalityOption": [
           "Informal",
-          "Formal"
+          "Formal",
+          "Honorífico"
         ],
         "nativeAssistanceOption": [
           "Deshabilitado",
@@ -176,31 +180,31 @@
     },
     "home": {
       "top": {
-        "heroHead": "Rompe la barrera\nde la fluidez.",
-        "heroSubhead": "Supera el estancamiento intermedio practicando con IA, correcciones instantáneas y artículos diarios.",
+        "heroHead": "Supera la barrera\nde la fluidez.",
+        "heroSubhead": "Deja atrás el nivel intermedio practicando con IA, con correcciones al instante y artículos diarios.",
         "wdywts": "¿Qué idioma quieres hablar?",
-        "btnStart": "Empecemos"
+        "btnStart": "¡Vamos a empezar!"
       },
       "goAdvanced": {
-        "header": "Pasa de intermedio a avanzado",
+        "header": "Evoluciona de intermedio a avanzado",
         "route": [
           [
             "Chat de voz inmersivo con IA",
-            "Habla sobre cualquier tema que te interese y elige entre tutores de diferentes dialectos."
+            "Conversa sobre cualquier tema que te guste y escoge entre tutores de diferentes acentos."
           ],
           [
             "Aprende palabras en contexto",
-            "Haz clic en cualquier palabra para aprender su significado y pronunciación o añadirla a tu diccionario."
+            "Toca cualquier palabra para conocer su significado y pronunciación, o agrégala a tu vocabulario."
           ],
           [
             "Artículos diarios con preguntas",
-            "Prueba tu comprensión respondiendo preguntas sobre lo que has leído. Tu tutor de IA puede discutir el artículo contigo."
+            "Pon a prueba tu comprensión respondiendo preguntas sobre lo que leíste. Tu tutor de IA puede conversar sobre el artículo contigo."
           ]
         ]
       },
       "mobile": {
-        "header1": "La última tecnología de IA,\noptimizada para idiomas",
-        "subheader1": "Descarga Lingolette en móvil",
+        "header1": "La tecnología de IA más avanzada,\noptimizada para idiomas",
+        "subheader1": "Descarga Lingolette en tu móvil",
         "header2": "Empieza a hablar hoy",
         "subheader2": "con Lingolette",
         "comingSoon": "Próximamente"
@@ -209,19 +213,19 @@
         "header": "Escenarios de práctica con IA"
       },
       "reachFluency": {
-        "header": "Alcanza la fluidez más rápido",
+        "header": "Logra la fluidez más rápido",
         "explain": [
           [
             "Mantente comprometido",
-            "Sumérgete en escenarios de la vida real para que tus sesiones de práctica sean relevantes y prácticas."
+            "Practica con situaciones de la vida real para que tus sesiones sean útiles y prácticas."
           ],
           [
             "Mejora rápidamente",
-            "Obtén orientación clara y paso a paso y correcciones que te ayuden a avanzar con confianza."
+            "Recibe guía clara paso a paso y correcciones que te ayuden a progresar con seguridad."
           ],
           [
             "Experiencia personalizada",
-            "Lingolette se ajusta a tu nivel, intereses y ritmo para una experiencia completamente personalizada."
+            "Lingolette se adapta a tu nivel, gustos y ritmo para una experiencia totalmente personalizada."
           ]
         ]
       },
@@ -245,19 +249,19 @@
         "cta": "Suscribirse"
       },
       "community": {
-        "header": "Únete a una comunidad de aprendices alcanzando la fluidez"
+        "header": "Únete a una comunidad que alcanza la fluidez"
       }
     },
     "dashboard": {
       "sources": {
         "header": "Los temas definen tu feed",
         "add": "Agregar fuente",
-        "addHint": "Esta función estará disponible próximamente",
-        "deleteConfirm": "¿Estás seguro de que quieres eliminar {{sourceName}}?",
-        "unsubscribeConfirm": "¿Estás seguro de que quieres cancelar tu suscripción a {{sourceName}}?",
-        "toastSubscribed": "Suscripción realizada correctamente",
-        "toastUnsubscribed": "Suscripción cancelada correctamente",
-        "maxSources": "No es efectivo seguir más de 5 temas a la vez. Por favor, cancela la suscripción a algunos temas para añadir otros nuevos."
+        "addHint": "Esta función estará disponible pronto",
+        "deleteConfirm": "¿Seguro que quieres eliminar {{sourceName}}?",
+        "unsubscribeConfirm": "¿Seguro que quieres cancelar tu suscripción a {{sourceName}}?",
+        "toastSubscribed": "Te suscribiste correctamente",
+        "toastUnsubscribed": "Cancelaste la suscripción correctamente",
+        "maxSources": "No es efectivo seguir más de 5 temas a la vez. Cancela algunos para agregar nuevos."
       },
       "dlgAddSource": {
         "header": "Agregar nueva fuente"
@@ -271,20 +275,27 @@
       "widgets": {
         "streak": {
           "header": "Tu racha",
-          "subHeader": "Mantén tu racha leyendo un artículo o hablando con tu tutor."
+          "subHeader": "Mantén tu racha leyendo un artículo o conversando con tu tutor."
         },
         "chat": {
           "header": "Practica {{LNG}}",
-          "tutorHeader": "Chatea con {{NAME}}",
-          "tutorDescr": "Practica hablando con tu tutor sobre cualquier tema"
+          "tutorHeader": "Conversa con {{NAME}}",
+          "tutorDescr": "Practica hablando con tu tutor sobre un tema dado"
         },
         "read": {
           "header": "Lee el artículo de hoy"
+        },
+        "call": {
+          "header": "Practica hablando en vivo",
+          "subHeader": "Ten una conversación solo de voz con Letty. ¡Perfecto para ganar confianza y fluidez!",
+          "buttonTitle": "¡Empieza a hablar!",
+          "buttonSubtitle": "Prueba tu primera llamada de voz con IA",
+          "limitReached": "Las llamadas están limitadas a {{maxMinutes}} minutos en tu nivel."
         }
       }
     },
     "article": {
-      "disclaimer": "Todo el contenido y las tareas son generados por IA inspirada en una publicación real."
+      "disclaimer": "Todo el contenido y ejercicios son generados por IA basándose en publicaciones reales."
     },
     "sourceInfo": {
       "readArticles": "Artículos de la fuente",
@@ -292,11 +303,11 @@
       "prevPage": "Página anterior"
     },
     "freeStuff": {
-      "header": "Cosas gratis",
+      "header": "Contenido gratuito",
       "p": [
-        "Tenemos una categoría de contenido generado de forma gratuita para todos, con configuraciones predeterminadas (nivel de idioma B1, vocabulario personalizado desactivado, estilo de imagen de noticias, voces estándar).",
-        "Puedes usarlo de forma gratuita para siempre, pero si quieres personalizarlo, necesitarás crear una cuenta gratuita o de pago, según el nivel de personalización que necesites.",
-        "El contenido gratuito se genera automáticamente todos los días, por lo que siempre está actualizado."
+        "Tenemos contenido generado gratis para todos, con configuraciones por defecto (nivel de idioma B1, vocabulario personalizado desactivado, estilo de imagen de noticias, voces estándar).",
+        "Puedes usarlo gratis para siempre, pero si quieres personalizarlo, necesitarás crear una cuenta gratuita o premium, según qué tanto quieras personalizar.",
+        "El contenido gratuito se genera automáticamente todos los días, así que siempre está actualizado."
       ]
     },
     "integrations": {
@@ -305,18 +316,18 @@
       "addonFirefox": "Extensión para el navegador Firefox"
     },
     "inquiry": {
-      "header": "¿Interesado en Lingolette?",
-      "subHeader": "Déjanos tus datos de contacto y te responderemos",
-      "header2": "¡Gracias por tu consulta!",
-      "subHeader2": "Nos pondremos en contacto contigo en un plazo de un día hábil.",
+      "header": "¿Te interesa Lingolette?",
+      "subHeader": "Déjanos tus datos y te contactamos",
+      "header2": "¡Gracias por escribirnos!",
+      "subHeader2": "Te contactaremos dentro de un día hábil.",
       "plhName": "Nombre",
-      "plhEmail": "Dirección de correo electrónico",
+      "plhEmail": "Correo electrónico",
       "plhCompany": "Empresa",
-      "plhMessage": "¿Hay algo más que necesitemos saber?"
+      "plhMessage": "¿Algo más que necesitemos saber?"
     },
     "login": {
-      "hintSignUp": "Crea una cuenta\npara comenzar a aprender",
-      "hintSignIn": "Inicia sesión\npara continuar aprendiendo",
+      "hintSignUp": "Crea tu cuenta\npara empezar a aprender",
+      "hintSignIn": "Inicia sesión\npara seguir aprendiendo",
       "schoolHint": "¡Bienvenido a {{VENDOR}}!",
       "btnGoogle": "Continuar con Google",
       "btnApple": "Continuar con Apple",
@@ -325,10 +336,21 @@
       "btnTelegram": "Continuar con Telegram",
       "btnSchools": "Iniciar sesión para escuelas",
       "disclaimer": "Al continuar, aceptas nuestros <a target='blank' href='/docs/terms-and-conditions'>términos y condiciones</a> y nuestra <a target='blank' href='/docs/privacy-policy'>política de privacidad</a>.",
-      "receiveOffers": "recibir ofertas especiales de nuestros socios",
-      "plhEmail": "identidad",
+      "receiveOffers": "recibir ofertas especiales de nuestros partners",
+      "plhEmail": "tu email",
       "plhPassword": "contraseña",
-      "btnExtraAuth": "Sesión corporativo"
+      "btnEmail": "Continuar con email",
+      "otherProviders": "Otros métodos de inicio de sesión",
+      "btnExtraAuth": "Sesión corporativo",
+      "badEmailProvider": "Usa un correo que no sea temporal, por favor.",
+      "alreadyRegistered": "Ya tienes cuenta con otro proveedor (Google, LinkedIn, Microsoft o Apple).",
+      "codeExpired": "El código ha expirado. Por favor, inténtalo de nuevo.",
+      "codeNotFound": "Código no encontrado. Esto suele ocurrir cuando las personas solicitan dos códigos al mismo tiempo y luego intentan usar el código de la primera solicitud. Por favor, inténtalo de nuevo.",
+      "btnSendCode": "Envíame un código",
+      "confirmCode": "Confirmar",
+      "checkMailbox": "Revisa tu email, copia el código y pégalo aquí abajo",
+      "tryEmailLogin": "Error al iniciar sesión: {{MSG}}. Intenta con tu email en su lugar.",
+      "userDeleted": "Has eliminado este usuario. Por favor, espera 7 días hasta que eliminemos todos tus datos de acuerdo con la ley o contáctanos si deseas restaurar tu cuenta."
     },
     "paymentDone": {
       "hdrComplete": "Pago completado",
@@ -343,7 +365,7 @@
         "haveAccount": "¿Ya tienes una cuenta?",
         "btnLogIn": "Iniciar sesión",
         "btnStart": "Empezar",
-        "buildingPartner": "Construyendo tu<br/>compañero de idiomas..."
+        "buildingPartner": "Creando tu<br/>compañero de idiomas..."
       },
       "progressPlot": {
         "withLingolette": "Con Lingolette",
@@ -351,15 +373,15 @@
         "today": "Hoy",
         "in30days": "En 30 días",
         "header": "Nuevas palabras aprendidas",
-        "subHeader": "Basado en datos reales de usuarios de Lingolette"
+        "subHeader": "Basado en datos reales de nuestros usuarios"
       },
       "lettyChat": {
         "lettyTitle": "Tu guía",
         "lettyName": "Letty",
         "plhName": "Ingresa tu nombre...",
-        "bblHello": "¡Hola! Has llegado al lugar correcto para mejorar tu habla.",
-        "bblName": "Lo primero es lo primero, ¿cuál es tu nombre?",
-        "bblNice": "Encantado de conocerte, {{NAME}}.",
+        "bblHello": "¡Hola! Llegaste al lugar perfecto para mejorar tu forma de hablar.",
+        "bblName": "Primero lo primero, ¿cómo te llamas?",
+        "bblNice": "¡Qué gusto conocerte, {{NAME}}!",
         "bblNativeLng": "¿Cuál es tu lengua materna?",
         "bblWhichLng": "¿Qué idioma estás aprendiendo?",
         "plhAllLanguages": "Ver los {{N}} idiomas",
@@ -401,7 +423,7 @@
         "bblPrefs": "Por cierto, puedes cambiar tus preferencias en la configuración más tarde. 🙂",
         "bblIfYou": "{{NAME}}, según nuestros datos, si practicas <strong>solo {{TPD}} minutos al día</strong> en Lingolette...",
         "bblThenYou": "... entonces tu vocabulario crecerá en <strong>{{GROWTH}} palabras</strong> en solo 30 días.",
-        "bblReadyToMeet": "Entonces, ¿estás listo para conocer a tu tutor?",
+        "bblReadyToMeet": "Entonces, ¿estás listo para comenzar?",
         "btnLetsGo": "¡Vamos!"
       },
       "findingTeacher": {
@@ -434,39 +456,43 @@
       "chatOnlyText": "Solo admitimos hablar con el maestro de IA en {{LNG}}. Para leer artículos, cambie a otro idioma."
     },
     "account": {
-      "confirmLogout": "¿Estás seguro de que quieres cerrar sesión?",
-      "confirmDelete": "¿Estás seguro de que quieres ELIMINAR tu cuenta? ¡No hay vuelta atrás! Si tienes una suscripción, desaparecerá sin reembolso.",
-      "deleteConfirmation": "Es triste verte partir.",
+      "confirmLogout": "¿Seguro que quieres cerrar sesión?",
+      "confirmDelete": "¿Seguro que quieres ELIMINAR tu cuenta? ¡No hay vuelta atrás! Si tienes una suscripción, la perderás sin reembolso.",
+      "deleteConfirmation": "Lamentamos verte partir. Tus datos serán eliminados en los próximos 7 días.",
       "toastSaved": "Configuración guardada",
-      "phName": "¿Cómo te llamamos?",
+      "phName": "¿Cómo te gusta que te llamemos?",
       "lblName": "Tu nombre",
       "lblNativeLng": "Tu idioma nativo",
       "lblTargetLng": "Idioma que aprendes",
-      "lblLevel": "Nivel en el que te encuentras",
+      "lblLevel": "Tu nivel actual",
+      "lblCharSet": "Script",
       "btnLogout": "Cerrar sesión",
       "btnDeleteAccount": "Eliminar cuenta",
       "btnExport": "Exportar datos",
       "coins": "Monedas",
       "coinsSpent": "Monedas gastadas",
-      "ttsRate": "Velocidad de la voz del profesor",
-      "feedbackMode": "Cómo el profesor da retroalimentación",
+      "ttsRate": "Velocidad de voz del tutor",
+      "feedbackMode": "Cómo te da feedback el tutor",
       "formalityLevel": "Nivel de formalidad",
       "nativeAssistanceLevel": "Asistencia en el idioma nativo",
+      "topics": "Temas",
+      "topicsDetails": "Estos definen los artículos en tu feed. Elige hasta 5.",
       "learningGoal": "¿Por qué lo aprendes?",
       "gender": "Tu género gramatical",
-      "whenApplied": "La configuración solo se aplicará a un nuevo chat",
-      "yourTeacher": "Tu profesor",
+      "whenApplied": "Esta configuración solo se aplicará en conversaciones nuevas",
+      "yourTeacher": "Tu tutor",
       "notAvailable": "(solo para escuelas)",
-      "hideCard": "Ocultar mi <a target='_blank' href='{{URL}}'>perfil público</a>",
-      "showGroups": "Mostrar <a target='_blank' href='/groups'>grupos</a> en el menú",
-      "showGoals": "Mis metas diarias",
+      "hideCard": "Visibilidad del perfil",
+      "hideCardDetails": "Otros pueden ver tu <a target='_blank' href='{{URL}}'>perfil público</a>",
+      "showGroups": "Elemento de menú de grupos",
+      "showGroupsDetails": "Mostrar <a target='_blank' href='/groups'>grupos</a> en el menú principal",
       "hideCompletedExercises": "Ocultar ejercicios completados",
+      "hideCompletedExercisesDetails": "Los artículos con ejercicios completados se ocultarán en el feed",
       "useDarkTheme": "Tema oscuro en el móvil",
       "dangerZone": "Mostrar zona de peligro",
-      "startSubscription": "Cambiar a versión de pago",
+      "startSubscription": "Actualizar a Premium",
       "cancelSubscription": "Cancelar suscripción",
-      "subCancellationWarning": "¿Estás seguro de que quieres cancelar tu suscripción? El acceso Premium se eliminará. No se reembolsará el pago por el resto del mes.",
-      "lblGrammarFeatures": "Configuración de gramática del chat",
+      "lblGrammarFeatures": "Configuración de gramática para conversaciones",
       "allFeatures": "Todas",
       "grammarFeatures": [
         "Tiempo presente",
@@ -477,14 +503,31 @@
         "Configuración",
         "Mi perfil",
         "Temas de artículos"
-      ]
+      ],
+      "pageTitle": "Configuración",
+      "btnSaveSettings": "Guardar configuración",
+      "headingProfile": "Perfil",
+      "lblEmail": "Dirección de correo electrónico",
+      "hintGoogleAuth": "Conectado al método de inicio de sesión de Google",
+      "hintAppleAuth": "Conectado al método de inicio de sesión de Apple",
+      "headingLanguageSettings": "Configuración de idiomas",
+      "headingTutorChat": "Chat del tutor",
+      "headingArticlePreferences": "Preferencias de artículos",
+      "headingOtherPreferences": "Otras preferencias",
+      "noTopicsAvailable": "No hay temas disponibles",
+      "lblSchoolDashboard": "Panel de control escolar",
+      "noSchoolOrgs": "No hay organizaciones escolares disponibles.",
+      "lblServer": "Servidor:",
+      "lblTier": "Nivel:",
+      "tierFree": "Gratuito",
+      "tierPremium": "Premium"
     },
     "vocabulary": {
-      "confirmRemove": "¿Estás seguro de que quieres eliminar esta palabra?",
-      "lblIntensiveOnly": "Solo palabras de estudio intensivo",
+      "confirmRemove": "¿Seguro que quieres eliminar esta palabra?",
+      "lblIntensiveOnly": "Solo palabras en estudio intensivo",
       "switchToNormal": "Cambiar al modo de aprendizaje normal",
       "switchToIntensive": "Cambiar al modo de aprendizaje intensivo",
-      "intensiveToast": "El aprendizaje intensivo está activado. El profesor de inteligencia artificial ahora se centrará más en esta palabra durante las lecciones.",
+      "intensiveToast": "El aprendizaje intensivo está activado. El tutor de IA ahora se enfocará más en esta palabra durante las lecciones.",
       "removeWord": "Eliminar palabra del vocabulario",
       "colLemma": "Palabra",
       "colIntensive": "Intensivo",
@@ -492,16 +535,16 @@
       "colUsedTimes": "Dominio",
       "colLastUsed": "Último uso",
       "emptyPlaceholderHeader": "Tu vocabulario está vacío",
-      "emptyPlaceholderHint": "Habla con <a href='/talk'>el profesor de IA</a> o agrega palabras en <a href='/feed'>artículos</a> para completarlo.",
+      "emptyPlaceholderHint": "Conversa con <a href='/talk'>el tutor de IA</a> o agrega palabras desde <a href='/feed'>artículos</a> para llenarlo.",
       "more": {
-        "addWords": "Agregar palabras propias...",
+        "addWords": "Agregar mis propias palabras...",
         "flashCards": "Tarjetas de memoria",
         "repeatGame": "Jugar un juego",
         "exportWords": "Exportar palabras intensivas"
       }
     },
     "talk": {
-      "confirmDrop": "Encontramos una discusión anterior no relacionada. ¿Quieres abandonarla?",
+      "confirmDrop": "Encontramos una conversación anterior no relacionada. ¿Quieres terminarla?",
       "phInputMobile": "Escribe aquí",
       "phInputDesktop": "Escribe aquí o mantén presionada la <strong>barra espaciadora</strong> para hablar",
       "hintPTT": "Mantén pulsado para hablar",
@@ -511,8 +554,8 @@
       "btnTranslitIn": "Translit al escribir",
       "btnTranslitOut": "Translit al leer",
       "btnNovice": "Fundamentos",
-      "longChatWarning": "El chat es un poco largo. Reiníciala para una mejor experiencia.",
-      "listenFailed": "No pudimos reconocer tu voz. Posibles razones: estar en silencio, murmurar, ruidos de fondo fuertes, dispositivo silenciado, configuraciones del micrófono.",
+      "longChatWarning": "La conversación está un poco larga. Reiníciala para una mejor experiencia.",
+      "listenFailed": "No pudimos entender lo que dijiste. Posibles causas: hablar muy bajo, murmurar, ruido de fondo, micrófono silenciado o configuración del micrófono.",
       "listenFailedDebug": "Esto es lo que escuchamos:",
       "sseFailed": "Hmm... Se perdió la conexión con el servidor. Si es temporal, intenta recargar la página.",
       "longVoiceInput": "Mantén tus respuestas por debajo de 30 segundos para obtener la mejor experiencia.",
@@ -534,10 +577,10 @@
       "chatMode": "Chat",
       "historyMode": "Historial de chat",
       "situationMode": "Situaciones",
-      "situationsHeader": "Elige una situación y completa el objetivo hablando.",
-      "situationSolved": "Situación resuelta",
+      "situationsHeader": "Elige una situación y completa el objetivo conversando.",
+      "situationSolved": "¡Situación completada!",
       "lngMismatch": {
-        "text": "Tu idioma de chat es '{{CHAT_LNG}}' mientras estás aprendiendo '{{TARGET_LNG}}'. Reinicia el chat para alinearlos o cambia tu idioma de vuelta.",
+        "text": "Tu idioma de conversación es '{{CHAT_LNG}}' pero estás aprendiendo '{{TARGET_LNG}}'. Reinicia la conversación para alinearlos o cambia tu idioma.",
         "btnRestart": "Reiniciar",
         "btnFix": "Cambiar idioma"
       },
@@ -547,8 +590,17 @@
         "gotStuck": "¿Te quedaste atascado?",
         "gotStuckWidth": 15
       },
-      "noteBasicModel": "Este es un modelo de IA básico. ¡Actualice a Premium para obtener más funciones!",
+      "noteBasicModel": "Este es un modelo de IA básico. ¡Pásate a Premium para obtener más funciones!",
       "yourMission": "Your mission"
+    },
+    "call": {
+      "contextHack": "¿Listo para una sesión de práctica oral? ¡Letty está emocionada de charlar contigo! Solo habla naturalmente cuando estés listo.",
+      "transcriptHint": "✨ Toca cualquier palabra para aprender más sobre ella",
+      "tutorBadge": "✨ Tutor de Idiomas IA",
+      "tutorName": "Letty",
+      "statusReady": "¡Listo para practicar {{language}} contigo!",
+      "statusListening": "Escuchando... ¡habla cuando estés listo!",
+      "statusWelcome": "¡Prepárate para una conversación increíble!"
     },
     "groups": {
       "joinHint": "¿Quieres unirte al grupo «{{GROUP_NAME}}»?",
@@ -602,6 +654,10 @@
       "flashcards": [
         "flashcards",
         "repite tus palabras de vocabulario hasta que las aprendas"
+      ],
+      "hanzi": [
+        "hanzi",
+        "practica caracteres chinos"
       ]
     },
     "userCard": {
@@ -612,7 +668,7 @@
       "wordStatsHeader": "Mi vocabulario",
       "wordStatsHint": "Palabras que conozco",
       "streakInfo": "Tu racha es el número de días consecutivos en los que has estado aprendiendo con Lingolette. ¡Sigue así!",
-      "gemsInfo": "Las gemas son una moneda virtual que puedes utilizar para comprar funciones y contenido premium. Ganas gemas al aprender y completar tareas.",
+      "gemsInfo": "Las gemas son una moneda virtual que puedes utilizar para comprar funciones y contenido premium. Ganas gemas al completar tareas.",
       "energyInfo": "La energía se utiliza para hablar con el profesor de IA, leer artículos y realizar otras actividades.",
       "privateHeader": "El perfil es privado"
     },
@@ -623,138 +679,213 @@
     "scratchpad": {
       "placeholder": "Pega o escribe texto aquí para analizarlo arriba...",
       "btnImportVideo": "Importar video",
-      "processingVideo": "Procesando video..."
+      "btnImportPicture": "Importar imagen",
+      "processingVideo": "Procesando video...",
+      "processingImage": "Procesando imagen..."
     },
     "dialogs": {
       "feedback": {
-        "header": "Comparte tus comentarios a continuación",
-        "joinCommunity": "Únete a nuestra comunidad en Discord",
-        "placeholder": "¿Qué te gustaría mejorar o corregir?",
-        "thankYou": "¡Gracias! Tu mensaje nos ayudará a mejorar el producto.",
-        "trustPilot": "Califícanos en Trustpilot"
+        "headerStart": "Comparte tu opinión",
+        "bodyStart": "Siempre buscamos mejorar. Por favor comparte tus comentarios, informes de errores o solicitudes de funciones aquí. ¡Leemos todos los mensajes!",
+        "headerEnd": "¡Gracias! 💜",
+        "bodyEnd": "Tu opinión ha sido enviada. ¡La apreciamos mucho!",
+        "placeholder": "Escribe aquí"
+      },
+      "pickImage": {
+        "header": "Importar imagen",
+        "fromFile": "Elegir de archivos",
+        "fromCamera": "Tomar foto",
+        "fromClipboard": "Pegar desde portapapeles",
+        "cancel": "Cancelar"
       },
       "audioPermissions": {
-        "inRequired": "El chat de voz requiere permiso para el micrófono. Concédelo, por favor.",
-        "outRequired": "El chat de voz requiere permiso para la reproducción de sonido. Presiona OK para concederlo."
+        "inRequired": "Para usar el chat de voz necesitamos acceso a tu micrófono. Por favor, permítelo.",
+        "inRequiredIOS": "Por favor, otórgale permiso para usar el micrófono. Ve a Configuración -> Aplicaciones -> Lingolette",
+        "outRequired": "Para el chat de voz necesitamos reproducir sonido. Presiona OK para permitirlo."
       },
       "offerPWA": {
-        "text": "¿Te gustaría agregar la aplicación web de Lingolette a tu pantalla de inicio para acceder rápidamente?",
-        "btnInstall": "Instalar"
+        "header": "¡Descarga la app para una mejor experiencia!",
+        "text": "Estás usando la versión web — ¡está genial!\nPero Lingolette funciona mucho mejor como app nativa.",
+        "btnDownload": "Descargar",
+        "btnNotNow": "Ahora no"
       },
       "chatResults": {
-        "header": "¡Bien hecho, {{NAME}}!",
-        "mainText": "Estuviste un poco más cerca de tu objetivo. Puedes volver al chat o reiniciar la sesión y comenzar de nuevo.",
-        "headerProgress": "Tu progreso de palabras",
+        "header": "Resumen del chat",
+        "greeting": "¡Muy bien, {{NAME}}! 🎉",
+        "wordsUsed": "Usaste {{count}} palabras diferentes",
+        "durationLessThanMinute": "Hablaste menos de un minuto en este chat",
+        "durationOneMinute": "Hablaste 1 minuto en este chat",
+        "durationMinutes": "Hablaste {{count}} minutos en este chat",
+        "complexity": "Tu complejidad de oraciones: {{level}}",
+        "btnRestart": "Terminar este chat",
+        "headerProgress": "Tu progreso con las palabras",
         "word": "Palabra",
         "before": "Antes",
         "after": "Después",
-        "leave": "Simplemente salir"
+        "leave": "Solo salir"
       },
       "pa": {
-        "scoreGreen": "¡Buen trabajo!",
-        "scoreYellow": "Bueno",
+        "header": "Dilo bien",
+        "scoreGreen": "¡Excelente!",
+        "scoreYellow": "Bien",
         "scoreRed": "¡Sigue practicando!",
         "btnHearExample": "Escuchar ejemplo",
-        "btnStop": "Detener",
+        "btnStop": "Parar",
         "btnPractice": "Practicar",
         "thWord": "Palabra",
         "thSound": "Sonido",
-        "thFeedback": "Comentarios",
-        "fbGood": "Bien",
-        "fbABitOff": "Un poco incorrecto",
-        "offTowards": "Incorrecto hacia [{{sound}}]",
+        "thFeedback": "Feedback",
+        "fbGood": "Perfecto",
+        "fbABitOff": "Casi perfecto",
+        "offTowards": "Se acerca a [{{sound}}]",
         "soundsLike": "Suena como [{{sound}}]",
         "inProgress": "Analizando..."
       },
       "addWords": {
-        "header": "Agrega las palabras que quieras aprender",
-        "word": "Una palabra",
-        "sentence": "Una frase de ejemplo con ella",
-        "toastAdded": "Palabra '{{word}}' agregada",
-        "toastAddFailed": "Error al agregar palabra '{{word}}': ",
-        "inputLng": "Idioma de tu entrada"
+        "header": "Agrega las palabras que quieres aprender",
+        "word": "Escribe una palabra",
+        "sentence": "Una frase de ejemplo con esa palabra",
+        "toastAdded": "Agregaste la palabra '{{word}}'",
+        "toastAddFailed": "No pudimos agregar '{{word}}': ",
+        "inputLng": "Idioma de lo que escribes"
       },
       "mediaError": {
-        "errNotAllowed": "No se pueden obtener permisos de su navegador. Por favor, asegúrese de que no estén bloqueados.",
-        "errAbort": "Se bloqueó el acceso a la cámara. Por favor, asegúrese de que no la esté utilizando en otro navegador o programa.",
-        "errFallback": "Usted proporcionó acceso a sus dispositivos de hardware, pero un problema local en su sistema impidió que su dispositivo se utilizara. Por favor, pruebe otro navegador o otro dispositivo.",
-        "retryError": "No, no funcionó. Verifique la configuración de su hardware."
+        "errNotAllowed": "No pudimos obtener permisos de tu navegador. Asegúrate de que no estén bloqueados.",
+        "errAbort": "Se bloqueó el acceso a la cámara. Verifica que no la estés usando en otra pestaña o programa.",
+        "errFallback": "Diste acceso a tus dispositivos, pero hubo un problema local que impidió usarlos. Prueba con otro navegador o dispositivo.",
+        "retryError": "No funcionó. Revisa la configuración de tu hardware."
       },
       "paywall": {
         "walls": {
-          "chatPA": "El análisis de pronunciación en el chat de voz está disponible solo para usuarios Premium.",
-          "chatLength": "Letty está cansada y necesita un descanso. ¡Compra Lingolette Premium para darle energía infinita!",
-          "lockedArticle": "Este artículo está disponible solo para usuarios Premium.",
-          "longTime": "Llevas un tiempo usando Lingolette. ¡Esperamos que lo estés disfrutando!",
-          "chatHistory": "El historial de chat está disponible solo para usuarios Premium.",
-          "languages": "El estudio multilingüe está disponible solo para usuarios Premium.",
-          "paidSituation": "Esta situación está disponible solo para usuarios Premium.",
-          "chatAnalysis": "El reinicio del chat y el análisis de progreso están disponibles solo para usuarios Premium."
+          "chatPA": [
+            "Análisis de pronunciación",
+            "Los usuarios Premium pueden analizar su pronunciación en conversaciones de voz,\n además de tener acceso a:"
+          ],
+          "chatLength": [
+            "Conversaciones ilimitadas",
+            "Letty está cansada y necesita descansar. ¡Pásate a Premium para darle energía infinita!"
+          ],
+          "lockedArticle": [
+            "Artículos y ejercicios",
+            "Los usuarios Premium tienen todos los ejercicios,\n además de acceso a:"
+          ],
+          "chatHistory": [
+            "Historial de conversaciones",
+            "Los usuarios Premium pueden ver su historial completo,\n además de tener acceso a:"
+          ],
+          "languages": [
+            "Cambio de idioma",
+            "Los usuarios Premium pueden cambiar entre idiomas,\n además de tener acceso a:"
+          ],
+          "paidSituation": [
+            "Situaciones",
+            "Los usuarios Premium tienen acceso a todas las situaciones,\n además de:"
+          ],
+          "chatAnalysis": [
+            "Análisis de conversaciones",
+            "Los usuarios Premium pueden reiniciar y ver el progreso de sus conversaciones,\n además de tener acceso a:"
+          ]
         },
-        "suffix": "¿Te gustaría mejorar tu cuenta?",
-        "btnYes": "Sí, por favor",
-        "btnNo": "Tal vez más tarde"
+        "suffix": "¿Te gustaría actualizar tu cuenta?",
+        "btnYes": "¡Sí, claro!",
+        "btnNo": "Quizás después"
       },
       "salePopup": {
         "btnSave": "Ahorrar 30%",
-        "btnNope": "Recuérdame más tarde",
+        "btnNope": "Recuérdame después",
         "disclaimer": "descuento válido hasta el 7 de agosto a las 11:59 GMT y solo para suscripción anual",
-        "header": "¡Nuestra Venta de Verano comienza ahora! 🏖️",
-        "mainText": "¡Enfrenta el calor, pero no podrás vencer el precio!<br/><br/>Por tiempo limitado, ahorra 30% en <b>Lingolette Premium Anual</b>.",
+        "header": "¡Nuestra Oferta de Verano ya empezó! 🏖️",
+        "mainText": "¡Aguanta el calor, pero no te pierdas este precio!<br/><br/>Por tiempo limitado, ahorra 30% en <b>Lingolette Premium Anual</b>.",
         "codeLine": "Usa el código <b>SUMMER30</b> al pagar<sup>*</sup>"
       },
       "share": {
-        "header": "Compartir perfil público",
-        "subheader": "¡Diles a tus amigos sobre tu progreso en el aprendizaje de idiomas!",
-        "btnCopy": "Copiar enlace",
+        "header": "Comparte tu perfil público",
+        "subheader": "¡Cuéntales a tus amigos sobre tu progreso aprendiendo idiomas!",
+        "btnCopy": "Copiar link",
         "prompt": "Mi progreso en Lingolette"
       },
       "pledge": {
-        "offerHeader": "El Compromiso de Práctica Diaria",
+        "offerHeader": "El Reto de Práctica Diaria",
         "offer": "Yo, {{NAME}}, me comprometo a dedicar al menos 10 minutos cada día a practicar {{LANG}}.",
-        "acceptedHeader": "🎉 ¡Estás dentro!",
-        "accepted": "¡Te has unido al Compromiso de Práctica Diaria!<br/><br/>Cada día, dedica solo 10 minutos a practicar {{LANG}} y observa cómo mejora tu fluidez.",
-        "btnJoin": "Únete al compromiso ahora",
-        "btnOK": "Empieza a practicar ahora"
+        "acceptedHeader": "🎉 ¡Ya estás dentro!",
+        "accepted": "¡Te uniste al Reto de Práctica Diaria!<br/><br/>Cada día, dedica solo 10 minutos a practicar {{LANG}} y verás cómo mejora tu fluidez.",
+        "btnJoin": "Unirme al reto ahora",
+        "btnOK": "Empezar a practicar ya"
       },
       "reportContent": {
-        "header": "Informar contenido de IA inapropiado",
-        "btnReport": "Informar",
-        "reported": "Contenido informado"
+        "header": "Reportar contenido de IA inapropiado",
+        "btnReport": "Reportar",
+        "reported": "Contenido reportado"
       },
       "promptCash": {
-        "paymentLink": "Enlace de pago",
-        "copyLink": "Copiar enlace",
-        "amount": "Monto",
-        "trialInfo": "Debido a las limitaciones de las criptomonedas, no podemos ofrecer pruebas gratuitas ni suscripciones automáticas. Tendrá que pagar nuevamente manualmente en un año.",
-        "lagInfo": "Tenga en cuenta que el pago puede tardar unos minutos en procesarse."
+        "paymentLink": "Link de pago",
+        "copyLink": "Copiar link",
+        "amount": "Cantidad",
+        "trialInfo": "Por limitaciones de las criptomonedas, no podemos ofrecer pruebas gratis ni suscripciones automáticas. Tendrás que pagar manualmente de nuevo en un año.",
+        "lagInfo": "Ten en cuenta que el pago puede tardar unos minutos en procesarse."
       },
       "preReview": {
-        "header": "¿Disfrutando de Lingolette?",
-        "text": "¡Tu reseña en la tienda de aplicaciones ayuda a correr la voz y hacer crecer la comunidad de Lingolette!",
-        "btnCta": "Califícanos"
+        "header": "¿Te está gustando Lingolette?",
+        "text": "¡Queremos que tengas la mejor experiencia! Califícanos y cuéntanos qué opinas para seguir mejorando.",
+        "btnCta": "Calificar",
+        "btnNotNow": "Ahora no"
+      },
+      "chatSettings": {
+        "header": "Configuración del chat",
+        "sectionSound": "SONIDO",
+        "sectionTranslit": "TRANSLITERACIÓN",
+        "sectionTutor": "TUTOR",
+        "labelVoiceOn": "Voz del tutor activada",
+        "labelVoiceOff": "Voz del tutor desactivada",
+        "labelTranslitInOn": "Para entrada está activada",
+        "labelTranslitInOff": "Para entrada está desactivada",
+        "labelTranslitOutOn": "Para salida está activada",
+        "labelTranslitOutOff": "Para salida está desactivada"
+      },
+      "cancelSubscription": {
+        "step1": {
+          "header": "¡Letty siente verte partir!",
+          "description": "Siempre buscamos mejorar. Por favor dinos por qué cancelas para que podamos mejorar. ¡Prometemos leer todos los comentarios!",
+          "reasons": {
+            "tooExpensive": "Muy caro",
+            "featuresNotMeeting": "Las funciones no satisfacen mis necesidades",
+            "technicalIssues": "Problemas técnicos/errores",
+            "languageSkillsNotImproving": "Las habilidades de idioma no mejoran",
+            "interfaceNotIntuitive": "La interfaz no es intuitiva",
+            "other": "Otro:"
+          },
+          "feedbackPlaceholder": "Comparte tus comentarios aquí",
+          "staySubscribed": "Mantener suscripción",
+          "continueToCancel": "Continuar cancelación"
+        },
+        "step2": {
+          "header": "Cancelar significa que perderás tus beneficios premium:",
+          "disclaimer": "Al cancelar, el acceso premium desaparecerá. El pago del resto período restante no será reembolsado.",
+          "keepBenefitsAndStaySubscribed": "Mantener beneficios y seguir suscrito",
+          "cancelSubscription": "Cancelar suscripción"
+        }
       }
     },
     "games": {
       "repeat": {
         "header": "“Repite después de mí”",
-        "intro": "Verás tarjetas con palabras. Cada palabra será pronunciada en voz alta. Después de eso, tendrás 3 segundos para repetirla. Haz clic en una tarjeta para pasar a una nueva.",
+        "intro": "Verás tarjetas con palabras. Cada palabra se pronunciará en voz alta. Después tendrás 3 segundos para repetirla. Toca una tarjeta para pasar a la siguiente.",
         "act": "¡Repite!",
         "btnLoading": "Creando..."
       },
       "flashCards": {
-        "btnShow": "Mostrar de nuevo"
+        "btnShow": "Mostrar otra vez"
       }
     },
     "components": {
       "testSpeaker": {
         "button": "Probar",
         "didYouHear": "¿Escuchaste el sonido?",
-        "cannotPlay": "No se pudo reproducir el sonido. Por favor, revise la configuración de audio."
+        "cannotPlay": "No se pudo reproducir el sonido. Revisa la configuración de audio."
       },
       "testMic": {
-        "button": "Prueba",
-        "hint": "Diga algo y haga clic en OK",
+        "button": "Probar",
+        "hint": "Di algo y toca OK",
         "didYouSay": "Esto es lo que escuchamos: “{{RESULT}}”"
       },
       "noArticles": {
@@ -770,9 +901,12 @@
         "btnPronounce": "Pronunciar",
         "btnAdd": "Al diccionario",
         "btnPA": "Pronunciación",
-        "btnExtra": "Conjugaciones",
-        "extraLoading": "Cargando...",
-        "extraError": "Error al obtener información gramatical"
+        "btnExtra": "Conjugación",
+        "btnMorphemes": "Morfemas",
+        "opLoading": "Cargando...",
+        "opError": "Error al obtener información gramatical",
+        "btnUsageExamples": "Ejemplos de uso",
+        "morphemesHeader": "Análisis de morfemas"
       },
       "publicFeed": {
         "readMore": "Leer artículo →",
@@ -787,21 +921,27 @@
         "readingSubhead": "Lee este texto y escúchalo al mismo tiempo. Si no conoces una palabra, haz clic en ella para ver la explicación.",
         "questionsHead": "Preguntas",
         "questionsSubhead": "Contesta las preguntas sobre el texto. Habla o escribe, tú eliges. La IA evaluará tus respuestas.",
-        "discussHead": "Discute",
-        "discussSubhead": "Llévalo más lejos.",
+        "imDeHead": "Describe la imagen del artículo",
+        "imDeSubhead": "Observa la imagen del artículo y describe lo que ves en ella. Puedes responder hablando o escribiendo.",
+        "btnStartImDe": "Di lo que ves",
+        "discussHead": "Discusión",
         "btnDiscuss": "Chatear con el tutor",
         "discussP": "Habla sobre este artículo con tu tutor de IA para practicar. Tu tutor te ayudará con vocabulario y gramática.",
         "logInForDiscussion": "Inicia sesión para comenzar la conversación con IA.",
         "btnPA": "Ver la pronunciación",
         "printedInfo": "Lee un nuevo artículo cada día y<br/>discútelo con IA en lingolette.com",
-        "answerToSeeAnswer": "Da tu respuesta primero para revelar la correcta"
+        "answerToSeeAnswer": "Da tu respuesta primero para revelar la correcta",
+        "imDeHeader": "Describir imagen",
+        "imDeResultGood": "¡Buen trabajo!",
+        "imDeResultBad": "¡Sigue practicando!"
       },
       "desktopMenu": {
-        "feed": "Leer",
+        "dashboard": "Inicio",
+        "feed": "Artículos",
         "talk": "Hablar",
         "vocabulary": "Palabras",
         "account": "Perfil",
-        "tools": "Herramientas",
+        "tools": "Juegos y herramientas",
         "more": "Más",
         "feedback": "Comentarios",
         "collapse": "Colapsar menú",
@@ -857,7 +997,7 @@
             "La práctica del idioma en el mundo real es a menudo difícil de encontrar a menos que estés en un país donde se hable el idioma."
           ],
           [
-            "Te pones ansioso al hablar un idioma extranjero con otras personas.",
+            "Te pones ansioso al hablar en otro idioma con otras personas.",
             "¡Sin juzgar! ¿Quién no?"
           ],
           [
@@ -867,7 +1007,7 @@
         ]
       },
       "premiumOffer": {
-        "hereWeGo": "allá vamos!",
+        "hereWeGo": "¡aquí vamos!",
         "subHeader": "Los usuarios premium aprenden 5 veces más rápido con:",
         "shChecks": [
           "Modelo de IA avanzado",
@@ -905,14 +1045,20 @@
         "tutor": {
           "name": "Tutor {{NAME}}",
           "studentsCount": "{{X}} estudiantes en Lingolette",
-          "header": "¡Desbloquea chats ilimitados conmigo en Premium!",
-          "subHeader": "También obtendrás respuestas más inteligentes, artículos gratuitos y herramientas de idiomas extra.",
+          "header": "¡Desbloquea conversaciones ilimitadas conmigo con Premium!",
+          "subHeader": "También tendrás respuestas más inteligentes, artículos gratis y herramientas extra para idiomas.",
           "subHeaderEN": "También recibirás correcciones de pronunciación, artículos gratuitos y herramientas de idiomas extra."
         },
         "legalShit": "<a target='blank' href='/docs/terms-and-conditions'>Términos y condiciones</a> y <a target='blank' href='/docs/privacy-policy'>Política de privacidad</a>.",
         "noCommitment": "Sin compromiso. Cancela cuando quieras.",
         "nativePaymentStart": "Iniciando el pago...",
-        "nativePaymentFailed": "El pago nativo falló con el código {{CODE}}."
+        "nativePaymentFailed": "El pago nativo falló con el código {{CODE}}.",
+        "payWithGems": "Pagar con gemas",
+        "temporaryUnlock": "Desbloquear por 1 uso",
+        "notEnoughGems": "No hay suficientes gemas",
+        "payXGems": "Pagar {{X}}",
+        "btnEarnGems": "Gana más gemas",
+        "gemsAvailable": "{{X}} gema(s) disponible(s)"
       },
       "nextMission": {
         "hChat": "Lección de idioma",
@@ -944,6 +1090,17 @@
         "downloading": "Descargando nueva versión...",
         "restarting": "Reiniciando la aplicación...",
         "newNative": "Nueva versión disponible en {{VENDOR}}"
+      },
+      "gemCave": {
+        "youHave": "Tienes:",
+        "explanation": "Haz clic en el botón, mira un anuncio en video, ¡gana una gema! Así de simple.",
+        "cta": "¡Consigue una gema!",
+        "notSupported": "Ganar gemas solo está disponible en nuestras aplicaciones para iOS y Android.",
+        "btnReturn": "Ir a inicio"
+      },
+      "joinCommunity": {
+        "header": "Comunidad Lingolette",
+        "body": "¡Únete a nuestro Discord para practicar idiomas, solicitar funciones y recibir actualizaciones exclusivas!"
       }
     }
   }

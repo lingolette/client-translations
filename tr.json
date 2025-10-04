@@ -25,7 +25,9 @@
       "retry": "Yeniden",
       "start": "Başlat",
       "copy": "Kopyala",
-      "continue": "Devam Et"
+      "continue": "Devam Et",
+      "submit": "Submit",
+      "join": "Katıl"
     },
     "pos": [
       "diğer",
@@ -54,7 +56,8 @@
         "search": "Search..."
       },
       "toasts": {
-        "muted": "Cihazınız sessizde"
+        "muted": "Cihazınız sessizde",
+        "mutedIOS": "Cihazınız sessize alınmış. iPhone'unuzun sol tarafındaki mekanik düğmeyi kontrol edin."
       },
       "options": {
         "ttsRate": [
@@ -111,7 +114,8 @@
         ],
         "formalityOption": [
           "Gündelik dil",
-          "Resmi dil"
+          "Resmi dil",
+          "Saygı belirten"
         ],
         "nativeAssistanceOption": [
           "Devre Dışı",
@@ -155,7 +159,7 @@
         "th": "Tayca",
         "tr": "Türkçe",
         "uk": "Ukraynaca",
-        "zh": "Çince (Mandarin)"
+        "zh": "Mandarin"
       }
     },
     "header": {
@@ -276,10 +280,17 @@
         "chat": {
           "header": "{{LNG}} pratiği yap",
           "tutorHeader": "{{NAME}} ile sohbet et",
-          "tutorDescr": "Eğitmeninle herhangi bir konuda konuşarak pratik yap"
+          "tutorDescr": "Eğitmeninle belirli bir konuda konuşarak pratik yap"
         },
         "read": {
           "header": "Bugünün makalesini oku"
+        },
+        "call": {
+          "header": "Canlı konuşma pratiği",
+          "subHeader": "Letty ile sadece sesli konuşma yap. Özgüven ve akıcılık kazanmak için mükemmel!",
+          "buttonTitle": "Konuşmaya başla!",
+          "buttonSubtitle": "İlk yapay zeka sesli aramanı dene",
+          "limitReached": "Aramalar seviyenizde {{maxMinutes}} dakika ile sınırlıdır."
         }
       }
     },
@@ -327,7 +338,18 @@
       "receiveOffers": "iş ortaklarımızdan özel teklifler al",
       "plhEmail": "kimlik",
       "plhPassword": "şifre",
-      "btnExtraAuth": "Kurumsal giriş"
+      "btnEmail": "E-posta ile devam et",
+      "otherProviders": "Diğer giriş yöntemleri",
+      "btnExtraAuth": "Kurumsal giriş",
+      "badEmailProvider": "Lütfen tek kullanımlık olmayan bir e-posta adresi kullanın.",
+      "alreadyRegistered": "Zaten başka bir sağlayıcıyla (Google, Linkedin, Microsoft veya Apple) kayıtlısınız.",
+      "codeExpired": "Kodun süresi doldu. Lütfen tekrar deneyin.",
+      "codeNotFound": "Kod bulunamadı. Bu genellikle insanlar aynı anda iki kod talep ettiklerinde ve ardından ilk istekten gelen kodu kullanmaya çalıştıklarında olur. Lütfen tekrar deneyin.",
+      "btnSendCode": "Bana bir kod gönder",
+      "confirmCode": "Onayla",
+      "checkMailbox": "Bir kod için posta kutunuzu kontrol edin ve aşağıya girin veya yapıştırın",
+      "tryEmailLogin": "Giriş başarısız: {{MSG}}. Bunun yerine e-posta ile giriş yapmayı deneyin.",
+      "userDeleted": "Bu kullanıcıyı sildiniz. Tüm verilerinizi yasalara uygun şekilde silmemiz için lütfen 7 gün bekleyin ya da hesabınızı geri yüklemek istiyorsanız bizimle iletişime geçin."
     },
     "paymentDone": {
       "hdrComplete": "Ödeme tamamlandı",
@@ -400,7 +422,7 @@
         "bblPrefs": "Bu arada, ayarlardan tercihlerini daha sonra değiştirebilirsin. 🙂",
         "bblIfYou": "{{NAME}}, verilerimize göre, eğer <strong>günde sadece {{TPD}} dakika</strong> Lingolette'te pratik yaparsan...",
         "bblThenYou": "... sadece 30 günün sonunda kelime dağarcığın <strong>{{GROWTH}} kelime</strong> büyüyecek!",
-        "bblReadyToMeet": "Peki, eğitmeninle tanışmaya hazır mısın?",
+        "bblReadyToMeet": "Peki, başlamaya hazır mısın?",
         "btnLetsGo": "Hadi gidelim!"
       },
       "findingTeacher": {
@@ -435,13 +457,14 @@
     "account": {
       "confirmLogout": "Çıkış yapmak istediğinizden emin misiniz?",
       "confirmDelete": "Hesabınızı SİLMEK istediğinizden emin misiniz? Geri dönüşü yok! Bir aboneliğiniz varsa, geri ödeme olmadan kaybolacaktır.",
-      "deleteConfirmation": "Gitmenize üzüldük.",
+      "deleteConfirmation": "Gitmenize üzüldük. Verileriniz önümüzdeki 7 gün içinde silinecektir.",
       "toastSaved": "Ayarlar kaydedildi",
       "phName": "Size nasıl hitap edelim",
       "lblName": "Adınız",
       "lblNativeLng": "Ana diliniz",
       "lblTargetLng": "Öğrendiğiniz dil",
       "lblLevel": "Öğrendiğiniz dilde hangi seviyedesiniz",
+      "lblCharSet": "Yazı",
       "btnLogout": "Çıkış yap",
       "btnDeleteAccount": "Hesabı sil",
       "btnExport": "Verileri dışa aktar",
@@ -451,20 +474,23 @@
       "feedbackMode": "Öğretmeninizin geri bildirim verme yöntemi",
       "formalityLevel": "Resmiyet seviyesi",
       "nativeAssistanceLevel": "Ana dil desteği",
+      "topics": "Konular",
+      "topicsDetails": "Bunlar beslemenizdeki makaleleri tanımlar. 5'e kadar seçin.",
       "learningGoal": "Neden öğreniyorsun?",
       "gender": "Dilbilgisi cinsiyetiniz",
       "whenApplied": "Ayarlar yalnızca yeni bir sohbet başlattığınızda uygulanacak",
       "yourTeacher": "Öğretmeniniz",
       "notAvailable": "(sadece okullar için)",
-      "hideCard": "<a target='_blank' href='{{URL}}'>Genel profilimi</a> gizle",
-      "showGroups": "Menüde <a target='_blank' href='/groups'>grupları</a> göster",
-      "showGoals": "Günlük hedeflerim",
+      "hideCard": "Profil görünürlüğü",
+      "hideCardDetails": "Diğerleri <a target='_blank' href='{{URL}}'>genel profilinizi</a> görebilir",
+      "showGroups": "Gruplar menü öğesi",
+      "showGroupsDetails": "Ana menüde <a target='_blank' href='/groups'>grupları</a> göster",
       "hideCompletedExercises": "Tamamlanan alıştırmaları gizle",
+      "hideCompletedExercisesDetails": "Tamamlanmış alıştırmaları olan makaleler beslenmede gizlenecek",
       "useDarkTheme": "Mobilde koyu tema",
       "dangerZone": "Tehlike bölgesini göster",
       "startSubscription": "Ücretli sürüme geç",
       "cancelSubscription": "Aboneliği iptal et",
-      "subCancellationWarning": "Aboneliğinizi iptal etmek istediğinizden emin misiniz? Premium erişim sona erecek. Ayın geri kalanı için ödeme iade edilmeyecek.",
       "lblGrammarFeatures": "Sohbetin dilbilgisi ayarları",
       "allFeatures": "Hepsi",
       "grammarFeatures": [
@@ -476,7 +502,24 @@
         "Ayarlar",
         "Profilim",
         "Makale konuları"
-      ]
+      ],
+      "pageTitle": "Ayarlar",
+      "btnSaveSettings": "Ayarları kaydet",
+      "headingProfile": "Profil",
+      "lblEmail": "E-posta adresi",
+      "hintGoogleAuth": "Google oturum açma yöntemiyle bağlı",
+      "hintAppleAuth": "Apple oturum açma yöntemiyle bağlı",
+      "headingLanguageSettings": "Dil ayarları",
+      "headingTutorChat": "Öğretmen sohbeti",
+      "headingArticlePreferences": "Makale tercihleri",
+      "headingOtherPreferences": "Diğer tercihler",
+      "noTopicsAvailable": "Mevcut konu yok",
+      "lblSchoolDashboard": "Okul panosu",
+      "noSchoolOrgs": "Mevcut okul organizasyonu yok.",
+      "lblServer": "Sunucu:",
+      "lblTier": "Seviye:",
+      "tierFree": "Ücretsiz",
+      "tierPremium": "Premium"
     },
     "vocabulary": {
       "confirmRemove": "Bu kelimeyi kaldırmak istediğinizden emin misiniz?",
@@ -549,6 +592,15 @@
       "noteBasicModel": "Bu, temel bir AI modelidir. Daha fazla özellik için Premium'a yükseltin!",
       "yourMission": "Your mission"
     },
+    "call": {
+      "contextHack": "Konuşma pratiği seansına hazır mısın? Letty seninle sohbet etmeyi sabırsızlıkla bekliyor! Hazır olduğunda doğal bir şekilde konuş.",
+      "transcriptHint": "✨ Daha fazla bilgi edinmek için herhangi bir kelimeye dokunun",
+      "tutorBadge": "✨ Yapay Zeka Dil Öğretmeni",
+      "tutorName": "Letty",
+      "statusReady": "{{language}} pratiği yapmak için hazırım!",
+      "statusListening": "Dinliyorum... hazır olduğunda konuş!",
+      "statusWelcome": "Harika bir konuşmaya hazırlan!"
+    },
     "groups": {
       "joinHint": "«{{GROUP_NAME}}» grubuna katılmak istiyor musunuz?",
       "joinRequestSent": "İstek gönderildi! Grup yöneticisi yakında onaylayacak.",
@@ -601,6 +653,10 @@
       "flashcards": [
         "flashcards",
         "kelimelerinizi tekrar edin, akılda kalana kadar çalışmaya devam edin"
+      ],
+      "hanzi": [
+        "hanzi",
+        "Çince karakterleri çalış"
       ]
     },
     "userCard": {
@@ -611,7 +667,7 @@
       "wordStatsHeader": "Sözcük dağarcığım",
       "wordStatsHint": "Bildiğim kelimeler",
       "streakInfo": "Serüveniniz, Lingolette ile öğrenmeye başladığınız ardışık günlerin sayısıdır. Devam edin!",
-      "gemsInfo": "Mücevherler, premium özellikler ve içerik satın almak için kullanabileceğiniz sanal bir para birimidir. Mücevherler kazanarak öğrenir ve görevleri tamamlarsınız.",
+      "gemsInfo": "Mücevherler, premium özellikler ve içerik satın almak için kullanabileceğiniz sanal bir para birimidir. Görevleri tamamlayarak mücevher kazanırsınız.",
       "energyInfo": "Enerji, yapay zeka öğretmeniyle konuşmak, makale okumak ve diğer etkinlikler için kullanılır.",
       "privateHeader": "Profil gizli"
     },
@@ -622,27 +678,45 @@
     "scratchpad": {
       "placeholder": "Yukarıda analiz etmek için buraya metninizi yapıştırın veya yazın...",
       "btnImportVideo": "Videodan içe aktar",
-      "processingVideo": "Video işleniyor..."
+      "btnImportPicture": "Resim içe aktar",
+      "processingVideo": "Video işleniyor...",
+      "processingImage": "Resim işleniyor..."
     },
     "dialogs": {
       "feedback": {
-        "header": "Görüşlerinizi aşağıda paylaşın",
-        "joinCommunity": "Discord topluluğumuza katılın",
-        "placeholder": "Uygulamayı nasıl geliştirebilir veya neleri düzeltebiliriz?",
-        "thankYou": "Teşekkürler! Mesajınız ürünümüzü daha iyi hale getirmemize yardımcı olacak.",
-        "trustPilot": "Bizi Trustpilot'ta değerlendirin"
+        "headerStart": "Geri bildiriminizi paylaşın",
+        "bodyStart": "Her zaman kendimizi geliştirmeye çalışıyoruz. Lütfen geri bildirim, hata raporu veya özellik isteklerinizi buradan paylaşın. Tüm mesajları okuyoruz!",
+        "headerEnd": "Teşekkürler! 💜",
+        "bodyEnd": "Geri bildiriminiz gönderildi. Minnettarız!",
+        "placeholder": "Buraya yazın"
+      },
+      "pickImage": {
+        "header": "Resim içe aktar",
+        "fromFile": "Dosyalardan seç",
+        "fromCamera": "Fotoğraf çek",
+        "fromClipboard": "Panodan yapıştır",
+        "cancel": "İptal"
       },
       "audioPermissions": {
         "inRequired": "Sesli sohbet mikrofon izni gerektirir. Lütfen izin verin.",
+        "inRequiredIOS": "Lütfen mikrofon izni verin. 'Ayarlar -> Uygulamalar -> Lingolette' bölümüne gidin",
         "outRequired": "Sesli sohbet için mikrofon izni gerekiyor. İzin vermek için Tamam’a basın."
       },
       "offerPWA": {
-        "text": "Hızlı erişim için Lingolette web uygulamasını ana ekranınıza eklemek ister misiniz?",
-        "btnInstall": "Yükle"
+        "header": "En iyi deneyim için uygulamayı edinin!",
+        "text": "Web sürümündesiniz — harika!\nAma Lingolette, yerel bir uygulama olarak çok daha iyi çalışıyor.",
+        "btnDownload": "İndir",
+        "btnNotNow": "Şimdi değil"
       },
       "chatResults": {
-        "header": "Harika iş çıkardınız, {{NAME}}!",
-        "mainText": "Hedefinize biraz daha yaklaştınız. Sohbete geri dönebilir veya oturumu yeniden başlatabilir ve yeniden başlayabilirsiniz.",
+        "header": "Sohbet özeti",
+        "greeting": "Harika iş çıkardınız, {{NAME}}! 🎉",
+        "wordsUsed": "{{count}} farklı kelime kullandınız",
+        "durationLessThanMinute": "Bu sohbette bir dakikadan az konuştunuz",
+        "durationOneMinute": "Bu sohbette 1 dakika konuştunuz",
+        "durationMinutes": "Bu sohbette {{count}} dakika konuştunuz",
+        "complexity": "Cümle karmaşıklığınız: {{level}}",
+        "btnRestart": "Bu sohbeti sonlandır",
         "headerProgress": "Sözcük ilerlemeniz",
         "word": "Kelime",
         "before": "Önce",
@@ -650,6 +724,7 @@
         "leave": "Sadece çıkmak"
       },
       "pa": {
+        "header": "Telaffuz odaklı",
         "scoreGreen": "Harika iş!",
         "scoreYellow": "İyi",
         "scoreRed": "Pratik yapmaya devam!",
@@ -681,14 +756,34 @@
       },
       "paywall": {
         "walls": {
-          "chatPA": "Sesli sohbet analizi yalnızca Premium kullanıcılar için mevcuttur.",
-          "chatLength": "Letty yorgun ve mola istiyor. Ona sonsuz enerji vermek için Lingolette Premium'a yükseltin!",
-          "lockedArticle": "Bu makale yalnızca Premium kullanıcılar için mevcuttur.",
-          "longTime": "Bir süredir Lingolette kullanıyorsunuz. Umarız beğeniyorsunuzdur!",
-          "chatHistory": "Sohbet geçmişi yalnızca Premium kullanıcılar için kullanılabilir.",
-          "languages": "Çok dilli çalışma yalnızca Premium kullanıcılar için mevcuttur.",
-          "paidSituation": "Bu durum yalnızca Premium kullanıcılar için mevcuttur.",
-          "chatAnalysis": "Sohbet sıfırlama ve ilerleme analizi yalnızca Premium kullanıcılar için mevcuttur."
+          "chatPA": [
+            "Telaffuz analizi",
+            "Premium kullanıcılar sesli sohbette telaffuzlarını analiz edebilir,\n ayrıca şunlara erişim sağlar:"
+          ],
+          "chatLength": [
+            "Sınırsız sohbet süresi",
+            "Letty yoruldu ve bir mola vermesi gerekiyor. Ona sonsuz enerji vermek için Lingolette Premium’a geç!"
+          ],
+          "lockedArticle": [
+            "Makaleler ve alıştırmalar",
+            "Premium kullanıcılar tüm alıştırmalara sahip olur,\n ayrıca şunlara erişim sağlar:"
+          ],
+          "chatHistory": [
+            "Sohbet geçmişi",
+            "Premium kullanıcılar sohbet geçmişlerine erişebilir,\n ayrıca şunlara erişim sağlar:"
+          ],
+          "languages": [
+            "Dil değiştirme",
+            "Premium kullanıcılar diller arasında geçiş yapabilir,\n ayrıca şunlara erişim sağlar:"
+          ],
+          "paidSituation": [
+            "Durumlar",
+            "Premium kullanıcılar tüm durumlara erişebilir,\n ayrıca şunlara erişim sağlar:"
+          ],
+          "chatAnalysis": [
+            "Sohbet analizi",
+            "Premium kullanıcılar sohbeti yeniden başlatabilir ve ilerlemeyi görebilir,\n ayrıca şunlara erişim sağlar:"
+          ]
         },
         "suffix": "Hesabınızı yükseltmek ister misiniz?",
         "btnYes": "Evet, lütfen",
@@ -730,8 +825,44 @@
       },
       "preReview": {
         "header": "Lingolette’i Beğendiniz mi?",
-        "text": "Uygulama mağazası yorumunuz, Lingolette topluluğunun büyümesine yardımcı olur!",
-        "btnCta": "Bizi değerlendirin"
+        "text": "En iyi deneyimi yaşamanı istiyoruz! Gelişebilmemiz için bizi değerlendir ve yorum yap.",
+        "btnCta": "Bizi değerlendir",
+        "btnNotNow": "Şimdi değil"
+      },
+      "chatSettings": {
+        "header": "Sohbet ayarları",
+        "sectionSound": "SES",
+        "sectionTranslit": "TRANSLİTERASYON",
+        "sectionTutor": "EĞİTMEN",
+        "labelVoiceOn": "Eğitmen sesi açık",
+        "labelVoiceOff": "Eğitmen sesi kapalı",
+        "labelTranslitInOn": "Giriş için açık",
+        "labelTranslitInOff": "Giriş için kapalı",
+        "labelTranslitOutOn": "Çıkış için açık",
+        "labelTranslitOutOff": "Çıkış için kapalı"
+      },
+      "cancelSubscription": {
+        "step1": {
+          "header": "Letty seni görmekten üzgün!",
+          "description": "Her zaman daha iyi olmaya çalışıyoruz. Lütfen aboneliğinizi neden iptal ettiğinizi söyleyin ki gelişebilelek. Tüm geri bildirimleri okuduğumuza söz veriyoruz!",
+          "reasons": {
+            "tooExpensive": "Çok pahalı",
+            "featuresNotMeeting": "Özellikler ihtiyaçlarımı karşılamıyor",
+            "technicalIssues": "Teknik sorunlar/hatalar",
+            "languageSkillsNotImproving": "Dil becerileri gelişmiyor",
+            "interfaceNotIntuitive": "Arayüz sezgisel değil",
+            "other": "Diğer:"
+          },
+          "feedbackPlaceholder": "Geri bildiriminizi burada paylaşın",
+          "staySubscribed": "Abone kalmaya devam et",
+          "continueToCancel": "İptale devam et"
+        },
+        "step2": {
+          "header": "İptal etmek premium avantajlarınızı kaybetmeniz anlamına gelir:",
+          "disclaimer": "İptal ettiğinizde, premium erişim kaybolacaktır. Ayın geri kalanı için ödeme iade edilmeyecektir.",
+          "keepBenefitsAndStaySubscribed": "Avantajları koruyun ve abone kalın",
+          "cancelSubscription": "Aboneliği iptal et"
+        }
       }
     },
     "games": {
@@ -769,9 +900,12 @@
         "btnPronounce": "Telaffuz et",
         "btnAdd": "Sözlüğe ekle",
         "btnPA": "Telaffuz",
-        "btnExtra": "Çekimler",
-        "extraLoading": "Yükleniyor...",
-        "extraError": "Dilbilgisi bilgisi alınırken hata oluştu"
+        "btnExtra": "Çekim",
+        "btnMorphemes": "Morfemler",
+        "opLoading": "Yükleniyor...",
+        "opError": "Dilbilgisi bilgisi alınırken hata oluştu",
+        "btnUsageExamples": "Kullanım örnekleri",
+        "morphemesHeader": "Morfem analizi"
       },
       "publicFeed": {
         "readMore": "Makaleyi oku →",
@@ -786,21 +920,27 @@
         "readingSubhead": "Metni okurken aynı zamanda dinleyin. Bilmediğiniz bir kelimeye tıklayarak açıklamasını görün.",
         "questionsHead": "Sorular",
         "questionsSubhead": "Metne yöneltilen soruları cevaplayın. Konuşarak veya yazarak cevap verebilirsiniz. Yapay zeka cevaplarınızı değerlendirecektir.",
-        "discussHead": "Tartış",
-        "discussSubhead": "Daha ileri götür.",
+        "imDeHead": "Makale görselini tanımlayın",
+        "imDeSubhead": "Makale görseliine bakın ve üzerinde gördüklerinizi açıklayın. Cevabınızı konuşarak veya yazarak verebilirsiniz.",
+        "btnStartImDe": "Gördüklerinizi söyleyin",
+        "discussHead": "Tartışma",
         "btnDiscuss": "Eğitmenle sohbet et",
         "discussP": "Pratik yapmak için bu makaleyi yapay zekâ eğitmeninle tartış. Eğitmenin sana kelime bilgisi ve gramer konusunda yardımcı olacak.",
         "logInForDiscussion": "Tartışmayı başlatmak için giriş yapın.",
         "btnPA": "Telaffuzu Kontrol Et",
         "printedInfo": "Her gün yeni bir makale okuyun ve<br/>AI ile lingolette.com'da tartışın",
-        "answerToSeeAnswer": "Doğru cevabı görmek için önce kendi cevabını ver"
+        "answerToSeeAnswer": "Doğru cevabı görmek için önce kendi cevabını ver",
+        "imDeHeader": "Görseli tanımla",
+        "imDeResultGood": "Aferin!",
+        "imDeResultBad": "Pratik yapmaya devam et!"
       },
       "desktopMenu": {
-        "feed": "Oku",
+        "dashboard": "Ana Sayfa",
+        "feed": "Makaleler",
         "talk": "Konuş",
         "vocabulary": "Kelimeler",
         "account": "Profil",
-        "tools": "Araçlar",
+        "tools": "Oyunlar ve Araçlar",
         "more": "Daha Fazla",
         "feedback": "Geribildirim",
         "collapse": "Menüyü Daralt",
@@ -911,7 +1051,13 @@
         "legalShit": "<a target='blank' href='/docs/terms-and-conditions'>Şartlar ve Koşullar</a> ve <a target='blank' href='/docs/privacy-policy'>Gizlilik Politikası</a>.",
         "noCommitment": "Taahhüt yok. İstediğin zaman iptal edebilirsin.",
         "nativePaymentStart": "Ödeme başlatılıyor...",
-        "nativePaymentFailed": "Yerel ödeme {{CODE}} kodu ile başarısız oldu."
+        "nativePaymentFailed": "Yerel ödeme {{CODE}} kodu ile başarısız oldu.",
+        "payWithGems": "Gemlerle öde",
+        "temporaryUnlock": "Bir kez kilidi aç",
+        "notEnoughGems": "Yeterli gem yok",
+        "payXGems": "{{X}} öde",
+        "btnEarnGems": "Daha fazla taş kazan",
+        "gemsAvailable": "{{X}} mücevher mevcut"
       },
       "nextMission": {
         "hChat": "Dil dersi",
@@ -943,6 +1089,17 @@
         "downloading": "Yeni sürüm indiriliyor...",
         "restarting": "Uygulama yeniden başlatılıyor...",
         "newNative": "Yeni sürüm {{VENDOR}}'da mevcut"
+      },
+      "gemCave": {
+        "youHave": "Sahip olduğun:",
+        "explanation": "Butona tıkla, bir video reklam izle, bir mücevher kazan! Bu kadar basit.",
+        "cta": "Bir mücevher kazan!",
+        "notSupported": "Mücevher kazanma şu anda yalnızca iOS ve Android uygulamalarımızda desteklenmektedir.",
+        "btnReturn": "Ana sayfaya git"
+      },
+      "joinCommunity": {
+        "header": "Lingolette Topluluğu",
+        "body": "Dil pratiği yapmak, özellik talep etmek ve özel güncellemeler almak için Discord'umuza katılın!"
       }
     }
   }

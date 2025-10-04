@@ -25,7 +25,9 @@
       "retry": "Retry",
       "start": "Start",
       "copy": "Copy",
-      "continue": "Continue"
+      "continue": "Continue",
+      "submit": "Submit",
+      "join": "Join"
     },
     "pos": [
       "other",
@@ -54,7 +56,8 @@
         "search": "Search..."
       },
       "toasts": {
-        "muted": "Your device is muted"
+        "muted": "Your device is muted",
+        "mutedIOS": "Your device is muted. See the mechanical switch on the left side of your iPhone."
       },
       "options": {
         "ttsRate": [
@@ -111,7 +114,8 @@
         ],
         "formalityOption": [
           "Informal",
-          "Formal"
+          "Formal",
+          "Honorific"
         ],
         "nativeAssistanceOption": [
           "Disabled",
@@ -184,9 +188,18 @@
       "goAdvanced": {
         "header": "Go from intermediate to advanced",
         "route": [
-          ["Immersive AI voice chat", "Chat about any topic you’re interested in and choose between tutors of different dialects."],
-          ["Learn words in context", "Click on any word to learn its meaning and pronunciation or add it to your dictionary."],
-          ["Daily articles with questions", "Test your understanding by answering questions about what you’ve read. Your AI tutor can discuss the article with you."]
+          [
+            "Immersive AI voice chat",
+            "Chat about any topic you’re interested in and choose between tutors of different dialects."
+          ],
+          [
+            "Learn words in context",
+            "Click on any word to learn its meaning and pronunciation or add it to your dictionary."
+          ],
+          [
+            "Daily articles with questions",
+            "Test your understanding by answering questions about what you’ve read. Your AI tutor can discuss the article with you."
+          ]
         ]
       },
       "mobile": {
@@ -267,10 +280,17 @@
         "chat": {
           "header": "Practice {{LNG}}",
           "tutorHeader": "Chat to {{NAME}}",
-          "tutorDescr": "Practice talking to your tutor about anything"
+          "tutorDescr": "Practice talking to your tutor on a given topic"
         },
         "read": {
           "header": "Read today’s article"
+        },
+        "call": {
+          "header": "Practice speaking live",
+          "subHeader": "Have a voice only conversation with Letty. Perfect for building confidence and fluency!",
+          "buttonTitle": "Start speaking!",
+          "buttonSubtitle": "Try your first AI voice call",
+          "limitReached": "Calls are limited to {{maxMinutes}} minutes on your tier."
         }
       }
     },
@@ -318,7 +338,18 @@
       "receiveOffers": "receive special offers from our partners",
       "plhEmail": "identity",
       "plhPassword": "password",
-      "btnExtraAuth": "Corporate login"
+      "btnEmail": "Continue with email",
+      "otherProviders": "Other login methods",
+      "btnExtraAuth": "Corporate login",
+      "badEmailProvider": "Please use an email that is not a one-time address.",
+      "alreadyRegistered": "You are already registered with another provider (Google, Linkedin, Microsoft or Apple).",
+      "codeExpired": "The code has expired. Please try again.",
+      "codeNotFound": "Code not found. This often happens when people request two codes at the same time and then try to use the code from the first request. Please try again.",
+      "btnSendCode": "Send me a code",
+      "confirmCode": "Confirm",
+      "checkMailbox": "Check your mailbox for a code and enter or paste it below",
+      "tryEmailLogin": "Login failed: {{MSG}}. Try to log in with an email instead.",
+      "userDeleted": "You have deleted this user. Please wait 7 days until we remove all your data according to the law or contact us if you want to restore your account."
     },
     "paymentDone": {
       "hdrComplete": "Payment complete",
@@ -391,7 +422,7 @@
         "bblPrefs": "By the way, you can change your preferences in the settings later. \uD83D\uDE42",
         "bblIfYou": "{{NAME}}, based on our data, if you practice <strong>just for {{TPD}} minutes a day</strong> on Lingolette...",
         "bblThenYou": "... then your vocabulary will grow by <strong>{{GROWTH}} words</strong> in just 30 days!",
-        "bblReadyToMeet": "So, are you ready to meet your tutor?",
+        "bblReadyToMeet": "So, are you ready to get started?",
         "btnLetsGo": "Let’s go!"
       },
       "findingTeacher": {
@@ -426,36 +457,40 @@
     "account": {
       "confirmLogout": "Are you sure you want to log out?",
       "confirmDelete": "Are you sure you want to DELETE your account? There is no way back! If you have a subscription, it will disappear without a refund.",
-      "deleteConfirmation": "It’s sad to see you go.",
+      "deleteConfirmation": "It’s sad to see you go. Your data will be deleted within next 7 days.",
       "toastSaved": "Settings saved",
       "phName": "How shall we call you",
       "lblName": "Your name",
       "lblNativeLng": "Your native language",
       "lblTargetLng": "Language you learn",
       "lblLevel": "Level you are at",
+      "lblCharSet": "Script",
       "btnLogout": "Log out",
       "btnDeleteAccount": "Delete account",
       "btnExport": "Export data",
       "coins": "Coins",
       "coinsSpent": "Coins spent",
       "ttsRate": "How fast teacher speaks",
-      "feedbackMode": "How teacher gives feedback",
+      "feedbackMode": "Feedback format",
       "formalityLevel": "Formality level",
       "nativeAssistanceLevel": "Native language assistance",
+      "topics": "Topics",
+      "topicsDetails": "These define the articles in your feed. Choose up to 5.",
       "learningGoal": "Why do you learn it?",
       "gender": "Your grammatical gender",
-      "whenApplied": "Settings will only be applied to a new chat",
+      "whenApplied": "Settings will be applied to a new chat",
       "yourTeacher": "Your teacher",
       "notAvailable": "(for schools only)",
-      "hideCard": "Hide my <a target='_blank' href='{{URL}}'>public profile</a>",
-      "showGroups": "Show <a target='_blank' href='/groups'>groups</a> in menu",
-      "showGoals": "Show my daily goals",
+      "hideCard": "Profile visibility",
+      "hideCardDetails": "Others can see your <a target='_blank' href='{{URL}}'>public profile</a>",
+      "showGroups": "Groups menu item",
+      "showGroupsDetails": "Show <a target='_blank' href='/groups'>groups</a> in the main menu",
       "hideCompletedExercises": "Hide completed exercises",
+      "hideCompletedExercisesDetails": "Articles with completed exercises will be hidden in the feed",
       "useDarkTheme": "Dark theme on mobile",
       "dangerZone": "Reveal danger zone",
       "startSubscription": "Switch to paid version",
       "cancelSubscription": "Cancel subscription",
-      "subCancellationWarning": "Are you sure you want to cancel your subscription? Premium access will be gone. Payment for the rest of the month will not be refunded.",
       "lblGrammarFeatures": "Grammar features",
       "allFeatures": "All",
       "grammarFeatures": [
@@ -464,10 +499,28 @@
         "Future tense"
       ],
       "tabs": [
-        "Settings",
-        "My profile",
-        "Article topics"
-      ]
+        "General",
+        "Preferences",
+        "Subscription",
+        "School"
+      ],
+      "pageTitle": "Settings",
+      "btnSaveSettings": "Save settings",
+      "headingProfile": "Profile",
+      "lblEmail": "Email address",
+      "hintGoogleAuth": "Connected to Google sign in method",
+      "hintAppleAuth": "Connected to Apple sign in method",
+      "headingLanguageSettings": "Language settings",
+      "headingTutorChat": "Tutor chat",
+      "headingArticlePreferences": "Article preferences",
+      "headingOtherPreferences": "Other preferences",
+      "noTopicsAvailable": "No topics available",
+      "lblSchoolDashboard": "School dashboard",
+      "noSchoolOrgs": "No school organizations available.",
+      "lblServer": "Server:",
+      "lblTier": "Tier:",
+      "tierFree": "Free",
+      "tierPremium": "Premium"
     },
     "vocabulary": {
       "confirmRemove": "Are you sure you want to remove this word?",
@@ -486,7 +539,7 @@
       "more": {
         "addWords": "Add own words...",
         "flashCards": "Flash-cards",
-        "repeatGame": "Play a game",
+        "repeatGame": "Speaking game",
         "exportWords": "Export intensive words"
       }
     },
@@ -540,6 +593,15 @@
       "noteBasicModel": "This is a basic AI-model. Upgrade to Premium to get more features!",
       "yourMission": "Your mission"
     },
+    "call": {
+      "contextHack": "Ready for a speaking practice session? Letty is excited to chat with you! Just speak naturally when you're ready.",
+      "transcriptHint": "✨ Tap any word to learn more about it",
+      "tutorBadge": "✨ AI Language Tutor",
+      "tutorName": "Letty",
+      "statusReady": "Ready to practice {{language}} with you!",
+      "statusListening": "Listening... speak whenever you're ready!",
+      "statusWelcome": "Get ready for an amazing conversation!"
+    },
     "groups": {
       "joinHint": "Do you want to join group «{{GROUP_NAME}}»?",
       "joinRequestSent": "Request sent! Group admin will approve it soon.",
@@ -577,10 +639,26 @@
     },
     "tools": {
       "title": "Power up your learning!",
-      "scratchpad": ["scratchpad", "work with any text using Lingolette"],
-      "extensions": ["browser extensions", "access Lingolette’s Scratchpad from any site"],
-      "wordsGame": ["words game", "play a game of words pronunciation"],
-      "flashcards": ["flashcards", "repeat your vocabulary words until you learn them"]
+      "scratchpad": [
+        "scratchpad",
+        "work with any text using Lingolette"
+      ],
+      "extensions": [
+        "browser extensions",
+        "access Lingolette’s Scratchpad from any site"
+      ],
+      "wordsGame": [
+        "words game",
+        "play a game of words pronunciation"
+      ],
+      "flashcards": [
+        "flashcards",
+        "repeat your vocabulary words until you learn them"
+      ],
+      "hanzi": [
+        "hanzi",
+        "practice Chinese characters"
+      ]
     },
     "userCard": {
       "streak": "Streak",
@@ -590,7 +668,7 @@
       "wordStatsHeader": "My vocabulary",
       "wordStatsHint": "Words I know",
       "streakInfo": "Your streak is the number of consecutive days you’ve been learning with Lingolette. Keep it up!",
-      "gemsInfo": "Gems are a virtual currency you can use to buy premium features and content. You earn gems by learning and completing tasks.",
+      "gemsInfo": "Gems are a virtual currency you can use to buy premium features and content. You earn gems by completing tasks.",
       "energyInfo": "Energy is used to talk to AI teacher, read articles, and to do other activities.",
       "privateHeader": "Profile is private"
     },
@@ -601,27 +679,45 @@
     "scratchpad": {
       "placeholder": "Paste or write text here to analyze it above...",
       "btnImportVideo": "Import video",
-      "processingVideo": "Processing video..."
+      "btnImportPicture": "Import picture",
+      "processingVideo": "Processing video...",
+      "processingImage": "Processing image..."
     },
     "dialogs": {
       "feedback": {
-        "header": "Share your feedback below",
-        "joinCommunity": "Join our Discord community",
-        "placeholder": "What would you like to improve or fix?",
-        "thankYou": "Thank you! Your message will help us make the product better.",
-        "trustPilot": "Rate us on Trustpilot"
+        "headerStart": "Share your feedback",
+        "bodyStart": "We’re always looking to improve. Please share feedback, bug reports or feature requests here. We read all the messages!",
+        "headerEnd": "Thank you! 💜",
+        "bodyEnd": "Your feedback has been submitted. We appreciate it!",
+        "placeholder": "Type here"
+      },
+      "pickImage": {
+        "header": "Import picture",
+        "fromFile": "Choose from files",
+        "fromCamera": "Take photo",
+        "fromClipboard": "Paste from clipboard",
+        "cancel": "Cancel"
       },
       "audioPermissions": {
         "inRequired": "Voice chat requires microphone permission. Please grant it.",
+        "inRequiredIOS": "Please grant it microphone permission. Go to Settings -> Apps -> Lingolette",
         "outRequired": "Voice chat requires playback permission. Press OK to grant it."
       },
       "offerPWA": {
-        "text": "Would you like to add Lingolette web app to your home screen for quick access?",
-        "btnInstall": "Install"
+        "header": "Get the app for the best experience!",
+        "text": "You're on the web version — nice!\nBut Lingolette works way better as a native app.",
+        "btnDownload": "Download",
+        "btnNotNow": "Not now"
       },
       "chatResults": {
-        "header": "Well done, {{NAME}}!",
-        "mainText": "You got a bit closer to your goal. You can either go back to the chat or restart the session and start anew.",
+        "header": "Chat summary",
+        "greeting": "Well done, {{NAME}}! 🎉",
+        "wordsUsed": "You used {{count}} different words",
+        "durationLessThanMinute": "You spoke for less than a minute in this chat",
+        "durationOneMinute": "You spoke for 1 minute in this chat",
+        "durationMinutes": "You spoke for {{count}} minutes in this chat",
+        "complexity": "Your sentence complexity: {{level}}",
+        "btnRestart": "End this chat",
         "headerProgress": "Your words progress",
         "word": "Word",
         "before": "Before",
@@ -629,6 +725,7 @@
         "leave": "Just quit"
       },
       "pa": {
+        "header": "Pronunciation focus",
         "scoreGreen": "Great job!",
         "scoreYellow": "Good",
         "scoreRed": "Keep practicing!",
@@ -660,14 +757,34 @@
       },
       "paywall": {
         "walls": {
-          "chatPA": "Pronunciation analysis in the voice chat is available for Premium users only.",
-          "chatLength": "Letty is tired and needs a break. Go Lingolette Premium to give her infinity energy!",
-          "lockedArticle": "This article is available for Premium users only.",
-          "longTime": "You’ve been using Lingolette for a while. We hope you’re enjoying it!",
-          "chatHistory": "Chat history is available for Premium users only.",
-          "languages": "Multi-language study is available for Premium users only.",
-          "paidSituation": "This situation is available for Premium users only.",
-          "chatAnalysis": "Chat restart and progress analysis is available for Premium users only."
+          "chatPA": [
+            "Pronunciation analysis",
+            "Premium users can analyze their pronunciation in the voice chat,\n as well as gain access to:"
+          ],
+          "chatLength": [
+            "Unlimited chat length",
+            "Letty is tired and needs a break. Go Lingolette Premium to give her infinity energy!"
+          ],
+          "lockedArticle": [
+            "Articles and exercises",
+            "Premium users get all exercises,\n as well as gain access to:"
+          ],
+          "chatHistory": [
+            "Chat history",
+            "Premium users can access their chat history,\nas well as gain access to:"
+          ],
+          "languages": [
+            "Language swapping",
+            "Premium users can swap between languages,\nas well as gain access to:"
+          ],
+          "paidSituation": [
+            "Situations",
+            "Premium users can access all situations,\nas well as gain access to:"
+          ],
+          "chatAnalysis": [
+            "Chat analysis",
+            "Premium users can restart and see chat progress,\n as well as gain access to:"
+          ]
         },
         "suffix": "Would you like to upgrade?",
         "btnYes": "Yes, please",
@@ -709,8 +826,44 @@
       },
       "preReview": {
         "header": "Enjoying Lingolette?",
-        "text": "Your app store review helps spread the word and grow the Lingolette community!",
-        "btnCta": "Rate us"
+        "text": "We want you to have the best experience! Rate and review us so we can improve.",
+        "btnCta": "Rate us",
+        "btnNotNow": "Not now"
+      },
+      "chatSettings": {
+        "header": "Chat settings",
+        "sectionSound": "SOUND",
+        "sectionTranslit": "TRANSLITERATION",
+        "sectionTutor": "TUTOR",
+        "labelVoiceOn": "Tutor voice on",
+        "labelVoiceOff": "Tutor voice off",
+        "labelTranslitInOn": "For input is on",
+        "labelTranslitInOff": "For input is off",
+        "labelTranslitOutOn": "For output is on",
+        "labelTranslitOutOff": "For output is off"
+      },
+      "cancelSubscription": {
+        "step1": {
+          "header": "Letty is sorry to see you go!",
+          "description": "We're always looking to become better. Please tell us why you're cancelling so we can improve. We promise we read all feedback!",
+          "reasons": {
+            "tooExpensive": "Too expensive",
+            "featuresNotMeeting": "Features don't meet my needs",
+            "technicalIssues": "Technical issues/bugs",
+            "languageSkillsNotImproving": "Language skills not improving",
+            "interfaceNotIntuitive": "Interface is not intuitive",
+            "other": "Other:"
+          },
+          "feedbackPlaceholder": "Share your feedback here please",
+          "staySubscribed": "Stay subscribed",
+          "continueToCancel": "Continue to cancel"
+        },
+        "step2": {
+          "header": "Cancelling means that you'll lose your premium benefits:",
+          "disclaimer": "By cancelling, Premium access will be gone. Payment for the rest of the period will not be refunded.",
+          "keepBenefitsAndStaySubscribed": "Keep benefits and stay subscribed",
+          "cancelSubscription": "Cancel subscription"
+        }
       }
     },
     "games": {
@@ -749,8 +902,11 @@
         "btnAdd": "To dictionary",
         "btnPA": "Pronunciation",
         "btnExtra": "Conjugation",
-        "extraLoading": "Loading...",
-        "extraError": "Error fetching grammar info"
+        "btnMorphemes": "Morphemes",
+        "opLoading": "Loading...",
+        "opError": "Error fetching grammar info",
+        "btnUsageExamples": "Usage examples",
+        "morphemesHeader": "Morpheme analysis"
       },
       "publicFeed": {
         "readMore": "Read article →",
@@ -765,21 +921,27 @@
         "readingSubhead": "Read this text and listen to it at the same time. If you don’t know a word click it to see explanation, hear pronunciation or add it to vocabulary.",
         "questionsHead": "Questions",
         "questionsSubhead": "Answer the questions to the text. Speak or write, you choose. AI will assess your answers.",
-        "discussHead": "Discuss",
-        "discussSubhead": "Take it further.",
+        "imDeHead": "Describe the article image",
+        "imDeSubhead": "Look at the article image and describe what you see on it. You may either speak or write your answer there.",
+        "btnStartImDe": "Say what you see",
+        "discussHead": "Discussion",
         "btnDiscuss": "Chat with tutor",
         "discussP": "Discuss this article with your AI tutor to practice. Your tutor will help you with vocabulary and grammar.",
         "logInForDiscussion": "Log in to start the conversation with AI.",
         "btnPA": "Check pronunciation",
         "printedInfo": "Read a new article every day and<br/>discuss it with AI at lingolette.com",
-        "answerToSeeAnswer": "Give your answer first to reveal the correct one"
+        "answerToSeeAnswer": "Give your answer first to reveal the correct one",
+        "imDeHeader": "Describe image",
+        "imDeResultGood": "Good job!",
+        "imDeResultBad": "Keep practicing!"
       },
       "desktopMenu": {
-        "feed": "Read",
-        "talk": "Talk",
-        "vocabulary": "Words",
+        "dashboard": "Home",
+        "feed": "Articles",
+        "talk": "Chat",
+        "vocabulary": "Wordlist",
         "account": "Profile",
-        "tools": "Tools",
+        "tools": "Games & Tools",
         "more": "More",
         "feedback": "Feedback",
         "collapse": "Collapse menu",
@@ -890,7 +1052,13 @@
         "legalShit": "<a target='blank' href='/docs/terms-and-conditions'>Terms and Conditions</a> and <a target='blank' href='/docs/privacy-policy'>Privacy Policy</a>.",
         "noCommitment": "No commitment. Cancel anytime.",
         "nativePaymentStart": "Initializing payment...",
-        "nativePaymentFailed": "Native payment failed with code {{CODE}}."
+        "nativePaymentFailed": "Native payment failed with code {{CODE}}.",
+        "payWithGems": "Pay with gems",
+        "temporaryUnlock": "Unlock for 1 use",
+        "notEnoughGems": "Not enough gems",
+        "payXGems": "Pay {{X}}",
+        "btnEarnGems": "Earn more gems",
+        "gemsAvailable": "{{X}} gem(s) available"
       },
       "nextMission": {
         "hChat": "Language lesson",
@@ -922,6 +1090,17 @@
         "downloading": "Downloading new version...",
         "restarting": "Restarting app...",
         "newNative": "New version is available at {{VENDOR}}"
+      },
+      "gemCave": {
+        "youHave": "You have:",
+        "explanation": "Click the button, watch a video ad, earn a gem! It's as simple as that.",
+        "cta": "Get a gem!",
+        "notSupported": "Earning gems is currently supported only in our iOS and Android apps.",
+        "btnReturn": "Go home"
+      },
+      "joinCommunity": {
+        "header": "Lingolette Community",
+        "body": "Join our Discord to practice languages, request features and get exclusive updates!"
       }
     }
   }
