@@ -57,7 +57,8 @@
       },
       "toasts": {
         "muted": "Tu dispositivo está en silencio",
-        "mutedIOS": "Tu dispositivo está en silencio. Consulta el interruptor mecánico en el lado izquierdo de tu iPhone."
+        "mutedIOS": "Tu dispositivo está en silencio. Consulta el interruptor mecánico en el lado izquierdo de tu iPhone.",
+        "copied": "¡Copiado!"
       },
       "options": {
         "ttsRate": [
@@ -489,6 +490,7 @@
       "hideCompletedExercises": "Ocultar ejercicios completados",
       "hideCompletedExercisesDetails": "Los artículos con ejercicios completados se ocultarán en el feed",
       "useDarkTheme": "Tema oscuro en el móvil",
+      "useDarkThemeDISABLED": "El tema oscuro está siendo rediseñado mientras hacemos la transición al nuevo sistema de diseño. Volverá pronto automáticamente — no necesitas hacer nada. ¡Disculpa las molestias!",
       "dangerZone": "Mostrar zona de peligro",
       "startSubscription": "Actualizar a Premium",
       "cancelSubscription": "Cancelar suscripción",
@@ -517,6 +519,7 @@
       "noTopicsAvailable": "No hay temas disponibles",
       "lblSchoolDashboard": "Panel de control escolar",
       "noSchoolOrgs": "No hay organizaciones escolares disponibles.",
+      "noSchoolsWhiteLabelMessage": "¿Desea utilizar Lingolette en su escuela? Ofrecemos etiquetado blanco, integración profunda con su LMS y soporte de contenido personalizado. Contáctenos en {{EMAIL}}",
       "lblServer": "Servidor:",
       "lblTier": "Nivel:",
       "tierFree": "Gratuito",
@@ -600,7 +603,15 @@
       "tutorName": "Letty",
       "statusReady": "¡Listo para practicar {{language}} contigo!",
       "statusListening": "Escuchando... ¡habla cuando estés listo!",
-      "statusWelcome": "¡Prepárate para una conversación increíble!"
+      "statusWelcome": "¡Prepárate para una conversación increíble!",
+      "settings": {
+        "header": "Configuración",
+        "showText": "Mostrar texto",
+        "transliteration": "Transliteración",
+        "translitNone": "Ninguna",
+        "translitActive": "Activa",
+        "translitOnly": "Solo transliteración"
+      }
     },
     "groups": {
       "joinHint": "¿Quieres unirte al grupo «{{GROUP_NAME}}»?",
@@ -734,9 +745,11 @@
         "btnPractice": "Practicar",
         "thWord": "Palabra",
         "thSound": "Sonido",
+        "thSyllable": "Sílaba",
         "thFeedback": "Feedback",
         "fbGood": "Perfecto",
         "fbABitOff": "Casi perfecto",
+        "fbQuiteOff": "Bastante desviado",
         "offTowards": "Se acerca a [{{sound}}]",
         "soundsLike": "Suena como [{{sound}}]",
         "inProgress": "Analizando..."
@@ -896,7 +909,7 @@
         "ctaHint": "¡Porque quién necesita artículos cuando puedes conquistar el mundo con palabras!"
       },
       "contextTools": {
-        "logInForContext": "Inicia sesión para obtener traducciones, herramientas de contexto, pronunciación y más.",
+        "logInForContext": "Inicia sesión para obtener traducciones, pronunciación, análisis de morfemas y más.",
         "btnYesPlease": "¡Vamos allá!",
         "btnPronounce": "Pronunciar",
         "btnAdd": "Al diccionario",
@@ -905,7 +918,7 @@
         "btnMorphemes": "Morfemas",
         "opLoading": "Cargando...",
         "opError": "Error al obtener información gramatical",
-        "btnUsageExamples": "Ejemplos de uso",
+        "btnUsageExamples": "Ejemplos",
         "morphemesHeader": "Análisis de morfemas"
       },
       "publicFeed": {
@@ -940,7 +953,7 @@
         "feed": "Artículos",
         "talk": "Hablar",
         "vocabulary": "Palabras",
-        "account": "Perfil",
+        "account": "Configuración",
         "tools": "Juegos y herramientas",
         "more": "Más",
         "feedback": "Comentarios",

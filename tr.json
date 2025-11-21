@@ -57,7 +57,8 @@
       },
       "toasts": {
         "muted": "Cihazınız sessizde",
-        "mutedIOS": "Cihazınız sessize alınmış. iPhone'unuzun sol tarafındaki mekanik düğmeyi kontrol edin."
+        "mutedIOS": "Cihazınız sessize alınmış. iPhone'unuzun sol tarafındaki mekanik düğmeyi kontrol edin.",
+        "copied": "Kopyalandı!"
       },
       "options": {
         "ttsRate": [
@@ -488,6 +489,7 @@
       "hideCompletedExercises": "Tamamlanan alıştırmaları gizle",
       "hideCompletedExercisesDetails": "Tamamlanmış alıştırmaları olan makaleler beslenmede gizlenecek",
       "useDarkTheme": "Mobilde koyu tema",
+      "useDarkThemeDISABLED": "Koyu tema, yeni tasarım sistemine geçiş sürecinde yeniden çalışılıyor. Yakında otomatik olarak geri dönecek — herhangi bir işlem yapmanıza gerek yok. Rahatsızlık için özür dileriz!",
       "dangerZone": "Tehlike bölgesini göster",
       "startSubscription": "Ücretli sürüme geç",
       "cancelSubscription": "Aboneliği iptal et",
@@ -516,6 +518,7 @@
       "noTopicsAvailable": "Mevcut konu yok",
       "lblSchoolDashboard": "Okul panosu",
       "noSchoolOrgs": "Mevcut okul organizasyonu yok.",
+      "noSchoolsWhiteLabelMessage": "Okulunuzda Lingolette'i kullanmak istiyor musunuz? Beyaz etiketleme, LMS'inizle derin entegrasyon ve özel içerik desteği sunuyoruz. Bizimle {{EMAIL}} adresinden iletişime geçin",
       "lblServer": "Sunucu:",
       "lblTier": "Seviye:",
       "tierFree": "Ücretsiz",
@@ -599,7 +602,15 @@
       "tutorName": "Letty",
       "statusReady": "{{language}} pratiği yapmak için hazırım!",
       "statusListening": "Dinliyorum... hazır olduğunda konuş!",
-      "statusWelcome": "Harika bir konuşmaya hazırlan!"
+      "statusWelcome": "Harika bir konuşmaya hazırlan!",
+      "settings": {
+        "header": "Ayarlar",
+        "showText": "Metni göster",
+        "transliteration": "Transliterasyon",
+        "translitNone": "Yok",
+        "translitActive": "Aktif",
+        "translitOnly": "Sadece transliterasyon"
+      }
     },
     "groups": {
       "joinHint": "«{{GROUP_NAME}}» grubuna katılmak istiyor musunuz?",
@@ -733,9 +744,11 @@
         "btnPractice": "Pratik yap",
         "thWord": "Kelime",
         "thSound": "Ses",
+        "thSyllable": "Hece",
         "thFeedback": "Geribildirim",
         "fbGood": "İyi",
         "fbABitOff": "Biraz yanlış",
+        "fbQuiteOff": "Oldukça yanlış",
         "offTowards": "[{{sound}}] yönünde yanlış",
         "soundsLike": "[{{sound}}] gibi sesler",
         "inProgress": "Analiz ediliyor..."
@@ -895,7 +908,7 @@
         "ctaHint": "Çünkü kelimelerle dünyayı fethederken makalelere ihtiyacınız yok!"
       },
       "contextTools": {
-        "logInForContext": "Çeviriler, bağlam araçları, telaffuz ve daha fazlası için giriş yapın.",
+        "logInForContext": "Çeviriler, telaffuz, morfem analizi ve daha fazlası için giriş yapın.",
         "btnYesPlease": "Haydi!",
         "btnPronounce": "Telaffuz et",
         "btnAdd": "Sözlüğe ekle",
@@ -904,7 +917,7 @@
         "btnMorphemes": "Morfemler",
         "opLoading": "Yükleniyor...",
         "opError": "Dilbilgisi bilgisi alınırken hata oluştu",
-        "btnUsageExamples": "Kullanım örnekleri",
+        "btnUsageExamples": "Örnekler",
         "morphemesHeader": "Morfem analizi"
       },
       "publicFeed": {
@@ -939,7 +952,7 @@
         "feed": "Makaleler",
         "talk": "Konuş",
         "vocabulary": "Kelimeler",
-        "account": "Profil",
+        "account": "Ayarlar",
         "tools": "Oyunlar ve Araçlar",
         "more": "Daha Fazla",
         "feedback": "Geribildirim",

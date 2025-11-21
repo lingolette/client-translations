@@ -57,7 +57,8 @@
       },
       "toasts": {
         "muted": "Your device is muted",
-        "mutedIOS": "Your device is muted. See the mechanical switch on the left side of your iPhone."
+        "mutedIOS": "Your device is muted. See the mechanical switch on the left side of your iPhone.",
+        "copied": "Copied!"
       },
       "options": {
         "ttsRate": [
@@ -488,6 +489,7 @@
       "hideCompletedExercises": "Hide completed exercises",
       "hideCompletedExercisesDetails": "Articles with completed exercises will be hidden in the feed",
       "useDarkTheme": "Dark theme on mobile",
+      "useDarkThemeDISABLED": "Dark theme is currently being reworked as we transition to the new design system. It will be back soon automatically — no need to take any action. Sorry for inconvenience!",
       "dangerZone": "Reveal danger zone",
       "startSubscription": "Switch to paid version",
       "cancelSubscription": "Cancel subscription",
@@ -517,6 +519,7 @@
       "noTopicsAvailable": "No topics available",
       "lblSchoolDashboard": "School dashboard",
       "noSchoolOrgs": "No school organizations available.",
+      "noSchoolsWhiteLabelMessage": "Do you want to use Lingolette in your school? We offer white labeling, deep integration with your LMS, and custom content support. Contact us at {{EMAIL}}",
       "lblServer": "Server:",
       "lblTier": "Tier:",
       "tierFree": "Free",
@@ -600,7 +603,15 @@
       "tutorName": "Letty",
       "statusReady": "Ready to practice {{language}} with you!",
       "statusListening": "Listening... speak whenever you're ready!",
-      "statusWelcome": "Get ready for an amazing conversation!"
+      "statusWelcome": "Get ready for an amazing conversation!",
+      "settings": {
+        "header": "Settings",
+        "showText": "Show text",
+        "transliteration": "Transliteration",
+        "translitNone": "None",
+        "translitActive": "Active",
+        "translitOnly": "Only transliteration"
+      }
     },
     "groups": {
       "joinHint": "Do you want to join group «{{GROUP_NAME}}»?",
@@ -734,9 +745,11 @@
         "btnPractice": "Practice",
         "thWord": "Word",
         "thSound": "Sound",
+        "thSyllable": "Syllable",
         "thFeedback": "Feedback",
         "fbGood": "Good",
         "fbABitOff": "A bit off",
+        "fbQuiteOff": "Quite off",
         "offTowards": "Off towards [{{sound}}]",
         "soundsLike": "Sounds like [{{sound}}]",
         "inProgress": "Analyzing..."
@@ -896,7 +909,7 @@
         "ctaHint": "Because who needs articles when you can conquer the world with words!"
       },
       "contextTools": {
-        "logInForContext": "Log in to get translations, context tools, pronunciation and more.",
+        "logInForContext": "Log in to get translations, pronunciation, morpheme analysis and more.",
         "btnYesPlease": "Let’s go!",
         "btnPronounce": "Pronounce",
         "btnAdd": "To dictionary",
@@ -905,7 +918,7 @@
         "btnMorphemes": "Morphemes",
         "opLoading": "Loading...",
         "opError": "Error fetching grammar info",
-        "btnUsageExamples": "Usage examples",
+        "btnUsageExamples": "Examples",
         "morphemesHeader": "Morpheme analysis"
       },
       "publicFeed": {
@@ -940,7 +953,7 @@
         "feed": "Articles",
         "talk": "Chat",
         "vocabulary": "Wordlist",
-        "account": "Profile",
+        "account": "Settings",
         "tools": "Games & Tools",
         "more": "More",
         "feedback": "Feedback",
