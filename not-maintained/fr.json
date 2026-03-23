@@ -227,9 +227,6 @@
       "msgMicError": "Vous pourriez avoir des problèmes avec votre microphone"
     },
     "feed": {
-      "emptyHeader": "Votre fil est vide",
-      "emptyText": "Suivez certaines sources pour commencer.",
-      "emptyText2": "Si vous venez de vous abonner à une source, de nouveaux articles apparaîtront ici dans les 24h.",
       "notOnboarded": "Veuillez compléter l'intégration !",
       "intro": [
         "Nous commençons par la barre de navigation principale. Voici le fil. Tous les nouveaux articles y apparaîtront.",

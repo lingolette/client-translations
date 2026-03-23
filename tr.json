@@ -135,7 +135,9 @@
       },
       "languageNames": {
         "ar": "Arapça",
+        "bg": "Bulgarca",
         "ca": "Katalanca",
+        "da": "Danca",
         "de": "Almanca",
         "el": "Yunanca",
         "en": "İngilizce",
@@ -144,6 +146,8 @@
         "fi": "Fince",
         "fr": "Fransızca",
         "he": "İbranice",
+        "hi": "Hintçe",
+        "hu": "Macarca",
         "it": "İtalyanca",
         "ja": "Japonca",
         "ko": "Korece",
@@ -157,6 +161,7 @@
         "ru": "Rusça",
         "sr": "Sırpça",
         "sv": "İsveççe",
+        "sw": "Svahilice",
         "th": "Tayca",
         "tr": "Türkçe",
         "uk": "Ukraynaca",
@@ -254,6 +259,7 @@
       }
     },
     "dashboard": {
+      "noLanguageLevel": "Dil seviyeniz ayarlanmamış. Lütfen şimdi ayarlayın, aksi takdirde bazı özellikler düzgün çalışmayabilir.",
       "sources": {
         "header": "Konular akışını tanımlar",
         "add": "Kaynak Ekle",
@@ -292,6 +298,11 @@
           "buttonTitle": "Konuşmaya başla!",
           "buttonSubtitle": "İlk yapay zeka sesli aramanı dene",
           "limitReached": "Aramalar seviyenizde {{maxMinutes}} dakika ile sınırlıdır."
+        },
+        "wotd": {
+          "header": "Günün kelimesi",
+          "tooltip": "Sözlüğe kaydet",
+          "wordSaved": "Kelime sözlüğe kaydedildi!"
         }
       }
     },
@@ -314,6 +325,15 @@
       "header": "Entegrasyonlar",
       "addonChrome": "Chrome tarayıcı uzantısı",
       "addonFirefox": "Firefox tarayıcı uzantısı"
+    },
+    "iosApp": {
+      "subHeader": "Aynı fiyat. Tam yerel deneyim.",
+      "intro": "Harika haberler! Artık herkes Lingolette için aynı fiyatı ödüyor. Daha önce iOS kullanıcıları, Apple'ın her uygulama içi satın alma işleminde aldığı %30 komisyonu karşılamak için biraz daha fazla ödüyordu. Progressive Web App (PWA) teknolojisi sayesinde artık Safari üzerinden doğrudan tam yerel uygulama deneyiminin tadını çıkarabilirsiniz — App Store'a gerek yok.",
+      "stepsHeader": "iPhone veya iPad'de nasıl başlanır:",
+      "step1": "Mobil Safari'de Lingolette'i açın",
+      "step2": "Giriş yapın veya kaydolun",
+      "step3": "Lingolette'i Ana Ekranınıza eklemeniz istenecek",
+      "step4": "Onaylamak için \"Ekle\"ye dokunun, ardından Ana Ekranınızdan Lingolette'i açın"
     },
     "inquiry": {
       "header": "Lingolette ile ilgileniyor musunuz?",
@@ -341,6 +361,7 @@
       "plhPassword": "şifre",
       "btnEmail": "E-posta ile devam et",
       "otherProviders": "Diğer giriş yöntemleri",
+      "lastUsed": "Son kullanım",
       "btnExtraAuth": "Kurumsal giriş",
       "badEmailProvider": "Lütfen tek kullanımlık olmayan bir e-posta adresi kullanın.",
       "alreadyRegistered": "Zaten başka bir sağlayıcıyla (Google, Linkedin, Microsoft veya Apple) kayıtlısınız.",
@@ -448,9 +469,6 @@
       }
     },
     "feed": {
-      "emptyHeader": "Akışınız boş",
-      "emptyText": "Henüz hiçbir konuyu takip etmiyorsunuz.",
-      "emptyText2": "Başlamak için <a href='/account#sources'>konuları keşfedin</a>. Yeni abone olduysanız, yeni makalelerin görünmesi biraz zaman alabilir.",
       "notOnboarded": "Lütfen oryantasyonu tamamlayın!",
       "chatOnlyHeader": "{{LNG}} dili için makale yok",
       "chatOnlyText": "{{LNG}} dilinde sadece AI öğretmeni ile konuşmayı destekliyoruz. Makaleleri okumak için başka bir dile geçin."
@@ -493,6 +511,8 @@
       "dangerZone": "Tehlike bölgesini göster",
       "startSubscription": "Ücretli sürüme geç",
       "cancelSubscription": "Aboneliği iptal et",
+      "gemsInfoTitle": "Premium özellikleri ücretsiz kullan",
+      "gemsInfoBody": "Abonelik olmadan Mücevher harcayarak Premium özelliklere erişebilirsin. Yeni kullanıcıları davet ederek veya mobil uygulamalarımızda reklam izleyerek Mücevher kazan.",
       "lblGrammarFeatures": "Sohbetin dilbilgisi ayarları",
       "allFeatures": "Hepsi",
       "grammarFeatures": [
@@ -501,9 +521,11 @@
         "Gelecek zaman"
       ],
       "tabs": [
-        "Ayarlar",
-        "Profilim",
-        "Makale konuları"
+        "Genel",
+        "Tercihler",
+        "Abonelik",
+        "Botlar",
+        "Okul"
       ],
       "pageTitle": "Ayarlar",
       "btnSaveSettings": "Ayarları kaydet",
@@ -515,34 +537,68 @@
       "headingTutorChat": "Öğretmen sohbeti",
       "headingArticlePreferences": "Makale tercihleri",
       "headingOtherPreferences": "Diğer tercihler",
+      "headingNotifications": "Bildirimler",
       "noTopicsAvailable": "Mevcut konu yok",
+      "notifications": {
+        "subheaderChannels": "Bildirim kanalları",
+        "subheaderTypes": "Bildirim türleri",
+        "useEmail": "Bildirimleri göndermek için e-posta veya Telegram kullan",
+        "usePush": "Mümkün olduğunda push bildirimleri kullan",
+        "atLeastOneChannel": "En az bir bildirim kanalı etkinleştirilmelidir",
+        "newArticle": "Akıştaki yeni makaleler",
+        "improveExperience": "Deneyiminizi geliştirme ipuçları",
+        "improveLearning": "Öğrenme verimliliği önerileri",
+        "platformUpdates": "Önemli platform güncellemeleri"
+      },
       "lblSchoolDashboard": "Okul panosu",
       "noSchoolOrgs": "Mevcut okul organizasyonu yok.",
       "noSchoolsWhiteLabelMessage": "Okulunuzda Lingolette'i kullanmak istiyor musunuz? Beyaz etiketleme, LMS'inizle derin entegrasyon ve özel içerik desteği sunuyoruz. Bizimle {{EMAIL}} adresinden iletişime geçin",
       "lblServer": "Sunucu:",
       "lblTier": "Seviye:",
       "tierFree": "Ücretsiz",
-      "tierPremium": "Premium"
+      "tierPremium": "Premium",
+      "headingBots": "Botlarla konuş",
+      "botSectionTelegram": "Telegram botu",
+      "botConnected": "Telegram botu bağlı",
+      "botOpenLink": "Botu aç",
+      "botConnectionCode": "Bağlantı kodu",
+      "botCodePlaceholder": "Telegram botundan kodu girin",
+      "botConnecting": "Bağlanıyor...",
+      "botConnect": "Botu bağla",
+      "botDisconnect": "Botu ayır",
+      "botEnterCode": "Lütfen bir kod girin",
+      "botConnectedSuccess": "Telegram botu başarıyla bağlandı!",
+      "botDisconnectedSuccess": "Telegram botu başarıyla ayrıldı!",
+      "botConnectionFailed": "Bot bağlanamadı",
+      "botErrorOccurred": "Bir hata oluştu",
+      "botSectionWhatsapp": "WhatsApp botu",
+      "botWhatsappConnected": "WhatsApp botu bağlı",
+      "botWhatsappCodePlaceholder": "WhatsApp botundan kodu girin",
+      "botWhatsappConnectedSuccess": "WhatsApp botu başarıyla bağlandı!",
+      "botWhatsappDisconnectedSuccess": "WhatsApp botu başarıyla ayrıldı!"
     },
     "vocabulary": {
       "confirmRemove": "Bu kelimeyi kaldırmak istediğinizden emin misiniz?",
-      "lblIntensiveOnly": "Sadece yoğun çalışma kelimeleri",
+      "lblIntensiveOnly": "Takip edilen kelimeler",
       "switchToNormal": "Normal öğrenme moduna geç",
       "switchToIntensive": "Yoğun öğrenme moduna ekle",
       "intensiveToast": "Yoğun öğrenme etkinleştirildi. Yapay zeka öğretmeni artık dersler sırasında bu kelimeye daha fazla odaklanacak.",
       "removeWord": "Kelimeyi sözlükten kaldır",
       "colLemma": "Kelime",
+      "colTranslation": "Çeviri",
       "colIntensive": "Yoğun",
       "colUseCount": "Kullanım örneği",
       "colUsedTimes": "Yeterlilik",
       "colLastUsed": "Son kullanım",
       "emptyPlaceholderHeader": "Sözlüğünüz boş",
       "emptyPlaceholderHint": "Sözlüğü doldurmak için bir <a href='/talk'>AI-öğretmeni</a> ile konuşun veya <a href='/feed'>makalelerde</a> kelimeler ekleyin.",
+      "trackedWordsPrivacyNote": "Takip edilen kelimeler, aktif kelime haznenizi temsil eden sözcüklerdir. Bunlar, yapay zekanın konuşmanızı işlemesinin sonucudur. Bu verileri hiçbir yere GÖNDERMİYORUZ.",
       "more": {
         "addWords": "Kendi kelimen ekle",
         "flashCards": "Flash kartlar",
         "repeatGame": "Bir oyun başlat",
-        "exportWords": "Yoğun kelimeleri dışa aktar"
+        "exportWords": "Yoğun kelimeleri dışa aktar",
+        "search": "Kelimeleri ara..."
       }
     },
     "talk": {
@@ -668,6 +724,10 @@
       "hanzi": [
         "hanzi",
         "Çince karakterleri çalış"
+      ],
+      "listening": [
+        "dinleme pratiği",
+        "cümleleri dinleyin ve konuşarak veya yazarak anlama pratiği yapın"
       ]
     },
     "userCard": {
@@ -690,6 +750,7 @@
       "placeholder": "Yukarıda analiz etmek için buraya metninizi yapıştırın veya yazın...",
       "btnImportVideo": "Videodan içe aktar",
       "btnImportPicture": "Resim içe aktar",
+      "btnVoiceText": "Metni seslendir",
       "processingVideo": "Video işleniyor...",
       "processingImage": "Resim işleniyor..."
     },
@@ -717,6 +778,17 @@
         "header": "En iyi deneyim için uygulamayı edinin!",
         "text": "Web sürümündesiniz — harika!\nAma Lingolette, yerel bir uygulama olarak çok daha iyi çalışıyor.",
         "btnDownload": "İndir",
+        "btnNotNow": "Şimdi değil",
+        "iosHeader": "Ana ekranına ekle",
+        "iosText": "En iyi deneyim için Lingolette'i web uygulaması olarak kur:",
+        "iosStep1": "Alttaki Paylaş düğmesine dokun",
+        "iosStep2": "«Ana Ekrana Ekle»yi seç",
+        "iosBtnGotIt": "Anladım"
+      },
+      "offerPushNotifications": {
+        "header": "Gelişmelerden haberdar ol",
+        "text": "Senin için yeni bir şey olduğunda seni bilgilendiririz. Spam göndermeyiz — ve bunu istediğin zaman profilinden ayarlayabilirsin.",
+        "btnEnable": "Bildirimleri etkinleştir",
         "btnNotNow": "Şimdi değil"
       },
       "chatResults": {
@@ -880,13 +952,32 @@
     },
     "games": {
       "repeat": {
-        "header": "“Beni tekrar et”",
-        "intro": "Kelime kartları göreceksiniz. Her kelime yüksek sesle söylenecektir. Ardından, tekrar etmek için 3 saniyeniz olacak. Yeni bir karta geçmek için bir karta tıklayınız.",
-        "act": "Tekrar et!",
+        "header": "Benden sonra tekrarla",
+        "intro": "Kelimelerle kartlar göreceksiniz. Her kelime yüksek sesle söylenecektir. Bundan sonra onu tekrarlamak için 3 saniyeniz olacak. Yeni bir karta geçmek için bir karta tıklayın.",
+        "act": "Tekrarla!",
         "btnLoading": "Oluşturuluyor..."
       },
       "flashCards": {
-        "btnShow": "Tekrar göster"
+        "btnShow": "Tekrar göster",
+        "noIntensiveWords": "Henüz yoğun öğrenme modunda kelime yok. Önce <a href='/vocabulary'>kelime haznenine</a> kelime ekle."
+      },
+      "listening": {
+        "header": "Dinleme Pratiği",
+        "intro": "Cümleleri dinleyin ve tekrarlayarak anlamanızı pratik edin. Sesli giriş (mikrofona konuşun) veya metin girişi (duyduklarınızı yazın) arasında seçim yapın.",
+        "modeVoice": "Sesli Mod",
+        "modeText": "Metin Modu",
+        "listenHint": "Dikkatle dinleyin...",
+        "speakHint": "Şimdi konuşun!",
+        "typeHint": "Duyduğunuzu yazın...",
+        "stopListening": "Dur",
+        "submit": "Gönder",
+        "listenAgain": "Tekrar dinle",
+        "correct": "Doğru!",
+        "tryAgain": "Tekrar deneyin",
+        "nextSentence": "İleri",
+        "complete": "Harika iş!",
+        "restart": "Yeniden başlat",
+        "btnLoading": "Yükleniyor..."
       }
     },
     "components": {
@@ -1073,9 +1164,6 @@
         "gemsAvailable": "{{X}} mücevher mevcut"
       },
       "nextMission": {
-        "hChat": "Dil dersi",
-        "hSituations": "Durumlar",
-        "btnCaption": "İlk görevinizi seçin",
         "modes": {
           "chat": "Yapay zeka öğretmeninizle konuşun",
           "hotelCheckIn": "Otele giriş",
@@ -1091,11 +1179,13 @@
           "returnItem": "Ürünü iade et",
           "tableReservation": "Masa rezervasyonu",
           "negotiatePrice": "Fiyat pazarlığı yap",
-          "alienInvasion": "Uzaylı istilası"
+          "alienInvasion": "Uzaylı istilası",
+          "introduceYourself": "Kendini tanıt",
+          "talkToStranger": "Yabancıyla konuş",
+          "makeNewFriends": "Yeni arkadaşlar edin",
+          "socializeConfidently": "Kendinden emin sosyalleş",
+          "goOnDate": "Randevuya çık"
         }
-      },
-      "sentence": {
-        "wordStudied": "Aktif olarak çalışılıyor"
       },
       "liveUpdateBox": {
         "checking": "Güncellemeler kontrol ediliyor...",
@@ -1107,12 +1197,22 @@
         "youHave": "Sahip olduğun:",
         "explanation": "Butona tıkla, bir video reklam izle, bir mücevher kazan! Bu kadar basit.",
         "cta": "Bir mücevher kazan!",
-        "notSupported": "Mücevher kazanma şu anda yalnızca iOS ve Android uygulamalarımızda desteklenmektedir.",
+        "notSupported": "Mücevher kazanmak için reklam izleme yalnızca iOS ve Android uygulamalarımızda desteklenmektedir. Aşağıdaki arkadaş davet ederek de Mücevher kazanabilirsin!",
         "btnReturn": "Ana sayfaya git"
+      },
+      "referralCode": {
+        "inviteTitle": "Arkadaşlarını davet et",
+        "inviteBody": "Kişisel davet bağlantını paylaş. Bağlantın üzerinden kaydolan her yeni kullanıcı için 200 Mücevher kazanırsın, onlar ise 100 Mücevher bonus alır. Herkes kazanır!",
+        "linkCopiedToast": "Bağlantı kopyalandı!"
       },
       "joinCommunity": {
         "header": "Lingolette Topluluğu",
         "body": "Dil pratiği yapmak, özellik talep etmek ve özel güncellemeler almak için Discord'umuza katılın!"
+      },
+      "topicsSelector": {
+        "title": "Konulara abone ol",
+        "description": "Akışınızı doldurmak için ilgilendiğiniz konuları seçin",
+        "noTopicsAvailable": "Şu anda kullanılabilir konu yok"
       }
     }
   }

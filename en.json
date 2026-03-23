@@ -135,7 +135,9 @@
       },
       "languageNames": {
         "ar": "Arabic",
+        "bg": "Bulgarian",
         "ca": "Catalan",
+        "da": "Danish",
         "de": "German",
         "el": "Greek",
         "en": "English",
@@ -144,6 +146,8 @@
         "fi": "Finnish",
         "fr": "French",
         "he": "Hebrew",
+        "hi": "Hindi",
+        "hu": "Hungarian",
         "it": "Italian",
         "ja": "Japanese",
         "ko": "Korean",
@@ -157,6 +161,7 @@
         "ru": "Russian",
         "sr": "Serbian",
         "sv": "Swedish",
+        "sw": "Swahili",
         "th": "Thai",
         "tr": "Turkish",
         "uk": "Ukrainian",
@@ -254,6 +259,7 @@
       }
     },
     "dashboard": {
+      "noLanguageLevel": "Your language level is not set up. Please set it now, otherwise things may not function correctly.",
       "sources": {
         "header": "Topics define your feed",
         "add": "Add source",
@@ -292,6 +298,11 @@
           "buttonTitle": "Start speaking!",
           "buttonSubtitle": "Try your first AI voice call",
           "limitReached": "Calls are limited to {{maxMinutes}} minutes on your tier."
+        },
+        "wotd": {
+          "header": "Word of the day",
+          "tooltip": "Save to dictionary",
+          "wordSaved": "Word saved to dictionary!"
         }
       }
     },
@@ -314,6 +325,15 @@
       "header": "Integrations",
       "addonChrome": "Chrome browser extension",
       "addonFirefox": "Firefox browser extension"
+    },
+    "iosApp": {
+      "subHeader": "Same price. Full native experience.",
+      "intro": "Great news! Everyone now pays the same price for Lingolette. Previously, iOS users paid a bit more to offset the 30% fee Apple charges on every in-app purchase. Thanks to Progressive Web App (PWA) technology, you can now enjoy the full native app experience directly from Safari — no App Store required.",
+      "stepsHeader": "How to get started on iPhone or iPad:",
+      "step1": "Open Lingolette in mobile Safari",
+      "step2": "Log in or sign up",
+      "step3": "You'll be prompted to add Lingolette to your Home Screen",
+      "step4": "Tap \"Add\" to confirm, then open Lingolette from your Home Screen"
     },
     "inquiry": {
       "header": "Interested in Lingolette?",
@@ -341,6 +361,7 @@
       "plhPassword": "password",
       "btnEmail": "Continue with email",
       "otherProviders": "Other login methods",
+      "lastUsed": "Last used",
       "btnExtraAuth": "Corporate login",
       "badEmailProvider": "Please use an email that is not a one-time address.",
       "alreadyRegistered": "You are already registered with another provider (Google, Linkedin, Microsoft or Apple).",
@@ -448,9 +469,6 @@
       }
     },
     "feed": {
-      "emptyHeader": "Your feed is empty",
-      "emptyText": "You’re not following any topics yet.",
-      "emptyText2": "<a href='/account#sources'>Find topics</a> to get started. If you have just subscribed, new articles may appear with a delay.",
       "notOnboarded": "Please complete onboarding!",
       "chatOnlyHeader": "No articles for {{LNG}}",
       "chatOnlyText": "We only support talking to the AI teacher in {{LNG}} language. To read articles, switch to another language."
@@ -493,6 +511,8 @@
       "dangerZone": "Reveal danger zone",
       "startSubscription": "Switch to paid version",
       "cancelSubscription": "Cancel subscription",
+      "gemsInfoTitle": "Use Premium features for free",
+      "gemsInfoBody": "You can access Premium features without a subscription by spending Gems. Earn Gems by inviting new users or by watching ads in our mobile apps.",
       "lblGrammarFeatures": "Grammar features",
       "allFeatures": "All",
       "grammarFeatures": [
@@ -504,6 +524,7 @@
         "General",
         "Preferences",
         "Subscription",
+        "Bots",
         "School"
       ],
       "pageTitle": "Settings",
@@ -516,34 +537,68 @@
       "headingTutorChat": "Tutor chat",
       "headingArticlePreferences": "Article preferences",
       "headingOtherPreferences": "Other preferences",
+      "headingNotifications": "Notifications",
       "noTopicsAvailable": "No topics available",
+      "notifications": {
+        "subheaderChannels": "Notification channels",
+        "subheaderTypes": "Notification types",
+        "useEmail": "Use email or Telegram to deliver notifications",
+        "usePush": "Use push notifications when possible",
+        "atLeastOneChannel": "At least one notification channel must be enabled",
+        "newArticle": "New articles in the feed",
+        "improveExperience": "Tips to improve your experience",
+        "improveLearning": "Learning efficiency suggestions",
+        "platformUpdates": "Important platform updates"
+      },
       "lblSchoolDashboard": "School dashboard",
       "noSchoolOrgs": "No school organizations available.",
       "noSchoolsWhiteLabelMessage": "Do you want to use Lingolette in your school? We offer white labeling, deep integration with your LMS, and custom content support. Contact us at {{EMAIL}}",
       "lblServer": "Server:",
       "lblTier": "Tier:",
       "tierFree": "Free",
-      "tierPremium": "Premium"
+      "tierPremium": "Premium",
+      "headingBots": "Talk via bots",
+      "botSectionTelegram": "Telegram bot",
+      "botConnected": "Telegram bot is connected",
+      "botOpenLink": "Open bot",
+      "botConnectionCode": "Connection code",
+      "botCodePlaceholder": "Enter code from Telegram bot",
+      "botConnecting": "Connecting...",
+      "botConnect": "Connect bot",
+      "botDisconnect": "Disconnect bot",
+      "botEnterCode": "Please enter a code",
+      "botConnectedSuccess": "Telegram bot connected successfully!",
+      "botDisconnectedSuccess": "Telegram bot disconnected successfully!",
+      "botConnectionFailed": "Failed to connect bot",
+      "botErrorOccurred": "An error occurred",
+      "botSectionWhatsapp": "WhatsApp bot",
+      "botWhatsappConnected": "WhatsApp bot is connected",
+      "botWhatsappCodePlaceholder": "Enter code from WhatsApp bot",
+      "botWhatsappConnectedSuccess": "WhatsApp bot connected successfully!",
+      "botWhatsappDisconnectedSuccess": "WhatsApp bot disconnected successfully!"
     },
     "vocabulary": {
       "confirmRemove": "Are you sure you want to remove this word?",
-      "lblIntensiveOnly": "Intensive study words only",
+      "lblIntensiveOnly": "Tracked words",
       "switchToNormal": "Switch to normal learning mode",
       "switchToIntensive": "Switch to intensive learning mode",
       "intensiveToast": "Intensive learning is on. The AI teacher will now focus on this word more during the lessons.",
       "removeWord": "Remove word from vocabulary",
       "colLemma": "Word",
+      "colTranslation": "Translation",
       "colIntensive": "Intensive",
       "colUseCount": "Usage example",
       "colUsedTimes": "Proficiency",
       "colLastUsed": "Last used",
       "emptyPlaceholderHeader": "Your vocabulary is empty",
       "emptyPlaceholderHint": "Talk to <a href='/talk'>AI-teacher</a> or add words in <a href='/feed'>articles</a> to fill it.",
+      "trackedWordsPrivacyNote": "Tracked words are the words representing your active vocabulary. They are a result of AI processing your speech. We do NOT send this data anywhere.",
       "more": {
         "addWords": "Add own words...",
         "flashCards": "Flash-cards",
         "repeatGame": "Speaking game",
-        "exportWords": "Export intensive words"
+        "exportWords": "Export intensive words",
+        "search": "Search words..."
       }
     },
     "talk": {
@@ -669,6 +724,10 @@
       "hanzi": [
         "hanzi",
         "practice Chinese characters"
+      ],
+      "listening": [
+        "listening practice",
+        "listen to sentences and practice speaking or typing them"
       ]
     },
     "userCard": {
@@ -691,6 +750,7 @@
       "placeholder": "Paste or write text here to analyze it above...",
       "btnImportVideo": "Import video",
       "btnImportPicture": "Import picture",
+      "btnVoiceText": "Voice the text",
       "processingVideo": "Processing video...",
       "processingImage": "Processing image..."
     },
@@ -718,6 +778,17 @@
         "header": "Get the app for the best experience!",
         "text": "You're on the web version — nice!\nBut Lingolette works way better as a native app.",
         "btnDownload": "Download",
+        "btnNotNow": "Not now",
+        "iosHeader": "Add to your home screen",
+        "iosText": "For the best experience, install Lingolette as a web app:",
+        "iosStep1": "Tap the Share button at the bottom",
+        "iosStep2": "Select \"Add to Home Screen\"",
+        "iosBtnGotIt": "Got it"
+      },
+      "offerPushNotifications": {
+        "header": "Stay in the loop",
+        "text": "Get notified when there's something new for you. We won't spam — and you can adjust this anytime in your profile.",
+        "btnEnable": "Enable notifications",
         "btnNotNow": "Not now"
       },
       "chatResults": {
@@ -881,13 +952,32 @@
     },
     "games": {
       "repeat": {
-        "header": "“Repeat after me”",
+        "header": "Repeat after me",
         "intro": "You will see cards with words. Each word will be spoken out loud. After that you will have 3 seconds to repeat it. Click a card to go to a new one.",
         "act": "Repeat!",
         "btnLoading": "Creating..."
       },
       "flashCards": {
-        "btnShow": "Show again"
+        "btnShow": "Show again",
+        "noIntensiveWords": "No words in intensive learning yet. Add words to your <a href='/vocabulary'>vocabulary</a> first."
+      },
+      "listening": {
+        "header": "Listening practice",
+        "intro": "Listen to sentences and practice your comprehension by repeating them. Choose between voice input (speak into the microphone) or text input (type what you hear).",
+        "modeVoice": "Voice mode",
+        "modeText": "Text mode",
+        "listenHint": "Listen carefully...",
+        "speakHint": "Now speak!",
+        "typeHint": "Type what you heard...",
+        "stopListening": "Stop",
+        "submit": "Submit",
+        "listenAgain": "Listen again",
+        "correct": "Correct!",
+        "tryAgain": "Try again",
+        "nextSentence": "Next",
+        "complete": "Great job!",
+        "restart": "Restart",
+        "btnLoading": "Loading..."
       }
     },
     "components": {
@@ -1074,9 +1164,6 @@
         "gemsAvailable": "{{X}} gem(s) available"
       },
       "nextMission": {
-        "hChat": "Language lesson",
-        "hSituations": "Situations",
-        "btnCaption": "Choose your first mission",
         "modes": {
           "chat": "Talk to your AI teacher",
           "hotelCheckIn": "Hotel check-in",
@@ -1092,11 +1179,13 @@
           "returnItem": "Return an item",
           "tableReservation": "Table reservation",
           "negotiatePrice": "Negotiate price",
-          "alienInvasion": "Alien invasion"
+          "alienInvasion": "Alien invasion",
+          "introduceYourself": "Introduce yourself",
+          "talkToStranger": "Talk to a stranger",
+          "makeNewFriends": "Make new friends",
+          "socializeConfidently": "Socialize confidently",
+          "goOnDate": "Go on a date"
         }
-      },
-      "sentence": {
-        "wordStudied": "Actively studied"
       },
       "liveUpdateBox": {
         "checking": "Checking for updates...",
@@ -1108,12 +1197,22 @@
         "youHave": "You have:",
         "explanation": "Click the button, watch a video ad, earn a gem! It's as simple as that.",
         "cta": "Get a gem!",
-        "notSupported": "Earning gems is currently supported only in our iOS and Android apps.",
-        "btnReturn": "Go home"
+        "notSupported": "Watching ads to earn Gems is supported only in our iOS and Android apps. You can still earn Gems by inviting friends below!",
+        "btnReturn": "Go to dashboard"
+      },
+      "referralCode": {
+        "inviteTitle": "Invite friends",
+        "inviteBody": "Share your personal invite link. You'll earn 200 Gems for every new user who signs up through it, and they'll get 100 Gems as a bonus. Win-win!",
+        "linkCopiedToast": "Link copied!"
       },
       "joinCommunity": {
         "header": "Lingolette Community",
         "body": "Join our Discord to practice languages, request features and get exclusive updates!"
+      },
+      "topicsSelector": {
+        "title": "Subscribe to topics",
+        "description": "Choose topics you're interested in to fill your feed",
+        "noTopicsAvailable": "No topics available at the moment"
       }
     }
   }
